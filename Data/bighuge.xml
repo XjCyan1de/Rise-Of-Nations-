@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Isaac Ellis (Big Huge Games) -->
-<ROOT>
-  <BUFFER>
-    <IFACETEXLOAD id="TEX_COMMON" file=".\art\iface_ALLCIVS_assets.tga" pixformat="PF_32"/>
-    <IFACETEX name="BULLET" texture="TEX_COMMON" left="322" top="108" width="17" height="10"/>
-  </BUFFER>
-</ROOT>
