@@ -1,0 +1,67 @@
+<!-- edited with XMLSPY v5 U (http://www.xmlspy.com) by Ilya Kreymer (private) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Jason Coleman (Big Huge Games) -->
+<ROOT>
+  <MAIN_WIN name="Trigger Editor" left="0" top="0" width="700" height="600">
+    <BUTTON name="add" left="500" top="100" width="40" height="30"></BUTTON>
+    <BUTTON name="remove" left="550" top="100" width="40" height="30"></BUTTON>
+    <TREE name="trigger_tree" left="10" top="10" width="450" height="450" style="BORDER"></TREE>
+    <ITEMS name="node names">
+      <ITEM>Trigger</ITEM>
+      <ITEM>Conditions</ITEM>
+      <ITEM>Actions</ITEM>
+      <ITEM>Nested Expression</ITEM>
+    </ITEMS>
+    <ITEMS name="add_labels">
+      <ITEM>Trigger Function...</ITEM>
+      <ITEM>Enter Value...</ITEM>
+      <ITEM>Select Variable...</ITEM>
+      <ITEM>&lt;Nested Expression&gt;</ITEM>
+    </ITEMS>
+  </MAIN_WIN>
+  <FUNCTIONS_WIN name="Functions" left="20" top="20" width="600" height="450" title="Trigger Functions">
+    <COMBOBOX name="group_list" left="10" top="100" width="200" height="35"></COMBOBOX>
+    <LISTBOX2 name="func_list" left="10" top="160" width="200" height="200"></LISTBOX2>
+    <BUTTON title="Insert Func" name="Insert" left="40" top="370" width="60" height="30"></BUTTON>
+    <BUTTON title="Cancel" name="Cancel" left="110" top="370" width="60" height="30"></BUTTON>
+    <LABEL name="func_search" left="10" top="20" width="60" height="45">Select a Function:</LABEL>
+    <SEARCH_EDITBOX name="group_list" left="80" top="20" width="150" height="30"></SEARCH_EDITBOX>
+    <LABEL name="func_desc" left="230" top="160" width="200" height="200"></LABEL>
+    <STYLE BORDER="1" CAPTION="1"></STYLE>
+  </FUNCTIONS_WIN>
+  <CONDITION_WIN name="Trigger Conditions" left="100" top="100" right="400" bottom="400">
+    <BUTTON name="Add Condition" left="10" top="100" right="60"></BUTTON>
+    <BUTTON name="Remove Condition" left="75" top="100" right="140"></BUTTON>
+    <BUTTON name="OK" left="75" top="200" right="140"></BUTTON>
+    <BUTTON name="Cancel" left="75" top="200" right="140"></BUTTON>
+    <WINDOW name="expr_win">
+      <CHECK name="Not" left="80" top="2" width="20" height="50"></CHECK>
+      <COMBO name="BoolTypes" left="100" top="0" width="20" height="50">
+        <ITEM>AND</ITEM>
+        <ITEM>OR</ITEM>
+        <ITEM>AND NOT</ITEM>
+        <ITEM>OR NOT</ITEM>
+      </COMBO>
+      <COMBO name="ExprTypes" left="110" top="0" width="100" height="50">
+        <ITEM>Trigger Function</ITEM>
+        <ITEM>Number</ITEM>
+        <ITEM>Text</ITEM>
+        <ITEM>Variable</ITEM>
+        <ITEM>Expression</ITEM>
+      </COMBO>
+    </WINDOW>
+  </CONDITION_WIN>
+  <FUNC_ENTRY_WIN name="Function Entry" left="20" top="20" width="600" height="400">
+    <COMBOBOX name="Param" left="10" top="10" width="100" height="35"></COMBOBOX>
+  </FUNC_ENTRY_WIN>
+  <DATA_ENTRY_WIN name="DataEntry" left="0" top="0" width="500" height="400">
+    <COMBO name="valuetype" left="10" top="50" width="80" height="30">
+      <ITEM>Text</ITEM>
+      <ITEM>Number</ITEM>
+      <ITEM>Variable Name</ITEM>
+    </COMBO>
+    <LABEL left="10" top="10" width="75" height="30">Enter the data to add (text or number) below:</LABEL>
+    <EDITBOX name="datafield" left="10" top="100" width="300" height="200"></EDITBOX>
+    <BUTTON name="OK" left="40" top="320" width="50" height="30"></BUTTON>
+    <BUTTON name="Cancel" left="100" top="320" width="50" height="30"></BUTTON>
+  </DATA_ENTRY_WIN>
+</ROOT>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Busatti (Big Huge Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<ROOT>
+  <ITEMS>
+    <Comments>
+      <!---->
+      <!---->
+      <!--RESOURCES-->
+      <!---->
+      <!--BASIC RESOURCES:-->
+      <!--Name, Abbrev, XSize, YSize, Blocking, Prerequisite, Preq2, Obsolete,  UndiscoveredCost,Rate, ObsoleteCost,Rate, UndiscoveredSupport,Rate, ObsoleteSupport,Rate, ObsoleteProduction,Rate, Description-->
+      <!---->
+      <!--SPECIAL RESOURCES:-->
+      <!--Name, Abbrev,  XSize, YSize, Blocking, Prerequisite, Preq2, Obsolete,  Bonus1, Num1, Bonus2, Num2, Description-->
+      <!---->
+    </Comments>
+    <ITEM>
+      <NAME>Goody Box</NAME>
+      <ABBREV>R</ABBREV>
+      <TEX_ID>TEX_SPECIAL_RESOURCES</TEX_ID>
+      <TEX_X>434</TEX_X>
+      <TEX_Y>160</TEX_Y>
+      <TEX_CLIP>0</TEX_CLIP>
+    </ITEM>
+  </ITEMS>
+</ROOT>

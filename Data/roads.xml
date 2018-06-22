@@ -1,0 +1,1281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROADS>
+	<!-- See reference template files to associate PAGEELEMENT name attribs with actual pieces -->
+	<!-- ROADPAGE: a new texture page.  -->
+	<ROADPAGE>
+		<!-- the texture to load -->
+		<TEXTURE name="./terrain art/roads/early_road_pieces.tga" age="0" tilepage="1"/>
+		<!-- if the texture is an alpha (age 0, 1), then this is the real texture to show through -->
+		<TILEPAGE name="./terrain art/roads/early_road.tga"/>
+		<TEXTURE name="./terrain art/roads/middle_road_pieces.tga" age="1" tilepage="1"/>
+		<TILEPAGE name="./terrain art/roads/middle_road.tga"/>
+		<TEXTURE name="./terrain art/roads/modern_road_pieces.tga" age="2" tilepage="0"/>
+		<DEBUGTEXTURE name="./terrain art/roads/modern_road_pieces_debug.tga"/>
+		<!-- name jsut refers to the nbumber BB assigned to the pieces for reference -->
+		<PAGEELEMENT name="1">
+			<!-- width in 1/2 tcoords -->
+			<WIDTH>2</WIDTH>
+			<!-- height in 1/2 tcoords -->
+			<HEIGHT>3</HEIGHT>
+			<!-- offset into texture page (1/2 tcoords again) -->
+			<OFFSETX>0</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<!-- offset into map to find 'center'. relative to this element, not the entire texture  -->
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<!-- road flags...starting from upper left, one bit per compass dir for road connects -->
+			<ROADFLAGS value="00010001"/>
+			<!-- yellow line flags...starting from upper left, one bit per yellow line connect -->
+			<YELLOWFLAGS value="00100001"/>
+			<!-- white line flags -->
+			<WHITEFLAGS value="00010010"/>
+			<!-- intersection flags - starting from up-left, one bit per compass for intersection -->
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="2">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>2</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="11110011"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="3">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>4</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010001"/>
+			<YELLOWFLAGS value="01100000"/>
+			<WHITEFLAGS value="10010011"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="11.1">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>6</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="10100001"/>
+			<WHITEFLAGS value="00010010"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="11.2">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>8</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="10100001"/>
+			<WHITEFLAGS value="00010010"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="11.3">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>10</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="10100001"/>
+			<WHITEFLAGS value="00010010"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<!--		
+		<PAGEELEMENT name="24">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>12</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSETX>0</CENTEROFFSETX>
+			<CENTEROFFSETY>1</CENTEROFFSETY>
+			<ROADFLAGS value="00010100"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00100100"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="25">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSETX>0</CENTEROFFSETX>
+			<CENTEROFFSETY>1</CENTEROFFSETY>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00010000"/>
+			<WHITEFLAGS value="00100001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+-->
+		<!-- ROW 2 -->
+		<PAGEELEMENT name="5">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>0</OFFSETX>
+			<OFFSETY>3</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00010010"/>
+<!--			<YELLOWFLAGS value="00000010"/> -->
+			<WHITEFLAGS value="00100001"/>
+			<INTERSECTFLAGS value="00010000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="30">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>4</HEIGHT>
+			<OFFSETX>2</OFFSETX>
+			<OFFSETY>3</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1.0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00010010"/>
+<!--			<YELLOWFLAGS value="00000010"/> -->
+			<WHITEFLAGS value="00100001"/>
+			<INTERSECTFLAGS value="00010000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="6.1">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>4</HEIGHT>
+			<OFFSETX>4</OFFSETX>
+			<OFFSETY>3</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1.0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00110011"/>
+			<INTERSECTFLAGS value="00010000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="6.2">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>4</HEIGHT>
+			<OFFSETX>6</OFFSETX>
+			<OFFSETY>3</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1.0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00110011"/>
+			<INTERSECTFLAGS value="00010000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="14">
+			<WIDTH>3</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>8</OFFSETX>
+			<OFFSETY>3</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="1" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0.5"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00000100"/>
+			<YELLOWFLAGS value="00001000"/>
+			<WHITEFLAGS value="00000100"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<!--		
+		<PAGEELEMENT name="23">
+			<WIDTH>3</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>11</OFFSETX>
+			<OFFSETY>3</OFFSETY>
+			<CENTEROFFSETX>1</CENTEROFFSETX>
+			<CENTEROFFSETY>0</CENTEROFFSETY>
+			<ROADFLAGS value="01000100"/>
+			<YELLOWFLAGS value="00011000"/>
+			<WHITEFLAGS value="10000100"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="26">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>3</OFFSETY>
+			<CENTEROFFSETX>0</CENTEROFFSETX>
+			<CENTEROFFSETY>0</CENTEROFFSETY>
+			<ROADFLAGS value="0010100"/>
+			<YELLOWFLAGS value="10100110"/>
+			<WHITEFLAGS value="00011000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+-->
+		<!-- ROW 3 -->
+		<PAGEELEMENT name="17.1">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>0</OFFSETX>
+			<OFFSETY>6</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="11111111"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="12">
+			<WIDTH>3</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>8</OFFSETX>
+			<OFFSETY>5</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="1" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="1" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010100"/>
+			<YELLOWFLAGS value="00011000"/>
+			<WHITEFLAGS value="00100100"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="13.1">
+			<WIDTH>3</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>11</OFFSETX>
+			<OFFSETY>5</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="1" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="1" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010100"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00111100"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="28">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>5</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00010010"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<!-- ROW 4 -->
+		<PAGEELEMENT name="8">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>4</HEIGHT>
+			<OFFSETX>0</OFFSETX>
+			<OFFSETY>8</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1.0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00110011"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="10.1">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>4</HEIGHT>
+			<OFFSETX>2</OFFSETX>
+			<OFFSETY>7</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1.0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00110011"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="10.2">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>4</HEIGHT>
+			<OFFSETX>4</OFFSETX>
+			<OFFSETY>7</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1.0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00110011"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="10.3">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>4</HEIGHT>
+			<OFFSETX>6</OFFSETX>
+			<OFFSETY>7</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1.0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00110011"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="11.4">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>8</OFFSETX>
+			<OFFSETY>8</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00100001"/>
+			<WHITEFLAGS value="00010010"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="11.5">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>10</OFFSETX>
+			<OFFSETY>8</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00100001"/>
+			<WHITEFLAGS value="00010010"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="11.6">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>12</OFFSETX>
+			<OFFSETY>8</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00100001"/>
+			<WHITEFLAGS value="00010010"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="15">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>4</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>8</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1.0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00000001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00000011"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<!-- ROW 5 -->
+		<PAGEELEMENT name="9">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>4</HEIGHT>
+			<OFFSETX>0</OFFSETX>
+			<OFFSETY>12</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1.0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00110011"/>
+			<INTERSECTFLAGS value="00010000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="13.2">
+			<WIDTH>3</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>2</OFFSETX>
+			<OFFSETY>11</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="1" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="1" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010100"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00111100"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="29">
+			<WIDTH>3</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>5</OFFSETX>
+			<OFFSETY>11</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="1" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="1" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010100"/>
+			<YELLOWFLAGS value="00011000"/>
+			<WHITEFLAGS value="00100100"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="16">
+			<WIDTH>3</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>8</OFFSETX>
+			<OFFSETY>11</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="1" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="1" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010100"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00111100"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="13.3">
+			<WIDTH>3</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>11</OFFSETX>
+			<OFFSETY>11</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="1" y="1"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="1" y="0"/>
+				<OFFSET x="1" y="1"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010100"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00111100"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="17.2">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>12</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="11111111"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<!-- ROW 6 -->
+		<PAGEELEMENT name="17.3">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>2</OFFSETX>
+			<OFFSETY>14</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="11111111"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="18.1">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>4</OFFSETX>
+			<OFFSETY>14</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="11100001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="18.2">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>6</OFFSETX>
+			<OFFSETY>14</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="11100001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="19">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>4</OFFSETX>
+			<OFFSETY>14</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="01100000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="20">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>10</OFFSETX>
+			<OFFSETY>14</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="11111001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="21">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>12</OFFSETX>
+			<OFFSETY>14</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00010010"/>
+			<WHITEFLAGS value="11100001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="22">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>14</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00010010"/>
+			<WHITEFLAGS value="01100000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+	</ROADPAGE>
+
+<!-- Texture 2 -->
+	<ROADPAGE>
+		<!-- the texture to load -->
+		<TEXTURE name="./terrain art/roads/middle_caravan_pieces.tga" age="0" tilepage="1"/>
+		<TILEPAGE name="./terrain art/roads/early_road.tga"/>
+		<TEXTURE name="./terrain art/roads/late_caravan_pieces.tga" age="1" tilepage="1"/>
+		<TILEPAGE name="./terrain art/roads/middle_road.tga"/>
+		<TEXTURE name="./terrain art/roads/modern_caravan_pieces.tga" age="2" tilepage="0"/>
+		<DEBUGTEXTURE name="./terrain art/roads/modern_caravan_pieces_debug.tga"/>
+		<!-- name jsut refers to the nbumber BB assigned to the pieces for reference -->
+
+		<PAGEELEMENT name="C16">
+			<!-- width in 1/2 tcoords -->
+			<WIDTH>2</WIDTH>
+			<!-- height in 1/2 tcoords -->
+			<HEIGHT>2</HEIGHT>
+			<!-- offset into texture page (1/2 tcoords again) -->
+			<OFFSETX>10</OFFSETX>
+			<OFFSETY>4</OFFSETY>
+			<!-- offset into map to find 'center'. relative to this element, not the entire texture  -->
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<!-- road flags...starting from upper left, one bit per compass dir for road connects -->
+			<ROADFLAGS value="01010101"/>
+			<!-- yellow line flags...starting from upper left, one bit per yellow line connect -->
+			<YELLOWFLAGS value="10011001"/>
+			<!-- white line flags -->
+			<WHITEFLAGS value="01100000"/>
+			<!-- intersection flags - starting from up-left, one bit per compass for intersection -->
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C27">
+			<!-- width in 1/2 tcoords -->
+			<WIDTH>2</WIDTH>
+			<!-- height in 1/2 tcoords -->
+			<HEIGHT>2</HEIGHT>
+			<!-- offset into texture page (1/2 tcoords again) -->
+			<OFFSETX>12</OFFSETX>
+			<OFFSETY>4</OFFSETY>
+			<!-- offset into map to find 'center'. relative to this element, not the entire texture  -->
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<!-- road flags...starting from upper left, one bit per compass dir for road connects -->
+			<ROADFLAGS value="01010101"/>
+			<!-- yellow line flags...starting from upper left, one bit per yellow line connect -->
+			<YELLOWFLAGS value="01111000"/>
+			<!-- white line flags -->
+			<WHITEFLAGS value="10000001"/>
+			<!-- intersection flags - starting from up-left, one bit per compass for intersection -->
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C8">
+			<!-- width in 1/2 tcoords -->
+			<WIDTH>2</WIDTH>
+			<!-- height in 1/2 tcoords -->
+			<HEIGHT>2</HEIGHT>
+			<!-- offset into texture page (1/2 tcoords again) -->
+			<OFFSETX>10</OFFSETX>
+			<OFFSETY>6</OFFSETY>
+			<!-- offset into map to find 'center'. relative to this element, not the entire texture  -->
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<!-- road flags...starting from upper left, one bit per compass dir for road connects -->
+			<ROADFLAGS value="01010101"/>
+			<!-- yellow line flags...starting from upper left, one bit per yellow line connect -->
+			<YELLOWFLAGS value="00011000"/>
+			<!-- white line flags -->
+			<WHITEFLAGS value="11100001"/>
+			<!-- intersection flags - starting from up-left, one bit per compass for intersection -->
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C28">
+			<!-- width in 1/2 tcoords -->
+			<WIDTH>2</WIDTH>
+			<!-- height in 1/2 tcoords -->
+			<HEIGHT>2</HEIGHT>
+			<!-- offset into texture page (1/2 tcoords again) -->
+			<OFFSETX>12</OFFSETX>
+			<OFFSETY>6</OFFSETY>
+			<!-- offset into map to find 'center'. relative to this element, not the entire texture  -->
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<!-- road flags...starting from upper left, one bit per compass dir for road connects -->
+			<ROADFLAGS value="01010101"/>
+			<!-- yellow line flags...starting from upper left, one bit per yellow line connect -->
+			<YELLOWFLAGS value="00011000"/>
+			<!-- white line flags -->
+			<WHITEFLAGS value="01100110"/>
+			<!-- intersection flags - starting from up-left, one bit per compass for intersection -->
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="4(c)">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>6</OFFSETX>
+			<OFFSETY>5</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010101"/>
+			<YELLOWFLAGS value="00011000"/>
+			<WHITEFLAGS value="00100001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C7">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>8</OFFSETX>
+			<OFFSETY>5</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010101"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00111001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C30">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>12</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="01100110"/>
+			<WHITEFLAGS value="10011001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C29">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>12</OFFSETX>
+			<OFFSETY>2</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="01111000"/>
+			<WHITEFLAGS value="10000111"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C31">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>4</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00000000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C34">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="01111110"/>
+			<WHITEFLAGS value="10000001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C35">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>2</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="10000001"/>
+			<WHITEFLAGS value="01111110"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C36">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>6</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00011110"/>
+			<WHITEFLAGS value="00000000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C32">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>6</OFFSETX>
+			<OFFSETY>6</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010001"/>
+			<YELLOWFLAGS value="00010010"/>
+			<WHITEFLAGS value="01100000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C33">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>6</OFFSETX>
+			<OFFSETY>8</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010001"/>
+			<YELLOWFLAGS value="01110010"/>
+			<WHITEFLAGS value="00000000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C37">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>9</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00010101"/>
+			<YELLOWFLAGS value="00011110"/>
+			<WHITEFLAGS value="00100001"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+		<PAGEELEMENT name="C38">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>14</OFFSETX>
+			<OFFSETY>12</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010001"/>
+			<YELLOWFLAGS value="11110011"/>
+			<WHITEFLAGS value="00000000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+
+		<PAGEELEMENT name="C39">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>10</OFFSETX>
+			<OFFSETY>0</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00011110"/>
+			<WHITEFLAGS value="00000000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+
+		<PAGEELEMENT name="C40">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>10</OFFSETX>
+			<OFFSETY>2</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="01010101"/>
+			<YELLOWFLAGS value="00011000"/>
+			<WHITEFLAGS value="00000110"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+
+<!-- DIAGONALS -->
+<!-- ======================================================= -->
+<!-- ======================================================= -->
+
+		<PAGEELEMENT name="C3">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>3</HEIGHT>
+			<OFFSETX>0</OFFSETX>
+			<OFFSETY>8</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+				<OFFSET x="0" y="1"/>
+				<OFFSET x="-0.5" y="0.5"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0.5" y="0.5"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="00001001"/>
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00000011"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+
+		<PAGEELEMENT name="C4">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>0</OFFSETX>
+			<OFFSETY>12</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="11111111"/>
+      <!-- C4 support piece identified by all yellow -->
+			<YELLOWFLAGS value="11111111"/>
+			<WHITEFLAGS value="00000000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+
+		<PAGEELEMENT name="C1">
+			<WIDTH>2</WIDTH>
+			<HEIGHT>2</HEIGHT>
+			<OFFSETX>0</OFFSETX>
+			<OFFSETY>4</OFFSETY>
+			<CENTEROFFSET>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+				<OFFSET x="0" y="0"/>
+			</CENTEROFFSET>
+			<ROADFLAGS value="10001000"/>
+      <!-- C4 support piece identified by all white -->
+			<YELLOWFLAGS value="00000000"/>
+			<WHITEFLAGS value="00000000"/>
+			<INTERSECTFLAGS value="00000000"/>
+		</PAGEELEMENT>
+
+	</ROADPAGE>
+	
+</ROADS>

@@ -1,0 +1,1658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<OPTIONS xml:space="preserve">
+  <!--LOCALIZATION-->
+  <!--LOCALIZATION-->
+  <!--LOCALIZATION-->
+  <!--LOCALIZATION: NAME and DESC elements-->
+  <!--LOCALIZATION-->
+  <!--LOCALIZATION-->
+  <!--LOCALIZATION-->
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="0" clip="0">
+    <ENGLISH_NAME>Здания</ENGLISH_NAME>
+    <NAME>Здания</NAME>
+    <DESC>Нажмите для постройки нового строения.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="3" tex_row="0" clip="0">
+    <ENGLISH_NAME>Здания Вооруженных Сил</ENGLISH_NAME>
+    <NAME>Здания Вооруженных Сил</NAME>
+    <DESC>Нажмите для постройки нового военного строения.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="0" clip="0">
+    <ENGLISH_NAME>Чудеса</ENGLISH_NAME>
+    <NAME>Чудеса</NAME>
+    <DESC>Щелкните, чтобы создать новое чудо.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="0" clip="0">
+    <ENGLISH_NAME>Отремонтировать/Построить</ENGLISH_NAME>
+    <NAME>Отремонтировать/Построить</NAME>
+    <DESC>Щелкните, чтобы восстановить здание или добавить рабочих для строительства здания.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="3" clip="0">
+    <ENGLISH_NAME>Ремесло</ENGLISH_NAME>
+    <NAME>Ремесло</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="3" clip="0">
+    <ENGLISH_NAME>Способ движения</ENGLISH_NAME>
+    <NAME>Способ движения</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="3" clip="0">
+    <ENGLISH_NAME>Охранять</ENGLISH_NAME>
+    <NAME>Охранять</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="1" clip="0">
+    <ENGLISH_NAME>Следовать</ENGLISH_NAME>
+    <NAME>Следовать</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="4" clip="0">
+    <ENGLISH_NAME>Патрулировать</ENGLISH_NAME>
+    <NAME>Патрулировать</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="6" clip="0">
+    <ENGLISH_NAME>Двигаться</ENGLISH_NAME>
+    <NAME>Двигаться</NAME>
+    <DESC>Нажмите для передвижения.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="5" clip="0">
+    <ENGLISH_NAME>Нападение</ENGLISH_NAME>
+    <NAME>Нападение</NAME>
+    <DESC>Нажмите для атаки.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="3" clip="0">
+    <ENGLISH_NAME>Наблюдать перемещение</ENGLISH_NAME>
+    <NAME>Наблюдать перемещение</NAME>
+    <DESC>Нажмите для движения при исследовании руин.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="6" clip="0">
+    <ENGLISH_NAME>Бежать</ENGLISH_NAME>
+    <NAME>Бежать</NAME>
+    <DESC>Нажмите для побега от врагов.</DESC>
+  </OPTION>
+  <OPTION tex_col="1" tex_row="2" clip="0">
+    <ENGLISH_NAME>Транспорт</ENGLISH_NAME>
+    <NAME>Транспорт</NAME>
+    <DESC>Нажмите для передвижения и перевозок через воду.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="2" clip="0">
+    <ENGLISH_NAME>Автотранспорт</ENGLISH_NAME>
+    <NAME>Автотранспорт</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="0" clip="0">
+    <ENGLISH_NAME>Расформировать</ENGLISH_NAME>
+    <NAME>Расформировать</NAME>
+    <DESC>Расформировать выбранную часть (и).</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Расформировать всех</ENGLISH_NAME>
+    <NAME>Расформировать всех</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Позиция</ENGLISH_NAME>
+    <NAME>Позиция</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Задняя позиция</ENGLISH_NAME>
+    <NAME>Задняя позиция</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_x="0" tex_y="0" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Боевой Порядок</ENGLISH_NAME>
+    <NAME>Боевой Порядок</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Обратное построение</ENGLISH_NAME>
+    <NAME>Обратное построение</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="5" tex_row="11" clip="0">
+    <ENGLISH_NAME>Ориентировка влево</ENGLISH_NAME>
+    <NAME>Ориентировка влево</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="11" clip="0">
+    <ENGLISH_NAME>Смотреть вправо</ENGLISH_NAME>
+    <NAME>Смотреть вправо</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Оборотная ориентировка</ENGLISH_NAME>
+    <NAME>Оборотная ориентировка</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="6" clip="0">
+    <ENGLISH_NAME>Вперед</ENGLISH_NAME>
+    <NAME>Вперед</NAME>
+    <DESC>Нажмите для выступления вперед.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="1" clip="0">
+    <ENGLISH_NAME>Остановка</ENGLISH_NAME>
+    <NAME>Остановка</NAME>
+    <DESC>Нажмите для остановки текущего действия.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="1" clip="0">
+    <ENGLISH_NAME>Гарнизон/Исцелять</ENGLISH_NAME>
+    <NAME>Гарнизон/Исцелять</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="2" clip="0">
+    <ENGLISH_NAME>Предупредить Крестьян</ENGLISH_NAME>
+    <NAME>Предупредить Крестьян</NAME>
+    <DESC>Послать рабочего в  безопасное место.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="2" clip="0">
+    <ENGLISH_NAME>Тревога</ENGLISH_NAME>
+    <NAME>Тревога</NAME>
+    <DESC>Дайте сигнал тревоги.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="3" tex_row="2" clip="0">
+    <ENGLISH_NAME>Отбой</ENGLISH_NAME>
+    <NAME>Отбой</NAME>
+    <DESC>Подайте сигнал отсутствия противника.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="7" clip="0">
+    <ENGLISH_NAME>За работу</ENGLISH_NAME>
+    <NAME>За работу</NAME>
+    <DESC>Вернуть гарнизонных граждан назад к работе.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="5" tex_row="1" clip="0">
+    <ENGLISH_NAME>Выслать всех</ENGLISH_NAME>
+    <NAME>Выслать всех</NAME>
+    <DESC>Расформировать груз/гарнизон.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="2" clip="0">
+    <ENGLISH_NAME>Высадка на берег</ENGLISH_NAME>
+    <NAME>Высадка на берег</NAME>
+    <DESC>Выгрузить юнитов в определенном месте.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="6" tex_row="3" clip="0">
+    <ENGLISH_NAME>Авто Исследование</ENGLISH_NAME>
+    <NAME>Авто Исследование</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="2" clip="0">
+    <ENGLISH_NAME>Бомбардировать землю</ENGLISH_NAME>
+    <NAME>Бомбардировать землю</NAME>
+    <DESC>Нажмите для бомбардировки локации на карте вместо атаки определенной цели.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="4" clip="0">
+    <ENGLISH_NAME>Перемещение</ENGLISH_NAME>
+    <NAME>Перемещение</NAME>
+    <DESC>Нажмите для переброски боевых единиц в другое строение.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="5" tex_row="8" clip="0">
+    <ENGLISH_NAME>Воздушная Миссия</ENGLISH_NAME>
+    <NAME>Воздушная Миссия</NAME>
+    <DESC>Нажмите для организации воздушного удара или воздушного патруля.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Воздушный Патруль</ENGLISH_NAME>
+    <NAME>Воздушный Патруль</NAME>
+    <DESC>Нажмите для назначения воздушного патруля в определенной локации.</DESC>
+  </OPTION>
+  <OPTION tex_col="8" tex_row="0" clip="0">
+    <ENGLISH_NAME>Приказы летным юнитам</ENGLISH_NAME>
+    <NAME>Приказы летным юнитам</NAME>
+    <DESC>Нажмите для отдачи приказов авиации.</DESC>
+  </OPTION>
+  <OPTION tex_col="8" tex_row="4" clip="0">
+    <ENGLISH_NAME>Выбор Истребителей</ENGLISH_NAME>
+    <NAME>Выбор Истребителей</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="8" tex_row="4" clip="0">
+    <ENGLISH_NAME>Выбрать бомбардировщики</ENGLISH_NAME>
+    <NAME>Выбрать бомбардировщики</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="8" tex_row="4" clip="0">
+    <ENGLISH_NAME>Выбора Вертолетов</ENGLISH_NAME>
+    <NAME>Выбора Вертолетов</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="8" tex_row="4" clip="0">
+    <ENGLISH_NAME>Выбрать всю авиацию</ENGLISH_NAME>
+    <NAME>Выбрать всю авиацию</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="7" clip="0">
+    <ENGLISH_NAME>Бой</ENGLISH_NAME>
+    <NAME>Бой</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="11" clip="0">
+    <ENGLISH_NAME>Повторить приказы</ENGLISH_NAME>
+    <NAME>Повторить приказы</NAME>
+    <DESC>Щелкните, чтобы позволить (или не разрешить) самолетам повторить  данные им приказы после приземления и дозаправки.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="1" clip="0">
+    <ENGLISH_NAME>Вернуться на базу</ENGLISH_NAME>
+    <NAME>Вернуться на базу</NAME>
+    <DESC>Вернуть  этот самолет назад на базу.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="0" tex_row="10" clip="0">
+    <ENGLISH_NAME>Отозвать</ENGLISH_NAME>
+    <NAME>Отозвать</NAME>
+    <DESC>Отозвать все самолеты, которые взлетели отсюда и отменить все полеты.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Создать</ENGLISH_NAME>
+    <NAME>Создать</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Исследование</ENGLISH_NAME>
+    <NAME>Исследование</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Категория исследований</ENGLISH_NAME>
+    <NAME>Категория исследований</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Модернизировать</ENGLISH_NAME>
+    <NAME>Модернизировать</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="4" clip="0">
+    <ENGLISH_NAME>Пункт сбора</ENGLISH_NAME>
+    <NAME>Пункт сбора</NAME>
+    <DESC>Установить место сбора.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_BUILDINGS_1" tex_col="3" tex_row="4" clip="0">
+    <ENGLISH_NAME>Очистить пункт сбора</ENGLISH_NAME>
+    <NAME>Очистить пункт сбора</NAME>
+    <DESC>Удалить место сбора.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_BUILDINGS_1" tex_col="0" tex_row="5" clip="0">
+    <ENGLISH_NAME>Сосредоточение сил на фермах</ENGLISH_NAME>
+    <NAME>Сосредоточение сил на фермах</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_BUILDINGS_1" tex_col="1" tex_row="5" clip="0">
+    <ENGLISH_NAME>Сбор в лесопилках</ENGLISH_NAME>
+    <NAME>Сбор в лесопилках</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_BUILDINGS_1" tex_col="2" tex_row="5" clip="0">
+    <ENGLISH_NAME> </ENGLISH_NAME>
+    <NAME> </NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_BUILDINGS_1" tex_col="3" tex_row="5" clip="0">
+    <ENGLISH_NAME>Сбор у ресурсных зданий</ENGLISH_NAME>
+    <NAME>Сбор у ресурсных зданий</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Купить</ENGLISH_NAME>
+    <NAME>Купить</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Покупать 500</ENGLISH_NAME>
+    <NAME>Покупать 500</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Купить все</ENGLISH_NAME>
+    <NAME>Купить все</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Продать</ENGLISH_NAME>
+    <NAME>Продать</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Продать 500</ENGLISH_NAME>
+    <NAME>Продать 500</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Продать Все</ENGLISH_NAME>
+    <NAME>Продать Все</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="5" clip="0">
+    <ENGLISH_NAME>Позиция строения</ENGLISH_NAME>
+    <NAME>Позиция строения</NAME>
+    <DESC>Установить стартовую позицию юнитов, изготовленных здесь.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Бесконечная очередь</ENGLISH_NAME>
+    <NAME>Бесконечная очередь</NAME>
+    <DESC>Установить бесконечное производство в этом здании.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_BUILDINGS_0" tex_col="0" tex_row="1" clip="0">
+    <ENGLISH_NAME>Далее</ENGLISH_NAME>
+    <NAME>Далее</NAME>
+    <DESC>Показать дополнительные варианты.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_BUILDINGS_0" tex_col="0" tex_row="0" clip="0">
+    <ENGLISH_NAME>Назад</ENGLISH_NAME>
+    <NAME>Назад</NAME>
+    <DESC>Возвратиться к дипломатическим вариантам. </DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_BUILDINGS_0" tex_col="0" tex_row="2" clip="0">
+    <ENGLISH_NAME>Отмена</ENGLISH_NAME>
+    <NAME>Отмена</NAME>
+    <DESC>Щелкните, чтобы отменить.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Соглашение</ENGLISH_NAME>
+    <NAME>Соглашение</NAME>
+    <DESC>Нажмите для пропозиции.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Объявить</ENGLISH_NAME>
+    <NAME>Объявить</NAME>
+    <DESC>Нажмите для декларации.</DESC>
+  </OPTION>
+  <OPTION tex_col="3" tex_row="1" clip="0">
+    <ENGLISH_NAME>Дань</ENGLISH_NAME>
+    <NAME>Дань</NAME>
+    <DESC>Предложить налоги.</DESC>
+  </OPTION>
+  <OPTION tex_col="4" tex_row="1" clip="0">
+    <ENGLISH_NAME>Очистить подати</ENGLISH_NAME>
+    <NAME>Очистить подати</NAME>
+    <DESC>Обновить налоги.</DESC>
+  </OPTION>
+  <OPTION tex_col="5" tex_row="1" clip="0">
+    <ENGLISH_NAME>Очистить все</ENGLISH_NAME>
+    <NAME>Очистить все</NAME>
+    <DESC>Отменить все предложения.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Требовать подати</ENGLISH_NAME>
+    <NAME>Требовать подати</NAME>
+    <DESC>Требовать налоги.</DESC>
+  </OPTION>
+  <OPTION tex_col="2" tex_row="1" clip="0">
+    <ENGLISH_NAME>Пропозиция атаки</ENGLISH_NAME>
+    <NAME>Пропозиция атаки</NAME>
+    <DESC>Предложить атаковать.</DESC>
+  </OPTION>
+  <OPTION tex_col="6" tex_row="1" clip="0">
+    <ENGLISH_NAME>Пропозиция</ENGLISH_NAME>
+    <NAME>Пропозиция</NAME>
+    <DESC>Оставить текущее предложение.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Принять</ENGLISH_NAME>
+    <NAME>Принять</NAME>
+    <DESC>Принять текущее предложение.</DESC>
+  </OPTION>
+  <OPTION tex_col="7" tex_row="1" clip="0">
+    <ENGLISH_NAME>Отклонить</ENGLISH_NAME>
+    <NAME>Отклонить</NAME>
+    <DESC>Отклонить текущее предложение.</DESC>
+  </OPTION>
+  <OPTION tex_col="7" tex_row="1" clip="0">
+    <ENGLISH_NAME>Текущие ресурсы</ENGLISH_NAME>
+    <NAME>Текущие ресурсы</NAME>
+    <DESC>Показывает ваши текущие ресурсы.</DESC>
+  </OPTION>
+  <OPTION tex_col="7" tex_row="1" clip="0">
+    <ENGLISH_NAME>Закрыть Дипломатию</ENGLISH_NAME>
+    <NAME>Закрыть Дипломатию</NAME>
+    <DESC>Отменить отношения.</DESC>
+  </OPTION>
+  <OPTION tex_col="7" tex_row="1" clip="0">
+    <ENGLISH_NAME>Назад к основной дипломатии</ENGLISH_NAME>
+    <NAME>Назад к основной дипломатии</NAME>
+    <DESC>Возвратиться к главному меню отношения.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Дилпоматический статус</ENGLISH_NAME>
+    <NAME>Дилпоматический статус</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Чат</ENGLISH_NAME>
+    <NAME>Чат</NAME>
+    <DESC>Нажмите для беседы с другими игроками.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все в чате</ENGLISH_NAME>
+    <NAME>Все в чате</NAME>
+    <DESC>Нажмите для беседы со всеми игроками.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Чат с союзниками </ENGLISH_NAME>
+    <NAME>Чат с союзниками </NAME>
+    <DESC>Нажмите для беседы со всеми союзниками.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Чат с врагами</ENGLISH_NAME>
+    <NAME>Чат с врагами</NAME>
+    <DESC>Нажмите для беседы со всеми противниками.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Подать сигнал другим игрокам</ENGLISH_NAME>
+    <NAME>Подать сигнал другим игрокам</NAME>
+    <DESC>Нажмите для сигнала в этой локации.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Уйти в отставку</ENGLISH_NAME>
+    <NAME>Уйти в отставку</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выход</ENGLISH_NAME>
+    <NAME>Выход</NAME>
+    <DESC>ВЫХОД</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Меню Игры</ENGLISH_NAME>
+    <NAME>Меню Игры</NAME>
+    <DESC>Нажмите для открытия игрового меню.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Опции</ENGLISH_NAME>
+    <NAME>Опции</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Более медленная игровая скорость</ENGLISH_NAME>
+    <NAME>Более медленная игровая скорость</NAME>
+    <DESC>Замедлить игру.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Более быстрая игровая скорость</ENGLISH_NAME>
+    <NAME>Более быстрая игровая скорость</NAME>
+    <DESC>Ускорить игру.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Цели</ENGLISH_NAME>
+    <NAME>Цели</NAME>
+    <DESC>Показать цели и требования победителя .</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Цикл</ENGLISH_NAME>
+    <NAME>Цикл</NAME>
+    <DESC>Найти следующего юнита.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Незанятый гражданин</ENGLISH_NAME>
+    <NAME>Незанятый гражданин</NAME>
+    <DESC>Найти следующего безработного Человека.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Незанятый скаут</ENGLISH_NAME>
+    <NAME>Незанятый скаут</NAME>
+    <DESC>Найти следующего бойскаута или специальную единицу сил.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Следующая боевая единица</ENGLISH_NAME>
+    <NAME>Следующая боевая единица</NAME>
+    <DESC>Найти следующую военный юнит..</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Следующий генерал</ENGLISH_NAME>
+    <NAME>Следующий генерал</NAME>
+    <DESC>Найти следующего Генерала.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Следующий шпион</ENGLISH_NAME>
+    <NAME>Следующий шпион</NAME>
+    <DESC>Найти следующего Шпиона.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Следующая поставка</ENGLISH_NAME>
+    <NAME>Следующая поставка</NAME>
+    <DESC>Найти следующюю единицу Продовольствия.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Следующий город</ENGLISH_NAME>
+    <NAME>Следующий город</NAME>
+    <DESC>Найти следующий Город.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Следующее исследование</ENGLISH_NAME>
+    <NAME>Следующее исследование</NAME>
+    <DESC>Найти следующее здание с доступным исследованием.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все граждане</ENGLISH_NAME>
+    <NAME>Все граждане</NAME>
+    <DESC>Выбрать ВСЕХ безработных граждан.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все скауты</ENGLISH_NAME>
+    <NAME>Все скауты</NAME>
+    <DESC>Выбрать ВСЕХ разведчиков и спецподразделения.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все боевые единицы</ENGLISH_NAME>
+    <NAME>Все боевые единицы</NAME>
+    <DESC>Выбрать ВСЕ военные юниты(до максимального выбора).</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все генералы</ENGLISH_NAME>
+    <NAME>Все генералы</NAME>
+    <DESC>Выбрать ВСЕХ генералов.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все шпионы</ENGLISH_NAME>
+    <NAME>Все шпионы</NAME>
+    <DESC>Выбрать ВСЕХ шпионов.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все поставки</ENGLISH_NAME>
+    <NAME>Все поставки</NAME>
+    <DESC>Выбрать ВСЕ единицы поставки.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все строения</ENGLISH_NAME>
+    <NAME>Все строения</NAME>
+    <DESC>Выбрать ВСЕ из этого типа здания.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор гражданина</ENGLISH_NAME>
+    <NAME>Выбор гражданина</NAME>
+    <DESC>Щелкните, чтобы выбрать следующего безработного  Человека.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор скаута</ENGLISH_NAME>
+    <NAME>Выбор скаута</NAME>
+    <DESC>Выбрать следующего разведчика</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор боевой единицы</ENGLISH_NAME>
+    <NAME>Выбор боевой единицы</NAME>
+    <DESC>Выбрать следующую военный юнит.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор генерала</ENGLISH_NAME>
+    <NAME>Выбор генерала</NAME>
+    <DESC>Выбрать следующего генерала.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор шпиона</ENGLISH_NAME>
+    <NAME>Выбор шпиона</NAME>
+    <DESC>Выбрать заследующего шпиона.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор поставки</ENGLISH_NAME>
+    <NAME>Выбор поставки</NAME>
+    <DESC>Выбрать следующую единицу Продовольствия</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор поставки</ENGLISH_NAME>
+    <NAME>Выбор поставки</NAME>
+    <DESC>Выбрать следующее здание этого типа.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Цикл не-незанятого гражданина</ENGLISH_NAME>
+    <NAME>Цикл не-незанятого гражданина</NAME>
+    <DESC>Выбрать следующего Человека (даже не безработного).</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все не-незанятые граждане</ENGLISH_NAME>
+    <NAME>Все не-незанятые граждане</NAME>
+    <DESC>Выбрать всех граждан (даже не праздных).</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор не-незанятого гражданина</ENGLISH_NAME>
+    <NAME>Выбор не-незанятого гражданина</NAME>
+    <DESC>Выбрать следующего Человека (даже если не безработный).</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбрать все выбранные Типы</ENGLISH_NAME>
+    <NAME>Выбрано все текущие Типы</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Показать время</ENGLISH_NAME>
+    <NAME>Показать время</NAME>
+    <DESC>Нажмите для включения часов в игре.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Результаты игры</ENGLISH_NAME>
+    <NAME>Результаты игры</NAME>
+    <DESC>Нажмите для включения дисплея данных.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Показ Данных </ENGLISH_NAME>
+    <NAME>Показ Данных </NAME>
+    <DESC>Нажмите для цикла дисплея данных.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Предыдущий показ данных</ENGLISH_NAME>
+    <NAME>Предыдущий показ данных</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Включение дисплея исследований</ENGLISH_NAME>
+    <NAME>Включение дисплея исследований</NAME>
+    <DESC>Показу исследования.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Детали текстовой помощи</ENGLISH_NAME>
+    <NAME>Детали текстовой помощи</NAME>
+    <DESC>Изменить деталь текста помощи.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Предварительные детали помощи</ENGLISH_NAME>
+    <NAME>Предварительные детали помощи</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Продвинутые опции</ENGLISH_NAME>
+    <NAME>Продвинутые опции</NAME>
+    <DESC>Нажмите для включения расширенных меню.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Часы</ENGLISH_NAME>
+    <NAME>Часы</NAME>
+    <DESC>Нажмите для включения дисплея игровых часов.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Переключить друзей</ENGLISH_NAME>
+    <NAME>Переключить друзей</NAME>
+    <DESC>Нажмите для включения цветов Союзника/Противника.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Переключить город</ENGLISH_NAME>
+    <NAME>Переключить город</NAME>
+    <DESC>Нажмите для включения названий городов.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Переключить юниты</ENGLISH_NAME>
+    <NAME>Переключить юниты</NAME>
+    <DESC>Нажмите для включения изображения боевых единиц, которые находятся за строениями и деревьями.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Переключение аудио</ENGLISH_NAME>
+    <NAME>Переключение аудио</NAME>
+    <DESC>Нажмите для включения аудио насмешек.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Показ цикла товаров </ENGLISH_NAME>
+    <NAME>Показ цикла товаров </NAME>
+    <DESC>Нажмите для включения цикла изображения товаров.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Политические Данные </ENGLISH_NAME>
+    <NAME>Политические Данные </NAME>
+    <DESC>Нажмите для установки дисплея данных на ПОЛИТИЧЕСКИЙ.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Экономические данные</ENGLISH_NAME>
+    <NAME>Экономические данные</NAME>
+    <DESC>Нажмите для установки дисплея данных на ЭКОНОМИКА.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Рыночные данные</ENGLISH_NAME>
+    <NAME>Рыночные данные</NAME>
+    <DESC>Нажмите для установки дисплея данных на РЫНОК.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Военные данные</ENGLISH_NAME>
+    <NAME>Военные данные</NAME>
+    <DESC>Нажмите для установки дисплея данных на ВОЕННЫЙ.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Данные городов</ENGLISH_NAME>
+    <NAME>Данные городов</NAME>
+    <DESC>Нажмите для установки дисплея данных на ГОРОДА.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Данные апгрейда</ENGLISH_NAME>
+    <NAME>Данные апгрейда</NAME>
+    <DESC>Нажмите для установки дисплея данных на АПГРЕЙДЫ.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Контроль груп</ENGLISH_NAME>
+    <NAME>Контроль груп</NAME>
+    <DESC>Нажмите для установки дисплея данных на ГРУПЫ.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Дипломатия</ENGLISH_NAME>
+    <NAME>Дипломатия</NAME>
+    <DESC>Нажмите для установки дисплея данных на ДИПЛОМАТИЯ.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Чудеса</ENGLISH_NAME>
+    <NAME>Чудеса</NAME>
+    <DESC>Нажмите для установки дисплея данных на ЧУДЕСА СВЕТА.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Отключение данных</ENGLISH_NAME>
+    <NAME>Отключение данных</NAME>
+    <DESC>Нажмите для установки дисплея данных на ОТКЛ.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Дисплей цикла статистики</ENGLISH_NAME>
+    <NAME>Дисплей цикла статистики</NAME>
+    <DESC>Нажмите для включения дисплея цикла статистики.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Включение опций</ENGLISH_NAME>
+    <NAME>Включение опций</NAME>
+    <DESC>Нажмите для включения этой опции.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Стратегическая карта</ENGLISH_NAME>
+    <NAME>Стратегическая карта</NAME>
+    <DESC>Нажмите для включения режима стратегической карты.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Крупный план</ENGLISH_NAME>
+    <NAME>Крупный план</NAME>
+    <DESC>Нажмите для включения крупного плана.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Мелкий план</ENGLISH_NAME>
+    <NAME>Мелкий план</NAME>
+    <DESC>Нажмите для включения мелкого плана.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Сохранить крупный план</ENGLISH_NAME>
+    <NAME>Сохранить крупный план</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Сохранить мелкий план</ENGLISH_NAME>
+    <NAME>Сохранить мелкий план</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Центровка</ENGLISH_NAME>
+    <NAME>Центровка</NAME>
+    <DESC>Нажмите для центровки выбранного объекта.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Пауза</ENGLISH_NAME>
+    <NAME>Пауза</NAME>
+    <DESC>Нажмите для паузы в игре.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Время Ч</ENGLISH_NAME>
+    <NAME>Время Ч</NAME>
+    <DESC>Нажмите для установки Времени Ч.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Таймер</ENGLISH_NAME>
+    <NAME>Таймер</NAME>
+    <DESC>Показывает время, затраченное на игру и текущую скорость.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Таймер победы</ENGLISH_NAME>
+    <NAME>Таймер победы</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Миникарта</ENGLISH_NAME>
+    <NAME>Миникарта</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Звезда столицы</ENGLISH_NAME>
+    <NAME>Звезда столицы</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Национальный флаг</ENGLISH_NAME>
+    <NAME>Национальный флаг</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Управление</ENGLISH_NAME>
+    <NAME>Управление</NAME>
+    <DESC>Нажмите для смены правительств.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Дипломатия</ENGLISH_NAME>
+    <NAME>Дипломатия</NAME>
+    <DESC>Нажмите для ведения дипломатии.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Дипломатия</ENGLISH_NAME>
+    <NAME>Дипломатия</NAME>
+    <DESC>Нажмите для ведения дипломатии.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Хорошо</ENGLISH_NAME>
+    <NAME>Хорошо</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Очередь</ENGLISH_NAME>
+    <NAME>Очередь</NAME>
+    <DESC>Нажмите для устранения этого объекта из очереди.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Объект</ENGLISH_NAME>
+    <NAME>Объект</NAME>
+    <DESC>Нажмите для выбора этого объекта, CTRL-Click чтобы устранить, SHIFT-Click для выбора объектов только этого типа.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Перетаскивание</ENGLISH_NAME>
+    <NAME>Перетаскивание</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Мышечный объект</ENGLISH_NAME>
+    <NAME>Мышечный объект</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="7" tex_row="6" clip="0">
+    <ENGLISH_NAME>Выброс</ENGLISH_NAME>
+    <NAME>Выброс</NAME>
+    <DESC>Нажмите для исключения этой единицы.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выброс воздушной дозаправки</ENGLISH_NAME>
+    <NAME>Выброс воздушной дозаправки</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выброс воздуха готов</ENGLISH_NAME>
+    <NAME>Выброс воздуха готов</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Нажмите для выбора этого объекта</ENGLISH_NAME>
+    <NAME>Нажмите для выбора этого объекта</NAME>
+    <DESC>Нажмите для выбора этого объекта.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Двойное нажатие (клик) мышкой выбирает все объекты этого типа</ENGLISH_NAME>
+    <NAME>Двойное нажатие (клик) мышкой выбирает все объекты этого типа</NAME>
+    <DESC>Двойное нажатие (клик) мышкой выбирает все объекты этого типа.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Категория исследований</ENGLISH_NAME>
+    <NAME>Категория исследований</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Показать границы</ENGLISH_NAME>
+    <NAME>Показать границы</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Иконки аэродрома</ENGLISH_NAME>
+    <NAME>Иконки аэродрома</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Герб</ENGLISH_NAME>
+    <NAME>Герб</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Граница</ENGLISH_NAME>
+    <NAME>Граница</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Текущая нация</ENGLISH_NAME>
+    <NAME>Текущая нация</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Нация</ENGLISH_NAME>
+    <NAME>Нация</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Текущая эпоха</ENGLISH_NAME>
+    <NAME>Текущая эпоха</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Эпоха</ENGLISH_NAME>
+    <NAME>Эпоха</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Группа</ENGLISH_NAME>
+    <NAME>Группа</NAME>
+    <DESC>Right-click (правой кнопкой) мыши для создания. Left-click (левой кнопкой) мыши для выбора. (Клавиши: CTRL+# создать; # выбрать; SHIFT+# стереть).</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Создать Истребитель Бомбардировщик</ENGLISH_NAME>
+    <NAME>Создать Истребитель Бомбардировщик</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="11" clip="0">
+    <ENGLISH_NAME>Следует уничтожить город</ENGLISH_NAME>
+    <NAME>Следует уничтожить город</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Нейтрализовано</ENGLISH_NAME>
+    <NAME>Нейтрализовано</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Территория противника</ENGLISH_NAME>
+    <NAME>Территория противника</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>По близости города не наблюдается</ENGLISH_NAME>
+    <NAME>По близости города не наблюдается</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Отменить постройку</ENGLISH_NAME>
+    <NAME>Отменить постройку</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Отменить действие</ENGLISH_NAME>
+    <NAME>Отменить действие</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Отменить действие</ENGLISH_NAME>
+    <NAME>Отменить действие</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="11" clip="0">
+    <ENGLISH_NAME>Уничтожение</ENGLISH_NAME>
+    <NAME>Уничтожение</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Земля</ENGLISH_NAME>
+    <NAME>Земля</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Исследования</ENGLISH_NAME>
+    <NAME>Исследования</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Чудеса света</ENGLISH_NAME>
+    <NAME>Чудеса света</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Расформирование</ENGLISH_NAME>
+    <NAME>Расформирование</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор</ENGLISH_NAME>
+    <NAME>Выбор</NAME>
+    <DESC>Нажмите для входа в режим выбора, в котором можно выбрать или откорректировать единицы и постройки, которые вы поместили на карте.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Опции сценария</ENGLISH_NAME>
+    <NAME>Опции сценария</NAME>
+    <DESC>Нажмите для изменения правил и настроек игры для этого сценария.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Опции нации</ENGLISH_NAME>
+    <NAME>Опции нации</NAME>
+    <DESC>Нажмите для изменений наций в игре, включая имя, национальность, начальные ресурсы, и настройки AI.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Генератор карт</ENGLISH_NAME>
+    <NAME>Генератор карт</NAME>
+    <DESC>Нажмите для генерации генератора карт, новой случайной карты, или импорта карты из имиджевого файла.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Местность</ENGLISH_NAME>
+    <NAME>Местность</NAME>
+    <DESC>Нажмите для изменения местности, включая сушу/море, горы и леса.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Редкие Ресурсы</ENGLISH_NAME>
+    <NAME>Редкие Ресурсы</NAME>
+    <DESC>Нажмите для добавления и устранения редких ресурсов.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Единицы</ENGLISH_NAME>
+    <NAME>Единицы</NAME>
+    <DESC>Нажмите для удаления и добавления боевых единиц.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Здания</ENGLISH_NAME>
+    <NAME>Здания</NAME>
+    <DESC>Нажмите для добавления и удаления строений.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Дипломатия</ENGLISH_NAME>
+    <NAME>Дипломатия</NAME>
+    <DESC>Нажмите для изменения дипломатического статуса.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Дипломатия</ENGLISH_NAME>
+    <NAME>Дипломатия</NAME>
+    <DESC>Нажмите для изменения дипломатического статуса.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Изменить</ENGLISH_NAME>
+    <NAME>Изменить</NAME>
+    <DESC>Нажмите для создания, изменения или отладки системы этого сценария.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Стартовые ресурсы</ENGLISH_NAME>
+    <NAME>Стартовые ресурсы</NAME>
+    <DESC>Нажмите для изменения стартовых ресурсов.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Стартовые технологии</ENGLISH_NAME>
+    <NAME>Стартовые технологии</NAME>
+    <DESC>Нажмите для изменения стартовых не-библиотечных технологий.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Стартовые библиотечные технологии</ENGLISH_NAME>
+    <NAME>Стартовые библиотечные технологии</NAME>
+    <DESC>Нажмите для изменения библиотечных технологий.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>AI настройки</ENGLISH_NAME>
+    <NAME>AI настройки</NAME>
+    <DESC>Нажмите для настроек AI с компьютерным игроком.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Изменить имя лидера</ENGLISH_NAME>
+    <NAME>Изменить имя лидера</NAME>
+    <DESC>Нажмите для изменения имени лидера.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Игнорировать рост популяции</ENGLISH_NAME>
+    <NAME>Игнорировать рост популяции</NAME>
+    <DESC>Нажмите для игнорирования ограничений популяции.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Стереть</ENGLISH_NAME>
+    <NAME>Стереть</NAME>
+    <DESC>Нажмите для стирания этой нации.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Опции</ENGLISH_NAME>
+    <NAME>Опции</NAME>
+    <DESC>Нажмите для перехода в меню опций из редактора сценариев.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выход</ENGLISH_NAME>
+    <NAME>Выход</NAME>
+    <DESC>Нажмите для выхода из редактора сценариев.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Запись</ENGLISH_NAME>
+    <NAME>Запись</NAME>
+    <DESC>Нажмите для сохранения этого сценария.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Загрузка</ENGLISH_NAME>
+    <NAME>Загрузка</NAME>
+    <DESC>Нажмите для загрузки файла сценария.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Проверка сценария</ENGLISH_NAME>
+    <NAME>Проверка сценария</NAME>
+    <DESC>Нажмите для проверки этого сценария.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Полный редактор</ENGLISH_NAME>
+    <NAME>Полный редактор</NAME>
+    <DESC>Прочее</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Продолжить игру</ENGLISH_NAME>
+    <NAME>Продолжить игру</NAME>
+    <DESC>Прочее</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбрать кисть</ENGLISH_NAME>
+    <NAME>Выбрать кисть</NAME>
+    <DESC>Прочее</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Поместить объект</ENGLISH_NAME>
+    <NAME>Поместить объект</NAME>
+    <DESC>Нажмите для размещения выбранного объекта.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Поместить предмет</ENGLISH_NAME>
+    <NAME>Поместить предмет</NAME>
+    <DESC>Нажмите для размещения выбранного предмета.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Установить статус</ENGLISH_NAME>
+    <NAME>Установить статус</NAME>
+    <DESC>Нажмите для установки дипломатического статуса.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="3" tex_row="11" clip="0">
+    <ENGLISH_NAME>Повышение уровня жизни (Hit Points)</ENGLISH_NAME>
+    <NAME>Повышение уровня жизни (Hit Points)</NAME>
+    <DESC>Нажмите для повышения уровня жизни выбранного объекта(ов). SHIFT + click для более быстрого роста, ALT + click для очень быстрого роста, CTRL + click для очень медленного роста.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="4" tex_row="11" clip="0">
+    <ENGLISH_NAME>Снижение уровня жизни</ENGLISH_NAME>
+    <NAME>Снижение уровня жизни</NAME>
+    <DESC>Нажмите для понижения уровня жизни выбранного объекта(ов). SHIFT + click для более быстрого понижения, ALT + click для очень быстрого понижения, CTRL + click для очень медленного понижения.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="8" clip="0">
+    <ENGLISH_NAME>Повышение ремесел</ENGLISH_NAME>
+    <NAME>Повышение ремесел</NAME>
+    <DESC>Нажмите для повышения ремесел выбранного объекта(ов). SHIFT + click для более быстрого повышения, ALT + click для очень быстрого роста, CTRL + click для очень медленного роста.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="1" tex_row="9" clip="0">
+    <ENGLISH_NAME>Снижение ремесел</ENGLISH_NAME>
+    <NAME>Снижение ремесел</NAME>
+    <DESC>Нажмите для снижения ремесел выбранного объекта(ов). SHIFT + click для более быстрого понижения, ALT + click для очень быстрого понижения, CTRL + click для очень медленного понижения.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="10" clip="0">
+    <ENGLISH_NAME>Активация постройки</ENGLISH_NAME>
+    <NAME>Активация постройки</NAME>
+    <DESC>Нажмите для активации этой постройки и ее превращения в полностью-разработанную постройку.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="11" clip="0">
+    <ENGLISH_NAME>Дезактивация постройки</ENGLISH_NAME>
+    <NAME>Дезактивация постройки</NAME>
+    <DESC>Нажмите для дезактивации этой постройки и ее превращения в недавно построенную. </DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Стереть</ENGLISH_NAME>
+    <NAME>Стереть</NAME>
+    <DESC>Что это делает?</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Генерация карты</ENGLISH_NAME>
+    <NAME>Генерация карты</NAME>
+    <DESC>Нажмите для генерации новой карты.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Импорт имиджа карты</ENGLISH_NAME>
+    <NAME>Импорт имиджа карты</NAME>
+    <DESC>Нажмите для импорта карты из имиджа.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Изменение ядра карты</ENGLISH_NAME>
+    <NAME>Изменение ядра карты</NAME>
+    <DESC>Нажмите для изменения ядра карты.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Включение тумана войны</ENGLISH_NAME>
+    <NAME>Включение тумана войны</NAME>
+    <DESC>Нажмите для включения дисплея Тумана Войны</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="2" tex_row="11" clip="0">
+    <ENGLISH_NAME>Создать столицу</ENGLISH_NAME>
+    <NAME>Создать столицу</NAME>
+    <DESC>Нажмите для создания национальной столицы в этом городе.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Перевозить всегда</ENGLISH_NAME>
+    <NAME>Перевозить всегда</NAME>
+    <DESC>Прочее</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Не перевозить никогда</ENGLISH_NAME>
+    <NAME>Не перевозить никогда</NAME>
+    <DESC>Прочее</DESC>
+  </OPTION>
+  <OPTION tex_col="1" tex_row="1" clip="0">
+    <ENGLISH_NAME>Выбор нации</ENGLISH_NAME>
+    <NAME>Выбор нации</NAME>
+    <DESC>Нажмите для выбора этой нации.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Смена нации</ENGLISH_NAME>
+    <NAME>Смена нации</NAME>
+    <DESC>Нажмите, чтобы просмотреть другие нации.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Добавить нацию</ENGLISH_NAME>
+    <NAME>Добавить нацию</NAME>
+    <DESC>Нажмите, чтобы добавить новую нацию.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Местность</ENGLISH_NAME>
+    <NAME>Местность</NAME>
+    <DESC>Нажмите для изменений поверхности.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Плодородная</ENGLISH_NAME>
+    <NAME>Плодородная</NAME>
+    <DESC>Нажмите для установки плодородной поверхности.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Плодородность 1</ENGLISH_NAME>
+    <NAME>Плодородность 1</NAME>
+    <DESC>Нажмите для размещения плодородного периода 1.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Плодородность 2</ENGLISH_NAME>
+    <NAME>Плодородность 2</NAME>
+    <DESC>Нажмите для размещения плодородного периода 2.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Безводная</ENGLISH_NAME>
+    <NAME>Безводная</NAME>
+    <DESC>Нажмите для размещения безводной поверхности.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Океан</ENGLISH_NAME>
+    <NAME>Океан</NAME>
+    <DESC>Нажмите для размещения океана</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Лес</ENGLISH_NAME>
+    <NAME>Лес</NAME>
+    <DESC>Выберите эту кнопку и кликните на карте для размещения леса</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Горы</ENGLISH_NAME>
+    <NAME>Горы</NAME>
+    <DESC>Нажмите для размещения гор</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Утесы</ENGLISH_NAME>
+    <NAME>Утесы</NAME>
+    <DESC>Нажмите для размещения утесов</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Скалы</ENGLISH_NAME>
+    <NAME>Скалы</NAME>
+    <DESC>Выберите эту кнопку и кликните на карте для размещения скал/нефти. Кликните на скалах или нефтяном пятне для изменений от скал к нефти.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Нефть</ENGLISH_NAME>
+    <NAME>Нефть</NAME>
+    <DESC>Нажмите для размещения нефти (должна быть на скалах)</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Река</ENGLISH_NAME>
+    <NAME>Река</NAME>
+    <DESC>Нажмите для размещения рек</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Добавить детали</ENGLISH_NAME>
+    <NAME>Добавить детали</NAME>
+    <DESC>Нажмите на кустах/скалах индивидуально</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>1x1 Кисть</ENGLISH_NAME>
+    <NAME>1x1 Кисть</NAME>
+    <DESC>Нажмите для выбора 1x1 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>3x3 Кисть</ENGLISH_NAME>
+    <NAME>3x3 Кисть</NAME>
+    <DESC>Нажмите для выбора 3x3 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>5x5 Кисть</ENGLISH_NAME>
+    <NAME>5x5 Кисть</NAME>
+    <DESC>Нажмите для выбора 5x5 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>1x5 Кисть</ENGLISH_NAME>
+    <NAME>1x5 Кисть</NAME>
+    <DESC>Нажмите для выбора 1x5 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>5x1 Кисть</ENGLISH_NAME>
+    <NAME>5x1 Кисть</NAME>
+    <DESC>Нажмите для выбора 5x1 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>5x5 X Кисть</ENGLISH_NAME>
+    <NAME>5x5 X Кисть</NAME>
+    <DESC>Нажмите для выбора 5 плит x кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Устранение поверхности</ENGLISH_NAME>
+    <NAME>Устранение поверхности</NAME>
+    <DESC>Нажмите для устранения низменностей поверхности (Гор/Леса/Скал)</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Устранить редкий ресурс</ENGLISH_NAME>
+    <NAME>Устранить редкий ресурс</NAME>
+    <DESC>Нажмите для устранения редкого ресурса</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Устранить редкие ресурсы</ENGLISH_NAME>
+    <NAME>Устранить редкие ресурсы</NAME>
+    <DESC>Нажмите для устранения всех редких ресурсов</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Предоставить ресурс</ENGLISH_NAME>
+    <NAME>Предоставить ресурс</NAME>
+    <DESC>Нажмите для предоставления $NUMBER0 этого вида ресурсов. CTRL + Click для 100, SHIFT + Click для 500, ALT + Click для 10000, CTRL + SHIFT + Click для 1.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Взять ресурс</ENGLISH_NAME>
+    <NAME>Взять ресурс</NAME>
+    <DESC>Нажмите, чтобы взять $NUMBER0 этого вида ресурсов. CTRL + Click для 100, SHIFT + Click для 500, ALT + Click для 10000, CTRL + SHIFT + Click для 1.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Предоставить ресурс</ENGLISH_NAME>
+    <NAME>Предоставить ресурс</NAME>
+    <DESC>Нажмите для передачи 100 этого вида ресурсов</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Взять ресурс</ENGLISH_NAME>
+    <NAME>Взять ресурс</NAME>
+    <DESC>Нажмите для принятия 100 этого вида ресурсов</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Изначальные ресурсы</ENGLISH_NAME>
+    <NAME>Изначальные ресурсы</NAME>
+    <DESC>Нажмите для установки ресурсов на изначальные</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Предоставить каждый вид ресурсов</ENGLISH_NAME>
+    <NAME>Предоставить каждый вид ресурсов</NAME>
+    <DESC>Нажмите, чтобы передать $NUMBER0 каждого вида ресурсов. CTRL + Click для 100, SHIFT + Click для 500, ALT + Click для 10000, CTRL + SHIFT + Click для 1.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Предоставить каждый вид ресурсов</ENGLISH_NAME>
+    <NAME>Предоставить каждый вид ресурсов</NAME>
+    <DESC>Нажмите для передачи 100 каждого вида ресурсов</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Принять каждый вид ресурсов</ENGLISH_NAME>
+    <NAME>Принять каждый вид ресурсов</NAME>
+    <DESC>Нажмите, чтобы принять $NUMBER0 каждого вида ресурсов. CTRL + Click для 100, SHIFT + Click для 500, ALT + Click для 10000, CTRL + SHIFT + Click для 1.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Принять каждый вид ресурсов</ENGLISH_NAME>
+    <NAME>Принять каждый вид ресурсов</NAME>
+    <DESC>Нажмите для принятия 100 каждого вида ресурсов</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Изменить название Сцен.</ENGLISH_NAME>
+    <NAME>Изменить название Сцен.</NAME>
+    <DESC>Нажмите для изменения названия сценария</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Использовать систему сценария</ENGLISH_NAME>
+    <NAME>Использовать систему сценария</NAME>
+    <DESC>Нажмите для включения системы сценария при игре на этой карте</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Установка размещения камеры</ENGLISH_NAME>
+    <NAME>Установка размещения камеры</NAME>
+    <DESC>Нажмите для установки изначального размещения камеры для этого сценария. Текущая позиция камеры и уровень величины плана станут изначальным углом обзора игрока при начале сценария. </DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Установить позицию камеры</ENGLISH_NAME>
+    <NAME>Установить позицию камеры</NAME>
+    <DESC>Нажмите для перехода к изначальному углу обзора камеры для этого сценария. Показывает вам угол обзора, при котором начинается сценарий.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="6" clip="0">
+    <ENGLISH_NAME>Переименовать</ENGLISH_NAME>
+    <NAME>Переименовать</NAME>
+    <DESC>Нажмите для переименования этого города.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Переустановка типов поверхности</ENGLISH_NAME>
+    <NAME>Переустановка типов поверхности</NAME>
+    <DESC>Нажмите для переустановки типов поверхности</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Заполнить типы поверхности</ENGLISH_NAME>
+    <NAME>Заполнить типы поверхности</NAME>
+    <DESC>Нажмите для случайного заполнения земельных участков разными типами поверхности</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Очистить типы поверхности</ENGLISH_NAME>
+    <NAME>Очистить типы поверхности</NAME>
+    <DESC>Нажмите для очистки типов поверхности с земельных участков</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Добавить случайный тип поверхности</ENGLISH_NAME>
+    <NAME>Добавить случайный тип поверхности</NAME>
+    <DESC>Нажмите для случайного размещения лесов/гор/скал/нефти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Очистить всю поверхность</ENGLISH_NAME>
+    <NAME>Очистить всю поверхность</NAME>
+    <DESC>Нажмите для устранения всех лесов/гор/скал/нефти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Добавить случайные свойства</ENGLISH_NAME>
+    <NAME>Добавить случайные свойства</NAME>
+    <DESC>Нажмите для добавления случайных кустов/скал</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Устранить одно свойство</ENGLISH_NAME>
+    <NAME>Устранить одно свойство</NAME>
+    <DESC>Нажмите для устранения одного куста/скалы</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Устранить все свойства</ENGLISH_NAME>
+    <NAME>Устранить все свойства</NAME>
+    <DESC>Нажмите для устранения всех кустов/скал</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Включить режим исследования</ENGLISH_NAME>
+    <NAME>Включить режим исследования</NAME>
+    <DESC>Нажмите для включения режима исследования</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Редактирование поверхности</ENGLISH_NAME>
+    <NAME>Редактирование поверхности</NAME>
+    <DESC>Нажмите для редактирования суши/моря/гор/рек на абстрактной карте</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Настройка высоты</ENGLISH_NAME>
+    <NAME>Настройка высоты</NAME>
+    <DESC>Выберите эту кнопку и с помощью левой кнопки мыши поднимите высоту поверхности. Используйте правую кнопку мыши для снижения высоты.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Повышение высоты</ENGLISH_NAME>
+    <NAME>Повышение высоты</NAME>
+    <DESC>Нажмите для повышения уровня высоты поверхности</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Снижение высоты</ENGLISH_NAME>
+    <NAME>Снижение высоты</NAME>
+    <DESC>Нажмите для снижения уровня высоты поверхности</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Применить изменения</ENGLISH_NAME>
+    <NAME>Применить изменения</NAME>
+    <DESC>Нажмите для применения всех изменений, которые вы сделали на данной карте</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Отмена</ENGLISH_NAME>
+    <NAME>Отмена</NAME>
+    <DESC>Нажмите для отмены изменений</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Устранить свойство</ENGLISH_NAME>
+    <NAME>Устранить свойство</NAME>
+    <DESC>Нажмите для устранения последней поставленной горы</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>1x1 Кисть</ENGLISH_NAME>
+    <NAME>1x1 Кисть</NAME>
+    <DESC>Нажмите для выбора 1x1 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>3x3 Кисть</ENGLISH_NAME>
+    <NAME>3x3 Кисть</NAME>
+    <DESC>Нажмите для выбора 3x3 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>5x5 Кисть</ENGLISH_NAME>
+    <NAME>5x5 Кисть</NAME>
+    <DESC>Нажмите для выбора 5x5 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>1x5 Кисть</ENGLISH_NAME>
+    <NAME>1x5 Кисть</NAME>
+    <DESC>Нажмите для выбора 1x5 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>5x1 Кисть</ENGLISH_NAME>
+    <NAME>5x1 Кисть</NAME>
+    <DESC>Нажмите для выбора 5x1 кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>5x5 X Кисть</ENGLISH_NAME>
+    <NAME>5x5 X Кисть</NAME>
+    <DESC>Нажмите для выбора 5 плит x кисти</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME/>
+    <NAME/>
+    <DESC>Нажмите для увеличения размеров утеса</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME/>
+    <NAME/>
+    <DESC>Нажмите для уменьшения размеров утеса</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>lt</ENGLISH_NAME>
+    <NAME>lt</NAME>
+    <DESC>Нажмите для установки предыдущего типа утеса</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>gt</ENGLISH_NAME>
+    <NAME>gt</NAME>
+    <DESC>Нажмите для перехода к следующему типу утеса</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Добавить пункт</ENGLISH_NAME>
+    <NAME>Добавить пункт</NAME>
+    <DESC>Добавить пункт реки</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Очистить все</ENGLISH_NAME>
+    <NAME>Очистить все</NAME>
+    <DESC>Устранить с карты все текущие пункты реки</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Очистить предв</ENGLISH_NAME>
+    <NAME>Очистить предв</NAME>
+    <DESC>Устранить последний добавленный пункт реки</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Добавить реку</ENGLISH_NAME>
+    <NAME>Добавить реку</NAME>
+    <DESC>Добавить реку на карте</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Отключить эффективность AI</ENGLISH_NAME>
+    <NAME>Отключить эффективность AI</NAME>
+    <DESC>Нажмите для отключения эффективности AI.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Отключить единицу AI</ENGLISH_NAME>
+    <NAME>Отключить единицу AI</NAME>
+    <DESC>Нажмите для включения AI всех единиц.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Отключить боевой AI</ENGLISH_NAME>
+    <NAME>Отключить боевой AI</NAME>
+    <DESC>Нажмите для отключения боевого AI.  Боевые единицы откликнутся на атаку согласно своим позициям.</DESC>
+  </OPTION>
+  <OPTION tex_id="TEX_ORDERS_0" tex_col="7" tex_row="9" clip="0">
+    <ENGLISH_NAME>Отключить AI</ENGLISH_NAME>
+    <NAME>Отключить AI</NAME>
+    <DESC>Нажмите, чтобы отключить AI этой единицы.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Включить интерфейс ресурсов</ENGLISH_NAME>
+    <NAME>Включить интерфейс ресурсов</NAME>
+    <DESC>Нажмите для включения интерфейса ресурсов.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Включить интерфейс рынка</ENGLISH_NAME>
+    <NAME>Включить интерфейс рынка</NAME>
+    <DESC>Нажмите для включения интерфейса рынка.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Включить интерфейс инфраструктуры</ENGLISH_NAME>
+    <NAME>Включить интерфейс инфраструктуры</NAME>
+    <DESC>Нажмите для включения интерфейса инфраструктуры.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Включить основной интерфейс</ENGLISH_NAME>
+    <NAME>Включить основной интерфейс</NAME>
+    <DESC>Нажмите для включения основного интерфейса.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Настройка Мини-Библиотеки</ENGLISH_NAME>
+    <NAME>Настройка Мини-Библиотеки</NAME>
+    <DESC>Щелкните и настройте мини-библиотеку.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Следующий купец</ENGLISH_NAME>
+    <NAME>Следующий купец</NAME>
+    <DESC>Щелкните и найдите купца-бездельника.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>След. Рыбак</ENGLISH_NAME>
+    <NAME>След. Рыбак</NAME>
+    <DESC>Щелкните, чтобы найти рыбака-бездельника.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все Купцы</ENGLISH_NAME>
+    <NAME>Все Купцы</NAME>
+    <DESC>Щелкните и выберите ВСЕХ купцов-бездельников.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Все Рыбаки</ENGLISH_NAME>
+    <NAME>Все Рыбаки</NAME>
+    <DESC>Щелкните и выберите ВСЕХ рыбаков-бездельников.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбрать Купца</ENGLISH_NAME>
+    <NAME>Выбрать Купца</NAME>
+    <DESC>Щелкните, чтобы выбрать купца-бездельника.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбрать Рыбака</ENGLISH_NAME>
+    <NAME>Выбрать Рыбака</NAME>
+    <DESC>Щелкните, чтобы выбрать рыбака-бездельника.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбрать Патриота</ENGLISH_NAME>
+    <NAME>Выбрать Патриота</NAME>
+    <DESC>Щелкните и выберите Патриота.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор Патриота</ENGLISH_NAME>
+    <NAME>Выбор Патриота</NAME>
+    <DESC>Щелкните и выберите Патриота без увеличивая их.</DESC>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Выбор Поврежденных Отрядов</ENGLISH_NAME>
+    <NAME>Выбор Поврежденных Отрядов</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Новый выбор Поврежденных Единиц</ENGLISH_NAME>
+    <NAME>Новый выбор Поврежденных Единиц</NAME>
+    <DESC/>
+  </OPTION>
+  <OPTION tex_col="-1" tex_row="-1" clip="0">
+    <ENGLISH_NAME>Новый выбор Единиц на экране</ENGLISH_NAME>
+    <NAME>Новый выбор Единиц на экране</NAME>
+    <DESC/>
+  </OPTION>
+</OPTIONS>

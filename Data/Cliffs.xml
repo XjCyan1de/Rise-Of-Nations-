@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Joe B (Big Huge Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Bryant Freitag (Big Huge Games) -->
+<ROOT>
+	<CLIFFS>
+		<!--size is in tcoords, orientation is 1-4, NW, NE, SE, SW-->
+		<!--8-->
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_1_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_1_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_1_c.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_1_d.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_1_e.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_1_f.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_1_g.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_1_h.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_1_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_2_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_2_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_2_c.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_2_d.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_2_e.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_2_f.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_2_g.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_2_h.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_2_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_3_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_3_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_3_c.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_3_d.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_3_e.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_3_f.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_3_g.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_3_h.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_3_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_4_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_4_a.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_4_c.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_4_d.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_4_e.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_4_f.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_4_g.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_4_h.tga" orientation="1"/>
+		<CLIFF size="8" path="./terrain art/cliffs/cliff_8_4_a.tga" orientation="1"/>
+		<!--16-->
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_1_a.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_1_b.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_1_c.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_1_d.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_1_e.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_1_f.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_1_g.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_1_h.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_1_a.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_2_a.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_2_b.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_2_c.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_2_d.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_2_e.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_2_f.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_2_g.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_2_h.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_2_a.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_3_a.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_3_b.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_3_c.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_3_d.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_3_e.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_3_f.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_3_g.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_3_h.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_3_a.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_4_a.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_4_b.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_4_c.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_4_d.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_4_e.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_4_f.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_4_g.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_4_h.tga" orientation="1"/>
+		<CLIFF size="16" path="./terrain art/cliffs/cliff_16_4_a.tga" orientation="1"/>
+		<!--32-->
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_1_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_1_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_1_c.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_1_d.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_1_e.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_1_f.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_1_g.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_1_h.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_1_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_2_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_2_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_2_c.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_2_d.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_2_e.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_2_f.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_2_g.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_2_h.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_2_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_3_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_3_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_3_c.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_3_d.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_3_e.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_3_f.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_3_g.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_3_h.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_3_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_4_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_4_a.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_4_c.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_4_d.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_4_e.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_4_f.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_4_g.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_4_h.tga" orientation="1"/>
+		<CLIFF size="32" path="./terrain art/cliffs/cliff_32_4_a.tga" orientation="1"/>
+		<!--64-->
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_1_a.tga" orientation="1"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_1_b.tga" orientation="1"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_1_c.tga" orientation="1"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_1_d.tga" orientation="1"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_2_a.tga" orientation="2"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_2_b.tga" orientation="2"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_2_c.tga" orientation="2"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_2_d.tga" orientation="2"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_3_a.tga" orientation="3"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_3_b.tga" orientation="3"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_3_c.tga" orientation="3"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_3_d.tga" orientation="3"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_4_a.tga" orientation="4"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_4_b.tga" orientation="4"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_4_c.tga" orientation="4"/>
+		<CLIFF size="64" path="./terrain art/cliffs/cliff_64_4_d.tga" orientation="4"/>
+	</CLIFFS>
+</ROOT>

@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by XMLSPY 5 Professional Ed. Release 2 (Big Huge Games) -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION: All STRING elements.-->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<ROOT>
+  <AGES>
+    <STRING hash="8843171" needed="1">Классический век</STRING>
+    <STRING hash="6818848" needed="1">Средневековье</STRING>
+    <STRING hash="7683271" needed="1">Пороховой век</STRING>
+    <STRING hash="13782908" needed="1">Просвещение </STRING>
+    <STRING hash="9696711" needed="1">Индустриальный век</STRING>
+    <STRING hash="4270575" needed="1">Современный век</STRING>
+    <STRING hash="11109641" needed="1">Информационный век</STRING>
+  </AGES>
+  <TECHS>
+    <STRING hash="7422563" needed="1">Слово</STRING>
+    <STRING hash="7558886" needed="1">Математика</STRING>
+    <STRING hash="4209181" needed="1">Химия</STRING>
+    <STRING hash="10931720" needed="1">Законы Природы</STRING>
+    <STRING hash="7436541" needed="1">Электричество</STRING>
+    <STRING hash="7373131" needed="1">Электроника</STRING>
+    <STRING hash="12979145" needed="1">Компьютеризация</STRING>
+    <STRING hash="1692249" needed="1">Бартер</STRING>
+    <STRING hash="2317946" needed="1">Чеканка Монет</STRING>
+    <STRING hash="1055307" needed="1">Торговля</STRING>
+    <STRING hash="8189112" needed="1">Меркантилизм</STRING>
+    <STRING hash="2772098" needed="1">Финансовая Система</STRING>
+    <STRING hash="8662151" needed="1">Сборочный Конвейер</STRING>
+    <STRING hash="10212836" needed="1">Глобализация</STRING>
+    <STRING hash="5616641" needed="1">Городской Режим</STRING>
+    <STRING hash="1455381" needed="1">Империя</STRING>
+    <STRING hash="4168087" needed="1">Феодализм</STRING>
+    <STRING hash="7124203" needed="1">Божественное Право</STRING>
+    <STRING hash="7851435" needed="1">Конституция</STRING>
+    <STRING hash="6478898" needed="1">Большая Власть</STRING>
+    <STRING hash="17211729" needed="1">Международное Право</STRING>
+    <STRING hash="10578054" needed="1">Военное Искусство</STRING>
+    <STRING hash="6849444" needed="1">Наемники</STRING>
+    <STRING hash="8563678" needed="1">Регулярная Армия</STRING>
+    <STRING hash="8048945" needed="1">Воинская Повинность</STRING>
+    <STRING hash="10185392" needed="1">Levee en Masse</STRING>
+    <STRING hash="10290156" needed="1">Воинственный Народ</STRING>
+    <STRING hash="16302664" needed="1">Воинская Повинность</STRING>
+  </TECHS>
+  <MISC>
+    <STRING hash="9426192" needed="1">Ракетный Щит</STRING>
+    <STRING hash="30604825" needed="1">Искусственный разум</STRING>
+    <STRING hash="16526569" needed="1">Глобальное Процветание</STRING>
+    <STRING hash="13424671" needed="1">Мировое правительство</STRING>
+    <STRING hash="3073683" needed="1">Тактика</STRING>
+    <STRING hash="5502441" needed="1">Боевые Действия</STRING>
+    <STRING hash="3277741" needed="1">Стратегия</STRING>
+    <STRING hash="2820121" needed="1">Религия</STRING>
+    <STRING hash="4969036" needed="1">Монотеизм</STRING>
+    <STRING hash="10952500" needed="1">Экзистенциализм</STRING>
+    <STRING hash="3410006" needed="1">Налогообложение</STRING>
+    <STRING hash="4575496" needed="1">Зависимость</STRING>
+    <STRING hash="14255071" needed="1">Общественные Связи</STRING>
+    <STRING hash="5809773" needed="1">Подоходный Налог</STRING>
+    <STRING hash="9957886" needed="1">Укрепление</STRING>
+    <STRING hash="6780593" needed="1">Бомбардировка</STRING>
+    <STRING hash="17966690" needed="1">Стратегические Резервы</STRING>
+    <STRING hash="5757926" needed="1">Преданность</STRING>
+    <STRING hash="10825577" needed="1">Клятва Верности</STRING>
+    <STRING hash="5321711" needed="1">Патриотизм</STRING>
+    <STRING hash="6842975" needed="1">Национализм</STRING>
+    <STRING hash="8429887" needed="1">Сооружения</STRING>
+    <STRING hash="8406841" needed="1">Архитектура</STRING>
+    <STRING hash="5867465" needed="1">Строительство</STRING>
+    <STRING hash="6504674" needed="1">Знание Трав</STRING>
+    <STRING hash="3060060" needed="1">Медицина</STRING>
+    <STRING hash="14777164" needed="1">Фармацевты</STRING>
+    <STRING hash="1660645" needed="1">Корм</STRING>
+    <STRING hash="1722154" needed="1">Оборудование</STRING>
+    <STRING hash="4572512" needed="1">Логистика</STRING>
+    <STRING hash="4346421" needed="1">Плотничество</STRING>
+    <STRING hash="13894977" needed="1">Лесозаготовка</STRING>
+    <STRING hash="3938041" needed="1">Бумажная Фабрика</STRING>
+    <STRING hash="6797357" needed="1">Сельское Хозяйство</STRING>
+    <STRING hash="9608007" needed="1">Севооборот</STRING>
+    <STRING hash="9355065" needed="1">Пищевая Промышленность</STRING>
+    <STRING hash="3959017" needed="1">Грамотность</STRING>
+    <STRING hash="10082689" needed="1">Издательство</STRING>
+    <STRING hash="15111817" needed="1">Научный Метод</STRING>
+    <STRING hash="29708143" needed="1">Институционные Исследования</STRING>
+    <STRING hash="11227186" needed="1">Суперкомпьютеры</STRING>
+    <STRING hash="7771103" needed="1">Металлические Сплавы</STRING>
+    <STRING hash="7639625" needed="1">Холодное Литье</STRING>
+    <STRING hash="895218" needed="1">Сталь</STRING>
+    <STRING hash="4006343" needed="1">Тирания</STRING>
+    <STRING hash="3833320" needed="1">Республика</STRING>
+    <STRING hash="3752145" needed="1">Монархия</STRING>
+    <STRING hash="5495194" needed="1">Демократия</STRING>
+    <STRING hash="4431157" needed="1">Социализм</STRING>
+    <STRING hash="5553684" needed="1">Капитализм</STRING>
+  </MISC>
+  <GOODS>
+    <STRING hash="564640" needed="1">Еда</STRING>
+    <STRING hash="1799276" needed="1">Лес</STRING>
+    <STRING hash="1700464" needed="1">Богатство</STRING>
+    <STRING hash="3520419" needed="1">Знания</STRING>
+    <STRING hash="1211192" needed="1">Металл</STRING>
+    <STRING hash="336002" needed="1">Нефть</STRING>
+    <STRING hash="583548" needed="1">Рыба</STRING>
+    <STRING hash="1922011" needed="1">Реликты</STRING>
+    <STRING hash="578117" needed="1">Вино</STRING>
+    <STRING hash="2616402" needed="1">Папирус</STRING>
+    <STRING hash="333260" needed="1">Краска</STRING>
+    <STRING hash="593963" needed="1">Шелк</STRING>
+    <STRING hash="1194455" needed="1">Специи</STRING>
+    <STRING hash="790674" needed="1">Соль</STRING>
+    <STRING hash="1583615" needed="1">Кони</STRING>
+    <STRING hash="2037823" needed="1">Резина</STRING>
+    <STRING hash="2346145" needed="1">Сера</STRING>
+    <STRING hash="1137060" needed="1">Янтарь</STRING>
+    <STRING hash="1571768" needed="1">Серебро</STRING>
+    <STRING hash="3502615" needed="1">Табак</STRING>
+    <STRING hash="1865394" needed="1">Мрамор</STRING>
+    <STRING hash="683830" needed="1">Меха</STRING>
+    <STRING hash="1622088" needed="1">Хлопок</STRING>
+    <STRING hash="978052" needed="1">Бизон</STRING>
+    <STRING hash="1536898" needed="1">Медь</STRING>
+    <STRING hash="3880631" needed="1">Павлины</STRING>
+    <STRING hash="1690721" needed="1">Цитрус</STRING>
+    <STRING hash="1249341" needed="1">Сахар</STRING>
+    <STRING hash="3076733" needed="1">Алмазы</STRING>
+    <STRING hash="619184" needed="1">Рубины</STRING>
+    <STRING hash="3029794" needed="1">Алюминий</STRING>
+    <STRING hash="1713625" needed="1">Киты</STRING>
+    <STRING hash="3383353" needed="1">Стекло</STRING>
+    <STRING hash="642149" needed="1">Шерсть</STRING>
+    <STRING hash="788789" needed="1">Уголь</STRING>
+    <STRING hash="2481507" needed="1">Уран</STRING>
+    <STRING hash="3274537" needed="1">Титан</STRING>
+    <STRING hash="1623896" needed="1">Животное</STRING>
+    <STRING hash="611601" needed="1">Собаки</STRING>
+    <STRING hash="2338619" needed="1">Ладан</STRING>
+    <STRING hash="3613460" needed="1">Оливковое масло</STRING>
+    <STRING hash="1673538" needed="1">Гипс</STRING>
+    <STRING hash="7644907" needed="1">Шкуры бобра</STRING>
+    <STRING hash="553030" needed="1">Золото</STRING>
+    <STRING hash="382076" needed="1">Rum</STRING>
+    <STRING hash="1296381" needed="1">Кофе</STRING>
+    <STRING hash="3000278" needed="1">Бананы</STRING>
+    <STRING hash="1696293" needed="1">Лосось</STRING>
+    <STRING hash="2833684" needed="1">Железная руда</STRING>
+    <STRING hash="1099045" needed="1">Кукуруза</STRING>
+    <STRING hash="2175628" needed="1">Эскимосы</STRING>
+  </GOODS>
+  <BUILDS>
+    <STRING hash="5143517" needed="1">Небольшой Город</STRING>
+    <STRING hash="5001885" needed="1">Город</STRING>
+    <STRING hash="5116697" needed="1">Главный Город</STRING>
+    <STRING hash="756488" needed="1">Ферма</STRING>
+    <STRING hash="15948114" needed="1">Лагерь дровосеков</STRING>
+    <STRING hash="560225" needed="1">Шахта</STRING>
+    <STRING hash="5428677" needed="1">Университет</STRING>
+    <STRING hash="2882524" needed="1">Нефтяная скважина</STRING>
+    <STRING hash="8028649" needed="1">Нефтяная Платформа</STRING>
+    <STRING hash="2914764" needed="1">Амбар</STRING>
+    <STRING hash="6179481" needed="1">Лесопилка</STRING>
+    <STRING hash="2188528" needed="1">Плавильня</STRING>
+    <STRING hash="3001744" needed="1">Перерабатывающий завод </STRING>
+    <STRING hash="3868075" needed="1">Бараки</STRING>
+    <STRING hash="1932724" needed="1">Стайни</STRING>
+    <STRING hash="5642409" needed="1">Автозавод</STRING>
+    <STRING hash="10083382" needed="1">Осадный завод</STRING>
+    <STRING hash="2802178" needed="1">Завод</STRING>
+    <STRING hash="815783" needed="1">Доки</STRING>
+    <STRING hash="4309085" needed="1">Якорная Стоянка</STRING>
+    <STRING hash="3296260" needed="1">Верфь</STRING>
+    <STRING hash="2939733" needed="1">Библиотека</STRING>
+    <STRING hash="1674717" needed="1">Рынок</STRING>
+    <STRING hash="1445184" needed="1">Храм</STRING>
+    <STRING hash="1009206" needed="1">Башня</STRING>
+    <STRING hash="568153" needed="1">Хранилище</STRING>
+    <STRING hash="3366022" needed="1">Частокол</STRING>
+    <STRING hash="1515894" needed="1">Бункер</STRING>
+    <STRING hash="672063" needed="1">Форт</STRING>
+    <STRING hash="1618681" needed="1">Замок</STRING>
+    <STRING hash="3070364" needed="1">Крепость</STRING>
+    <STRING hash="2703085" needed="1">Редут</STRING>
+    <STRING hash="2736903" needed="1">Аэробаза</STRING>
+    <STRING hash="7207851" needed="1">Ракетная шахта</STRING>
+    <STRING hash="2382931" needed="1">Наблюдательный пункт</STRING>
+    <STRING hash="14303594" needed="1">Наблюдательный Пост</STRING>
+    <STRING hash="10963680" needed="1">ПВО</STRING>
+    <STRING hash="14036329" needed="1">Радар ПВО</STRING>
+    <STRING hash="15017895" needed="1">Ракеты земля-воздух</STRING>
+    <STRING hash="3155697" needed="1">Пирамиды</STRING>
+    <STRING hash="3202471" needed="1">Колосс</STRING>
+    <STRING hash="14090616" needed="1">Армия Терра Котта</STRING>
+    <STRING hash="4006251" needed="1">Колизей</STRING>
+    <STRING hash="11789295" needed="1">Храм Тикала</STRING>
+    <STRING hash="12394052" needed="1">Фарфоровая башня</STRING>
+    <STRING hash="5629591" needed="1">Ангкор Ват</STRING>
+    <STRING hash="5275053" needed="1">Версаль</STRING>
+    <STRING hash="4734371" needed="1">Тадж Махал</STRING>
+    <STRING hash="2136242" needed="1">Кремль</STRING>
+    <STRING hash="16071921" needed="1">Статуя Свободы</STRING>
+    <STRING hash="7396078" needed="1">Эйффелева Башня</STRING>
+    <STRING hash="8960296" needed="1">Суперколлайдер</STRING>
+    <STRING hash="9900249" needed="1">Космическая Программа</STRING>
+    <STRING hash="1740233" needed="1">Парламент</STRING>
+    <STRING hash="11924638" needed="1">Висячие сады</STRING>
+    <STRING hash="9898085" needed="1">Запретный город</STRING>
+    <STRING hash="2942926" needed="1">Красный форт</STRING>
+    <STRING hash="2929874" needed="1">Бастилья</STRING>
+    <STRING hash="4174297" needed="1">Эльдорадо</STRING>
+    <STRING hash="11137768" needed="1">Тауэр Лондона</STRING>
+    <STRING hash="969271" needed="1">Дом</STRING>
+    <STRING hash="18671484" needed="1">Дворовой фонтан</STRING>
+    <STRING hash="5004373" needed="1">Маяк</STRING>
+    <STRING hash="5412046" needed="1">Апартаменты</STRING>
+    <STRING hash="11265150" needed="1">Офисное здание</STRING>
+    <STRING hash="19695529" needed="1">Монумент Уошингтону</STRING>
+    <STRING hash="8104532" needed="1">Статуя Ленина</STRING>
+  </BUILDS>
+  <UNITS>
+    <STRING hash="2221484" needed="1">Житель</STRING>
+    <STRING hash="2751620" needed="1">Ученый</STRING>
+    <STRING hash="2501488" needed="1">Генерал</STRING>
+    <STRING hash="423174" needed="1">Шпион</STRING>
+    <STRING hash="3026652" needed="1">Караван</STRING>
+    <STRING hash="3634926" needed="1">Купец</STRING>
+    <STRING hash="8123947" needed="1">Обозный вагон</STRING>
+    <STRING hash="2580139" needed="1">Милиция</STRING>
+    <STRING hash="4398051" needed="1">Солдат</STRING>
+    <STRING hash="3574192" needed="1">Партизан</STRING>
+    <STRING hash="1234467" needed="1">Скаут</STRING>
+    <STRING hash="2971245" needed="1">Исследователь</STRING>
+    <STRING hash="3152264" needed="1">Командо</STRING>
+    <STRING hash="11414320" needed="1">Спецвойска</STRING>
+    <STRING hash="23496102" needed="1">Элитные Спецназ Части</STRING>
+    <STRING hash="2912095" needed="1">Слингеры</STRING>
+    <STRING hash="6271876" needed="1">Копьеносцы</STRING>
+    <STRING hash="15379376" needed="1">Элитные копьеносцы</STRING>
+    <STRING hash="3046598" needed="1">Атл-Атлы</STRING>
+    <STRING hash="10143002" needed="1">Ройал Атл-Атлис</STRING>
+    <STRING hash="12984243" needed="1">Зопилли Атл-Атлы</STRING>
+    <STRING hash="14124675" needed="1">Баламоб Слингеры</STRING>
+    <STRING hash="28279121" needed="1">Королевские Пращники Баламоба</STRING>
+    <STRING hash="27980832" needed="1">Слингеры</STRING>
+    <STRING hash="7858530" needed="1">Дуболомы Инти</STRING>
+    <STRING hash="8149328" needed="1">Булавоносцы Инти</STRING>
+    <STRING hash="3556822" needed="1">Умпакати</STRING>
+    <STRING hash="17413041" needed="1">Янгомби Умпакати</STRING>
+    <STRING hash="597681" needed="1">Импи</STRING>
+    <STRING hash="7117550" needed="1">Уланы</STRING>
+    <STRING hash="16497142" needed="1">Тяжелые Огненные Пикейщики</STRING>
+    <STRING hash="8091119" needed="1">Аркебузеры</STRING>
+    <STRING hash="5030159" needed="1">Мушкетеры</STRING>
+    <STRING hash="2732698" needed="1">Стрелки</STRING>
+    <STRING hash="3448211" needed="1">Пехота</STRING>
+    <STRING hash="14910540" needed="1">Штурмовая Пехота</STRING>
+    <STRING hash="21046206" needed="1">Пехота красногвардейцев</STRING>
+    <STRING hash="11409132" needed="1">Шокирующая Пехота</STRING>
+    <STRING hash="12198643" needed="1">Фольксгренадеры</STRING>
+    <STRING hash="13274171" needed="1">Пехота Егерей</STRING>
+    <STRING hash="32427586" needed="1">Атакующая пехота Ягуар</STRING>
+    <STRING hash="6809974" needed="1">Янычары</STRING>
+    <STRING hash="16843832" needed="1">Королевские янычары</STRING>
+    <STRING hash="6459227" needed="1">Горцы</STRING>
+    <STRING hash="7818082" needed="1">Черные часы</STRING>
+    <STRING hash="15712841" needed="1">Мушкетеры Манчу</STRING>
+    <STRING hash="11637510" needed="1">Стрелки Манчу</STRING>
+    <STRING hash="13245267" needed="1">Пехота Манчу</STRING>
+    <STRING hash="6205127" needed="1">Пулемет</STRING>
+    <STRING hash="15720375" needed="1">Тяжелый Пулемет</STRING>
+    <STRING hash="22252131" needed="1">Современный пулемет</STRING>
+    <STRING hash="337164" needed="1">Пулемет МГ42</STRING>
+    <STRING hash="7851322" needed="1">Огнемет</STRING>
+    <STRING hash="2939856" needed="1">Гоплиты</STRING>
+    <STRING hash="2839030" needed="1">Фаланга</STRING>
+    <STRING hash="2060855" needed="1">Копейщик</STRING>
+    <STRING hash="8221659" needed="1">Элитные Пикейщики</STRING>
+    <STRING hash="3904621" needed="1">Фузилеры</STRING>
+    <STRING hash="11535451" needed="1">Противотанковое Ружье</STRING>
+    <STRING hash="2792777" needed="1">Базука</STRING>
+    <STRING hash="15231344" needed="1">Противотанковая Ракета</STRING>
+    <STRING hash="10089468" needed="1">Безотказное орудие</STRING>
+    <STRING hash="14498849" needed="1">ПТ Ракетный Комплекс Дракон</STRING>
+    <STRING hash="2215527" needed="1">Легионы</STRING>
+    <STRING hash="13400324" needed="1">Легионы Цезаря</STRING>
+    <STRING hash="16529548" needed="1">Преторианские стражи</STRING>
+    <STRING hash="2749055" needed="1">Скутари</STRING>
+    <STRING hash="10541371" needed="1">Королевские скутари</STRING>
+    <STRING hash="2565159" needed="1">Терциосы</STRING>
+    <STRING hash="9826501" needed="1">Королевские Терсиос</STRING>
+    <STRING hash="2218110" needed="1">Солдури</STRING>
+    <STRING hash="6341588" needed="1">Варвары</STRING>
+    <STRING hash="2664093" needed="1">Вандалы</STRING>
+    <STRING hash="8305918" needed="1">Ландкнехты</STRING>
+    <STRING hash="16097864" needed="1">Копейщики Ашигару</STRING>
+    <STRING hash="925380" needed="1">Буши</STRING>
+    <STRING hash="5811238" needed="1">Элитные Буши</STRING>
+    <STRING hash="2729576" needed="1">Самураи</STRING>
+    <STRING hash="7334482" needed="1">Стрелки-самураи</STRING>
+    <STRING hash="1519671" needed="1">Лучники</STRING>
+    <STRING hash="2437686" needed="1">Снайперы</STRING>
+    <STRING hash="6749852" needed="1">Арбалетчики</STRING>
+    <STRING hash="9426064" needed="1">Тяжелые Лучники</STRING>
+    <STRING hash="12128397" needed="1">Стрелки Кушита</STRING>
+    <STRING hash="24712871" needed="1">Королевские Лучники Кушитов</STRING>
+    <STRING hash="13971934" needed="1">Апедмакские стрелки</STRING>
+    <STRING hash="5363679" needed="1">Усиленные Лучники</STRING>
+    <STRING hash="16003280" needed="1">Королевские лучники</STRING>
+    <STRING hash="13018015" needed="1">Королевские Йеоманри</STRING>
+    <STRING hash="2678272" needed="1">Гваранг</STRING>
+    <STRING hash="9766582" needed="1">Элитные Гваранги</STRING>
+    <STRING hash="10138104" needed="1">Королевский гваранг</STRING>
+    <STRING hash="21703388" needed="1">Элитные Королевские Гваранги</STRING>
+    <STRING hash="7633946" needed="1">Конный лучник</STRING>
+    <STRING hash="17605544" needed="1">Конный лучник</STRING>
+    <STRING hash="2394210" needed="1">Драгун</STRING>
+    <STRING hash="5553487" needed="1">Карабинер</STRING>
+    <STRING hash="7702055" needed="1">Стрелок на Верблюде</STRING>
+    <STRING hash="17790409" needed="1">Стрелок на верблюде</STRING>
+    <STRING hash="7609557" needed="1">Наездник на Верблюде</STRING>
+    <STRING hash="6206627" needed="1">Верблюжий корпус</STRING>
+    <STRING hash="2454520" needed="1">Колесница</STRING>
+    <STRING hash="9451088" needed="1">Тяжелая колесница</STRING>
+    <STRING hash="2937285" needed="1">Мамлюки</STRING>
+    <STRING hash="10638089" needed="1">Королевский мамлюк</STRING>
+    <STRING hash="1150372" needed="1">Кочевник </STRING>
+    <STRING hash="7707478" needed="1">Степные Кочевники</STRING>
+    <STRING hash="862803" needed="1">Орда</STRING>
+    <STRING hash="6839153" needed="1">Золотая Орда</STRING>
+    <STRING hash="5968353" needed="1">Легкая лошадь</STRING>
+    <STRING hash="10061941" needed="1">Легкая кавалерия</STRING>
+    <STRING hash="21080609" needed="1">Элитная Легкая Кавалерия</STRING>
+    <STRING hash="1970399" needed="1">Гусар</STRING>
+    <STRING hash="6153218" needed="1">Легкий Верблюд</STRING>
+    <STRING hash="9578409" needed="1">Воин на верблюде</STRING>
+    <STRING hash="20573215" needed="1">Элитный Воин на Верблюде</STRING>
+    <STRING hash="6265708" needed="1">Бронированная машина</STRING>
+    <STRING hash="16327071" needed="1">Разведывательная Бронемашина</STRING>
+    <STRING hash="13171980" needed="1">Бронированная кавалерия</STRING>
+    <STRING hash="10673820" needed="1">Уничтожитель Танков</STRING>
+    <STRING hash="6111439" needed="1">Танковый Киллер</STRING>
+    <STRING hash="10023222" needed="1">Пикейщик Русини</STRING>
+    <STRING hash="2960039" needed="1">Казак</STRING>
+    <STRING hash="7454192" needed="1">Донской Казак</STRING>
+    <STRING hash="6673410" needed="1">Воин в латах</STRING>
+    <STRING hash="1501480" needed="1">Рыцарь</STRING>
+    <STRING hash="7437672" needed="1">Тяжелый рыцарь</STRING>
+    <STRING hash="5367551" needed="1">Кирассир</STRING>
+    <STRING hash="4210523" needed="1">Рыцарь</STRING>
+    <STRING hash="12568111" needed="1">Королевский Кавалер</STRING>
+    <STRING hash="5879341" needed="1">Стратиотаи</STRING>
+    <STRING hash="15547751" needed="1">Королевский Стратиотай</STRING>
+    <STRING hash="4090116" needed="1">Кавалерист</STRING>
+    <STRING hash="12238222" needed="1">Тяжелый Шевалье</STRING>
+    <STRING hash="11767956" needed="1">Конный гренадер</STRING>
+    <STRING hash="24262978" needed="1">Верховой Гренадир Стражи</STRING>
+    <STRING hash="5341897" needed="1">Легкий танк</STRING>
+    <STRING hash="745334" needed="1">Танк</STRING>
+    <STRING hash="14352003" needed="1">Боевой танк</STRING>
+    <STRING hash="5324692" needed="1">Танк Тигр</STRING>
+    <STRING hash="8175683" needed="1">Леопард</STRING>
+    <STRING hash="3395554" needed="1">Танк Т80</STRING>
+    <STRING hash="3504308" needed="1">Катапульта</STRING>
+    <STRING hash="4578313" needed="1">Требуше</STRING>
+    <STRING hash="2715057" needed="1">Бомбардировать</STRING>
+    <STRING hash="1686578" needed="1">Пушка</STRING>
+    <STRING hash="4044681" needed="1">Артиллерия</STRING>
+    <STRING hash="3111150" needed="1">Гаубица</STRING>
+    <STRING hash="13748366" needed="1">Ракетная артиллерия</STRING>
+    <STRING hash="1960398" needed="1">Мортира</STRING>
+    <STRING hash="8133644" needed="1">Осадный миномет</STRING>
+    <STRING hash="15499797" needed="1">Бомбарда Базилика</STRING>
+    <STRING hash="13031479" needed="1">Пушка Базилика</STRING>
+    <STRING hash="13144786" needed="1">Ракетница Катюша</STRING>
+    <STRING hash="8864040" needed="1">Горящая стрелка</STRING>
+    <STRING hash="19698416" needed="1">Тяжелая Огненная Стрела</STRING>
+    <STRING hash="16156158" needed="1">Противовоздушное орудие</STRING>
+    <STRING hash="26524171" needed="1">Батарея Зениток ПВО</STRING>
+    <STRING hash="24835168" needed="1">Противовоздушная ракета</STRING>
+    <STRING hash="2398355" needed="1">Биплан</STRING>
+    <STRING hash="2132227" needed="1">Истребитель</STRING>
+    <STRING hash="5994736" needed="1">Реактивный истребитель</STRING>
+    <STRING hash="13153657" needed="1">Улучшенный Истребитель</STRING>
+    <STRING hash="7313136" needed="1">Ястреб</STRING>
+    <STRING hash="8335340" needed="1">Истребитель Орел</STRING>
+    <STRING hash="1787274" needed="1">Бомбардировщик</STRING>
+    <STRING hash="14414589" needed="1">Бомбардировщик</STRING>
+    <STRING hash="10788607" needed="1">Бомбардировщик Стелс</STRING>
+    <STRING hash="14502340" needed="1">Ланкастер</STRING>
+    <STRING hash="10487415" needed="1">Штурмовик</STRING>
+    <STRING hash="17403956" needed="1">Реактивный бомбардировщик-истребитель</STRING>
+    <STRING hash="5425090" needed="1">Вертолет</STRING>
+    <STRING hash="22818152" needed="1">Транспортный Вертолет</STRING>
+    <STRING hash="4278905" needed="1">Ракета V2</STRING>
+    <STRING hash="9875698" needed="1">Крылатая Ракета</STRING>
+    <STRING hash="12012826" needed="1">Ядерная ракета</STRING>
+    <STRING hash="6979733" needed="1">Ядерная МБР</STRING>
+    <STRING hash="3749364" needed="1">Рыбаки</STRING>
+    <STRING hash="10196653" needed="1">Флот</STRING>
+    <STRING hash="24371934" needed="1">Современный Торговый Флот</STRING>
+    <STRING hash="11981198" needed="1">Транспортная баржа</STRING>
+    <STRING hash="15736732" needed="1">Транспортный Галлеон</STRING>
+    <STRING hash="19043523" needed="1">Грузовой корабль</STRING>
+    <STRING hash="1570178" needed="1">Дромон</STRING>
+    <STRING hash="2557314" needed="1">Каравелла</STRING>
+    <STRING hash="1007218" needed="1">Шлюп</STRING>
+    <STRING hash="4093348" needed="1">Уничтожитель</STRING>
+    <STRING hash="2223053" needed="1">Крейсер</STRING>
+    <STRING hash="11534641" needed="1">Ракетный Крейсер</STRING>
+    <STRING hash="4250328" needed="1">Плот</STRING>
+    <STRING hash="12110344" needed="1">Тяжелый Огневой Плот</STRING>
+    <STRING hash="2833092" needed="1">Боевой корабль</STRING>
+    <STRING hash="10129818" needed="1">Тяжелая Канонерка</STRING>
+    <STRING hash="4315997" needed="1">Подлодка</STRING>
+    <STRING hash="15367664" needed="1">Атакующая Подлодка</STRING>
+    <STRING hash="2070876" needed="1">Трирема</STRING>
+    <STRING hash="1714725" needed="1">Галлера</STRING>
+    <STRING hash="3072219" needed="1">Каррак</STRING>
+    <STRING hash="2423170" needed="1">Фрегат</STRING>
+    <STRING hash="5606523" needed="1">Воин</STRING>
+    <STRING hash="6438890" needed="1">Судно-бомбардир</STRING>
+    <STRING hash="5692558" needed="1">Кеч</STRING>
+    <STRING hash="6451385" needed="1">Дредноут</STRING>
+    <STRING hash="5072733" needed="1">Боевой корабль</STRING>
+    <STRING hash="20101660" needed="1">Улучшенный Линейный Корабль</STRING>
+    <STRING hash="14244592" needed="1">Авианосец</STRING>
+    <STRING hash="3462612" needed="1">Дикая Птица</STRING>
+    <STRING hash="4754137" needed="1">Стайная птица</STRING>
+    <STRING hash="3519784" needed="1">Чайка</STRING>
+    <STRING hash="2879048" needed="1">Свинья</STRING>
+    <STRING hash="7757665" needed="1">Цыпленок</STRING>
+    <STRING hash="4834015" needed="1">Лошадь</STRING>
+    <STRING hash="4679109" needed="1">Стадная Овца</STRING>
+    <STRING hash="4802943" needed="1">Бизон</STRING>
+    <STRING hash="4049688" needed="1">Стайный Медведь</STRING>
+    <STRING hash="3575160" needed="1">Рыба</STRING>
+    <STRING hash="6586501" needed="1">Стайные Киты</STRING>
+    <STRING hash="9185103" needed="1">Павлин</STRING>
+    <STRING hash="16545078" needed="1">Атакующий Вертолет</STRING>
+    <STRING hash="731698" needed="1">Барк</STRING>
+    <STRING hash="2968518" needed="1">Корвет</STRING>
+    <STRING hash="3819158" needed="1">Боадицея</STRING>
+    <STRING hash="4884264" needed="1">Следопыт</STRING>
+    <STRING hash="2115754" needed="1">Пионер</STRING>
+    <STRING hash="1621540" needed="1">Рейнджер</STRING>
+    <STRING hash="2313787" needed="1">Десант</STRING>
+    <STRING hash="11205266" needed="1">Стрелок Десанта</STRING>
+    <STRING hash="12813023" needed="1">Морской пехотинец</STRING>
+    <STRING hash="12567134" needed="1">Ударный десант</STRING>
+    <STRING hash="4499025" needed="1">Бессмертные</STRING>
+    <STRING hash="2775650" needed="1">Анусия</STRING>
+    <STRING hash="4513220" needed="1">Атанатой</STRING>
+    <STRING hash="11798069" needed="1">Бессмертный Лучник</STRING>
+    <STRING hash="12756454" needed="1">Лучники Анусии</STRING>
+    <STRING hash="16185980" needed="1">Лучники Атанатоя</STRING>
+    <STRING hash="7561726" needed="1">Сунка Вакан</STRING>
+    <STRING hash="19075282" needed="1">Лошадь Орлиное Перо</STRING>
+    <STRING hash="7303434" needed="1">Лощадь Мушкет</STRING>
+    <STRING hash="22928087" needed="1">Лошадь Залп</STRING>
+    <STRING hash="8152989" needed="1">Военный Слон</STRING>
+    <STRING hash="1783401" needed="1">Погонщик</STRING>
+    <STRING hash="5595655" needed="1">Стрелок</STRING>
+    <STRING hash="12418082" needed="1">Кулевринщик</STRING>
+    <STRING hash="4076737" needed="1">Александр</STRING>
+    <STRING hash="3017560" needed="1">Наполеон</STRING>
+    <STRING hash="3000023" needed="1">Парменио</STRING>
+    <STRING hash="4299955" needed="1">Антипатер</STRING>
+    <STRING hash="2324064" needed="1">Птолемей</STRING>
+    <STRING hash="1768727" needed="1">Дариус</STRING>
+    <STRING hash="1546345" needed="1">Мемнон</STRING>
+    <STRING hash="5253546" needed="1">Спайтаменес</STRING>
+    <STRING hash="23457065" needed="1">Чандрагупта Маура</STRING>
+    <STRING hash="1086684" needed="1">Порус</STRING>
+    <STRING hash="10420802" needed="1">Караван</STRING>
+    <STRING hash="11429998" needed="1">Торговец</STRING>
+    <STRING hash="18319383" needed="1">Фургон Обоза</STRING>
+    <STRING hash="552662" needed="1">Бриг</STRING>
+    <STRING hash="1115697" needed="1">Флюйт</STRING>
+    <STRING hash="2167087" needed="1">Клиппер</STRING>
+    <STRING hash="5046858" needed="1">Веллингтон</STRING>
+    <STRING hash="20545258" needed="1">Континентальный десант</STRING>
+    <STRING hash="16731118" needed="1">Бессмертный Аркебузы</STRING>
+    <STRING hash="3718008" needed="1">Осадный корабль</STRING>
+    <STRING hash="13572651" needed="1">Эрцгерцог Чарльз</STRING>
+    <STRING hash="2760720" needed="1">Джеззар</STRING>
+    <STRING hash="10697315" needed="1">Советник FouchГc</STRING>
+    <STRING hash="32873769" needed="1">Командир Шварценберг</STRING>
+    <STRING hash="12471697" needed="1">Генерал Блюхер</STRING>
+    <STRING hash="12663209" needed="1">Генерал Кутузов</STRING>
+    <STRING hash="12225527" needed="1">Командор Паоли</STRING>
+    <STRING hash="8207598" needed="1">Конкистадор</STRING>
+    <STRING hash="18428844" needed="1">Элита Конкистадоров</STRING>
+    <STRING hash="6980785" needed="1">Бессмертный Аркебузы</STRING>
+    <STRING hash="3101971" needed="1">Пикинер</STRING>
+    <STRING hash="12494856" needed="1">Пикинер Мохока</STRING>
+    <STRING hash="25571948" needed="1">Тяжелый пикинер Мохока</STRING>
+    <STRING hash="25200830" needed="1">Элитный Пикинер Мохока</STRING>
+    <STRING hash="12157126" needed="1">Линейный корабль</STRING>
+    <STRING hash="2264008" needed="1">Юнкерс</STRING>
+    <STRING hash="5909556" needed="1">Патрульный джип</STRING>
+    <STRING hash="15132084" needed="1">Партизаны</STRING>
+    <STRING hash="4222311" needed="1">Mi-24 Лань</STRING>
+    <STRING hash="4337422" needed="1">Красные Пиджаки</STRING>
+    <STRING hash="384593" needed="1">SAS</STRING>
+    <STRING hash="5987504" needed="1">Харриер</STRING>
+    <STRING hash="6756338" needed="1">Патрульный бот</STRING>
+    <STRING hash="1460525" needed="1">Хамви</STRING>
+    <STRING hash="6781286" needed="1">Корол Гвардия</STRING>
+    <STRING hash="16323899" needed="1">Греческие Наемники</STRING>
+    <STRING hash="2279228" needed="1">Галлеон</STRING>
+    <STRING hash="3596236" needed="1">Броненосец</STRING>
+    <STRING hash="20863828" needed="1">Ядерная Подлодка</STRING>
+    <STRING hash="8984905" needed="1">Катапульта корабля</STRING>
+    <STRING hash="6802343" needed="1">Траппер</STRING>
+    <STRING hash="8110594" needed="1">Бандейрант</STRING>
+    <STRING hash="18223964" needed="1">Элитный Бандейрант</STRING>
+    <STRING hash="5044549" needed="1">Деспот</STRING>
+    <STRING hash="6886735" needed="1">Сенатор</STRING>
+    <STRING hash="7345279" needed="1">Монарх</STRING>
+    <STRING hash="8611244" needed="1">Президент</STRING>
+    <STRING hash="6173159" needed="1">Гражданин</STRING>
+    <STRING hash="1922260" needed="1">Ген Секретарь</STRING>
+    <STRING hash="14761279" needed="1">Лучник Варваров</STRING>
+    <STRING hash="25490673" needed="1">Копьеносец Варваров</STRING>
+    <STRING hash="18086489" needed="1">Фаланга Варваров</STRING>
+    <STRING hash="12870995" needed="1">Советник FouchГc</STRING>
+    <STRING hash="16775293" needed="1">Лучники Варваров</STRING>
+    <STRING hash="10825523" needed="1">Имперская гвардия</STRING>
+    <STRING hash="10853451" needed="0">Колесница Дария</STRING>
+    <STRING hash="6809782" needed="1">Боевая колесница</STRING>
+    <STRING hash="1687475" needed="1">Тако</STRING>
+    <STRING hash="1543137" needed="1">Аквеки</STRING>
+    <STRING hash="1816090" needed="1">Оквари</STRING>
+    <STRING hash="6337910" needed="1">Товарищ</STRING>
+  </UNITS>
+  <ITEMS>
+    <STRING hash="3776560" needed="1">Гудибокс</STRING>
+  </ITEMS>
+  <SPELLS>
+    <STRING hash="1152079" needed="1">Подкуп</STRING>
+    <STRING hash="14621965" needed="1">Украсть ресурсы</STRING>
+    <STRING hash="20104467" needed="1">Контрразведка</STRING>
+    <STRING hash="5394599" needed="1">Ассимилировать</STRING>
+    <STRING hash="1583434" needed="1">Построиться!</STRING>
+    <STRING hash="9664256" needed="1">Поставить Приманки</STRING>
+    <STRING hash="1757765" needed="1">Засада</STRING>
+    <STRING hash="8696396" needed="1">Вынужденный марш</STRING>
+    <STRING hash="3342997" needed="1">Окопаться</STRING>
+    <STRING hash="13981346" needed="1">Переправить ресурсы</STRING>
+    <STRING hash="2895784" needed="1">Информатор</STRING>
+    <STRING hash="3490332" needed="1">Саботаж</STRING>
+    <STRING hash="1529192" needed="1">Снайпер</STRING>
+    <STRING hash="5373519" needed="1">Нанести Путь</STRING>
+    <STRING hash="4842857" needed="1">Глушение радара</STRING>
+    <STRING hash="3362543" needed="1">Парашютный десант</STRING>
+    <STRING hash="15084354" needed="1">Исследовательский проект</STRING>
+    <STRING hash="772144" needed="1">Разрушение</STRING>
+    <STRING hash="15272294" needed="1">Переместить Столицу Сюда</STRING>
+    <STRING hash="4301527" needed="1">Закрыть ворота</STRING>
+    <STRING hash="6744513" needed="1">Открыть Ворота</STRING>
+    <STRING hash="4376064" needed="1">Транспорт</STRING>
+    <STRING hash="957551" needed="1">Упаковать</STRING>
+    <STRING hash="1652836" needed="1">Развернуться</STRING>
+    <STRING hash="3291885" needed="1">Штатский</STRING>
+    <STRING hash="2217284" needed="1">К оружию</STRING>
+    <STRING hash="11354781" needed="1">Построить Самолет</STRING>
+    <STRING hash="956773" needed="1">Морф</STRING>
+    <STRING hash="2330416" needed="1">Модернизировать</STRING>
+    <STRING hash="2688591" needed="1">Расформировать</STRING>
+    <STRING hash="7293826" needed="1">Объявить Войну</STRING>
+    <STRING hash="13168313" needed="1">Отменить Союз</STRING>
+    <STRING hash="3885310" needed="1">На расстоянии</STRING>
+    <STRING hash="2613214" needed="1">Рукопашная</STRING>
+  </SPELLS>
+</ROOT>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <SECTION name="TERRAIN">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="MOUNTAINS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="FOW">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="SURF">
+    <SYS A="1" B="1" C="0" D="0" F="0"/>
+    <CPU A="1" B="1" C="0" D="0" F="0"/>
+    <GPU A="1" B="1" C="0" D="0" F="0"/>
+    <MEM A="1" B="1" C="0" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="OCEANFLOOR">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="WATER">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="RIVERS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="ROADS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="BORDERS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="DOOBERS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="TREES">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="UNITS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="BUILDINGS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="GOODS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="DEAD_BODIES">
+    <SYS A="1" B="1" C="0" D="0" F="0"/>
+    <CPU A="1" B="1" C="0" D="0" F="0"/>
+    <GPU A="1" B="1" C="0" D="0" F="0"/>
+    <MEM A="1" B="1" C="0" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="AMMO">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="SHADOWS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="PARTICLES">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="OVERLAYS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="UNDERLAYS">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <SECTION name="INTERFACE">
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </SECTION>
+  <MUSIC>
+    <SYS A="1" B="1" C="1" D="0" F="0"/>
+    <CPU A="1" B="1" C="1" D="0" F="0"/>
+    <GPU A="1" B="1" C="1" D="0" F="0"/>
+    <MEM A="1" B="1" C="1" D="0" F="0"/>
+  </MUSIC>
+</ROOT>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<ROOT>
+  <GAME_REG_KEY>Software\Big Huge Games\RiseofNationsExpansion\1.0</GAME_REG_KEY>
+  <PID_REG_KEY>Software\Big Huge Games\RiseOfNationsExpansion\1.0</PID_REG_KEY>
+  <GAME_REG_KEY_TRIAL>Software\Big Huge Games\Rise of Nations Trial</GAME_REG_KEY_TRIAL>
+  <PID_REG_KEY_TRIAL>Software\Big Huge Games\RiseOfNations Trial\1.0</PID_REG_KEY_TRIAL>
+  <EULAFILENAME>eulaxp1.rtf</EULAFILENAME>
+  <WARRANTYNAME/>
+  <DLLNAME>eulaxp1.dll</DLLNAME>
+</ROOT>

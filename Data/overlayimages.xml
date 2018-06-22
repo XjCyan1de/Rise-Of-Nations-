@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 U (http://www.xmlspy.com) by Ted Terranova (Big Huge Games) -->
+<ROOT>
+  <DEFAULT_BLEND red="255" green="255" blue="255" alpha="0"/>
+  <!--Asian 0-->
+  <IMAGE name=".\art\barracks_0a.tga" overlay_name=".\art\barracks_0a_s.tga" dest_name=".\art\snow\barracks_0a_snow.tga" reprocess="0">
+    <BLEND red="255" green="255" blue="255" alpha="0"/>
+  </IMAGE>
+  <IMAGE name=".\art\city_0a.tga" overlay_name=".\art\city_0a_s.tga" dest_name=".\art\snow\city_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\dock_0a.tga" overlay_name=".\art\dock_0a_s.tga" dest_name=".\art\snow\dock_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\forge_0a.tga" overlay_name=".\art\forge_0a_s.tga" dest_name=".\art\snow\forge_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\fort_0a.tga" overlay_name=".\art\fort_0a_s.tga" dest_name=".\art\snow\fort_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\granary_0a.tga" overlay_name=".\art\granary_0a_s.tga" dest_name=".\art\snow\granary_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\library_0a.tga" overlay_name=".\art\library_0a_s.tga" dest_name=".\art\snow\library_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\market_0a.tga" overlay_name=".\art\market_0a_s.tga" dest_name=".\art\snow\market_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\merchant_0a.tga" overlay_name=".\art\merchant_0a_s.tga" dest_name=".\art\snow\merchant_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\sawmill_0a.tga" overlay_name=".\art\sawmill_0a_s.tga" dest_name=".\art\snow\sawmill_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\smelter_0a.tga" overlay_name=".\art\smelter_0a_s.tga" dest_name=".\art\snow\smelter_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\stable_0a.tga" overlay_name=".\art\stable_0a_s.tga" dest_name=".\art\snow\stable_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\temple_0a.tga" overlay_name=".\art\temple_0a_s.tga" dest_name=".\art\snow\temple_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\tower_0a.tga" overlay_name=".\art\tower_0a_s.tga" dest_name=".\art\snow\tower_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\university_0a.tga" overlay_name=".\art\university_0a_s.tga" dest_name=".\art\snow\university_0a_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\village_0a.tga" overlay_name=".\art\village_0a_s.tga" dest_name=".\art\snow\village_0a_snow.tga" reprocess="0"/>
+  <!--Mediterranean 0-->
+  <IMAGE name=".\art\barracks_0m.tga" overlay_name=".\art\barracks_0m_s.tga" dest_name=".\art\snow\barracks_0m_snow.tga" reprocess="0">
+    <BLEND red="255" green="255" blue="255" alpha="0"/>
+  </IMAGE>
+  <IMAGE name=".\art\city_0ma.tga" overlay_name=".\art\city_0ma_s.tga" dest_name=".\art\snow\city_0ma_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\dock_0m.tga" overlay_name=".\art\dock_0m_s.tga" dest_name=".\art\snow\dock_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\forge_0m.tga" overlay_name=".\art\forge_0m_s.tga" dest_name=".\art\snow\forge_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\fort_0m.tga" overlay_name=".\art\fort_0m_s.tga" dest_name=".\art\snow\fort_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\granary_0m.tga" overlay_name=".\art\granary_0m_s.tga" dest_name=".\art\snow\granary_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\library_0m.tga" overlay_name=".\art\library_0m_s.tga" dest_name=".\art\snow\library_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\market_0m.tga" overlay_name=".\art\market_0m_s.tga" dest_name=".\art\snow\market_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\merchantbuilding_0.tga" overlay_name=".\art\merchantbuilding_0_s.tga" dest_name=".\art\snow\merchantbuilding_0_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\sawmill_0m.tga" overlay_name=".\art\sawmill_0m_s.tga" dest_name=".\art\snow\sawmill_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\smelter_0m.tga" overlay_name=".\art\smelter_0m_s.tga" dest_name=".\art\snow\smelter_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\stable_0m.tga" overlay_name=".\art\stable_0m_s.tga" dest_name=".\art\snow\stable_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\temple_0m.tga" overlay_name=".\art\temple_0m_s.tga" dest_name=".\art\snow\temple_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\tower_0m.tga" overlay_name=".\art\tower_0m_s.tga" dest_name=".\art\snow\tower_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\university_0m.tga" overlay_name=".\art\university_0m_s.tga" dest_name=".\art\snow\university_0m_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\village_0ma.tga" overlay_name=".\art\village_0ma_s.tga" dest_name=".\art\snow\village_0ma_snow.tga" reprocess="0"/>
+  <!--South American 0-->
+  <IMAGE name=".\art\barracks_0s.tga" overlay_name=".\art\barracks_0s_s.tga" dest_name=".\art\snow\barracks_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\city_0s.tga" overlay_name=".\art\city_0s_s.tga" dest_name=".\art\snow\city_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\dock_0s.tga" overlay_name=".\art\dock_0s_s.tga" dest_name=".\art\snow\dock_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\forge_0s.tga" overlay_name=".\art\forge_0s_s.tga" dest_name=".\art\snow\forge_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\fort_0s.tga" overlay_name=".\art\fort_0s_s.tga" dest_name=".\art\snow\fort_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\granary_0s.tga" overlay_name=".\art\granary_0s_s.tga" dest_name=".\art\snow\granary_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\library_0s.tga" overlay_name=".\art\library_0s_s.tga" dest_name=".\art\snow\library_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\market_0s.tga" overlay_name=".\art\market_0s_s.tga" dest_name=".\art\snow\market_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\merchant_0s.tga" overlay_name=".\art\merchant_0s_s.tga" dest_name=".\art\snow\merchant_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\sawmill_0s.tga" overlay_name=".\art\sawmill_0s_s.tga" dest_name=".\art\snow\sawmill_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\smelter_0s.tga" overlay_name=".\art\smelter_0s_s.tga" dest_name=".\art\snow\smelter_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\stable_0s.tga" overlay_name=".\art\stable_0s_s.tga" dest_name=".\art\snow\stable_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\temple_0s.tga" overlay_name=".\art\temple_0s_s.tga" dest_name=".\art\snow\temple_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\tower_0s.tga" overlay_name=".\art\tower_0s_s.tga" dest_name=".\art\snow\tower_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\university_0s.tga" overlay_name=".\art\university_0s_s.tga" dest_name=".\art\snow\university_0s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\village_0s.tga" overlay_name=".\art\village_0s_s.tga" dest_name=".\art\snow\village_0s_snow.tga" reprocess="0"/>
+  <!--Korean 3-->
+  <IMAGE name=".\art\barracks_3k.tga" overlay_name=".\art\barracks_3k_s.tga" dest_name=".\art\snow\barracks_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\city_3k.tga" overlay_name=".\art\city_3k_s.tga" dest_name=".\art\snow\city_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\dock_3k.tga" overlay_name=".\art\dock_3k_s.tga" dest_name=".\art\snow\dock_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\forge_3k.tga" overlay_name=".\art\forge_3k_s.tga" dest_name=".\art\snow\forge_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\fort_3k.tga" overlay_name=".\art\fort_3k_s.tga" dest_name=".\art\snow\fort_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\granary_3k.tga" overlay_name=".\art\granary_3k_s.tga" dest_name=".\art\snow\granary_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\library_3k.tga" overlay_name=".\art\library_3k_s.tga" dest_name=".\art\snow\library_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\market_3k.tga" overlay_name=".\art\market_3k_s.tga" dest_name=".\art\snow\market_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\merchant_3k.tga" overlay_name=".\art\merchant_3k_s.tga" dest_name=".\art\snow\merchant_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\sawmill_3k.tga" overlay_name=".\art\sawmill_3k_s.tga" dest_name=".\art\snow\sawmill_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\smelter_3k.tga" overlay_name=".\art\smelter_3k_s.tga" dest_name=".\art\snow\smelter_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\stable_3k.tga" overlay_name=".\art\stable_3k_s.tga" dest_name=".\art\snow\stable_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\temple_3k.tga" overlay_name=".\art\temple_3k_s.tga" dest_name=".\art\snow\temple_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\tower_3k.tga" overlay_name=".\art\tower_3k_s.tga" dest_name=".\art\snow\tower_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\university_3k.tga" overlay_name=".\art\university_3k_s.tga" dest_name=".\art\snow\university_3k_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\village_3k.tga" overlay_name=".\art\village_3k_s.tga" dest_name=".\art\snow\village_3k_snow.tga" reprocess="0"/>
+  <!--Asian 3-->
+  <IMAGE name=".\art\barracks_3a.tga" overlay_name=".\art\barracks_3a_s.tga" dest_name=".\art\snow\barracks_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\city_3aa.tga" overlay_name=".\art\city_3a_s.tga" dest_name=".\art\snow\city_3aa_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\dock_3a.tga" overlay_name=".\art\dock_3a_s.tga" dest_name=".\art\snow\dock_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\forge_3a.tga" overlay_name=".\art\forge_3a_s.tga" dest_name=".\art\snow\forge_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\fort_3a.tga" overlay_name=".\art\fort_3a_s.tga" dest_name=".\art\snow\fort_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\granary_3a.tga" overlay_name=".\art\granary_3a_s.tga" dest_name=".\art\snow\granary_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\library_3a.tga" overlay_name=".\art\library_3a_s.tga" dest_name=".\art\snow\library_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\market_3a.tga" overlay_name=".\art\market_3a_s.tga" dest_name=".\art\snow\market_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\merchant_3a.tga" overlay_name=".\art\merchant_3a_s.tga" dest_name=".\art\snow\merchant_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\sawmill_3a.tga" overlay_name=".\art\sawmill_3a_s.tga" dest_name=".\art\snow\sawmill_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\smelter_3a.tga" overlay_name=".\art\smelter_3a_s.tga" dest_name=".\art\snow\smelter_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\stable_3a.tga" overlay_name=".\art\stable_3a_s.tga" dest_name=".\art\snow\stable_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\temple_3a.tga" overlay_name=".\art\temple_3a_s.tga" dest_name=".\art\snow\temple_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\tower_3a.tga" overlay_name=".\art\tower_3a_s.tga" dest_name=".\art\snow\tower_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\university_3a.tga" overlay_name=".\art\university_3a_s.tga" dest_name=".\art\snow\university_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\village_3a.tga" overlay_name=".\art\village_3a_s.tga" dest_name=".\art\snow\village_3a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <!--Mediterranean 3-->
+  <IMAGE name=".\art\barracks_3m.tga" overlay_name=".\art\barracks_3m_s.tga" dest_name=".\art\snow\barracks_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\city_3ma.tga" overlay_name=".\art\city_3ma_s.tga" dest_name=".\art\snow\city_3ma_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\dock_3m.tga" overlay_name=".\art\dock_3m_s.tga" dest_name=".\art\snow\dock_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\forge_3m.tga" overlay_name=".\art\forge_3m_s.tga" dest_name=".\art\snow\forge_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\fort_3m.tga" overlay_name=".\art\fort_3m_s.tga" dest_name=".\art\snow\fort_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\granary_3m.tga" overlay_name=".\art\granary_3m_s.tga" dest_name=".\art\snow\granary_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\library_3m.tga" overlay_name=".\art\library_3m_s.tga" dest_name=".\art\snow\library_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\market_3m.tga" overlay_name=".\art\market_3m_s.tga" dest_name=".\art\snow\market_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\merchant_3m.tga" overlay_name=".\art\merchant_3m_s.tga" dest_name=".\art\snow\merchant_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\sawmill_3m.tga" overlay_name=".\art\sawmill_3m_s.tga" dest_name=".\art\snow\sawmill_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\smelter_3m.tga" overlay_name=".\art\smelter_3m_s.tga" dest_name=".\art\snow\smelter_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\stable_3m.tga" overlay_name=".\art\stable_3m_s.tga" dest_name=".\art\snow\stable_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\temple_3m.tga" overlay_name=".\art\temple_3m_s.tga" dest_name=".\art\snow\temple_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\tower_3m.tga" overlay_name=".\art\tower_3m_s.tga" dest_name=".\art\snow\tower_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\university_3m.tga" overlay_name=".\art\university_3m_s.tga" dest_name=".\art\snow\university_3m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\village_3ma.tga" overlay_name=".\art\village_3ma_s.tga" dest_name=".\art\snow\village_3ma_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <!--Northern European 3-->
+  <IMAGE name=".\art\barracks_3n.tga" overlay_name=".\art\barracks_3n_s.tga" dest_name=".\art\snow\barracks_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\city_3n.tga" overlay_name=".\art\city_3n_s.tga" dest_name=".\art\snow\city_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\dock_3n.tga" overlay_name=".\art\dock_3n_s.tga" dest_name=".\art\snow\dock_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\forge_3n.tga" overlay_name=".\art\forge_3n_s.tga" dest_name=".\art\snow\forge_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\fort_3n.tga" overlay_name=".\art\fort_3n_s.tga" dest_name=".\art\snow\fort_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\granary_3n.tga" overlay_name=".\art\granary_3n_s.tga" dest_name=".\art\snow\granary_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\library_3n.tga" overlay_name=".\art\library_3n_s.tga" dest_name=".\art\snow\library_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\market_3n.tga" overlay_name=".\art\market_3n_s.tga" dest_name=".\art\snow\market_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\merchant_3n.tga" overlay_name=".\art\merchant_3n_s.tga" dest_name=".\art\snow\merchant_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\sawmill_3n.tga" overlay_name=".\art\sawmill_3n_s.tga" dest_name=".\art\snow\sawmill_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\smelter_3n.tga" overlay_name=".\art\smelter_3n_s.tga" dest_name=".\art\snow\smelter_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\stable_3n.tga" overlay_name=".\art\stable_3n_s.tga" dest_name=".\art\snow\stable_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\temple_3n.tga" overlay_name=".\art\temple_3n_s.tga" dest_name=".\art\snow\temple_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\tower_3n.tga" overlay_name=".\art\tower_3n_s.tga" dest_name=".\art\snow\tower_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\university_3n.tga" overlay_name=".\art\university_3n_s.tga" dest_name=".\art\snow\university_3n_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\village_3n.tga" overlay_name=".\art\village_3n_s.tga" dest_name=".\art\snow\village_3n_snow.tga" reprocess="0"/>
+  <!--Turkish 3-->
+  <IMAGE name=".\art\barracks_3t.tga" overlay_name=".\art\barracks_3t_s.tga" dest_name=".\art\snow\barracks_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\city_3t.tga" overlay_name=".\art\city_3t_s.tga" dest_name=".\art\snow\city_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\dock_3t.tga" overlay_name=".\art\dock_3t_s.tga" dest_name=".\art\snow\dock_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\forge_3t.tga" overlay_name=".\art\forge_3t_s.tga" dest_name=".\art\snow\forge_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\fort_3t.tga" overlay_name=".\art\fort_3t_s.tga" dest_name=".\art\snow\fort_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\granary_3t.tga" overlay_name=".\art\granary_3t_s.tga" dest_name=".\art\snow\granary_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\library_3t.tga" overlay_name=".\art\library_3t_s.tga" dest_name=".\art\snow\library_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\market_3t.tga" overlay_name=".\art\market_3t_s.tga" dest_name=".\art\snow\market_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\merchant_3t.tga" overlay_name=".\art\merchant_3t_s.tga" dest_name=".\art\snow\merchant_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\sawmill_3t.tga" overlay_name=".\art\sawmill_3t_s.tga" dest_name=".\art\snow\sawmill_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\smelter_3t.tga" overlay_name=".\art\smelter_3t_s.tga" dest_name=".\art\snow\smelter_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\stable_3t.tga" overlay_name=".\art\stable_3t_s.tga" dest_name=".\art\snow\stable_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\temple_3t.tga" overlay_name=".\art\temple_3t_s.tga" dest_name=".\art\snow\temple_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\tower_3t.tga" overlay_name=".\art\tower_3t_s.tga" dest_name=".\art\snow\tower_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\university_3t.tga" overlay_name=".\art\university_3t_s.tga" dest_name=".\art\snow\university_3t_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\village_3t.tga" overlay_name=".\art\village_3t_s.tga" dest_name=".\art\snow\village_3t_snow.tga" reprocess="0"/>
+  <!--South American 3-->
+  <IMAGE name=".\art\barracks_3s.tga" overlay_name=".\art\barracks_3s_s.tga" dest_name=".\art\snow\barracks_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\city_3s.tga" overlay_name=".\art\city_3s_s.tga" dest_name=".\art\snow\city_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\dock_3s.tga" overlay_name=".\art\dock_3s_s.tga" dest_name=".\art\snow\dock_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\forge_3s.tga" overlay_name=".\art\forge_3s_s.tga" dest_name=".\art\snow\forge_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\fort_3s.tga" overlay_name=".\art\fort_3s_s.tga" dest_name=".\art\snow\fort_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\granary_3s.tga" overlay_name=".\art\granary_3s_s.tga" dest_name=".\art\snow\granary_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\library_3s.tga" overlay_name=".\art\library_3s_s.tga" dest_name=".\art\snow\library_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\market_3s.tga" overlay_name=".\art\market_3s_s.tga" dest_name=".\art\snow\market_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\merchant_3s.tga" overlay_name=".\art\merchant_3s_s.tga" dest_name=".\art\snow\merchant_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\sawmill_3s.tga" overlay_name=".\art\sawmill_3s_s.tga" dest_name=".\art\snow\sawmill_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\smelter_3s.tga" overlay_name=".\art\smelter_3s_s.tga" dest_name=".\art\snow\smelter_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\stable_3s.tga" overlay_name=".\art\stable_3s_s.tga" dest_name=".\art\snow\stable_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\temple_3s.tga" overlay_name=".\art\temple_3s_s.tga" dest_name=".\art\snow\temple_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\tower_3s.tga" overlay_name=".\art\tower_3s_s.tga" dest_name=".\art\snow\tower_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\university_3s.tga" overlay_name=".\art\university_3s_s.tga" dest_name=".\art\snow\university_3s_snow.tga" reprocess="0"/>
+  <IMAGE name=".\art\village_3s.tga" overlay_name=".\art\village_3s_s.tga" dest_name=".\art\snow\village_3s_snow.tga" reprocess="0"/>
+  <!--Modern 6 shared-->
+  <IMAGE name=".\art\airbase_6.tga" overlay_name=".\art\airbase_6_s.tga" dest_name=".\art\snow\airbase_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\barracks_6.tga" overlay_name=".\art\barracks_6_s.tga" dest_name=".\art\snow\barracks_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\dock_6.tga" overlay_name=".\art\dock_6_s.tga" dest_name=".\art\snow\dock_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\forge_6.tga" overlay_name=".\art\forge_6_s.tga" dest_name=".\art\snow\forge_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\fort_4.tga" overlay_name=".\art\fort_4_s.tga" dest_name=".\art\snow\fort_4_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\fort_6.tga" overlay_name=".\art\fort_6_s.tga" dest_name=".\art\snow\fort_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\granary_6.tga" overlay_name=".\art\granary_6_s.tga" dest_name=".\art\snow\granary_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\market_6.tga" overlay_name=".\art\market_6_s.tga" dest_name=".\art\snow\market_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\oilplat_7.tga" overlay_name=".\art\oilplat_7_s.tga" dest_name=".\art\snow\oilplat_7_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\oilwell_5.tga" overlay_name=".\art\oilwell_5_s.tga" dest_name=".\art\snow\oilwell_5_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\refinery_6.tga" overlay_name=".\art\refinery_6_s.tga" dest_name=".\art\snow\refinery_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\sawmill_6.tga" overlay_name=".\art\sawmill_6_s.tga" dest_name=".\art\snow\sawmill_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\smelter_6.tga" overlay_name=".\art\smelter_6_s.tga" dest_name=".\art\snow\smelter_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\stable_6.tga" overlay_name=".\art\stable_6_s.tga" dest_name=".\art\snow\stable_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\tower_4.tga" overlay_name=".\art\tower_4_s.tga" dest_name=".\art\snow\tower_4_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\tower_6.tga" overlay_name=".\art\tower_6_s.tga" dest_name=".\art\snow\tower_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\university_6.tga" overlay_name=".\art\university_6_s.tga" dest_name=".\art\snow\university_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <!--Modern 6 Unique-->
+  <IMAGE name=".\art\city_6m.tga" overlay_name=".\art\city_6m_s.tga" dest_name=".\art\snow\city_6m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\library_6m.tga" overlay_name=".\art\library_6m_s.tga" dest_name=".\art\snow\library_6m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\metropolis_6m.tga" overlay_name=".\art\metropolis_6m_s.tga" dest_name=".\art\snow\metropolis_6m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\village_6m.tga" overlay_name=".\art\village_6m_s.tga" dest_name=".\art\snow\village_6m_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\city_6k.tga" overlay_name=".\art\city_6k_s.tga" dest_name=".\art\snow\city_6k_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\library_6k.tga" overlay_name=".\art\library_6k_s.tga" dest_name=".\art\snow\library_6k_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\metropolis_6k.tga" overlay_name=".\art\metropolis_6k_s.tga" dest_name=".\art\snow\metropolis_6k_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\village_6k.tga" overlay_name=".\art\village_6k_s.tga" dest_name=".\art\snow\village_6k_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\city_6s.tga" overlay_name=".\art\city_6s_s.tga" dest_name=".\art\snow\city_6s_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\library_6s.tga" overlay_name=".\art\library_6s_s.tga" dest_name=".\art\snow\library_6s_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\metropolis_6s.tga" overlay_name=".\art\metropolis_6s_s.tga" dest_name=".\art\snow\metropolis_6s_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\village_6s.tga" overlay_name=".\art\village_6s_s.tga" dest_name=".\art\snow\village_6s_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\city_6t.tga" overlay_name=".\art\city_6t_s.tga" dest_name=".\art\snow\city_6t_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\library_6t.tga" overlay_name=".\art\library_6t_s.tga" dest_name=".\art\snow\library_6t_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\metropolis_6t.tga" overlay_name=".\art\metropolis_6t_s.tga" dest_name=".\art\snow\metropolis_6t_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\village_6t.tga" overlay_name=".\art\village_6t_s.tga" dest_name=".\art\snow\village_6t_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\city_6.tga" overlay_name=".\art\city_6_s.tga" dest_name=".\art\snow\city_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\library_6n.tga" overlay_name=".\art\library_6n_s.tga" dest_name=".\art\snow\library_6n_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\metro_6.tga" overlay_name=".\art\metro_6_s.tga" dest_name=".\art\snow\metro_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\village_6.tga" overlay_name=".\art\village_6_s.tga" dest_name=".\art\snow\village_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\city_6a.tga" overlay_name=".\art\city_6a_s.tga" dest_name=".\art\snow\city_6a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\library_6a.tga" overlay_name=".\art\library_6a_s.tga" dest_name=".\art\snow\library_6a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\metro_6a.tga" overlay_name=".\art\metro_6a_s.tga" dest_name=".\art\snow\metro_6a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\village_6a.tga" overlay_name=".\art\village_6a_s.tga" dest_name=".\art\snow\village_6a_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <!--Shared by all-->
+  <IMAGE name=".\art\lookout_0.tga" overlay_name=".\art\lookout_0_s.tga" dest_name=".\art\snow\lookout_0_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\lookout_3.tga" overlay_name=".\art\lookout_3_s.tga" dest_name=".\art\snow\lookout_3_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\mine_0.tga" overlay_name=".\art\mine_0_s.tga" dest_name=".\art\snow\mine_0_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\mine_3.tga" overlay_name=".\art\mine_3_s.tga" dest_name=".\art\snow\mine_3_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\mine_6.tga" overlay_name=".\art\mine_6_s.tga" dest_name=".\art\snow\mine_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\nukesilo_6.tga" overlay_name=".\art\nukesilo_6_s.tga" dest_name=".\art\snow\nukesilo_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\woodcutter_0.tga" overlay_name=".\art\woodcutter_0_s.tga" dest_name=".\art\snow\woodcutter_0_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\woodcutter_3.tga" overlay_name=".\art\woodcutter_3_s.tga" dest_name=".\art\snow\woodcutter_3_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\woodcutter_6.tga" overlay_name=".\art\woodcutter_6_s.tga" dest_name=".\art\snow\woodcutter_6_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <!--Wonders-->
+  <IMAGE name=".\art\accelerator.tga" overlay_name=".\art\accelerator_s.tga" dest_name=".\art\snow\accelerator_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\angkor_wat.tga" overlay_name=".\art\angkor_wat_s.tga" dest_name=".\art\snow\angkor_wat_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\coloseum.tga" overlay_name=".\art\coloseum_s.tga" dest_name=".\art\snow\coloseum_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\colossus.tga" overlay_name=".\art\colossus_s.tga" dest_name=".\art\snow\colossus_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\eiffel_tower.tga" overlay_name=".\art\eiffel_tower_s.tga" dest_name=".\art\snow\eiffel_tower_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\kremlin.tga" overlay_name=".\art\kremlin_s.tga" dest_name=".\art\snow\kremlin_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\porcelain_tower.tga" overlay_name=".\art\porcelain_tower_s.tga" dest_name=".\art\snow\porcelain_tower_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\pyramid7X7.tga" overlay_name=".\art\pyramid7X7_s.tga" dest_name=".\art\snow\pyramid7X7_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\spaceprogram.tga" overlay_name=".\art\spaceprogram_s.tga" dest_name=".\art\snow\spaceprogram_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\statue_of_liberty.tga" overlay_name=".\art\statue_of_liberty_s.tga" dest_name=".\art\snow\statue_of_liberty_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\taj_mahal.tga" overlay_name=".\art\taj_mahal_s.tga" dest_name=".\art\snow\taj_mahal_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\temple_of_tikal.tga" overlay_name=".\art\temple_of_tikal_s.tga" dest_name=".\art\snow\temple_of_tikal_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\terracotta_army.tga" overlay_name=".\art\terracotta_army_s.tga" dest_name=".\art\snow\terracotta_army_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+  <IMAGE name=".\art\versailles.tga" overlay_name=".\art\versailles_s.tga" dest_name=".\art\snow\versailles_snow.tga" reprocess="0">
+    <BLEND red="230" green="226" blue="237" alpha="255"/>
+  </IMAGE>
+</ROOT>

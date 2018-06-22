@@ -1,0 +1,5 @@
+<!-- TerrainUnderlay.xml -->
+<ROOT>
+  <TEXTURE id="pigfarm" file="./terrain art/tilesets/dirty/farm_animals_01.tga" />
+  <TEXTURE id="wheatfarm" file="./terrain art/tilesets/dirty/farm_wheat_0m.tga" />
+</ROOT>

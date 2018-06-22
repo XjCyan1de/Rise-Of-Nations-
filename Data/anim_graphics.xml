@@ -1,0 +1,2088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Bill Podurgiel (Big Huge Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Bryant Freitag (Big Huge Games) -->
+<ROOT>
+  <ANIMATIONS>
+    <LOOPING>
+      <ANIM name="Scarecrow0 Default" file=".\art\scarecrow0_default.bha"/>
+      <ANIM name="Man Walk" file=".\art\man_walk.bha"/>
+      <ANIM name="Man Jog" file=".\art\man_jog.bha"/>
+      <ANIM name="Construction Saw" file=".\art\construction_saw.bha"/>
+      <ANIM name="Construction Hammer" file=".\art\construction_hammer.bha"/>
+      <ANIM name="Construction Welding" file=".\art\construction_welding.bha"/>
+      <ANIM name="Construction Plane" file=".\art\construction_planing.bha"/>
+      <ANIM name="Peasant Default" file=".\art\peasant_default.bha"/>
+      <ANIM name="Peasant Idle1" file=".\art\peasant_idle1.bha"/>
+      <ANIM name="Peasant Idle2" file=".\art\peasant_idle2.bha"/>
+      <ANIM name="Peasant Idle3" file=".\art\peasant_idle3.bha"/>
+      <ANIM name="Farmer Reap" file=".\art\farmer_reap.bha"/>
+      <ANIM name="Farmer Reap3" file=".\art\farmer_reap3.bha"/>
+      <ANIM name="Farmer Sow" file=".\art\farmer_sow.bha"/>
+      <ANIM name="Lumberjack Chop3" file=".\art\lumberjack_chop3.bha"/>
+      <ANIM name="Lumberjack Carry" file=".\art\lumberjack_carry.bha"/>
+      <ANIM name="Lumberjack Chainsaw" file=".\art\citizen_chainsaw.bha"/>
+      <ANIM name="Chainsaw Walk" file=".\art\citizen_chainsaw_walk.bha"/>
+      <ANIM name="Miner Walk" file=".\art\miner_pick_walk.bha"/>
+      <ANIM name="Miner Walk Age5" file=".\art\miner_jackhammerwalk_age5.bha"/>
+      <ANIM name="Miner Dig1 Age5" file=".\art\miner_jackhammer_age5.bha"/>
+      <ANIM name="Miner Wheelbarrow Walk" file=".\art\miner_wheelbarrow_walk.bha"/>
+      <ANIM name="Miner Dig3" file=".\art\miner_pick_dig3.bha"/>
+      <ANIM name="Oil Gathering" file=".\art\peasant_oilgather.bha"/>
+      <ANIM name="Scholar Teach1" file=".\art\teacher_default.bha"/>
+      <ANIM name="Scholar Teach2" file=".\art\teacher_idle1.bha"/>
+      <ANIM name="Scholar Teach3" file=".\art\teacher_idle2.bha"/>
+      <ANIM name="Scholar Teach4" file=".\art\teacher_idle3.bha"/>
+      <ANIM name="Scholar Student1" file=".\art\student_default.bha"/>
+      <ANIM name="Scholar Student2" file=".\art\student_idle1.bha"/>
+      <ANIM name="Scholar Student3" file=".\art\student_idle2.bha"/>
+      <ANIM name="Scholar Student4" file=".\art\student_idle3.bha"/>
+      <ANIM name="Scholar3 Teach1" file=".\art\teacher3_default.bha"/>
+      <ANIM name="Scholar3 Teach2" file=".\art\teacher3_idle1.bha"/>
+      <ANIM name="Scholar3 Teach3" file=".\art\teacher3_idle2.bha"/>
+      <ANIM name="Scholar3 Teach4" file=".\art\teacher3_idle3.bha"/>
+      <ANIM name="Scholar3 Student1" file=".\art\student3_default.bha"/>
+      <ANIM name="Scholar3 Student2" file=".\art\student3_idle1.bha"/>
+      <ANIM name="Scholar3 Student3" file=".\art\student3_idle2.bha"/>
+      <ANIM name="Scholar3 Student4" file=".\art\student3_idle3.bha"/>
+      <ANIM name="Scholar3 Default" file=".\art\Scholar3_Default.bha"/>
+      <ANIM name="Scholar3 Idle1" file=".\art\Scholar3_Idle1.bha"/>
+      <ANIM name="Scholar3 Idle2" file=".\art\Scholar3_Idle2.bha"/>
+      <ANIM name="Scholar3 Idle3" file=".\art\Scholar3_Idle3.bha"/>
+      <ANIM name="Scholar3 Jog" file=".\art\Scholar3_jog.bha"/>
+      <ANIM name="Scholar3 Walk" file=".\art\Scholar3_Walk.bha"/>
+      <ANIM name="Book open" file=".\art\book.bha"/>
+      <ANIM name="ThrowingKnife Rotation" file=".\art\thowingknife_rotation.bha"/>
+      <ANIM name="Scout0 Default" file=".\art\scout0_default.bha"/>
+      <ANIM name="Scout0 Idle1" file=".\art\scout0_idle1.bha"/>
+      <ANIM name="Scout0 Idle2" file=".\art\scout0_idle2.bha"/>
+      <ANIM name="Scout0 Idle3" file=".\art\scout0_idle3.bha"/>
+      <ANIM name="Scout0 Scroll Idle3" file=".\art\scout0_scroll_idle3.bha"/>
+      <ANIM name="Scout0 Walk" file=".\art\scout0_walk.bha"/>
+      <ANIM name="Scout0 Run" file=".\art\scout0_run.bha"/>
+      <ANIM name="Scout0Dog Default" file=".\art\scout0_dog_default.bha"/>
+      <ANIM name="Scout0Dog Idle1" file=".\art\scout0_dog_idle1.bha"/>
+      <ANIM name="Scout0Dog Idle2" file=".\art\scout0_dog_idle2.bha"/>
+      <ANIM name="Scout0Dog Idle3" file=".\art\scout0_dog_idle3.bha"/>
+      <ANIM name="Scout0Dog Walk" file=".\art\scout0_dog_walk.bha"/>
+      <ANIM name="Scout0Dog Run" file=".\art\scout0_dog_run.bha"/>
+      <ANIM name="Hoplite Default" file=".\art\hoplite_default.bha"/>
+      <ANIM name="Hoplite Idle1" file=".\art\hoplite_idle1.bha"/>
+      <ANIM name="Hoplite Idle2" file=".\art\hoplite_idle2.bha"/>
+      <ANIM name="Hoplite Idle3" file=".\art\hoplite_idle3.bha"/>
+      <ANIM name="Hoplite Walk" file=".\art\hoplite_walk.bha"/>
+      <ANIM name="Phalanx Default" file=".\art\phalanx_default.bha"/>
+      <ANIM name="Phalanx Idle1" file=".\art\phalanx_idle1.bha"/>
+      <ANIM name="Phalanx Idle2" file=".\art\phalanx_idle2.bha"/>
+      <ANIM name="Phalanx Idle3" file=".\art\phalanx_idle3.bha"/>
+      <ANIM name="Phalanx Walk" file=".\art\phalanx_walk.bha"/>
+      <ANIM name="Phalanx Jog" file=".\art\phalanx_jog.bha"/>
+      <ANIM name="Praetorian Default" file=".\art\praetor_default.bha"/>
+      <ANIM name="Praetorian Idle1" file=".\art\praetor_idle1.bha"/>
+      <ANIM name="Praetorian Idle2" file=".\art\praetor_idle2.bha"/>
+      <ANIM name="Praetorian Idle3" file=".\art\praetor_idle3.bha"/>
+      <ANIM name="Praetorian Walk" file=".\art\praetor_walk.bha"/>
+      <ANIM name="Praetorian Jog" file=".\art\praetor_jog.bha"/>
+      <ANIM name="Pikeman Default" file=".\art\pikeman_default.bha"/>
+      <ANIM name="Pikeman Idle1" file=".\art\pikeman_idle1.bha"/>
+      <ANIM name="Pikeman Idle2" file=".\art\pikeman_idle2.bha"/>
+      <ANIM name="Pikeman Idle3" file=".\art\pikeman_idle3.bha"/>
+      <ANIM name="Pikeman Walk" file=".\art\pikeman_walk.bha"/>
+      <ANIM name="Pikeman Jog" file=".\art\pikeman_jog.bha"/>
+      <ANIM name="Barbarian Run" file=".\art\barbarian_run.bha"/>
+      <ANIM name="Barbarian Walk" file=".\art\barbarian_walk.bha"/>
+      <ANIM name="Barbarian Default" file=".\art\barbarian_default.bha"/>
+      <ANIM name="Barbarian Idle1" file=".\art\barbarian_idle1.bha"/>
+      <ANIM name="Barbarian Idle2" file=".\art\barbarian_idle2.bha"/>
+      <ANIM name="Barbarian Idle3" file=".\art\barbarian_idle3.bha"/>
+      <ANIM name="Slinger Default" file=".\art\slinger_default.bha"/>
+      <ANIM name="Slinger Idle1" file=".\art\slinger_idle1.bha"/>
+      <ANIM name="Slinger Idle2" file=".\art\slinger_idle2.bha"/>
+      <ANIM name="Slinger Idle3" file=".\art\slinger_idle3.bha"/>
+      <ANIM name="Slinger Walk" file=".\art\slinger_walk.bha"/>
+      <ANIM name="Slinger Run" file=".\art\slinger_run.bha"/>
+      <ANIM name="Rifle Jog" file=".\art\rifle_jog.bha"/>
+      <ANIM name="Javelineer Default" file=".\art\javelineer_default.bha"/>
+      <ANIM name="Javelineer Idle1" file=".\art\javelineer_idle1.bha"/>
+      <ANIM name="Javelineer Idle2" file=".\art\javelineer_idle2.bha"/>
+      <ANIM name="Javelineer Idle3" file=".\art\javelineer_idle3.bha"/>
+      <ANIM name="Javelineer Walk" file=".\art\javelineer_walk.bha"/>
+      <ANIM name="Javelineer Run" file=".\art\javelineer_run.bha"/>
+      <ANIM name="Samurai Fight Idle1" file=".\art\samurai_fightidle1.bha"/>
+      <ANIM name="Samurai Fight Idle2" file=".\art\samurai_fightidle2.bha"/>
+      <ANIM name="Samurai Fight Idle3" file=".\art\samurai_fightidle3.bha"/>
+      <ANIM name="Samurai Walk" file=".\art\samurai_walk.bha"/>
+      <ANIM name="Samurai Jog" file=".\art\samurai_jog.bha"/>
+      <ANIM name="Crossbow Default" file=".\art\crossbow_default.bha"/>
+      <ANIM name="Crossbow Idle1" file=".\art\crossbow_idle1.bha"/>
+      <ANIM name="Crossbow Idle2" file=".\art\crossbow_idle2.bha"/>
+      <ANIM name="Crossbow Idle3" file=".\art\crossbow_idle3.bha"/>
+      <ANIM name="Crossbow Walk" file=".\art\crossbow_walk.bha"/>
+      <ANIM name="Crossbow Jog" file=".\art\crossbow_jog.bha"/>
+      <ANIM name="Arquebusier Default" file=".\art\arquebusier_default.bha"/>
+      <ANIM name="Arquebusier Idle1" file=".\art\arquebusier_idle1.bha"/>
+      <ANIM name="Arquebusier Idle2" file=".\art\arquebusier_idle2.bha"/>
+      <ANIM name="Arquebusier Idle3" file=".\art\arquebusier_idle3.bha"/>
+      <ANIM name="Arquebusier Walk" file=".\art\arquebusier_walk.bha"/>
+      <ANIM name="Firelance Default" file=".\art\firelance_default.bha"/>
+      <ANIM name="Firelance Idle1" file=".\art\firelance_idle1.bha"/>
+      <ANIM name="Firelance Idle2" file=".\art\firelance_idle2.bha"/>
+      <ANIM name="Firelance Idle3" file=".\art\firelance_idle3.bha"/>
+      <ANIM name="Musketeer Default" file=".\art\musketeer_default.bha"/>
+      <ANIM name="Musketeer Idle1" file=".\art\musketeer_idle1.bha"/>
+      <ANIM name="Musketeer Walk" file=".\art\musketeer_walk.bha"/>
+      <ANIM name="Highlander Default" file=".\art\highlander_default.bha"/>
+      <ANIM name="Highlander Idle1" file=".\art\highlander_idle1.bha"/>
+      <ANIM name="Highlander Idle2" file=".\art\highlander_idle2.bha"/>
+      <ANIM name="Highlander Idle3" file=".\art\highlander_idle3.bha"/>
+      <ANIM name="Fusilier Default" file=".\art\fusilier_default.bha"/>
+      <ANIM name="Fusilier Idle1" file=".\art\fusilier_idle1.bha"/>
+      <ANIM name="Fusilier Idle2" file=".\art\fusilier_idle2.bha"/>
+      <ANIM name="Fusilier Idle3" file=".\art\fusilier_idle3.bha"/>
+      <ANIM name="Fusilier Walk" file=".\art\fusilier_walk.bha"/>
+      <ANIM name="Fusilier Jog" file=".\art\fusilier_jog.bha"/>
+      <ANIM name="ATR Default" file=".\art\atr_default.bha"/>
+      <ANIM name="ATR Idle1" file=".\art\atr_idle1.bha"/>
+      <ANIM name="ATR Idle2" file=".\art\atr_idle2.bha"/>
+      <ANIM name="ATR Idle3" file=".\art\atr_idle3.bha"/>
+      <ANIM name="Bazooka Walk" file=".\art\bazooka_walk.bha"/>
+      <ANIM name="Bazooka Run" file=".\art\bazooka_run.bha"/>
+      <ANIM name="Bazooka Default" file=".\art\bazooka_default.bha"/>
+      <ANIM name="Bazooka Idle1" file=".\art\bazooka_idle1.bha"/>
+      <ANIM name="Bazooka Idle2" file=".\art\bazooka_idle2.bha"/>
+      <ANIM name="Bazooka Idle3" file=".\art\bazooka_idle3.bha"/>
+      <ANIM name="Dragon Default" file=".\art\dragon_default.bha"/>
+      <ANIM name="Dragon Idle1" file=".\art\dragon_idle1.bha"/>
+      <ANIM name="Dragon Idle2" file=".\art\dragon_idle2.bha"/>
+      <ANIM name="Dragon Idle3" file=".\art\dragon_idle3.bha"/>
+      <ANIM name="Dragon Walk" file=".\art\dragon_walk.bha"/>
+      <ANIM name="Dragon Run" file=".\art\dragon_run.bha"/>
+      <ANIM name="ATR Walk" file=".\art\atr_walk.bha"/>
+      <ANIM name="Rifleman Default" file=".\art\rifleman_default.bha"/>
+      <ANIM name="Rifleman Idle1" file=".\art\rifleman_idle1.bha"/>
+      <ANIM name="Rifleman Idle2" file=".\art\rifleman_idle2.bha"/>
+      <ANIM name="Rifleman Idle3" file=".\art\rifleman_idle3.bha"/>
+      <ANIM name="Rifleman Walk" file=".\art\rifleman_walk.bha"/>
+      <ANIM name="Inf Default" file=".\art\inf_default.bha"/>
+      <ANIM name="Inf Idle1" file=".\art\inf_idle1.bha"/>
+      <ANIM name="Inf Idle2" file=".\art\inf_idle2.bha"/>
+      <ANIM name="Inf Idle3" file=".\art\inf_idle3.bha"/>
+      <ANIM name="Inf Idle4" file=".\art\inf_idle4.bha"/>
+      <ANIM name="Inf Walk" file=".\art\inf_walk.bha"/>
+      <ANIM name="Inf Run" file=".\art\inf_run.bha"/>
+      <ANIM name="JaguarInf Idle3" file=".\art\jaguar_inf_idle3.bha"/>
+      <ANIM name="MachinegunGP Default" file=".\art\machinegunGP_default.bha"/>
+      <ANIM name="MachinegunGP Idle1" file=".\art\machinegunGP_idle1.bha"/>
+      <ANIM name="MachinegunGP Idle2" file=".\art\machinegunGP_idle2.bha"/>
+      <ANIM name="MachinegunGP Idle3" file=".\art\machinegunGP_idle3.bha"/>
+      <ANIM name="MachinegunGU Default" file=".\art\machinegunGU_default.bha"/>
+      <ANIM name="MachinegunGU Idle1" file=".\art\machinegunGU_idle1.bha"/>
+      <ANIM name="MachinegunGU Idle2" file=".\art\machinegunGU_idle2.bha"/>
+      <ANIM name="MinigunGU Idle2" file=".\art\minigun_GU_idle2.bha"/>
+      <ANIM name="MachinegunGU Idle3" file=".\art\machinegunGU_idle3.bha"/>
+      <ANIM name="MachinegunGP Walk" file=".\art\machinegunGP_walk.bha"/>
+      <ANIM name="MachinegunGP Run" file=".\art\machinegunGP_run.bha"/>
+      <ANIM name="MachinegunAP Default" file=".\art\machinegunAP_default.bha"/>
+      <ANIM name="MachinegunAP Idle1" file=".\art\machinegunAP_idle1.bha"/>
+      <ANIM name="MachinegunAP Idle2" file=".\art\machinegunAP_idle2.bha"/>
+      <ANIM name="MachinegunAP Idle3" file=".\art\machinegunAP_idle3.bha"/>
+      <ANIM name="MachinegunAU Default" file=".\art\machinegunAU_default.bha"/>
+      <ANIM name="MachinegunAU Idle1" file=".\art\machinegunAU_idle1.bha"/>
+      <ANIM name="MachinegunAU Idle2" file=".\art\machinegunAU_idle2.bha"/>
+      <ANIM name="MachinegunAU Idle3" file=".\art\machinegunAU_idle3.bha"/>
+      <ANIM name="MachinegunAP Walk" file=".\art\machinegunAP_walk.bha"/>
+      <ANIM name="MachinegunAP Run" file=".\art\machinegunAP_run.bha"/>
+      <ANIM name="NuclearMissile Spin" file=".\art\nuclearmissile_spin.bha"/>
+      <ANIM name="HvyTank Default" file=".\art\hvytank_default.bha"/>
+      <ANIM name="HvyTank Idle1" file=".\art\hvytank_idle1.bha"/>
+      <ANIM name="Howitzer Defaultp" file=".\art\howitzer_defaultp.bha"/>
+      <ANIM name="Howitzer Defaultu" file=".\art\howitzer_defaultu.bha"/>
+      <ANIM name="Howitzer Packed Idle1" file=".\art\howitzer_packed_idle1.bha"/>
+      <ANIM name="Howitzer Packed Idle2" file=".\art\howitzer_packed_idle2.bha"/>
+      <ANIM name="Howitzer Unpacked Idle1" file=".\art\howitzer_unpacked_idle1.bha"/>
+      <ANIM name="Howitzer Unpacked Idle2" file=".\art\howitzer_unpacked_idle2.bha"/>
+      <ANIM name="Howitzer Packed Walk" file=".\art\howitzer_packed_walk.bha"/>
+      <ANIM name="Hummel Defaultp" file=".\art\hummel_packed_default.bha"/>
+      <ANIM name="Hummel Defaultu" file=".\art\hummel_unpacked_default.bha"/>
+      <ANIM name="Hummel Packed Idle3" file=".\art\hummel_packed_idle3.bha"/>
+      <ANIM name="Hummel Unpacked Idle3" file=".\art\hummel_unpacked_idle3.bha"/>
+      <ANIM name="Hummel Packed Walk" file=".\art\hummel_packed_walk.bha"/>
+      <ANIM name="Katyusha Defaultu" file=".\art\katyusha_defaultu.bha"/>
+      <ANIM name="Katyusha Defaultp" file=".\art\katyusha_defaultp.bha"/>
+      <ANIM name="Katyusha Walk" file=".\art\katyusha_walk.bha"/>
+      <ANIM name="ArmoredSC Default" file=".\art\armoredSC_default.bha"/>
+      <ANIM name="ArmoredSC Idle1" file=".\art\armoredSC_idle1.bha"/>
+      <ANIM name="ArmoredSC Idle2" file=".\art\armoredSC_idle2.bha"/>
+      <ANIM name="ArmoredSC Idle3" file=".\art\armoredSC_idle3.bha"/>
+      <ANIM name="ArmoredSC Walk" file=".\art\armoredSC_walk.bha"/>
+      <ANIM name="ArmoredSC Run" file=".\art\armoredSC_run.bha"/>
+      <ANIM name="ArmoredCar Walk" file=".\art\armcar_walk.bha"/>
+      <ANIM name="ArmoredCar Run" file=".\art\armcar_run.bha"/>
+      <ANIM name="ArmoredCar Default" file=".\art\armcar_default.bha"/>
+      <ANIM name="ArmoredCar Idle1" file=".\art\armcar_idle1.bha"/>
+      <ANIM name="ArmoredCav Default" file=".\art\armoredcavalry_default.bha"/>
+      <ANIM name="ArmoredCav Idle3" file=".\art\armoredcavalry_idle3.bha"/>
+      <ANIM name="ArmoredCav Walk" file=".\art\armoredcavalry_walk.bha"/>
+      <ANIM name="TankDestroyer Default" file=".\art\tankdestroyer_default.bha"/>
+      <ANIM name="TankDestroyer Idle1" file=".\art\tankdestroyer_idle1.bha"/>
+      <ANIM name="TankDestroyer Run" file=".\art\tankdestroyer_run.bha"/>
+      <ANIM name="TankDestroyer Walk" file=".\art\tankdestroyer_walk.bha"/>
+      <ANIM name="Nomad Default" file=".\art\nomad_default.bha"/>
+      <ANIM name="Nomad Idle1" file=".\art\nomad_idle1.bha"/>
+      <ANIM name="Nomad Idle2" file=".\art\nomad_idle2.bha"/>
+      <ANIM name="Nomad Idle3" file=".\art\nomad_idle3.bha"/>
+      <ANIM name="Nomad Run" file=".\art\nomad_run.bha"/>
+      <ANIM name="Nomad Walk" file=".\art\nomad_walk.bha"/>
+      <ANIM name="HorseArcher Default" file=".\art\horsearcher_default.bha"/>
+      <ANIM name="HorseArcher Idle1" file=".\art\horsearcher_idle1.bha"/>
+      <ANIM name="HorseArcher Idle2" file=".\art\horsearcher_idle2.bha"/>
+      <ANIM name="HorseArcher Idle3" file=".\art\horsearcher_idle3.bha"/>
+      <ANIM name="HorseArcher Run" file=".\art\horsearcher_run.bha"/>
+      <ANIM name="HorseArcher Walk" file=".\art\horsearcher_walk.bha"/>
+      <ANIM name="LightHorse Default" file=".\art\lighthorse_default.bha"/>
+      <ANIM name="LightHorse Idle1" file=".\art\lighthorse_idle1.bha"/>
+      <ANIM name="LightHorse Idle2" file=".\art\lighthorse_idle2.bha"/>
+      <ANIM name="LightHorse Idle3" file=".\art\lighthorse_idle3.bha"/>
+      <ANIM name="LightHorse Walk" file=".\art\lighthorse_walk.bha"/>
+      <ANIM name="LightHorse Run" file=".\art\lighthorse_run.bha"/>
+      <ANIM name="Carabineer Default" file=".\art\carabineer_default.bha"/>
+      <ANIM name="Carbineer Idle1" file=".\art\carabineer_idle1.bha"/>
+      <ANIM name="Carbineer Idle2" file=".\art\carabineer_idle2.bha"/>
+      <ANIM name="Carbineer Idle3" file=".\art\carabineer_idle3.bha"/>
+      <ANIM name="Carabineer Walk" file=".\art\carabineer_walk.bha"/>
+      <ANIM name="Carabineer Run" file=".\art\carabineer_run.bha"/>
+      <ANIM name="Mameluke Default" file=".\art\mameluke_default.bha"/>
+      <ANIM name="Mameluke Idle1" file=".\art\mameluke_idle1.bha"/>
+      <ANIM name="Mameluke Idle2" file=".\art\mameluke_idle2.bha"/>
+      <ANIM name="Mameluke Idle3" file=".\art\mameluke_idle3.bha"/>
+      <ANIM name="Mameluke Run" file=".\art\mameluke_run.bha"/>
+      <ANIM name="Cuirassier Default" file=".\art\cuirassier_default.bha"/>
+      <ANIM name="Cuirassier Idle1" file=".\art\cuirassier_idle1.bha"/>
+      <ANIM name="Cuirassier Idle3" file=".\art\cuirassier_idle3.bha"/>
+      <ANIM name="Chariot Default" file=".\art\chariot_default.bha"/>
+      <ANIM name="Chariot Idle1" file=".\art\chariot_idle1.bha"/>
+      <ANIM name="Chariot Idle2" file=".\art\chariot_idle2.bha"/>
+      <ANIM name="Chariot Idle3" file=".\art\chariot_idle3.bha"/>
+      <ANIM name="Chariot Run" file=".\art\chariot_run.bha"/>
+      <ANIM name="Chariot Walk" file=".\art\chariot_walk.bha"/>
+      <ANIM name="ChariotHorse Default" file=".\art\chariot_horse_default.bha"/>
+      <ANIM name="ChariotHorse Idle1" file=".\art\chariot_horse_idle1.bha"/>
+      <ANIM name="ChariotHorse Idle2" file=".\art\chariot_horse_idle2.bha"/>
+      <ANIM name="ChariotHorse Idle3" file=".\art\chariot_horse_idle3.bha"/>
+      <ANIM name="ChariotHorse Run" file=".\art\chariot_horse_run.bha"/>
+      <ANIM name="ChariotHorse Walk" file=".\art\chariot_horse_walk.bha"/>
+      <ANIM name="CamelArcher Default" file=".\art\camelarcher_default.bha"/>
+      <ANIM name="CamelArcher Idle1" file=".\art\camelarcher_idle1.bha"/>
+      <ANIM name="CamelArcher Idle2" file=".\art\camelarcher_idle2.bha"/>
+      <ANIM name="CamelArcher Idle3" file=".\art\camelarcher_idle3.bha"/>
+      <ANIM name="CamelArcher Walk" file=".\art\camelarcher_walk.bha"/>
+      <ANIM name="CamelArcher Run" file=".\art\camelarcher_run.bha"/>
+      <ANIM name="Helicopter Propspin" file=".\art\helicopter_propspin.bha"/>
+      <ANIM name="Flamethrower Default" file=".\art\flamethrower_default.bha"/>
+      <ANIM name="Flamethrower Idle1" file=".\art\flamethrower_idle1.bha"/>
+      <ANIM name="Flamethrower Idle2" file=".\art\flamethrower_idle2.bha"/>
+      <ANIM name="Flamethrower Idle3" file=".\art\flamethrower_idle3.bha"/>
+      <ANIM name="Flamethrower Walk" file=".\art\flamethrower_walk.bha"/>
+      <ANIM name="Flamethrower Run" file=".\art\flamethrower_run.bha"/>
+      <ANIM name="Bowman Walk" file=".\art\Bowman_walk.bha"/>
+      <ANIM name="Bowman Jog" file=".\art\Bowman_jog.bha"/>
+      <ANIM name="Longbow Default" file=".\art\longbow_default.bha"/>
+      <ANIM name="Longbow Idle1" file=".\art\longbow_idle1.bha"/>
+      <ANIM name="Longbow Idle2" file=".\art\longbow_idle2.bha"/>
+      <ANIM name="Longbow Idle3" file=".\art\longbow_idle3.bha"/>
+      <ANIM name="Trireme Default" file=".\art\trireme_default.bha"/>
+      <ANIM name="Trireme Walk" file=".\art\trireme_walk.bha"/>
+      <ANIM name="Trireme Idle1" file=".\art\trireme_idle1.bha"/>
+      <ANIM name="Trireme Idle2" file=".\art\trireme_idle2.bha"/>
+      <ANIM name="Trireme Idle3" file=".\art\trireme_idle3.bha"/>
+      <ANIM name="LightBomber Default" file=".\art\lightbomber.BHa"/>
+      <ANIM name="Bomber Move" file=".\art\bomber_move.bha"/>
+      <ANIM name="Bird Flap" file=".\art\bird_flap.bha"/>
+      <ANIM name="Bird Soar" file=".\art\bird_soar.bha"/>
+      <ANIM name="Flock Bird Move1" file=".\art\flock_move1.bha"/>
+      <ANIM name="Flock Bird Move2" file=".\art\flock_move2.bha"/>
+      <ANIM name="Supplywagon Default" file=".\art\supplyw_e_default.bha"/>
+      <ANIM name="Supplywagon Idle1" file=".\art\supplyw_e_idle1.bha"/>
+      <ANIM name="Supplywagon Idle2" file=".\art\supplyw_e_idle2.bha"/>
+      <ANIM name="Supplywagon Idle3" file=".\art\supplyw_e_idle3.bha"/>
+      <ANIM name="SupplywagonHorse Idle2" file=".\art\supplyw_horse_e_idle2.bha"/>
+      <ANIM name="SupplywagonHorse Idle3" file=".\art\supplyw_horse_e_idle3.bha"/>
+      <ANIM name="SupplywagonCrew Idle2" file=".\art\supplyw_crew_e_idle2.bha"/>
+      <ANIM name="SupplywagonCrew Idle3" file=".\art\supplyw_crew_e_idle3.bha"/>
+      <ANIM name="Supplywagon Walk" file=".\art\supplyw_e_walk.bha"/>
+      <ANIM name="Supplywagon Run" file=".\art\supplyw_e_run.bha"/>
+      <ANIM name="Supplytruckdefault" file=".\art\supplytruckdefault.bha"/>
+      <ANIM name="Supplytruckwalk" file=".\art\supplytruckwalk.bha"/>
+      <ANIM name="FishingFleet3 default" file=".\art\fishingfleet_3_default.bha"/>
+      <ANIM name="FishingFleet3 default2" file=".\art\fishingfleet_3_UPdefault.bha"/>
+      <ANIM name="FishingFleet5 default" file=".\art\fishingfleet_5_default.bha"/>
+      <ANIM name="FishingFleet5 default2" file=".\art\fishingfleet_5_UPdefault.bha"/>
+      <ANIM name="Caravan0 Walk" file=".\art\caravan0_walk.bha"/>
+      <ANIM name="Caravan0 Run" file=".\art\caravan0_run.bha"/>
+      <ANIM name="Caravan0 Default" file=".\art\caravan0_default.bha"/>
+      <ANIM name="Caravan0 Idle1" file=".\art\caravan0_idle1.bha"/>
+      <ANIM name="Caravan0 Idle2" file=".\art\caravan0_idle2.bha"/>
+      <ANIM name="Caravan0 Idle3" file=".\art\caravan0_idle3.bha"/>
+      <ANIM name="Caravan0Arab Walk" file=".\art\caravan0_arab_walk.bha"/>
+      <ANIM name="Caravan0Arab Run" file=".\art\caravan0_arab_run.bha"/>
+      <ANIM name="Caravan0Arab Default" file=".\art\caravan0_arab_default.bha"/>
+      <ANIM name="Caravan0Arab Idle1" file=".\art\caravan0_arab_idle1.bha"/>
+      <ANIM name="Caravan0Arab Idle2" file=".\art\caravan0_arab_idle2.bha"/>
+      <ANIM name="Caravan0Arab Idle3" file=".\art\caravan0_arab_idle3.bha"/>
+      <ANIM name="Caravan3 Horse Walk" file=".\art\caravan3_horse_walk.bha"/>
+      <ANIM name="Caravan3 Horse Default" file=".\art\caravan3_horse_default.bha"/>
+      <ANIM name="Caravan3 Horse Idle1" file=".\art\caravan3_horse_idle1.bha"/>
+      <ANIM name="Caravan3 Wagon Walk" file=".\art\caravan3_wagon_walk.bha"/>
+      <ANIM name="Caravan3 Wagon Default" file=".\art\caravan3_wagon_default.bha"/>
+      <ANIM name="Caravan3 Wagon Idle1" file=".\art\caravan3_wagon_idle1.bha"/>
+      <ANIM name="Caravan3 Wagon Walk" file=".\art\caravan3_wagon_walk.bha"/>
+      <ANIM name="Caravan3 Driver Default" file=".\art\caravan3_driver_default.bha"/>
+      <ANIM name="Caravan3 Driver Walk" file=".\art\caravan3_driver_walk.bha"/>
+      <ANIM name="Caravan3 Driver Idle1" file=".\art\caravan3_driver_idle1.bha"/>
+      <ANIM name="Caravan3 Driver Idle2" file=".\art\caravan3_driver_idle2.bha"/>
+      <ANIM name="Caravan3 Driver Idle3" file=".\art\caravan3_driver_idle3.bha"/>
+      <ANIM name="BombardCannon Default" file=".\art\bombardcannon_default.bha"/>
+      <ANIM name="BombardCannon Default2" file=".\art\bombardcannon_default2.bha"/>
+      <ANIM name="BombardCannon Walk" file=".\art\bombardcannon_walk.bha"/>
+      <ANIM name="BombardCannon Run" file=".\art\bombardcannon_run.bha"/>
+      <ANIM name="BombardCannon Idle1" file=".\art\bombardcannon_idle1.bha"/>
+      <ANIM name="BombardCannon Idle2" file=".\art\bombardcannon_idle2.bha"/>
+      <ANIM name="BombardCannon Idle3" file=".\art\bombardcannon_idle3.bha"/>
+      <ANIM name="BombardCannon Idle4" file=".\art\bombardcannon_idle4.bha"/>
+      <ANIM name="BombardCannon Turn" file=".\art\bombardcannon_turn.bha"/>
+      <ANIM name="Cannon Default" file=".\art\cannon_default.bha"/>
+      <ANIM name="Cannon Default2" file=".\art\cannon_default2.bha"/>
+      <ANIM name="Cannon Walk" file=".\art\cannon_walk.bha"/>
+      <ANIM name="Cannon Run" file=".\art\cannon_Run.bha"/>
+      <ANIM name="Cannon Idle1" file=".\art\cannon_idle1.bha"/>
+      <ANIM name="Cannon Idle2" file=".\art\cannon_idle2.bha"/>
+      <ANIM name="Cannon Idle3" file=".\art\cannon_idle3.bha"/>
+      <ANIM name="Cannon Idle4" file=".\art\cannon_idle4.bha"/>
+      <ANIM name="Cannon Turn Left" file=".\art\cannon_turnleft.bha"/>
+      <ANIM name="Cannon Turn Right" file=".\art\cannon_turnright.bha"/>
+      <ANIM name="CannonCrew0 Default" file=".\art\cannoncrew0_default.bha"/>
+      <ANIM name="CannonCrew0 Idle4" file=".\art\cannoncrew0_idle4.bha"/>
+      <ANIM name="CannonCrew0 Idle5" file=".\art\cannoncrew0_idle5.bha"/>
+      <ANIM name="CannonCrew0 Idle6" file=".\art\cannoncrew0_idle5.bha"/>
+      <ANIM name="CannonCrew0 Turn Left" file=".\art\cannoncrew0_turnleft.bha"/>
+      <ANIM name="CannonCrew0 Turn Right" file=".\art\cannoncrew0_turnright.bha"/>
+      <ANIM name="CannonCrew1 Default" file=".\art\cannoncrew1_default.bha"/>
+      <ANIM name="CannonCrew1 Idle1" file=".\art\cannoncrew1_idle1.bha"/>
+      <ANIM name="CannonCrew1 Idle2" file=".\art\cannoncrew1_idle2.bha"/>
+      <ANIM name="CannonCrew1 Idle3" file=".\art\cannoncrew1_idle3.bha"/>
+      <ANIM name="CannonCrew1 Idle4" file=".\art\cannoncrew1_idle4.bha"/>
+      <ANIM name="CannonCrew1 Walk" file=".\art\cannoncrew1_walk.bha"/>
+      <ANIM name="CannonCrew1 Run" file=".\art\cannoncrew1_run.bha"/>
+      <ANIM name="CannonCrew1 Turn Left" file=".\art\cannoncrew1_turnL.bha"/>
+      <ANIM name="CannonCrew1 Turn Right" file=".\art\cannoncrew1_turnR.bha"/>
+      <ANIM name="CannonHorse Default2" file=".\art\cannonhorse_default2.bha"/>
+      <ANIM name="CannonHorse Idle4" file=".\art\cannonhorse_idle4.bha"/>
+      <ANIM name="CannonHorse Idle5" file=".\art\cannonhorse_idle5.bha"/>
+      <ANIM name="CannonHorse Turn Left" file=".\art\cannonhorse_turnleft.bha"/>
+      <ANIM name="CannonHorse Turn Right" file=".\art\cannonhorse_turnright.bha"/>
+      <ANIM name="Artillery Default" file=".\art\artillery_can_default.bha"/>
+      <ANIM name="Artillery Default2" file=".\art\artillery_can_default2.bha"/>
+      <ANIM name="Artillery Idle1" file=".\art\artillery_can_idle1.bha"/>
+      <ANIM name="Artillery Idle3" file=".\art\artillery_can_idle3.bha"/>
+      <ANIM name="Artillery Idle4" file=".\art\artillery_can_idle4.bha"/>
+      <ANIM name="Artillery Walk" file=".\art\artillery_can_walk.bha"/>
+      <ANIM name="Artillery Run" file=".\art\artillery_can_run.bha"/>
+      <ANIM name="Artillery TL" file=".\art\artillery_can_turnleft.bha"/>
+      <ANIM name="Artillery TR" file=".\art\artillery_can_turnright.bha"/>
+      <ANIM name="ArtilleryCrew Default" file=".\art\artillery_crew_default.bha"/>
+      <ANIM name="ArtilleryCrew Idle2" file=".\art\artillery_crew_idle2.bha"/>
+      <ANIM name="ArtilleryTruck Default" file=".\art\artillery_truck_default.bha"/>
+      <ANIM name="ArtilleryTruck Default2" file=".\art\artillery_truck_default2.bha"/>
+      <ANIM name="ArtilleryTruck Idle1" file=".\art\artillery_truck_idle1.bha"/>
+      <ANIM name="ArtilleryTruck Idle3" file=".\art\artillery_truck_idle3.bha"/>
+      <ANIM name="ArtilleryTruck Idle4" file=".\art\artillery_truck_idle4.bha"/>
+      <ANIM name="ArtilleryTruck Walk" file=".\art\artillery_truck_walk.bha"/>
+      <ANIM name="ArtilleryTruck Run" file=".\art\artillery_truck_run.bha"/>
+      <ANIM name="ArtilleryTruck TL" file=".\art\artillery_truck_turnleft.bha"/>
+      <ANIM name="ArtilleryTruck TR" file=".\art\artillery_truck_turnright.bha"/>
+      <ANIM name="FlakGun Default" file=".\art\flakgun_default.bha"/>
+      <ANIM name="FlakGun Idle1" file=".\art\flakgun_idle1.bha"/>
+      <ANIM name="FlakGun Walk" file=".\art\flakgun_walk.bha"/>
+      <ANIM name="Frigate Default" file=".\art\frigate_default.bha"/>
+      <ANIM name="Frigate Idle1" file=".\art\frigate_idle1.bha"/>
+      <ANIM name="Frigate Walk" file=".\art\frigate_walk.bha"/>
+      <ANIM name="MerchantFleet Default" file=".\art\merchantfleet_default.bha"/>
+      <ANIM name="ModMerchantFleet Default" file=".\art\modmerchantfleet_default.bha"/>
+      <ANIM name="ModMerchantFleet Idle" file=".\art\modmerchantfleet_idle.bha"/>
+      <ANIM name="ModMerchantFleet Move" file=".\art\modmerchantfleet_move.bha"/>
+      <ANIM name="ScoutCaravel Idle1" file=".\art\scoutcaravel_idle1.bha"/>
+      <ANIM name="ScoutCaravel Walk" file=".\art\scoutcaravel_walk.bha"/>
+      <ANIM name="Siegeship Default" file=".\art\siegeship_ship_default.bha"/>
+      <ANIM name="Siegeship Idle1" file=".\art\siegeship_ship_idle1.bha"/>
+      <ANIM name="Siegeship Walk" file=".\art\siegeship_ship_walk.bha"/>
+      <ANIM name="Dreadnought Default" file=".\art\dreadnought_default.bha"/>
+      <ANIM name="Dreadnought Idle1" file=".\art\dreadnought_idle1.bha"/>
+      <ANIM name="Fireship Default" file=".\art\fireship_default.bha"/>
+      <ANIM name="Fireship Walk" file=".\art\fireship_move.bha"/>
+      <ANIM name="HeavyFireship Default" file=".\art\fireship_Heavy_Default.bha"/>
+      <ANIM name="HeavyFireship Walk" file=".\art\fireship_Heavy_move.bha"/>
+      <ANIM name="Fighter Default" file=".\art\fighter_default.bha"/>
+      <ANIM name="ManOWar Default" file=".\art\manowar_default.bha"/>
+      <ANIM name="ManOWar Idle1" file=".\art\manowar_idle1.bha"/>
+      <ANIM name="ManOWar Idle2" file=".\art\manowar_idle2.bha"/>
+      <ANIM name="ManOWar Walk" file=".\art\manowar_walk.bha"/>
+      <ANIM name="Spy3 Default" file=".\art\spy_3_default.bha"/>
+      <ANIM name="Spy3 Idle1" file=".\art\spy_3_idle1.bha"/>
+      <ANIM name="Spy3 Idle2" file=".\art\spy_3_idle2.bha"/>
+      <ANIM name="Spy3 Idle3" file=".\art\spy_3_idle3.bha"/>
+      <ANIM name="Spy3 Idle4" file=".\art\spy_3_idle4.bha"/>
+      <ANIM name="Spy3 Idle5" file=".\art\spy_3_idle5.bha"/>
+      <ANIM name="Spy3 Walk" file=".\art\spy_3_walk.bha"/>
+      <ANIM name="Spy3 Run" file=".\art\spy_3_run.bha"/>
+      <ANIM name="Cataphract Idle2" file=".\art\cataphract_idle2.bha"/>
+      <ANIM name="Knight Walk" file=".\art\knight_walk.bha"/>
+      <ANIM name="Knight Run" file=".\art\knight_run.bha"/>
+      <ANIM name="Knight Default" file=".\art\knight_default.bha"/>
+      <ANIM name="Knight Idle1" file=".\art\knight_idle1.bha"/>
+      <ANIM name="Knight Idle2" file=".\art\knight_idle2.bha"/>
+      <ANIM name="Knight Idle3" file=".\art\knight_idle3.bha"/>
+      <ANIM name="Knight Turn Left" file=".\art\knight_turnleft.bha"/>
+      <ANIM name="Knight Turn Right" file=".\art\knight_turnright.bha"/>
+      <ANIM name="Despot Crew1 Default" file=".\art\despot_crew1_default.bha"/>
+      <ANIM name="Despot Crew1 Idle1" file=".\art\despot_crew1_idle1.bha"/>
+      <ANIM name="Despot Crew1 Idle2" file=".\art\despot_crew1_idle2.bha"/>
+      <ANIM name="Despot Crew2 Default" file=".\art\despot_crew2_default.bha"/>
+      <ANIM name="Despot Crew2 Idle1" file=".\art\despot_crew2_idle1.bha"/>
+      <ANIM name="Despot Crew2 Idle2" file=".\art\despot_crew2_idle2.bha"/>
+      <ANIM name="Despot Crew1 Walk" file=".\art\despot_crew1_walk.bha"/>
+      <ANIM name="Despot Crew2 Walk" file=".\art\despot_crew2_walk.bha"/>
+      <ANIM name="Despot Crew1 Run" file=".\art\despot_crew1_run.bha"/>
+      <ANIM name="Monarch Crew1 Default" file=".\art\monarch_crew1_default.bha"/>
+      <ANIM name="Monarch Crew1 Idle1" file=".\art\monarch_crew1_idle1.bha"/>
+      <ANIM name="Monarch Crew1 Idle2" file=".\art\monarch_crew1_idle2.bha"/>
+      <ANIM name="Monarch Crew2 Default" file=".\art\monarch_crew2_default.bha"/>
+      <ANIM name="Monarch Crew2 Idle1" file=".\art\monarch_crew2_idle1.bha"/>
+      <ANIM name="Monarch Crew2 Idle2" file=".\art\monarch_crew2_idle2.bha"/>
+      <ANIM name="Monarch Crew1 Run" file=".\art\monarch_crew1_run.bha"/>
+      <ANIM name="Monarch Crew2 Run" file=".\art\monarch_crew2_run.bha"/>
+      <ANIM name="CEO Crew1 Default" file=".\art\ceo_crew_default.bha"/>
+      <ANIM name="CEO Crew1 Idle1" file=".\art\ceo_crew1_idle1.bha"/>
+      <ANIM name="CEO Crew1 Idle2" file=".\art\ceo_crew1_idle2.bha"/>
+      <ANIM name="CEO Crew1 Idle3" file=".\art\ceo_crew1_idle3.bha"/>
+      <ANIM name="CEO Crew2 Idle1" file=".\art\ceo_crew1_idle1.bha"/>
+      <ANIM name="CEO Crew2 Idle2" file=".\art\ceo_crew2_idle2.bha"/>
+      <ANIM name="CEO Crew2 Idle3" file=".\art\ceo_crew3_idle3.bha"/>
+      <ANIM name="CEO Crew1 Walk" file=".\art\ceo_crew_walk.bha"/>
+      <ANIM name="CEO Crew1 Run" file=".\art\ceo_crew_run.bha"/>
+      <ANIM name="General Default" file=".\art\general_default.bha"/>
+      <ANIM name="General Idle1" file=".\art\general_idle1.bha"/>
+      <ANIM name="General Idle2" file=".\art\general_idle2.bha"/>
+      <ANIM name="General Idle3" file=".\art\general_idle3.bha"/>
+      <ANIM name="General Run" file=".\art\general_run.bha"/>
+      <ANIM name="General Walk" file=".\art\general_walk.bha"/>
+      <ANIM name="General5Jeep Default" file=".\art\general5_jeep_default.bha"/>
+      <ANIM name="General5Jeep Idle1" file=".\art\general5_jeep_idle1.bha"/>
+      <ANIM name="General5Jeep Idle2" file=".\art\general5_jeep_idle2.bha"/>
+      <ANIM name="General5Jeep Idle3" file=".\art\general5_jeep_idle3.bha"/>
+      <ANIM name="General5Jeep Run" file=".\art\general5_jeep_run.bha"/>
+      <ANIM name="General5Jeep Walk" file=".\art\general5_jeep_walk.bha"/>
+      <ANIM name="General5Patton Default" file=".\art\general5_patton_default.bha"/>
+      <ANIM name="General5Patton Idle1" file=".\art\general5_patton_idle1.bha"/>
+      <ANIM name="General5Patton Idle2" file=".\art\general5_patton_idle2.bha"/>
+      <ANIM name="General5Patton Idle3" file=".\art\general5_patton_idle3.bha"/>
+      <ANIM name="General5Patton Run" file=".\art\general5_patton_run.bha"/>
+      <ANIM name="General5Patton Walk" file=".\art\general5_patton_walk.bha"/>
+      <ANIM name="Destroyer Default" file=".\art\destroyer_default.bha"/>
+      <ANIM name="Destroyer Idle1" file=".\art\destroyer_idle1.bha"/>
+      <ANIM name="Destroyer Idle2" file=".\art\destroyer_idle2.bha"/>
+      <ANIM name="Destroyer Idle3" file=".\art\destroyer_idle3.bha"/>
+      <ANIM name="Destroyer Walk" file=".\art\destroyer_walk.bha"/>
+      <ANIM name="SuperBattleship Default" file=".\art\superbattleship_default.bha"/>
+      <ANIM name="SuperBattleship Walk" file=".\art\superbattleship_walk.bha"/>
+      <ANIM name="AircraftCarrier Default" file=".\art\AircraftCarrier_default.bha"/>
+      <ANIM name="AircraftCarrier Idle3" file=".\art\AircraftCarrier_idle3.bha"/>
+      <ANIM name="MediumTank Default" file=".\art\mediumtank_default.bha"/>
+      <ANIM name="MediumTank Idle1" file=".\art\mediumtank_idle1.bha"/>
+      <ANIM name="Dromon Default" file=".\art\dromon_default.bha"/>
+      <ANIM name="Galley default" file=".\art\galley_default.bha"/>
+      <ANIM name="Galley Idle1" file=".\art\galley_idle1.bha"/>
+      <ANIM name="Galley Idle2" file=".\art\galley_idle2.bha"/>
+      <ANIM name="Galley Move" file=".\art\galley_move.bha"/>
+      <ANIM name="Garrison Flag Wave" file=".\art\garrisonflag_3m.bha"/>
+      <ANIM name="WaypointMarker Wave" file=".\art\Waypoint_Marker.bha"/>
+      <ANIM name="Rally Wave" file=".\art\Rally_Marker.bha"/>
+      <ANIM name="Banner Wave" file=".\art\banner_0n.bha"/>
+      <ANIM name="Merchant Default" file=".\art\med_merchant_default.bha"/>
+      <ANIM name="Merchant Idle1" file=".\art\med_merchant_idle1.bha"/>
+      <ANIM name="Merchant Idle2" file=".\art\med_merchant_idle2.bha"/>
+      <ANIM name="Merchant Idle3" file=".\art\med_merchant_idle3.bha"/>
+      <ANIM name="Merchant Walk" file=".\art\med_merchant_walk.bha"/>
+      <ANIM name="MerchantMule Default" file=".\art\med_merchantmule_default.bha"/>
+      <ANIM name="MerchantMule Idle1" file=".\art\med_merchantmule_idle1.bha"/>
+      <ANIM name="MerchantMule Idle2" file=".\art\med_merchantmule_idle2.bha"/>
+      <ANIM name="MerchantMule Idle3" file=".\art\med_merchantmule_idle3.bha"/>
+      <ANIM name="MerchantMule Walk" file=".\art\med_merchantmule_walk.bha"/>
+      <ANIM name="Wholesaler Default" file=".\art\wholesaler_default.bha"/>
+      <ANIM name="Wholesaler Idle1" file=".\art\wholesaler_idle1.bha"/>
+      <ANIM name="Wholesaler Idle2" file=".\art\wholesaler_idle2.bha"/>
+      <ANIM name="Wholesaler Idle3" file=".\art\wholesaler_idle3.bha"/>
+      <ANIM name="Wholesaler Walk" file=".\art\wholesaler_walk.bha"/>
+      <ANIM name="WholesalerTruck Default" file=".\art\wholesaler_truckdefault.bha"/>
+      <ANIM name="WholesalerTruck Idle1" file=".\art\wholesaler_truckidle1.bha"/>
+      <ANIM name="WholesalerTruck Idle2" file=".\art\wholesaler_truckidle2.bha"/>
+      <ANIM name="WholesalerTruck Idle3" file=".\art\wholesaler_truckidle3.bha"/>
+      <ANIM name="WholesalerTruck Walk" file=".\art\wholesaler_truckwalk.bha"/>
+      <ANIM name="FlamingArrow Default2" file=".\art\flamingarrow_default2.bha"/>
+      <ANIM name="FlamingArrow Packed Idle1" file=".\art\flamingarrow_packed_idle1.bha"/>
+      <ANIM name="FlamingArrow Default" file=".\art\flamingarrow_default.bha"/>
+      <ANIM name="FlamingArrow Idle1" file=".\art\flamingarrow_idle1.bha"/>
+      <ANIM name="FlamingArrow Idle2" file=".\art\flamingarrow_idle2.bha"/>
+      <ANIM name="FlamingArrow Idle3" file=".\art\flamingarrow_idle3.bha"/>
+      <ANIM name="FlamingArrow TurnLeft" file=".\art\flamingarrow_turnleft.bha"/>
+      <ANIM name="FlamingArrow TurnRight" file=".\art\flamingarrow_turnright.bha"/>
+      <ANIM name="FlamingArrow Walk" file=".\art\flamingarrow_walk.bha"/>
+      <ANIM name="FlamingArrowCrew Pull" file=".\art\flamingarrow_crew_pull.bha"/>
+      <ANIM name="FlamingArrowCrew Default" file=".\art\flamingarrow_crew_default.bha"/>
+      <ANIM name="FlamingArrowCrew Idle1" file=".\art\flamingarrow_crew_idle1.bha"/>
+      <ANIM name="FlamingArrowCrew Idle2" file=".\art\flamingarrow_crew_idle2.bha"/>
+      <ANIM name="FlamingArrowCrew Idle3" file=".\art\flamingarrow_crew_idle3.bha"/>
+      <ANIM name="Catapult Default" file=".\art\catapult_default.bha"/>
+      <ANIM name="Catapult Default2" file=".\art\catapult_default2.bha"/>
+      <ANIM name="Catapult Idle1" file=".\art\catapult_idle1.bha"/>
+      <ANIM name="Catapult Idle2" file=".\art\catapult_idle2.bha"/>
+      <ANIM name="Catapult Walk" file=".\art\catapult_walk.bha"/>
+      <ANIM name="Catapult Walk Up" file=".\art\catapult_walk_up.bha"/>
+      <ANIM name="CatapultCrew Default" file=".\art\catapult_crew_default.bha"/>
+      <ANIM name="CatapultCrew Default2" file=".\art\catapult_crew_default2.bha"/>
+      <ANIM name="CatapultCrew Idle3" file=".\art\catapult_crew_idle3.bha"/>
+      <ANIM name="CatapultCrew Idle4" file=".\art\catapult_crew_idle4.bha"/>
+      <ANIM name="CatapultCrew0 Walk" file=".\art\catapult_crew0_walk.bha"/>
+      <ANIM name="CatapultCrew1 Walk" file=".\art\catapult_crew1_walk.bha"/>
+      <ANIM name="Trebuchet Turn" file=".\art\trebuchet_turn.bha"/>
+      <ANIM name="Trebuchet Default" file=".\art\trebuchet_default.bha"/>
+      <ANIM name="Trebuchet Idle4" file=".\art\trebuchet_idle4.bha"/>
+      <ANIM name="Trebuchet Idle5" file=".\art\trebuchet_idle5.bha"/>
+      <ANIM name="TrebuchetWagon Walk" file=".\art\trebuchet_wagon_walk.bha"/>
+      <ANIM name="TrebuchetWagon Run" file=".\art\trebuchet_wagon_run.bha"/>
+      <ANIM name="TrebuchetWagon Default" file=".\art\trebuchet_wagon_default.bha"/>
+      <ANIM name="TrebuchetWagon Idle1" file=".\art\trebuchet_wagon_idle1.bha"/>
+      <ANIM name="TrebuchetWagon Idle2" file=".\art\trebuchet_wagon_idle2.bha"/>
+      <ANIM name="TrebuchetWagon Idle3" file=".\art\trebuchet_wagon_idle3.bha"/>
+      <ANIM name="TrebuchetCrew1 Run" file=".\art\trebuchet_crew1_run.bha"/>
+      <ANIM name="TrebuchetCrew1 Walk" file=".\art\trebuchet_crew1_walk.bha"/>
+      <ANIM name="TrebuchetCrew1 TurnL" file=".\art\trebuchet_crew1_turnL.bha"/>
+      <ANIM name="TrebuchetCrew1 TurnR" file=".\art\trebuchet_crew1_turnR.bha"/>
+      <ANIM name="TrebuchetCrew1 Default" file=".\art\trebuchet_crew1_default.bha"/>
+      <ANIM name="TrebuchetCrew1 Default2" file=".\art\trebuchet_crew1_default2.bha"/>
+      <ANIM name="TrebuchetCrew1 Idle1" file=".\art\trebuchet_crew1_idle1.bha"/>
+      <ANIM name="TrebuchetCrew1 Idle2" file=".\art\trebuchet_crew1_idle2.bha"/>
+      <ANIM name="TrebuchetCrew1 Idle3" file=".\art\trebuchet_crew1_idle3.bha"/>
+      <ANIM name="TrebuchetCrew1 Idle4" file=".\art\trebuchet_crew1_idle4.bha"/>
+      <ANIM name="TrebuchetCrew1 Idle5" file=".\art\trebuchet_crew1_idle5.bha"/>
+      <ANIM name="TrebuchetCrew1 Idle6" file=".\art\trebuchet_crew1_idle6.bha"/>
+      <ANIM name="TrebuchetCrew2 Run" file=".\art\trebuchet_crew2_run.bha"/>
+      <ANIM name="TrebuchetCrew2 Walk" file=".\art\trebuchet_crew2_walk.bha"/>
+      <ANIM name="TrebuchetCrew2 TurnL" file=".\art\trebuchet_crew2_turnL.bha"/>
+      <ANIM name="TrebuchetCrew2 TurnR" file=".\art\trebuchet_crew2_turnR.bha"/>
+      <ANIM name="TrebuchetCrew2 Default" file=".\art\trebuchet_crew2_default.bha"/>
+      <ANIM name="TrebuchetCrew2 Default2" file=".\art\trebuchet_crew2_default2.bha"/>
+      <ANIM name="TrebuchetCrew2 Idle1" file=".\art\trebuchet_crew2_idle1.bha"/>
+      <ANIM name="TrebuchetCrew2 Idle2" file=".\art\trebuchet_crew2_idle2.bha"/>
+      <ANIM name="TrebuchetCrew2 Idle3" file=".\art\trebuchet_crew2_idle3.bha"/>
+      <ANIM name="TrebuchetCrew2 Idle4" file=".\art\trebuchet_crew2_idle4.bha"/>
+      <ANIM name="TrebuchetCrew2 Idle5" file=".\art\trebuchet_crew2_idle5.bha"/>
+      <ANIM name="TrebuchetCrew2 Idle6" file=".\art\trebuchet_crew2_idle6.bha"/>
+      <ANIM name="TrebuchetWorkhorse Walk" file=".\art\trebuchet_workhorse_walk.bha"/>
+      <ANIM name="TrebuchetWorkhorse Run" file=".\art\trebuchet_workhorse_run.bha"/>
+      <ANIM name="TrebuchetWorkhorse TurnL" file=".\art\trebuchet_workhorse_turnleft.bha"/>
+      <ANIM name="TrebuchetWorkhorse TurnR" file=".\art\trebuchet_workhorse_turnright.bha"/>
+      <ANIM name="TrebuchetWorkhorse Default" file=".\art\trebuchet_workhorse_default.bha"/>
+      <ANIM name="TrebuchetWorkhorse Default2" file=".\art\trebuchet_workhorse_default2.bha"/>
+      <ANIM name="TrebuchetWorkhorse Idle1" file=".\art\trebuchet_workhorse_idle1.bha"/>
+      <ANIM name="TrebuchetWorkhorse Idle2" file=".\art\trebuchet_workhorse_idle2.bha"/>
+      <ANIM name="TrebuchetWorkhorse Idle3" file=".\art\trebuchet_workhorse_idle3.bha"/>
+      <ANIM name="TrebuchetWorkhorse Idle4" file=".\art\trebuchet_workhorse_idle4.bha"/>
+      <ANIM name="TrebuchetWorkhorse Idle5" file=".\art\trebuchet_workhorse_idle5.bha"/>
+      <ANIM name="TrebuchetWorkhorse Idle6" file=".\art\trebuchet_workhorse_idle6.bha"/>
+      <ANIM name="Horses Default" file=".\art\wildhorse_default.bha"/>
+      <ANIM name="Horses Idle1" file=".\art\wildhorse_idle1.bha"/>
+      <ANIM name="Horses Idle2" file=".\art\wildhorse_idle2.bha"/>
+      <ANIM name="Horses Idle3" file=".\art\wildhorse_idle3.bha"/>
+      <ANIM name="Bison Default" file=".\art\bison_default.bha"/>
+      <ANIM name="Bison Idle1" file=".\art\bison_idle1.bha"/>
+      <ANIM name="Bison Idle2" file=".\art\bison_idle2.bha"/>
+      <ANIM name="Bison Idle3" file=".\art\bison_idle3.bha"/>
+      <ANIM name="Bison Run" file=".\art\bison_run.bha"/>
+      <ANIM name="Bison Walk" file=".\art\bison_walk.bha"/>
+      <ANIM name="Sheep Idle1" file=".\art\sheep_idle1.bha"/>
+      <ANIM name="Sheep Idle2" file=".\art\sheep_idle2.bha"/>
+      <ANIM name="Sheep Idle3" file=".\art\sheep_idle3.bha"/>
+      <ANIM name="Sheep Idle4" file=".\art\sheep_idle4.bha"/>
+      <ANIM name="Sheep Idle5" file=".\art\sheep_idle5.bha"/>
+      <ANIM name="Sheep Run" file=".\art\sheep_run.bha"/>
+      <ANIM name="Sheep Walk" file=".\art\sheep_walk.bha"/>
+      <ANIM name="Peacock Default" file=".\art\peacock_default.bha"/>
+      <ANIM name="Peacock Idle1" file=".\art\peacock_idle1.bha"/>
+      <ANIM name="Peacock Idle2" file=".\art\peacock_idle2.bha"/>
+      <ANIM name="Peacock Idle3" file=".\art\peacock_idle3.bha"/>
+      <ANIM name="Peacock Walk1" file=".\art\peacock_walk1.bha"/>
+      <ANIM name="Peahen Walk" file=".\art\peahen_walk1.bha"/>
+      <ANIM name="Peahen Default" file=".\art\peahen_default.bha"/>
+      <ANIM name="Peahen Idle1" file=".\art\peahen_idle1.bha"/>
+      <ANIM name="Peahen Idle2" file=".\art\peahen_idle2.bha"/>
+      <ANIM name="BlackBear Default" file=".\art\blackbear_default.bha"/>
+      <ANIM name="BlackBear Idle1" file=".\art\blackbear_idle1.bha"/>
+      <ANIM name="BlackBear Idle2" file=".\art\blackbear_idle2.bha"/>
+      <ANIM name="BlackBear Idle3" file=".\art\blackbear_idle3.bha"/>
+      <ANIM name="BlackBear Walk" file=".\art\blackbear_walk.bha"/>
+      <ANIM name="Whale Churn Idle3" file=".\art\whale_churn3.bha"/>
+      <ANIM name="Fish Churn Idle1" file=".\art\fish_churn_idle1.bha"/>
+      <ANIM name="Fish Churn Idle2" file=".\art\fish_churn_idle2.bha"/>
+      <ANIM name="Fish Churn Idle3" file=".\art\fish_churn_idle3.bha"/>
+      <ANIM name="Fish Idle1" file=".\art\fish_swim1.bha"/>
+      <ANIM name="Fish Idle2" file=".\art\fish_swim2.bha"/>
+      <ANIM name="Fish Idle3" file=".\art\fish_swim3.bha"/>
+      <ANIM name="Whale Idle3" file=".\art\whale_walk3.bha"/>
+      <ANIM name="Biplane Move" file=".\art\biplane_move.bha"/>
+      <ANIM name="StealthBomber Default" file=".\art\stealthbomber_default.BHa"/>
+      <ANIM name="StealthBomber Walk" file=".\art\stealthbomber_walk.BHa"/>
+      <ANIM name="StealthBomber Jog" file=".\art\stealthbomber_jog.BHa"/>
+      <ANIM name="MLRS Default" file=".\art\MLRS_defaultp.BHa"/>
+      <ANIM name="MLRS Default2" file=".\art\MLRS_defaultu.BHa"/>
+      <ANIM name="MLRS Idle1" file=".\art\MLRS_i1.BHa"/>
+      <ANIM name="MLRS Run" file=".\art\MLRS_run.BHa"/>
+      <ANIM name="MLRS Walk" file=".\art\MLRS_walk.BHa"/>
+      <ANIM name="Ashigaru Default" file=".\art\ashigaru_default.BHa"/>
+      <ANIM name="Ashigaru Walk" file=".\art\ashigaru_walk.BHa"/>
+      <ANIM name="Ashigaru Idle1" file=".\art\ashigaru_idle1.BHa"/>
+      <ANIM name="Ashigaru Idle2" file=".\art\ashigaru_idle2.BHa"/>
+      <ANIM name="Ashigaru Idle3" file=".\art\ashigaru_idle3.BHa"/>
+      <ANIM name="Ashigaru Run" file=".\art\ashigaru_run.BHa"/>
+      <ANIM name="Kushite Walk" file=".\art\Kushite_walk.BHa"/>
+      <ANIM name="Kushite Default" file=".\art\Kushite_Default.BHa"/>
+      <ANIM name="Kushite Idle1" file=".\art\Kushite_idle1.BHa"/>
+      <ANIM name="Kushite Idle2" file=".\art\Kushite_idle2.BHa"/>
+      <ANIM name="Kushite Idle3" file=".\art\Kushite_idle3.BHa"/>
+      <ANIM name="Kushite Jog" file=".\art\Kushite_jog.BHa"/>
+      <ANIM name="Fighter Move" file=".\art\ww2fighter_move.BHa"/>
+      <ANIM name="Chicken Default" file=".\art\rooster_default.BHa"/>
+      <ANIM name="Chicken Walk" file=".\art\rooster_walk.BHa"/>
+      <ANIM name="Chicken Idle1" file=".\art\rooster_idle1.BHa"/>
+      <ANIM name="Pig Default" file=".\art\pig_default.BHa"/>
+      <ANIM name="Pig Walk" file=".\art\pig_walk.BHa"/>
+      <ANIM name="Pig Idle1" file=".\art\pig_idle1.BHa"/>
+      <ANIM name="Xopilli Default" file=".\art\Xopilli_Default.BHa"/>
+      <ANIM name="Xopilli Idle1" file=".\art\Xopilli_Idle1.BHa"/>
+      <ANIM name="Xopilli Idle2" file=".\art\Xopilli_Idle2.BHa"/>
+      <ANIM name="Xopilli Idle3" file=".\art\Xopilli_Idle3.BHa"/>
+      <ANIM name="Xopilli Walk" file=".\art\Xopilli_Walk.BHa"/>
+      <ANIM name="Xopilli Jog" file=".\art\Xopilli_jog.BHa"/>
+      <ANIM name="ADVFighter Default" file=".\art\ADVFighter_Default.BHa"/>
+      <ANIM name="Manchu Default" file=".\art\Manchu_default.BHa"/>
+      <ANIM name="Manchu Idle1" file=".\art\Manchu_Idle1.BHa"/>
+      <ANIM name="Manchu Idle2" file=".\art\Manchu_Idle2.BHa"/>
+      <ANIM name="Manchu Idle3" file=".\art\Manchu_Idle3.Bha"/>
+      <ANIM name="Manchu Walk" file=".\art\Manchu_walk.BHa"/>
+      <ANIM name="Manchu jog" file=".\art\Manchu_jog.BHa"/>
+      <ANIM name="AirDefGun Packed Default" file=".\art\airdefensegun_p_default.BHa"/>
+      <ANIM name="AirDefGun Unpacked Default" file=".\art\airdefensegun_u_default.BHa"/>
+      <ANIM name="AirDefGun Unpacked Idle3" file=".\art\airdefensegun_u_idle3.BHa"/>
+      <ANIM name="RadarDefGun Packed Default" file=".\art\radardefensegun_p_default.BHa"/>
+      <ANIM name="RadarDefGun Unpacked Default" file=".\art\radardefensegun_u_default.BHa"/>
+      <ANIM name="RadarDefGun Unpacked Idle3" file=".\art\radardefensegun_u_idle3.BHa"/>
+      <ANIM name="SAM Default" file=".\art\sam_attack1.BHa"/>
+      <ANIM name="KingTiger Default" file=".\art\kingtiger_default.BHa"/>
+      <ANIM name="KingTiger Idle2" file=".\art\kingtiger_idle2.BHa"/>
+      <ANIM name="KingTiger Idle3" file=".\art\kingtiger_idle3.BHa"/>
+      <ANIM name="KingTiger Walk" file=".\art\kingtiger_walk.BHa"/>
+      <ANIM name="KingTiger Run" file=".\art\kingtiger_run.BHa"/>
+      <ANIM name="Seal Default" file=".\art\seal_default.bha"/>
+      <ANIM name="Seal Walk1" file=".\art\seal_walk.bha"/>
+      <ANIM name="Seal Idle1" file=".\art\seal_idle1.bha"/>
+      <ANIM name="Seal Idle2" file=".\art\seal_idle2.bha"/>
+      <ANIM name="Seal Idle3" file=".\art\seal_idle3.bha"/>
+      <ANIM name="AAGun Default" file=".\art\aagun_default.BHa"/>
+      <ANIM name="AAGun Idle1" file=".\art\aagun_idle1.BHa"/>
+      <ANIM name="AAGun Walk" file=".\art\aagun_walk.BHa"/>
+      <ANIM name="AAGun Run" file=".\art\aagun_run.BHa"/>
+      <ANIM name="Mortar Walk" file=".\art\Mortar_walk.bha"/>
+      <ANIM name="Mortar DefaultP" file=".\art\Mortar_defaultp.bha"/>
+      <ANIM name="Mortar DefaultU" file=".\art\Mortar_defaultu.bha"/>
+      <ANIM name="Mortar IdleU1" file=".\art\Mortar_Idle1U.bha"/>
+      <ANIM name="Mortar IdleU2" file=".\art\Mortar_Idle2U.bha"/>
+      <ANIM name="Mortar IdleU3" file=".\art\Mortar_Idle3U.bha"/>
+      <ANIM name="Mortar IdleP1" file=".\art\Mortar_Idle1P.bha"/>
+      <ANIM name="MortarC0 DefaultP" file=".\art\MortarC0_DefaultP.bha"/>
+      <ANIM name="MortarC0 DefaultU" file=".\art\MortarC0_DefaultU.bha"/>
+      <ANIM name="MortarC1 DefaultP" file=".\art\MortarC1_DefaultP.bha"/>
+      <ANIM name="MortarC1 DefaultU" file=".\art\MortarC1_DefaultU.bha"/>
+      <ANIM name="MortarC0 IdleU1" file=".\art\MortarC0_Idle1U.bha"/>
+      <ANIM name="MortarC0 IdleU2" file=".\art\MortarC0_Idle2U.bha"/>
+      <ANIM name="MortarC0 IdleU3" file=".\art\MortarC0_Idle3U.bha"/>
+      <ANIM name="MortarC1 IdleP1" file=".\art\MortarC1_Idle1P.bha"/>
+      <ANIM name="MortarC1 IdleU1" file=".\art\MortarC1_Idle1U.bha"/>
+      <ANIM name="MortarC1 IdleU2" file=".\art\MortarC1_Idle2U.bha"/>
+      <ANIM name="MortarC1 IdleU3" file=".\art\MortarC1_Idle3U.bha"/>
+      <ANIM name="MortarC0 IdleP1" file=".\art\MortarC0_Idle1P.bha"/>
+      <ANIM name="MortarC0 Walk" file=".\art\MortarC0_walk.bha"/>
+      <ANIM name="MortarC1 Walk" file=".\art\MortarC1_walk.bha"/>
+      <ANIM name="MortarC1 TurnL" file=".\art\MortarC1_TurnL.bha"/>
+      <ANIM name="MortarC1 TurnR" file=".\art\MortarC1_TurnR.bha"/>
+      <ANIM name="MortarC0 TurnL" file=".\art\MortarC0_TurnL.bha"/>
+      <ANIM name="MortarC0 TurnR" file=".\art\MortarC0_TurnR.bha"/>
+      <ANIM name="Mortar TurnL" file=".\art\Mortar_TurnL.bha"/>
+      <ANIM name="SMortarC0 Walk" file=".\art\SMortarC0_walk.bha"/>
+      <ANIM name="SMortarC1 DefaultU" file=".\art\SMortarC1_DefaultU.bha"/>
+      <ANIM name="SMortarC1 DefaultP" file=".\art\SMortarC1_DefaultP.bha"/>
+      <ANIM name="SMortarC1 Idle1P" file=".\art\SMortarC1_Idle1P.bha"/>
+      <ANIM name="SMortarC1 Idle1U" file=".\art\SMortarC1_Idle1U.bha"/>
+      <ANIM name="SMortarC1 Idle3U" file=".\art\SMortarC1_Idle3U.bha"/>
+      <ANIM name="SMortarC1 Walk" file=".\art\SMortarC1_walk.bha"/>
+      <ANIM name="SMortarC1 TurnL" file=".\art\SMortarC1_TurnL.bha"/>
+      <ANIM name="SMortarC1 TurnR" file=".\art\SMortarC1_TurnR.bha"/>
+      <ANIM name="SMortarC0 TurnL" file=".\art\SMortarC0_TurnL.bha"/>
+      <ANIM name="SMortarC0 TurnR" file=".\art\SMortarC0_TurnR.bha"/>
+      <ANIM name="SMortar TurnL" file=".\art\SMortar_Turn.bha"/>
+      <ANIM name="SMortar Walk" file=".\art\SMortar_walk.bha"/>
+      <ANIM name="SMortar IdleP1" file=".\art\SMortar_Idle1P.bha"/>
+      <ANIM name="SMortar IdleU3" file=".\art\SMortar_Idle3U.bha"/>
+      <ANIM name="SMortar IdleU1" file=".\art\SMortar_Idle1U.bha"/>
+      <ANIM name="SMortar DefaultU" file=".\art\SMortar_defaultu.bha"/>
+      <ANIM name="SMortar DefaultP" file=".\art\SMortar_defaultP.bha"/>
+      <ANIM name="Sugar Default" file=".\art\SugarCaneAnima.Bha"/>
+      <ANIM name="Uranium Default" file=".\art\Uranium_glow.Bha"/>
+      <ANIM name="LightTank Default" file=".\art\lighttank_default.bha"/>
+      <ANIM name="LightTank Idle1" file=".\art\lighttank_idle1.bha"/>
+      <ANIM name="Clubmen Default" file=".\art\Clubmen_default.bha"/>
+      <ANIM name="Clubmen Idle1" file=".\art\Clubmen_Idle1.bha"/>
+      <ANIM name="Clubmen Idle2" file=".\art\Clubmen_Idle2.bha"/>
+      <ANIM name="Clubmen Idle3" file=".\art\Clubmen_Idle3.bha"/>
+      <ANIM name="Clubmen Walk" file=".\art\Clubmen_Walk.bha"/>
+      <ANIM name="Cruiser Default" file=".\art\Cruiser_default.bha"/>
+      <ANIM name="Cruiser Idle1" file=".\art\Cruiser_Idle1.bha"/>
+      <ANIM name="Cruiser Idle2" file=".\art\Cruiser_Idle2.bha"/>
+      <ANIM name="Cruiser Idle3" file=".\art\Cruiser_Idle3.bha"/>
+      <ANIM name="Cruiser Walk" file=".\art\Cruiser_walk.bha"/>
+      <ANIM name="AdvBattleship Default" file=".\art\AdvBattleship_default.bha"/>
+      <ANIM name="AdvBattleship Idle1" file=".\art\AdvBattleship_Idle1.bha"/>
+      <ANIM name="AdvBattleship Move" file=".\art\AdvBattleship_Move.bha"/>
+      <ANIM name="Macemen default" file=".\art\Macemen_default.bha"/>
+      <ANIM name="Macemen Idle1" file=".\art\Macemen_Idle1.bha"/>
+      <ANIM name="Macemen Idle2" file=".\art\Macemen_Idle2.bha"/>
+      <ANIM name="Macemen Idle3" file=".\art\Macemen_Idle3.bha"/>
+      <ANIM name="Macemen Walk" file=".\art\Macemen_Walk.bha"/>
+      <ANIM name="XportFreight Default" file=".\art\xportfreight_default.bha"/>
+      <ANIM name="XportFreight Move" file=".\art\xportfreight_move.bha"/>
+      <ANIM name="Transport Default" file=".\art\Transport_Default.bha"/>
+      <ANIM name="Transport Move" file=".\art\Transport_move.bha"/>
+      <ANIM name="Lancaster Default" file=".\art\lancaster_default.bha"/>
+      <ANIM name="Rusiny Default" file=".\art\Rusiny_default.bha"/>
+      <ANIM name="Rusiny Idle1" file=".\art\Rusiny_Idle1.bha"/>
+      <ANIM name="Rusiny Idle2" file=".\art\Rusiny_Idle2.bha"/>
+      <ANIM name="Rusiny Idle3" file=".\art\Rusiny_Idle3.bha"/>
+      <ANIM name="Avenger Default" file=".\art\avenger_default.bha"/>
+      <ANIM name="Avenger Idle2" file=".\art\avenger_idle2.bha"/>
+      <ANIM name="Avenger Walk" file=".\art\avenger_walk.bha"/>
+      <ANIM name="Avenger Run" file=".\art\avenger_run.bha"/>
+      <ANIM name="Truck Default" file=".\art\Truck_Default.BHa"/>
+      <ANIM name="Truck Run" file=".\art\Truck_Run.bha"/>
+      <ANIM name="Gunsamurai Default" file=".\art\gunsamurai_default.bha"/>
+      <ANIM name="Gunsamurai Walk" file=".\art\gunsamurai_walk.bha"/>
+      <ANIM name="Gunsamurai Run" file=".\art\gunsamurai_Run.bha"/>
+      <ANIM name="Gunsamurai Idle1" file=".\art\gunsamurai_idle1.bha"/>
+      <ANIM name="Gunsamurai Idle2" file=".\art\gunsamurai_idle2.bha"/>
+      <ANIM name="Gunsamurai Idle3" file=".\art\gunsamurai_idle3.bha"/>
+      <ANIM name="Balamob Default" file=".\art\Balamob_Default.bha"/>
+      <ANIM name="Balamob Idle1" file=".\art\Balamob_Idle_1.bha"/>
+      <ANIM name="Balamob Idle2" file=".\art\Balamob_Idle_2.bha"/>
+      <ANIM name="Balamob Idle3" file=".\art\Balamob_Idle_3.bha"/>
+      <ANIM name="Balamob Walk" file=".\art\Balamob_Walk.bha"/>
+      <ANIM name="Balamob Run" file=".\art\Balamob_jog.bha"/>
+      <ANIM name="RoyalSlinger Default" file=".\art\Slinger_Royal_Default.bha"/>
+      <ANIM name="RoyalSlinger Idle1" file=".\art\Slinger_Royal_Idle_1.bha"/>
+      <ANIM name="RoyalSlinger Idle2" file=".\art\Slinger_Royal_Idle_2.bha"/>
+      <ANIM name="RoyalSlinger Idle3" file=".\art\Slinger_Royal_Idle_3.bha"/>
+      <ANIM name="RoyalSlinger Walk" file=".\art\Slinger_Royal_Walk.bha"/>
+      <ANIM name="PorusDriver Default" file=".\art\porus_driver_default.bha"/>
+      <ANIM name="PorusElephant Default" file=".\art\porus_elephant_default.bha"/>
+      <ANIM name="PorusElephant Idle1" file=".\art\porus_elephant_idle1.bha"/>
+      <ANIM name="PorusElephant Idle2" file=".\art\porus_elephant_idle2.bha"/>
+      <ANIM name="PorusGeneral Default" file=".\art\porus_general_default.bha"/>
+      <ANIM name="PorusGeneral Idle1" file=".\art\porus_general_idle1.bha"/>
+      <ANIM name="PorusGeneral Idle2" file=".\art\porus_general_idle2.bha"/>
+      <ANIM name="PorusGeneral Walk" file=".\art\porus_general_walk.bha"/>
+      <ANIM name="PorusGeneral Run" file=".\art\porus_general_run.bha"/>
+      <ANIM name="Darius Rhorse Default" file=".\art\darius_horseright_default.bha"/>
+      <ANIM name="Darius Rhorse Idle1" file=".\art\darius_horseright_idle1.bha"/>
+      <ANIM name="Darius Rhorse Idle2" file=".\art\darius_horseright_idle2.bha"/>
+      <ANIM name="Darius Rhorse Walk" file=".\art\darius_horseright_walk.bha"/>
+      <ANIM name="Darius Rhorse Run" file=".\art\darius_horseright_run.bha"/>
+      <ANIM name="WarElephantSpearguy Default" file=".\art\warelephant_spearguy_default.bha"/>
+      <ANIM name="WarElephantSpearguy Idle1" file=".\art\warelephant_spearguy_idle1.bha"/>
+      <ANIM name="WarElephantSpearguy Idle2" file=".\art\warelephant_spearguy_idle2.bha"/>
+      <ANIM name="WarElephantSpearguy Idle3" file=".\art\warelephant_spearguy_idle3.bha"/>
+      <ANIM name="WarElephantSpearguy Walk" file=".\art\warelephant_spearguy_walk.bha"/>
+      <ANIM name="Mahout Default" file=".\art\mahout_default.bha"/>
+      <ANIM name="Mahout Idle1" file=".\art\mahout_idle1.bha"/>
+      <ANIM name="Mahout Idle2" file=".\art\mahout_idle2.bha"/>
+      <ANIM name="Mahout Idle3" file=".\art\mahout_idle3.bha"/>
+      <ANIM name="Mahout Walk" file=".\art\mahout_walk.bha"/>
+      <ANIM name="Mahout Run" file=".\art\mahout_run.bha"/>
+      <ANIM name="Mahoutmusket Default" file=".\art\mahoutmusket_default.bha"/>
+      <ANIM name="MahoutmusketDriver Default" file=".\art\mahoutmusket_driver_default.bha"/>
+      <ANIM name="MahoutmusketSpearguy Default" file=".\art\mahoutmusket_spearguy_default.bha"/>
+      <ANIM name="Mahoutmusket Idle1" file=".\art\mahoutmusket_idle1.bha"/>
+      <ANIM name="MahoutmusketDriver Idle1" file=".\art\mahoutmusket_driver_idle1.bha"/>
+      <ANIM name="MahoutmusketSpearguy Idle1" file=".\art\mahoutmusket_spearguy_idle1.bha"/>
+      <ANIM name="Mahoutmusket Idle2" file=".\art\mahoutmusket_idle2.bha"/>
+      <ANIM name="MahoutmusketDriver Idle2" file=".\art\mahoutmusket_driver_idle2.bha"/>
+      <ANIM name="MahoutmusketSpearguy Idle2" file=".\art\mahoutmusket_spearguy_idle2.bha"/>
+      <ANIM name="Mahoutmusket Idle3" file=".\art\mahoutmusket_idle3.bha"/>
+      <ANIM name="MahoutmusketDriver Idle3" file=".\art\mahoutmusket_driver_idle3.bha"/>
+      <ANIM name="MahoutmusketSpearguy Idle3" file=".\art\mahoutmusket_spearguy_idle3.bha"/>
+      <ANIM name="Mahoutmusket Walk" file=".\art\mahoutmusket_walk.bha"/>
+      <ANIM name="MahoutmusketDriver Walk" file=".\art\mahoutmusket_driver_walk.bha"/>
+      <ANIM name="MahoutmusketSpearguy Walk" file=".\art\mahoutmusket_spearguy_walk.bha"/>
+      <ANIM name="Mahoutmusket Run" file=".\art\mahoutmusket_run.bha"/>
+      <ANIM name="Mahoutcult Default" file=".\art\mahoutcult_default.bha"/>
+      <ANIM name="Mahoutcult Idle1" file=".\art\mahoutcult_idle1.bha"/>
+      <ANIM name="Mahoutcult Idle2" file=".\art\mahoutcult_idle2.bha"/>
+      <ANIM name="Mahoutcult Idle3" file=".\art\mahoutcult_idle3.bha"/>
+      <ANIM name="Mahoutcult Walk" file=".\art\mahoutcult_walk.bha"/>
+      <ANIM name="Mahoutcult Run" file=".\art\mahoutcult_run.bha"/>
+      <!--      <ANIM name="RoyalSlinger Run" file=".\art\Slinger_Royal_Run.bha"/>-->
+      <ANIM name="EagleSlinger Default" file=".\art\Eagle_Slinger_Default.bha"/>
+      <ANIM name="EagleSlinger Idle1" file=".\art\Eagle_Slinger_Idle_1.bha"/>
+      <ANIM name="EagleSlinger Idle2" file=".\art\Eagle_Slinger_Idle_2.bha"/>
+      <ANIM name="EagleSlinger Idle3" file=".\art\Eagle_Slinger_Idle_3.bha"/>
+      <ANIM name="EagleSlinger Walk" file=".\art\Eagle_Slinger_Walk.bha"/>
+      <!--      <ANIM name="EagleSlinger Run" file=".\art\Eagle_Slinger_run.bha"/>-->
+      <ANIM name="Janissary Default" file=".\art\Janissary_default.bha"/>
+      <ANIM name="Janissary Idle1" file=".\art\Janissary_idle1.bha"/>
+      <ANIM name="Janissary Idle2" file=".\art\Janissary_idle2.bha"/>
+      <ANIM name="Janissary Idle3" file=".\art\Janissary_idle3.bha"/>
+      <ANIM name="Janissary Jog" file=".\art\Janissary_jog.bha"/>
+      <ANIM name="Janissary Walk" file=".\art\Janissary_Walk.bha"/>
+      <ANIM name="BombKetch_default" file=".\art\BombKetch_default.bha"/>
+      <ANIM name="BombKetch_idel1" file=".\art\BombKetch_idle1.bha"/>
+      <ANIM name="BombKetch_idel2" file=".\art\BombKetch_idle2.bha"/>
+      <ANIM name="BombKetch_idel3" file=".\art\BombKetch_idle3.bha"/>
+      <ANIM name="Sloop default" file=".\art\Sloop_default.bha"/>
+      <ANIM name="Sloop Walk" file=".\art\Sloop_walk.bha"/>
+      <ANIM name="Carrack Default" file=".\art\Carrack_default.bha"/>
+      <ANIM name="MissileEmptyIdle" file=".\art\nukesilo_empty.bha"/>
+      <ANIM name="NukeIdle" file=".\art\nukesilo_openidle.bha"/>
+      <ANIM name="MissileIdle" file=".\art\nukesilo_openidle.bha"/>
+      <ANIM name="CraneWork0" file=".\art\crane_0_idle.bha"/>
+      <ANIM name="CraneWork3" file=".\art\crane_3_idle.bha"/>
+      <ANIM name="CraneWork5" file=".\art\crane_5_idle.bha"/>
+      <ANIM name="CTWGeneralGlow" file=".\art\CTW_gen_effect.bha"/>
+      <ANIM name="Hawk Default" file=".\art\hawk_default.bha"/>
+      <ANIM name="BombVessel_default" file=".\art\BombVessel_default.bha"/>
+      <ANIM name="BombVessel_idel1" file=".\art\BombVessel_idle1.bha"/>
+      <ANIM name="BombVessel_idel2" file=".\art\BombVessel_idle2.bha"/>
+      <ANIM name="BombVessel_idel3" file=".\art\BombVessel_idle3.bha"/>
+      <ANIM name="AMGeneral Default" file=".\art\AMGeneral_Default.bha"/>
+      <ANIM name="ARBGeneral Default" file=".\art\General_arab_Default.bha"/>
+      <ANIM name="ARBGeneral Idle1" file=".\art\General_arab_idle1.bha"/>
+      <ANIM name="ARBGeneral Idle2" file=".\art\General_arab_idle2.bha"/>
+      <ANIM name="ARBGeneral Idle3" file=".\art\General_arab_idle3.bha"/>
+      <ANIM name="ARBGeneral Walk" file=".\art\General_arab_walk.bha"/>
+      <ANIM name="ARBGeneral Run" file=".\art\General_arab_run.bha"/>
+      <ANIM name="submarine_default" file=".\art\submarine_default.bha"/>
+      <ANIM name="submarine_idle1" file=".\art\submarine_idle1.bha"/>
+      <ANIM name="submarine_idle2" file=".\art\submarine_idle2.bha"/>
+      <ANIM name="Militia_amer Default" file=".\art\Militia_amer_Default.bha"/>
+      <ANIM name="Militia_amer Idle1" file=".\art\Militia_amer_Idle1.bha"/>
+      <ANIM name="Militia_amer Idle2" file=".\art\Militia_amer_Idle2.bha"/>
+      <ANIM name="Militia_amer Walk" file=".\art\Militia_amer_Walk.bha"/>
+      <ANIM name="Militia_amer Run" file=".\art\Militia_amer_Run.bha"/>
+      <ANIM name="Militia_fem_amer Default" file=".\art\Militia_fem_amer_Default.bha"/>
+      <ANIM name="Militia_fem_amer Idle1" file=".\art\Militia_fem_amer_Idle1.bha"/>
+      <ANIM name="Militia_fem_amer Idle2" file=".\art\Militia_fem_amer_Idle2.bha"/>
+      <ANIM name="Militia_fem_amer Walk" file=".\art\Militia_fem_amer_Walk.bha"/>
+      <ANIM name="Militia_fem_amer Run" file=".\art\Militia_fem_amer_Run.bha"/>
+      <ANIM name="AMGeneral Walk" file=".\art\AMGeneral_walk.bha"/>
+      <ANIM name="AMGeneral Run" file=".\art\AMGeneral_run.bha"/>
+      <ANIM name="AMGeneral Idle1" file=".\art\AMGeneral_idle1.bha"/>
+      <ANIM name="AMGeneral Idle2" file=".\art\AMGeneral_idle2.bha"/>
+      <ANIM name="AMGeneral Idle3" file=".\art\AMGeneral_idle3.bha"/>
+      <ANIM name="Militia6  Idle2" file=".\art\Militia6_Idle2.bha"/>
+      <ANIM name="InfantryMuzzleFlashAnim" file=".\art\InfantryMuzzleFlash.bha"/>
+      <ANIM name="BiplaneMuzzleFlashAnim" file=".\art\BiplaneMuzzleFlashAnim.bha"/>
+      <ANIM name="FighterMuzzleFlashAnim" file=".\art\FighterMuzzleFlash.bha"/>
+      <ANIM name="CamelCorps Default" file=".\art\Camelcorps_deafult.bha"/>
+      <ANIM name="CamelCorps Idle1" file=".\art\CamelCorps_Idle1.bha"/>
+      <ANIM name="CamelCorps Idle2" file=".\art\CamelCorps_Idle2.bha"/>
+      <ANIM name="CamelCorps Idle3" file=".\art\CamelCorps_Idle3.bha"/>
+      <ANIM name="CamelCorps Walk" file=".\art\CamelCorps_Walk.bha"/>
+      <ANIM name="CamelCorps Run" file=".\art\CamelCorps_Run.bha"/>
+      <ANIM name="MediumTank Idle4" file=".\art\mediumtank_idle4.bha"/>
+      <ANIM name="MediumTank Idle5" file=".\art\mediumtank_idle5.bha"/>
+      <ANIM name="Militia_fem_arab Walk" file=".\art\Militia_fem_arab_Walk.bha"/>
+      <ANIM name="Militia_fem_arab Run" file=".\art\Militia_fem_arab_Run.bha"/>
+      <ANIM name="Fireraft Default" file=".\art\fireraftdefault.bha"/>
+      <ANIM name="Fireraft Move" file=".\art\fireraftdefault.bha"/>
+      <ANIM name="Transport Build" file=".\art\Transport_oil.bha"/>
+      <ANIM name="DutchCaravan Default" file=".\art\dutch_caravan_default.bha"/>
+      <ANIM name="DutchCaravan Walk" file=".\art\dutch_caravan_walk.bha"/>
+      <ANIM name="DutchCaravan Run" file=".\art\dutch_caravan_run.bha"/>
+      <ANIM name="DutchCaravan Idle1" file=".\art\dutch_caravan_idle1.bha"/>
+      <ANIM name="DutchCaravan Idle2" file=".\art\dutch_caravan_idle3.bha"/>
+      <ANIM name="DutchCaravan Idle3" file=".\art\dutch_caravan_idle3.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Default" file=".\art\dutch_wholesaler_escort_default.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Idle1" file=".\art\dutch_wholesaler_escort_idle1.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Idle2" file=".\art\dutch_wholesaler_escort_idle2.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Idle3" file=".\art\dutch_wholesaler_escort_idle3.bha"/>
+      <ANIM name="Typhoon_Walk" file=".\art\typhoon_walk.bha"/>
+      <ANIM name="Ironclad Default" file=".\art\ironclad_default.bha"/>
+      <ANIM name="Ironclad Walk" file=".\art\ironclad_walk.bha"/>
+      <ANIM name="PT_Boat Default" file=".\art\pt_boat_default.bha"/>
+      <ANIM name="PT_Boat Idle1" file=".\art\pt_boat_idle1.bha"/>
+      <ANIM name="PT_Boat Idle2" file=".\art\pt_boat_idle2.bha"/>
+      <ANIM name="PT_Boat Idle3" file=".\art\pt_boat_idle3.bha"/>
+      <ANIM name="PT_Boat Walk" file=".\art\pt_boat_walk.bha"/>
+    </LOOPING>
+    <NONLOOPING>
+      <ANIM name="Pikeman Attack1" file=".\art\pikeman_attack1.bha"/>
+      <ANIM name="MoveToMarker" file=".\art\movetomarker.bha"/>
+      <ANIM name="AttackToMarker" file=".\art\attacktomarker.bha"/>
+      <ANIM name="Miner Dump" file=".\art\miner_wheelbarrow_dump.bha"/>
+      <ANIM name="Man Stabbed1" file=".\art\man_stabbed1.bha"/>
+      <ANIM name="Man Shot1" file=".\art\man_shot1.bha"/>
+      <ANIM name="Man Shot2" file=".\art\man_shot2.bha"/>
+      <ANIM name="Man Sploded1" file=".\art\man_sploded1.bha"/>
+      <ANIM name="Man Sploded2" file=".\art\man_sploded2.bha"/>
+      <ANIM name="Man Ouch" file=".\art\man_ouch.bha"/>
+      <ANIM name="Lumberjack Dump" file=".\art\lumberjack_dump.bha"/>
+      <ANIM name="ScorchedcrewDeath1" file=".\art\scorchedcrew_death1.bha"/>
+      <ANIM name="ScorchedBipedDeath1" file=".\art\scorchedbiped_death1.bha"/>
+      <ANIM name="ScorchedBipedDeath2" file=".\art\scorchedbiped_death2.bha"/>
+      <ANIM name="ScorchedBipedDeath3" file=".\art\scorchedbiped_death3.bha"/>
+      <ANIM name="ScorchedBipedDeath4" file=".\art\scorchedbiped_death4.bha"/>
+      <ANIM name="ScorchedCamelDeath1" file=".\art\scorchedcamel_death1.bha"/>
+      <ANIM name="ScorchedCamelDeath2" file=".\art\scorchedcamel_death2.bha"/>
+      <ANIM name="ScorchedHorseDeath1" file=".\art\scorchedhorse_death1.bha"/>
+      <ANIM name="ScorchedHorseDeath2" file=".\art\scorchedhorse_death2.bha"/>
+      <ANIM name="ScorchedHorseDeath3" file=".\art\scorchedhorse_death3.bha"/>
+      <ANIM name="ScorchedHorseDeath4" file=".\art\scorchedhorse_death4.bha"/>
+      <!--      <ANIM name="ScorchedSheepDeath1" file=".\art\scorchedsheep_death1.bha"/>-->
+      <ANIM name="ScorchedSheepDeath2" file=".\art\scorchedsheep_death2.bha"/>
+      <ANIM name="ScorchedSheepDeath3" file=".\art\scorchedsheep_death3.bha"/>
+      <ANIM name="FlakGunGer Attack1" file=".\art\flakgun_attack1_german.bha"/>
+      <ANIM name="FlakGunGer AttackWalk" file=".\art\flakgun_attackwalk_german.bha"/>
+      <ANIM name="FlakGun Attack1" file=".\art\flakgun_attack1.bha"/>
+      <ANIM name="FlakGun Attack2" file=".\art\flakgun_attack2.bha"/>
+      <ANIM name="FlakGun Attack3" file=".\art\flakgun_attack3.bha"/>
+      <ANIM name="FlakGun AttackWalk" file=".\art\flakgun_attackwalk.bha"/>
+      <ANIM name="FlakGun Death1" file=".\art\flakgun_death1.bha"/>
+      <ANIM name="FlakGun Death2" file=".\art\flakgun_death2.bha"/>
+      <ANIM name="FlakGun Death3" file=".\art\flakgun_death3.bha"/>
+      <ANIM name="FlakGun Death4" file=".\art\flakgun_death4.bha"/>
+      <ANIM name="Artillery Death1" file=".\art\artillery_can_death1.bha"/>
+      <ANIM name="Artillery Death2" file=".\art\artillery_can_death2.bha"/>
+      <ANIM name="Artillery Death3" file=".\art\artillery_can_death3.bha"/>
+      <ANIM name="Artillery Death4" file=".\art\artillery_can_death4.bha"/>
+      <ANIM name="Artillery Death5" file=".\art\artillery_can_death5.bha"/>
+      <ANIM name="Artillery Death6" file=".\art\artillery_can_death6.bha"/>
+      <ANIM name="Artillery Death7" file=".\art\artillery_can_death7.bha"/>
+      <ANIM name="Artillery Death8" file=".\art\artillery_can_death8.bha"/>
+      <ANIM name="Artillery Attack1" file=".\art\artillery_can_attack1.bha"/>
+      <ANIM name="Artillery Pack" file=".\art\artillery_can_pack.bha"/>
+      <ANIM name="Artillery Unpack" file=".\art\artillery_can_unpack.bha"/>
+      <ANIM name="ArtilleryCrew Death1" file=".\art\artillery_crew_death1.bha"/>
+      <ANIM name="ArtilleryCrew Death2" file=".\art\artillery_crew_death2.bha"/>
+      <ANIM name="ArtilleryCrew Death3" file=".\art\artillery_crew_death3.bha"/>
+      <ANIM name="ArtilleryCrew Attack1" file=".\art\artillery_crew_attack1.bha"/>
+      <ANIM name="ArtilleryCrew Pack" file=".\art\artillery_crew_pack.bha"/>
+      <ANIM name="ArtilleryCrew Unpack" file=".\art\artillery_crew_unpack.bha"/>
+      <ANIM name="ArtilleryDriver Unpack" file=".\art\artillery_driver_unpack.bha"/>
+      <ANIM name="ArtilleryDriver Pack" file=".\art\artillery_driver_pack.bha"/>
+      <ANIM name="ArtilleryDriver Attack1" file=".\art\artillery_driver_attack1.bha"/>
+      <ANIM name="ArtilleryTruck Death1" file=".\art\artillery_truck_death1.bha"/>
+      <ANIM name="ArtilleryTruck Death2" file=".\art\artillery_truck_death2.bha"/>
+      <ANIM name="ArtilleryTruck Death3" file=".\art\artillery_truck_death3.bha"/>
+      <ANIM name="ArtilleryTruck Death4" file=".\art\artillery_truck_death4.bha"/>
+      <ANIM name="ArtilleryTruck Death5" file=".\art\artillery_truck_death5.bha"/>
+      <ANIM name="ArtilleryTruck Death6" file=".\art\artillery_truck_death6.bha"/>
+      <ANIM name="ArtilleryTruck Death7" file=".\art\artillery_truck_death7.bha"/>
+      <ANIM name="ArtilleryTruck Death8" file=".\art\artillery_truck_death8.bha"/>
+      <ANIM name="ArtilleryTruck Attack1" file=".\art\artillery_truck_attack1.bha"/>
+      <ANIM name="ArtilleryTruck Pack" file=".\art\artillery_truck_pack.bha"/>
+      <ANIM name="ArtilleryTruck Unpack" file=".\art\artillery_truck_unpack.bha"/>
+      <ANIM name="ArmedSupplytruck Attack1" file=".\art\armsuplytruck_attack1.bha"/>
+      <ANIM name="ArmedSupplytruck AttackWalk" file=".\art\armsuplytruck_attackwalk.bha"/>
+      <ANIM name="ArmedSupplyWagon Attack1" file=".\art\armsuplywagon_attack1.bha"/>
+      <ANIM name="ArmedSupplyWagon AttackWalk" file=".\art\armsuplywagon_attackwalk.bha"/>
+      <ANIM name="ArmedSupplyCrew Attack1" file=".\art\armsuplycrew_attack1.bha"/>
+      <ANIM name="ArmedSupplyCrew AttackWalk" file=".\art\armsuplycrew_attackwalk.bha"/>
+      <ANIM name="ArmedSupplyHorse Attack1" file=".\art\armsuplyhorse_attack1.bha"/>
+      <ANIM name="ArmedSupplyHorse AttackWalk" file=".\art\armsuplyhorse_attackwalk.bha"/>
+      <ANIM name="Supplytruckdeath1" file=".\art\Supplytruckdeath1.bha"/>
+      <ANIM name="Supplytruckdeath2" file=".\art\Supplytruckdeath2.bha"/>
+      <ANIM name="Supplytruckdeath3" file=".\art\Supplytruckdeath3.bha"/>
+      <ANIM name="Supplytruckdeath4" file=".\art\Supplytruckdeath4.bha"/>
+      <ANIM name="Dreadnought Death1" file=".\art\dreadnought_death1.bha"/>
+      <ANIM name="Dreadnought Death2" file=".\art\dreadnought_death2.bha"/>
+      <ANIM name="Dreadnought Death3" file=".\art\dreadnought_death3.bha"/>
+      <ANIM name="Dreadnought Death4" file=".\art\dreadnought_death4.bha"/>
+      <ANIM name="Dreadnought AttackLeft" file=".\art\dreadnought_attackleft.bha"/>
+      <ANIM name="Dreadnought AttackRight" file=".\art\dreadnought_attackright.bha"/>
+      <ANIM name="Archer Attack1" file=".\art\archer_attack1.bha"/>
+      <ANIM name="Archer Attack2" file=".\art\archer_attack2.bha"/>
+      <ANIM name="Archer Attack3" file=".\art\archer_attack3.bha"/>
+      <ANIM name="Longbow Attack1" file=".\art\longbow_attack1.bha"/>
+      <ANIM name="Longbow Attack2" file=".\art\longbow_attack2.bha"/>
+      <ANIM name="Longbow Attack3" file=".\art\longbow_attack3.bha"/>
+      <ANIM name="Spear Attack3" file=".\art\spear_attack3.bha"/>
+      <ANIM name="Barbarian Attack1" file=".\art\barbarian_attack1.bha"/>
+      <ANIM name="Barbarian Attack2" file=".\art\barbarian_attack2.bha"/>
+      <ANIM name="Barbarian Attack3" file=".\art\barbarian_attack3.bha"/>
+      <ANIM name="Slinger Attack1" file=".\art\slinger_attack1.bha"/>
+      <ANIM name="Slinger Attack2" file=".\art\slinger_attack2.bha"/>
+      <ANIM name="Slinger Attack3" file=".\art\slinger_attack3.bha"/>
+      <ANIM name="Hoplite Attack1" file=".\art\hoplite_attack1.bha"/>
+      <ANIM name="Hoplite Attack2" file=".\art\hoplite_attack2.bha"/>
+      <ANIM name="Hoplite Attack3" file=".\art\hoplite_attack3.bha"/>
+      <ANIM name="Slinger Death1" file=".\art\slinger_death1.bha"/>
+      <ANIM name="Slinger Death2" file=".\art\slinger_death2.bha"/>
+      <ANIM name="Slinger Death3" file=".\art\slinger_death3.bha"/>
+      <ANIM name="Slinger Death4" file=".\art\slinger_death4.bha"/>
+      <ANIM name="Footman Attack" file=".\art\footman_attack.bha"/>
+      <ANIM name="Phalanx Attack1" file=".\art\phalanx_attack1.bha"/>
+      <ANIM name="Phalanx Attack2" file=".\art\phalanx_attack2.bha"/>
+      <ANIM name="Phalanx Attack3" file=".\art\phalanx_attack3.bha"/>
+      <ANIM name="Pikeman Attack2" file=".\art\pikeman_attack2.bha"/>
+      <ANIM name="Pikeman Attack3" file=".\art\pikeman_attack3.bha"/>
+      <ANIM name="Pikeman Shot1" file=".\art\pikeman_shot1.bha"/>
+      <ANIM name="Pikeman Shot2" file=".\art\pikeman_shot2.bha"/>
+      <ANIM name="Javelineer Attack1" file=".\art\javelineer_attack1.bha"/>
+      <ANIM name="Javelineer Attack2" file=".\art\javelineer_attack2.bha"/>
+      <ANIM name="Javelineer Attack3" file=".\art\javelineer_attack3.bha"/>
+      <ANIM name="Peltast Attack2" file=".\art\peltast_attack2.bha"/>
+      <ANIM name="Peltast Attack1" file=".\art\peltast_attack1.bha"/>
+      <ANIM name="Peltast Attack3" file=".\art\peltast_attack3.bha"/>
+      <ANIM name="Samurai Attack 1" file=".\art\samurai_attack1.bha"/>
+      <ANIM name="Samurai Attack 2" file=".\art\samurai_attack2.bha"/>
+      <ANIM name="Samurai Attack 3" file=".\art\samurai_attack3.bha"/>
+      <ANIM name="Legion Attack1" file=".\art\legion_attack1.bha"/>
+      <ANIM name="Legion Attack2" file=".\art\legion_attack2.bha"/>
+      <ANIM name="Legion Attack3" file=".\art\legion_attack3.bha"/>
+      <ANIM name="Praetorian Attack1" file=".\art\praetor_attack1.bha"/>
+      <ANIM name="Praetorian Attack2" file=".\art\praetor_attack2.bha"/>
+      <ANIM name="Praetorian Attack3" file=".\art\praetor_attack3.bha"/>
+      <ANIM name="Crossbow Attack1" file=".\art\crossbow_Attack1.bha"/>
+      <ANIM name="Crossbow Attack2" file=".\art\crossbow_Attack2.bha"/>
+      <ANIM name="Crossbow Attack3" file=".\art\crossbow_Attack3.bha"/>
+      <ANIM name="Arquebusier Attack1" file=".\art\arquebusier_attack1.bha"/>
+      <ANIM name="Arquebusier Attack2" file=".\art\arquebusier_attack2.bha"/>
+      <ANIM name="Arquebusier Attack3" file=".\art\arquebusier_attack3.bha"/>
+      <ANIM name="Firelance Attack1" file=".\art\firelance_attack1.bha"/>
+      <ANIM name="Firelance Attack2" file=".\art\firelance_attack2.bha"/>
+      <ANIM name="Firelance Attack3" file=".\art\firelance_attack3.bha"/>
+      <ANIM name="Musketeer Attack1" file=".\art\musketeer_attack1.bha"/>
+      <ANIM name="Musketeer Attack2" file=".\art\musketeer_attack2.bha"/>
+      <ANIM name="Musketeer Attack3" file=".\art\musketeer_attack3.bha"/>
+      <ANIM name="Musketeer Shot1" file=".\art\musketeer_shot1.bha"/>
+      <ANIM name="Musketeer Shot2" file=".\art\musketeer_shot2.bha"/>
+      <ANIM name="Musketeer Stabbed1" file=".\art\musketeer_stabbed1.bha"/>
+      <ANIM name="Musketeer Sploded1" file=".\art\musketeer_sploded1.bha"/>
+      <ANIM name="Musketeer Sploded2" file=".\art\musketeer_sploded2.bha"/>
+      <ANIM name="Highlander Attack1" file=".\art\highlander_attack1.bha"/>
+      <ANIM name="Highlander Attack2" file=".\art\highlander_attack2.bha"/>
+      <ANIM name="Highlander Attack3" file=".\art\highlander_attack3.bha"/>
+      <ANIM name="Fusilier Attack1" file=".\art\fusilier_attack1.bha"/>
+      <ANIM name="Fusilier Attack2" file=".\art\fusilier_attack2.bha"/>
+      <ANIM name="Fusilier Attack3" file=".\art\fusilier_attack3.bha"/>
+      <ANIM name="Fusilier Shot1" file=".\art\fusilier_shot1.bha"/>
+      <ANIM name="Fusilier Shot2" file=".\art\fusilier_shot2.bha"/>
+      <ANIM name="ATR Attack1" file=".\art\atr_attack1.bha"/>
+      <ANIM name="ATR Attack2" file=".\art\atr_attack2.bha"/>
+      <ANIM name="ATR Attack3" file=".\art\atr_attack3.bha"/>
+      <ANIM name="ATR Shot1" file=".\art\atr_shot1.bha"/>
+      <ANIM name="ATR Shot2" file=".\art\atr_shot2.bha"/>
+      <ANIM name="Bazooka Attack1" file=".\art\bazooka_attack1.bha"/>
+      <ANIM name="Bazooka Attack2" file=".\art\bazooka_attack2.bha"/>
+      <ANIM name="Bazooka Attack3" file=".\art\bazooka_attack3.bha"/>
+      <ANIM name="Dragon Attack1" file=".\art\dragon_attack1.bha"/>
+      <ANIM name="Dragon Attack2" file=".\art\dragon_attack2.bha"/>
+      <ANIM name="Dragon Attack3" file=".\art\dragon_attack3.bha"/>
+      <ANIM name="Bazooka Death1" file=".\art\bazooka_death1.bha"/>
+      <ANIM name="Bazooka Death2" file=".\art\bazooka_death2.bha"/>
+      <ANIM name="Bazooka Death3" file=".\art\bazooka_death3.bha"/>
+      <ANIM name="Bazooka Death6" file=".\art\bazooka_death6.bha"/>
+      <ANIM name="Rifleman Attack1" file=".\art\rifleman_attack1.bha"/>
+      <ANIM name="Rifleman Attack2" file=".\art\rifleman_attack2.bha"/>
+      <ANIM name="Rifleman Attack3" file=".\art\rifleman_attack3.bha"/>
+      <ANIM name="FlamingArrow Attack1" file=".\art\flamingarrow_attack1.bha"/>
+      <ANIM name="FlamingArrow Crew Attack1" file=".\art\flamingarrow_crew_attack1.bha"/>
+      <ANIM name="FlamingArrow BigCrew Attack1" file=".\art\flamingarrow_bigcrew_attack1.bha"/>
+      <ANIM name="FlamingArrow Pack" file=".\art\flamingarrow_pack.bha"/>
+      <ANIM name="FlamingArrow Unpack" file=".\art\flamingarrow_unpack.bha"/>
+      <ANIM name="FlamingArrow Crew Pack" file=".\art\flamingarrow_crew_pack.bha"/>
+      <ANIM name="FlamingArrow Crew Unpack" file=".\art\flamingarrow_crew_unpack.bha"/>
+      <ANIM name="FlamingArrow BigCrew Pack" file=".\art\flamingarrow_bigcrew_pack.bha"/>
+      <ANIM name="FlamingArrow BigCrew Unpack" file=".\art\flamingarrow_bigcrew_unpack.bha"/>
+      <ANIM name="FlamingArrow UP Death1" file=".\art\flamingarrow_unpacked_death1.bha"/>
+      <ANIM name="FlamingArrow UP Death2" file=".\art\flamingarrow_unpacked_death2.bha"/>
+      <ANIM name="FlamingArrow UP Death3" file=".\art\flamingarrow_unpacked_death3.bha"/>
+      <ANIM name="FlamingArrow UP Death4" file=".\art\flamingarrow_unpacked_death4.bha"/>
+      <ANIM name="FlamingArrow UP Death5" file=".\art\flamingarrow_unpacked_death5.bha"/>
+      <ANIM name="FlamingArrow UP Death6" file=".\art\flamingarrow_unpacked_death6.bha"/>
+      <ANIM name="FlamingArrow Death1" file=".\art\flamingarrow_packed_death1.bha"/>
+      <ANIM name="FlamingArrow Death2" file=".\art\flamingarrow_packed_death2.bha"/>
+      <ANIM name="FlamingArrow Death3" file=".\art\flamingarrow_packed_death3.bha"/>
+      <ANIM name="FlamingArrow Death4" file=".\art\flamingarrow_packed_death4.bha"/>
+      <ANIM name="FlamingArrow Death5" file=".\art\flamingarrow_packed_death5.bha"/>
+      <ANIM name="FlamingArrow Death6" file=".\art\flamingarrow_packed_death6.bha"/>
+      <ANIM name="Catapult Attack1" file=".\art\catapult_attack1.bha"/>
+      <ANIM name="Catapult Pack" file=".\art\catapult_pack.bha"/>
+      <ANIM name="Catapult Unpack" file=".\art\catapult_unpack.bha"/>
+      <ANIM name="CatapultCrew0 Attack1" file=".\art\catapult_crew0_attack1.bha"/>
+      <ANIM name="CatapultCrew0 Pack" file=".\art\catapult_crew0_pack.bha"/>
+      <ANIM name="CatapultCrew0 Unpack" file=".\art\catapult_crew0_unpack.bha"/>
+      <ANIM name="CatapultCrew1 Attack1" file=".\art\catapult_crew1_attack1.bha"/>
+      <ANIM name="CatapultCrew1 Unpack" file=".\art\catapult_crew1_unpack.bha"/>
+      <ANIM name="Catapult Death1" file=".\art\catapult_death1.bha"/>
+      <ANIM name="Catapult Death2" file=".\art\catapult_death2.bha"/>
+      <ANIM name="Catapult Death3" file=".\art\catapult_death3.bha"/>
+      <ANIM name="Catapult Death4" file=".\art\catapult_death4.bha"/>
+      <ANIM name="Infantry Attack1" file=".\art\infantry_attack1.bha"/>
+      <ANIM name="Infantry Attack3" file=".\art\infantry_attack3.bha"/>
+      <ANIM name="Infantry Attack2" file=".\art\infantry_attack2.bha"/>
+      <ANIM name="Infantry Headshot" file=".\art\infantry_headshot.bha"/>
+      <ANIM name="Infantry Bodyshot" file=".\art\infantry_bodyshot.bha"/>
+      <ANIM name="Infantry Stabbed1" file=".\art\infantry_stabbed1.bha"/>
+      <ANIM name="Infantry Stabbed2" file=".\art\infantry_stabbed2.bha"/>
+      <ANIM name="Infantry CoverFire1" file=".\art\infantry_coverfire1.bha"/>
+      <ANIM name="JaguarInf Attack3" file=".\art\jaguar_inf_attack3.bha"/>
+      <ANIM name="JaguarInf Death2" file=".\art\jaguar_inf_death2.bha"/>
+      <ANIM name="Inf Attack1" file=".\art\inf_attack1.bha"/>
+      <ANIM name="Inf Attack2" file=".\art\inf_attack2.bha"/>
+      <ANIM name="Inf Attack3" file=".\art\inf_attack3.bha"/>
+      <ANIM name="Inf Death1" file=".\art\inf_death1.bha"/>
+      <ANIM name="Inf Death2" file=".\art\inf_death2.bha"/>
+      <ANIM name="Inf Death3" file=".\art\inf_death3.bha"/>
+      <ANIM name="Inf Death4" file=".\art\inf_death4.bha"/>
+      <ANIM name="Inf Death5" file=".\art\inf_death5.bha"/>
+      <ANIM name="Inf Sploded1" file=".\art\inf_sploded1.bha"/>
+      <ANIM name="Inf Sploded2" file=".\art\inf_sploded2.bha"/>
+      <ANIM name="Inf Coverfire" file=".\art\inf_coverfire.bha"/>
+      <ANIM name="GatlingGun Attack" file=".\art\gatling_attack.bha"/>
+      <ANIM name="MachinegunGU Attack1" file=".\art\machinegunGU_attack1.bha"/>
+      <ANIM name="MachinegunGU Attack2" file=".\art\machinegunGU_attack2.bha"/>
+      <ANIM name="MachinegunGU Attack3" file=".\art\machinegunGU_attack3.bha"/>
+      <ANIM name="MachinegunAU Attack1" file=".\art\machinegunAU_attack1.bha"/>
+      <ANIM name="MachinegunAU Attack2" file=".\art\machinegunAU_attack2.bha"/>
+      <ANIM name="MachinegunAU Attack3" file=".\art\machinegunAU_attack3.bha"/>
+      <ANIM name="MachinegunG Unpack" file=".\art\machinegunG_unpack.bha"/>
+      <ANIM name="MachinegunG Pack" file=".\art\machinegunG_pack.bha"/>
+      <ANIM name="MachinegunA Unpack" file=".\art\machinegunA_unpack.bha"/>
+      <ANIM name="MachinegunA Pack" file=".\art\machinegunA_pack.bha"/>
+      <ANIM name="MachinegunAP Death1" file=".\art\machinegunAP_death1.bha"/>
+      <ANIM name="MachinegunAP Death2" file=".\art\machinegunAP_death2.bha"/>
+      <ANIM name="MachinegunAU Death1" file=".\art\machinegunAU_death1.bha"/>
+      <ANIM name="MachinegunAU Death2" file=".\art\machinegunAU_death2.bha"/>
+      <ANIM name="MachinegunAU Death3" file=".\art\machinegunAU_death3.bha"/>
+      <ANIM name="MachinegunAU Death4" file=".\art\machinegunAU_death4.bha"/>
+      <ANIM name="MachinegunGP Death1" file=".\art\machinegunGP_death1.bha"/>
+      <ANIM name="MachinegunGP Death2" file=".\art\machinegunGP_death2.bha"/>
+      <ANIM name="MachinegunGU Death1" file=".\art\machinegunGU_death1.bha"/>
+      <ANIM name="MachinegunGU Death2" file=".\art\machinegunGU_death2.bha"/>
+      <ANIM name="MachinegunGU Death3" file=".\art\machinegunGU_death3.bha"/>
+      <ANIM name="MachinegunGU Death4" file=".\art\machinegunGU_death4.bha"/>
+      <ANIM name="MinigunGU Attack1" file=".\art\minigun_G_attack1.bha"/>
+      <ANIM name="MinigunGU Attack2" file=".\art\minigun_G_attack2.bha"/>
+      <ANIM name="MinigunGU Attack3" file=".\art\minigun_G_attack3.bha"/>
+      <ANIM name="MGG Pack Fast" file=".\art\mg_Gpackfast.bha"/>
+      <ANIM name="MGG Unpack Fast" file=".\art\mg_Gunpackfast.bha"/>
+      <ANIM name="MGAdvG Unpack Fast" file=".\art\mgadv_Gunpackfast.bha"/>
+      <ANIM name="MGA Pack Fast" file=".\art\mg_Apackfast.bha"/>
+      <ANIM name="MGA Unpack Fast" file=".\art\mg_Aunpackfast.bha"/>
+      <ANIM name="HvyTank Attack1" file=".\art\hvytank_attack1.bha"/>
+      <ANIM name="HvyTank Attack2" file=".\art\hvytank_attack2.bha"/>
+      <ANIM name="HvyTank Attack3" file=".\art\hvytank_attack3.bha"/>
+      <ANIM name="HvyTank Death1" file=".\art\hvytank_death1.bha"/>
+      <ANIM name="HvyTank Death2" file=".\art\hvytank_death2.bha"/>
+      <ANIM name="HvyTank Death3" file=".\art\hvytank_death3.bha"/>
+      <ANIM name="HvyTank Death4" file=".\art\hvytank_death4.bha"/>
+      <ANIM name="HvyTank Death5" file=".\art\hvytank_death5.bha"/>
+      <ANIM name="HvyTank Death6" file=".\art\hvytank_death6.bha"/>
+      <ANIM name="Nomad Attack1" file=".\art\nomad_attack1.bha"/>
+      <ANIM name="Nomad Attack2" file=".\art\nomad_attack2.bha"/>
+      <ANIM name="Nomad Attack3" file=".\art\nomad_attack3.bha"/>
+      <ANIM name="Nomad AttackRun" file=".\art\nomad_attackrun.bha"/>
+      <ANIM name="Nomad Death1" file=".\art\nomad_death1.bha"/>
+      <ANIM name="Nomad Death2" file=".\art\nomad_death2.bha"/>
+      <ANIM name="Nomad Death3" file=".\art\nomad_death3.bha"/>
+      <ANIM name="Nomad Death4" file=".\art\nomad_death4.bha"/>
+      <ANIM name="Nomad Death5" file=".\art\nomad_death5.bha"/>
+      <ANIM name="Nomad Death6" file=".\art\nomad_death6.bha"/>
+      <ANIM name="HorseArcher Attack1" file=".\art\horsearcher_attack1.bha"/>
+      <ANIM name="HorseArcher Attack2" file=".\art\horsearcher_attack2.bha"/>
+      <ANIM name="HorseArcher Attack3" file=".\art\horsearcher_attack3.bha"/>
+      <ANIM name="HorseArcher AttackRun" file=".\art\horsearcher_attackrun.bha"/>
+      <ANIM name="HorseArcher Death1" file=".\art\horsearcher_death1.bha"/>
+      <ANIM name="HorseArcher Death2" file=".\art\horsearcher_death2.bha"/>
+      <ANIM name="HorseArcher Death3" file=".\art\horsearcher_death3.bha"/>
+      <ANIM name="HorseArcher Death4" file=".\art\horsearcher_death4.bha"/>
+      <ANIM name="HorseArcher Death5" file=".\art\horsearcher_death5.bha"/>
+      <ANIM name="HorseArcher Death6" file=".\art\horsearcher_death6.bha"/>
+      <ANIM name="Chariot Attack1" file=".\art\chariot_attack1.bha"/>
+      <ANIM name="Chariot Attack2" file=".\art\chariot_attack2.bha"/>
+      <ANIM name="Chariot Attack3" file=".\art\chariot_attack3.bha"/>
+      <ANIM name="Chariot AttackRun" file=".\art\chariot_attackrun.bha"/>
+      <ANIM name="Chariot Death1" file=".\art\chariot_death1.bha"/>
+      <ANIM name="Chariot Death2" file=".\art\chariot_death2.bha"/>
+      <ANIM name="Chariot Death3" file=".\art\chariot_death3.bha"/>
+      <ANIM name="Chariot Death4" file=".\art\chariot_death4.bha"/>
+      <ANIM name="ChariotHorse Attack1" file=".\art\chariot_horse_attack1.bha"/>
+      <ANIM name="ChariotHorse Attack2" file=".\art\chariot_horse_attack2.bha"/>
+      <ANIM name="ChariotHorse Attack3" file=".\art\chariot_horse_attack3.bha"/>
+      <ANIM name="ChariotHorse AttackRun" file=".\art\chariot_horse_attackrun.bha"/>
+      <ANIM name="ChariotHorse Death1" file=".\art\chariot_horse_death1.bha"/>
+      <ANIM name="ChariotHorse Death2" file=".\art\chariot_horse_death2.bha"/>
+      <ANIM name="ChariotHorse Death3" file=".\art\chariot_horse_death3.bha"/>
+      <ANIM name="ChariotHorse Death4" file=".\art\chariot_horse_death4.bha"/>
+      <ANIM name="CamelArcher Attack1" file=".\art\camelarcher_attack1.bha"/>
+      <ANIM name="CamelArcher Attack2" file=".\art\camelarcher_attack2.bha"/>
+      <ANIM name="CamelArcher Attack3" file=".\art\camelarcher_attack3.bha"/>
+      <ANIM name="CamelArcher AttackRun" file=".\art\camelarcher_attackrun.bha"/>
+      <ANIM name="CamelArcher Death1" file=".\art\camelarcher_death1.bha"/>
+      <ANIM name="CamelArcher Death2" file=".\art\camelarcher_death2.bha"/>
+      <ANIM name="CamelArcher Death4" file=".\art\camelarcher_death4.bha"/>
+      <ANIM name="CamelArcher Death5" file=".\art\camelarcher_death5.bha"/>
+      <ANIM name="CamelArcher Death6" file=".\art\camelarcher_death6.bha"/>
+      <ANIM name="LightHorse Attack1" file=".\art\lighthorse_attack1.bha"/>
+      <ANIM name="LightHorse Attack2" file=".\art\lighthorse_attack2.bha"/>
+      <ANIM name="LightHorse Attack3" file=".\art\lighthorse_attack3.bha"/>
+      <ANIM name="ScoutCav Attack1" file=".\art\scoutcav_attack1.bha"/>
+      <ANIM name="ScoutCav Attack2" file=".\art\scoutcav_attack2.bha"/>
+      <ANIM name="Carbineer Attack1" file=".\art\carabineer_attack1.bha"/>
+      <ANIM name="Carbineer Attack2" file=".\art\carabineer_attack2.bha"/>
+      <ANIM name="Carbineer Attack3" file=".\art\carabineer_attack3.bha"/>
+      <ANIM name="Carabineer AttackRun" file=".\art\carabineer_attackrun.bha"/>
+      <ANIM name="Mameluke Attack1" file=".\art\mameluke_attack1.bha"/>
+      <ANIM name="Mameluke Attack2" file=".\art\mameluke_attack2.bha"/>
+      <ANIM name="Mameluke Attack3" file=".\art\mameluke_attack3.bha"/>
+      <ANIM name="Mameluke AttackRun" file=".\art\mameluke_attackrun.bha"/>
+      <ANIM name="Cuirassier Attack1" file=".\art\cuirassier_attack1.bha"/>
+      <ANIM name="Cuirassier Attack2" file=".\art\cuirassier_attack2.bha"/>
+      <ANIM name="Cuirassier Attack3" file=".\art\cuirassier_attack3.bha"/>
+      <ANIM name="Flamethrower Attack1" file=".\art\flamethrower_attack1.bha"/>
+      <ANIM name="Flamethrower Death1" file=".\art\flamethrower_death1.bha"/>
+      <ANIM name="Flamethrower Death2" file=".\art\flamethrower_death2.bha"/>
+      <ANIM name="Flamethrower Death3" file=".\art\flamethrower_death3.bha"/>
+      <ANIM name="Flamethrower Death4" file=".\art\flamethrower_death4.bha"/>
+      <ANIM name="Flamethrower Death5" file=".\art\flamethrower_death5.bha"/>
+      <ANIM name="Flamethrower Death6" file=".\art\flamethrower_death6.bha"/>
+      <ANIM name="Supplywagon Death1" file=".\art\supplyw_e_death1.bha"/>
+      <ANIM name="Supplywagon Death2" file=".\art\supplyw_e_death2.bha"/>
+      <ANIM name="Supplywagon Death3" file=".\art\supplyw_e_death3.bha"/>
+      <ANIM name="Supplywagon Death4" file=".\art\supplyw_e_death4.bha"/>
+      <ANIM name="SupplywagonCrew Death4" file=".\art\supplyw_crew_e_death4.bha"/>
+      <ANIM name="Caravan0 Death1" file=".\art\caravan0_death1.bha"/>
+      <ANIM name="Caravan0 Death2" file=".\art\caravan0_death2.bha"/>
+      <ANIM name="Caravan0 Death3" file=".\art\caravan0_death3.bha"/>
+      <ANIM name="Caravan0 Death4" file=".\art\caravan0_death4.bha"/>
+      <ANIM name="Caravan0 Death5" file=".\art\caravan0_death5.bha"/>
+      <ANIM name="Caravan0 Death6" file=".\art\caravan0_death6.bha"/>
+      <ANIM name="Caravan0Arab Death1" file=".\art\caravan0_arab_death1.bha"/>
+      <ANIM name="Caravan0Arab Death2" file=".\art\caravan0_arab_death2.bha"/>
+      <ANIM name="Caravan0Arab Death3" file=".\art\caravan0_arab_death3.bha"/>
+      <ANIM name="Caravan0Arab Death4" file=".\art\caravan0_arab_death4.bha"/>
+      <ANIM name="Caravan3 Horse Death1" file=".\art\caravan3_horse_death1.bha"/>
+      <ANIM name="Caravan3 Horse Death2" file=".\art\caravan3_horse_death2.bha"/>
+      <ANIM name="Caravan3 Horse Death3" file=".\art\caravan3_horse_death3.bha"/>
+      <ANIM name="Caravan3 Wagon Death1" file=".\art\caravan3_wagon_death1.bha"/>
+      <ANIM name="Caravan3 Wagon Death2" file=".\art\caravan3_wagon_death2.bha"/>
+      <ANIM name="Caravan3 Wagon Death3" file=".\art\caravan3_wagon_death3.bha"/>
+      <ANIM name="Caravan3 Driver Death1" file=".\art\caravan3_driver_death1.bha"/>
+      <ANIM name="Caravan3 Driver Death2" file=".\art\caravan3_driver_death2.bha"/>
+      <ANIM name="Caravan3 Driver Death3" file=".\art\caravan3_driver_death3.bha"/>
+      <ANIM name="BombardCannon Attack1" file=".\art\bombardcannon_attack1.bha"/>
+      <ANIM name="BombardCannon Death1" file=".\art\bombardcannon_death1.bha"/>
+      <ANIM name="BombardCannon Death2" file=".\art\bombardcannon_death2.bha"/>
+      <ANIM name="BombardCannon Death3" file=".\art\bombardcannon_death3.bha"/>
+      <ANIM name="BombardCannon Death4" file=".\art\bombardcannon_death4.bha"/>
+      <ANIM name="BombardCannon Death5" file=".\art\bombardcannon_death5.bha"/>
+      <ANIM name="BombardCannon Death6" file=".\art\bombardcannon_death6.bha"/>
+      <ANIM name="BombardCannon Pack" file=".\art\bombardcannon_pack.bha"/>
+      <ANIM name="BombardCannon Unpack" file=".\art\bombardcannon_unpack.bha"/>
+      <ANIM name="Cannon Attack1" file=".\art\cannon_attack1.bha"/>
+      <ANIM name="Cannon Death1" file=".\art\cannon_death1.bha"/>
+      <ANIM name="Cannon Death2" file=".\art\cannon_death2.bha"/>
+      <ANIM name="Cannon Death3" file=".\art\cannon_death3.bha"/>
+      <ANIM name="Cannon Death4" file=".\art\cannon_death4.bha"/>
+      <ANIM name="Cannon Death5" file=".\art\cannon_death5.bha"/>
+      <ANIM name="Cannon Death6" file=".\art\cannon_death6.bha"/>
+      <ANIM name="Cannon Pack" file=".\art\cannon_pack.bha"/>
+      <ANIM name="Cannon Unpack" file=".\art\cannon_unpack.bha"/>
+      <ANIM name="CannonCrew0 Attack1" file=".\art\cannoncrew0_attack1.bha"/>
+      <ANIM name="CannonCrew0 Death4" file=".\art\cannoncrew0_death4.bha"/>
+      <ANIM name="CannonCrew0 Death5" file=".\art\cannoncrew0_death5.bha"/>
+      <ANIM name="CannonCrew0 Death6" file=".\art\cannoncrew0_death6.bha"/>
+      <ANIM name="CannonCrew0 Pack" file=".\art\cannoncrew0_pack.bha"/>
+      <ANIM name="CannonCrew0 Unpack" file=".\art\cannoncrew0_unpack.bha"/>
+      <ANIM name="CannonCrew1 Attack1" file=".\art\cannoncrew1_attack1.bha"/>
+      <ANIM name="CannonCrew1 Pack" file=".\art\cannoncrew1_pack.bha"/>
+      <ANIM name="CannonCrew1 Unpack" file=".\art\cannoncrew1_unpack.bha"/>
+      <ANIM name="CannonHorse Attack1" file=".\art\cannonhorse_attack1.bha"/>
+      <ANIM name="CannonHorse Attack2" file=".\art\cannonhorse_attack2.bha"/>
+      <ANIM name="CannonHorse Death4" file=".\art\cannonhorse_death4.bha"/>
+      <ANIM name="CannonHorse Death5" file=".\art\cannonhorse_death5.bha"/>
+      <ANIM name="CannonHorse Death6" file=".\art\cannonhorse_death6.bha"/>
+      <ANIM name="CannonHorse Pack" file=".\art\cannonhorse_pack.bha"/>
+      <ANIM name="CannonHorse Unpack" file=".\art\cannonhorse_unpack.bha"/>
+      <ANIM name="Destroyer Attack1" file=".\art\destroyer_attack1.bha"/>
+      <ANIM name="Destroyer Attack2" file=".\art\destroyer_attack2.bha"/>
+      <ANIM name="Destroyer Attack3" file=".\art\destroyer_attack3.bha"/>
+      <ANIM name="Destroyer Death1" file=".\art\destroyer_death1.bha"/>
+      <ANIM name="Destroyer Death2" file=".\art\destroyer_death2.bha"/>
+      <ANIM name="Destroyer Death3" file=".\art\destroyer_death3.bha"/>
+      <ANIM name="Destroyer Death4" file=".\art\destroyer_death4.bha"/>
+      <ANIM name="Frigate Left Attack" file=".\art\frigate_attackleft.bha"/>
+      <ANIM name="Frigate Right Attack" file=".\art\frigate_attackright.bha"/>
+      <ANIM name="Fluyt Left Attack" file=".\art\fluyt_attackleft.bha"/>
+      <ANIM name="Fluyt Right Attack" file=".\art\fluyt_attackright.bha"/>
+      <ANIM name="Clipper Left Attack" file=".\art\clipper_attackleft.bha"/>
+      <ANIM name="Clipper Right Attack" file=".\art\clipper_attackright.bha"/>
+      <ANIM name="Frigate Death1" file=".\art\frigate_death1.bha"/>
+      <ANIM name="Frigate Death2" file=".\art\frigate_death2.bha"/>
+      <ANIM name="Frigate Death3" file=".\art\frigate_death3.bha"/>
+      <ANIM name="Frigate Death4" file=".\art\frigate_death4.bha"/>
+      <ANIM name="FishingFleet3 Pack" file=".\art\fishingfleet_3_pack.bha"/>
+      <ANIM name="FishingFleet3 Unpack" file=".\art\fishingfleet_3_unpack.bha"/>
+      <ANIM name="FishingFleet3 Death1" file=".\art\fishingfleet_3_death1.bha"/>
+      <ANIM name="FishingFleet3 Death2" file=".\art\fishingfleet_3_death2.bha"/>
+      <ANIM name="FishingFleet3 Death3" file=".\art\fishingfleet_3_death3.bha"/>
+      <ANIM name="FishingFleet3 Death4" file=".\art\fishingfleet_3_death4.bha"/>
+      <ANIM name="FishingFleet5 Pack" file=".\art\fishingfleet_5_pack.bha"/>
+      <ANIM name="FishingFleet5 Unpack" file=".\art\fishingfleet_5_unpack.bha"/>
+      <ANIM name="FishingFleet5 Death1" file=".\art\fishingfleet_5_death1.bha"/>
+      <ANIM name="FishingFleet5 Death2" file=".\art\fishingfleet_5_death2.bha"/>
+      <ANIM name="FishingFleet5 Death3" file=".\art\fishingfleet_5_death3.bha"/>
+      <ANIM name="FishingFleet5 Death4" file=".\art\fishingfleet_5_death4.bha"/>
+      <ANIM name="MerchantFleet Death1" file=".\art\merchantfleet_death1.bha"/>
+      <ANIM name="MerchantFleet Death2" file=".\art\merchantfleet_death2.bha"/>
+      <ANIM name="MerchantFleet Death3" file=".\art\merchantfleet_death3.bha"/>
+      <ANIM name="MerchantFleet Death4" file=".\art\merchantfleet_death4.bha"/>
+      <ANIM name="Diplomat2 Bribe" file=".\art\diplomat2_bribe.bha"/>
+      <ANIM name="ScoutCaravel Death1" file=".\art\scoutcaravel_death1.bha"/>
+      <ANIM name="ScoutCaravel Death2" file=".\art\scoutcaravel_death2.bha"/>
+      <ANIM name="ScoutCaravel Death3" file=".\art\scoutcaravel_death3.bha"/>
+      <ANIM name="ScoutCaravel Death4" file=".\art\scoutcaravel_death4.bha"/>
+      <ANIM name="ScoutCaravel Attack" file=".\art\scoutcaravel_attack.bha"/>
+      <ANIM name="SiegeShip Attack1" file=".\art\siegeship_ship_attack1.bha"/>
+      <ANIM name="SiegeShip Death1" file=".\art\siegeship_ship_death1.bha"/>
+      <ANIM name="Scout Clipper Attack1" file=".\art\scout_clipper_attack1.bha"/>
+      <ANIM name="Scout Clipper Attack2" file=".\art\scout_clipper_attack2.bha"/>
+      <ANIM name="Scout Clipper Death" file=".\art\scout_clipper_death.bha"/>
+      <ANIM name="Scout Sloop Death" file=".\art\scout_sloop_death.bha"/>
+      <ANIM name="Nuke Sub Death" file=".\art\nuke_sub_DEATH.bha"/>
+      <ANIM name="Nuke Sub Attack" file=".\art\nuke_sub_attack.bha"/>
+      <ANIM name="Sub Death1" file=".\art\sub_death1.bha"/>
+      <ANIM name="Sub Death2" file=".\art\sub_death2.bha"/>
+      <ANIM name="ManOWar Death1" file=".\art\manowar_death1.bha"/>
+      <ANIM name="ManOWar Death2" file=".\art\manowar_death2.bha"/>
+      <ANIM name="ManOWar Death3" file=".\art\manowar_death3.bha"/>
+      <ANIM name="ManOWar Death4" file=".\art\manowar_death4.bha"/>
+      <ANIM name="ManOWar Right Attack" file=".\art\manowar_attackright.bha"/>
+      <ANIM name="ManOWar Left Attack" file=".\art\manowar_attackleft.bha"/>
+      <ANIM name="Fireship Death1" file=".\art\fireship_death1.bha"/>
+      <ANIM name="Fireship Death2" file=".\art\fireship_death2.bha"/>
+      <ANIM name="Fireship Death3" file=".\art\fireship_death3.bha"/>
+      <ANIM name="Shrap Explo" file=".\art\Shrap.bha"/>
+      <ANIM name="HeavyFireship Death1" file=".\art\fireship_Heavy_Death1.bha"/>
+      <ANIM name="Spy3 Death1" file=".\art\spy_3_death1.bha"/>
+      <ANIM name="Spy3 Death2" file=".\art\spy_3_death2.bha"/>
+      <ANIM name="Spy3 Death3" file=".\art\spy_3_death3.bha"/>
+      <ANIM name="Spy3 Death4" file=".\art\spy_3_death4.bha"/>
+      <ANIM name="Spy3 Death5" file=".\art\spy_3_death5.bha"/>
+      <ANIM name="Spy3 Death6" file=".\art\spy_3_death6.bha"/>
+      <ANIM name="Spy3 Crossbowfire" file=".\art\spy_3_crossbowfire.bha"/>
+      <ANIM name="Spy3 Bribe" file=".\art\spy_3_bribe.bha"/>
+      <ANIM name="Spy3 Counterintel KillSpy" file=".\art\spy_3_counterintel_killspy.bha"/>
+      <ANIM name="Spy3 Counterintel RemoveInform" file=".\art\spy_3_counterintel_removeinformer.bha"/>
+      <ANIM name="Spy6 Bribe" file=".\art\spy_6_bribe.bha"/>
+      <ANIM name="Spy6 Briefcase" file=".\art\spy_6_briefcaseammo_open.bha"/>
+      <ANIM name="XportFreight Death1" file=".\art\xportfreight_death1.bha"/>
+      <ANIM name="XportFreight Death2" file=".\art\xportfreight_death2.bha"/>
+      <ANIM name="XportFreight Death3" file=".\art\xportfreight_death3.bha"/>
+      <ANIM name="XportFreight Death4" file=".\art\xportfreight_death4.bha"/>
+      <ANIM name="XportFreight Closing" file=".\art\xportfreight_closing.bha"/>
+      <ANIM name="XportFreight Opening" file=".\art\xportfreight_opening.bha"/>
+      <ANIM name="Lancaster Attack" file=".\art\lancaster_attack.bha"/>
+      <ANIM name="Cataphract Attack1" file=".\art\cataphract_attack1.bha"/>
+      <ANIM name="Cataphract Attack2" file=".\art\cataphract_attack2.bha"/>
+      <ANIM name="Cataphract Attack3" file=".\art\cataphract_attack3.bha"/>
+      <ANIM name="Knight Attack1" file=".\art\knight_attack1.bha"/>
+      <ANIM name="Knight Attack2" file=".\art\knight_attack2.bha"/>
+      <ANIM name="Knight Attack3" file=".\art\knight_attack3.bha"/>
+      <ANIM name="Knight Death1" file=".\art\knight_death1.bha"/>
+      <ANIM name="Knight Death2" file=".\art\knight_death2.bha"/>
+      <ANIM name="Knight Death3" file=".\art\knight_death3.bha"/>
+      <ANIM name="Knight Death4" file=".\art\knight_death4.bha"/>
+      <ANIM name="Knight Sploded1" file=".\art\knight_sploded1.bha"/>
+      <ANIM name="Knight Sploded2" file=".\art\knight_sploded2.bha"/>
+      <ANIM name="Despot Crew1 Attack1" file=".\art\despot_crew1_attack1.bha"/>
+      <ANIM name="Despot Crew2 Attack1" file=".\art\despot_crew2_attack1.bha"/>
+      <ANIM name="Despot Crew1 Death1" file=".\art\despot_crew1_death1.bha"/>
+      <ANIM name="Despot Crew1 Death2" file=".\art\despot_crew1_death2.bha"/>
+      <ANIM name="Monarch Crew1 Attack1" file=".\art\Monarch_crew1_attack1.bha"/>
+      <ANIM name="Monarch Crew2 Attack1" file=".\art\Monarch_crew2_attack1.bha"/>
+      <ANIM name="CEO Crew1 Attack1" file=".\art\ceo_crew1_attack.bha"/>
+      <ANIM name="CEO Crew Death1" file=".\art\ceo_crew_death1.bha"/>
+      <ANIM name="CEO Crew Death2" file=".\art\ceo_crew_death2.bha"/>
+      <ANIM name="General Ambush" file=".\art\general_ambush.bha"/>
+      <ANIM name="General Forced March" file=".\art\general_forcedmarch.bha"/>
+      <ANIM name="General Rally" file=".\art\general_rally.bha"/>
+      <ANIM name="General Death1" file=".\art\general_death1.bha"/>
+      <ANIM name="General Death2" file=".\art\general_death2.bha"/>
+      <ANIM name="General Death3" file=".\art\general_death3.bha"/>
+      <ANIM name="General Death4" file=".\art\general_death4.bha"/>
+      <ANIM name="General Sploded1" file=".\art\general_sploded1.bha"/>
+      <ANIM name="General Sploded2" file=".\art\general_sploded2.bha"/>
+      <ANIM name="General5Jeep Ambush" file=".\art\general5_jeep_ambush.bha"/>
+      <ANIM name="General5Jeep Forced March" file=".\art\general5_jeep_forcedmarch.bha"/>
+      <ANIM name="General5Jeep Rally" file=".\art\general5_jeep_rally.bha"/>
+      <ANIM name="General5Jeep Death1" file=".\art\general5_jeep_death1.bha"/>
+      <ANIM name="General5Jeep Death2" file=".\art\general5_jeep_death2.bha"/>
+      <ANIM name="General5Jeep Death3" file=".\art\general5_jeep_death3.bha"/>
+      <ANIM name="General5Jeep Death4" file=".\art\general5_jeep_death4.bha"/>
+      <ANIM name="General5Jeep Death5" file=".\art\general5_jeep_death5.bha"/>
+      <ANIM name="General5Jeep Death6" file=".\art\general5_jeep_death6.bha"/>
+      <ANIM name="General5Patton Ambush" file=".\art\general5_patton_ambush.bha"/>
+      <ANIM name="General5Patton Forced March" file=".\art\general5_patton_forcedmarch.bha"/>
+      <ANIM name="General5Patton Rally" file=".\art\general5_patton_rally.bha"/>
+      <ANIM name="General5Patton Death1" file=".\art\general5_patton_death1.bha"/>
+      <ANIM name="General5Patton Death2" file=".\art\general5_patton_death2.bha"/>
+      <ANIM name="General5Patton Death3" file=".\art\general5_patton_death3.bha"/>
+      <ANIM name="General5Patton Death4" file=".\art\general5_patton_death4.bha"/>
+      <ANIM name="General5Patton Death5" file=".\art\general5_patton_death5.bha"/>
+      <ANIM name="General5Patton Death6" file=".\art\general5_patton_death6.bha"/>
+      <ANIM name="SuperBattleship Right Attack" file=".\art\superbattleship_attackright.bha"/>
+      <ANIM name="SuperBattleship Left Attack" file=".\art\superbattleship_attackleft.bha"/>
+      <ANIM name="SuperBattleship Flack Attack" file=".\art\superbattleship_flackattack.bha"/>
+      <ANIM name="SuperBattleship Death1" file=".\art\superbattleship_death1.bha"/>
+      <ANIM name="SuperBattleship Death2" file=".\art\superbattleship_death2.bha"/>
+      <ANIM name="SuperBattleship Death3" file=".\art\superbattleship_death3.bha"/>
+      <ANIM name="SuperBattleship Death4" file=".\art\superbattleship_death4.bha"/>
+      <ANIM name="AircraftCarrier 2planelaunch" file=".\art\AircraftCarrier_launch2.bha"/>
+      <ANIM name="AircraftCarrier 1planelaunch" file=".\art\AircraftCarrier_launch1.bha"/>
+      <ANIM name="AircraftCarrier planeland" file=".\art\AircraftCarrier_landing.bha"/>
+      <ANIM name="AircraftCarrier Death1" file=".\art\AircraftCarrier_death1.bha"/>
+      <ANIM name="AircraftCarrier Death2" file=".\art\AircraftCarrier_death2.bha"/>
+      <ANIM name="AircraftCarrier Death3" file=".\art\AircraftCarrier_death3.bha"/>
+      <ANIM name="AircraftCarrier Death4" file=".\art\AircraftCarrier_death4.bha"/>
+      <ANIM name="MediumTank Attack1" file=".\art\mediumtank_attack1.bha"/>
+      <ANIM name="MediumTank Attack2" file=".\art\mediumtank_attack2.bha"/>
+      <ANIM name="MediumTank Attack3" file=".\art\mediumtank_attack3.bha"/>
+      <ANIM name="MediumTank Death1" file=".\art\mediumtank_death1.bha"/>
+      <ANIM name="MediumTank Death2" file=".\art\mediumtank_death2.bha"/>
+      <ANIM name="MediumTank Death3" file=".\art\mediumtank_death3.bha"/>
+      <ANIM name="MediumTank Death4" file=".\art\mediumtank_death4.bha"/>
+      <ANIM name="MediumTank Death5" file=".\art\mediumtank_death5.bha"/>
+      <ANIM name="MediumTank Death6" file=".\art\mediumtank_death6.bha"/>
+      <ANIM name="Galley Death1" file=".\art\galley_death1.bha"/>
+      <ANIM name="Galley Death2" file=".\art\galley_death2.bha"/>
+      <ANIM name="Galley Death3" file=".\art\galley_death3.bha"/>
+      <ANIM name="Galley Death4" file=".\art\galley_death4.bha"/>
+      <ANIM name="Galley Attack" file=".\art\galley_attack.bha"/>
+      <ANIM name="Dromon Attack" file=".\art\dromon_attack.bha"/>
+      <ANIM name="Merchant Death1" file=".\art\med_merchant_death1.bha"/>
+      <ANIM name="Merchant Death2" file=".\art\med_merchant_death2.bha"/>
+      <ANIM name="Merchant Death3" file=".\art\med_merchant_death3.bha"/>
+      <ANIM name="Merchant Death4" file=".\art\med_merchant_death4.bha"/>
+      <ANIM name="Merchant Pack" file=".\art\med_merchant_pack.bha"/>
+      <ANIM name="Merchant Unpack" file=".\art\med_merchant_unpack.bha"/>
+      <ANIM name="MerchantMule Death1" file=".\art\med_merchantmule_death1.bha"/>
+      <ANIM name="MerchantMule Death2" file=".\art\med_merchantmule_death2.bha"/>
+      <ANIM name="MerchantMule Death3" file=".\art\med_merchantmule_death3.bha"/>
+      <ANIM name="MerchantMule Death4" file=".\art\med_merchantmule_death4.bha"/>
+      <ANIM name="MerchantMule Sploded1" file=".\art\med_merchantmule_sploded1.bha"/>
+      <ANIM name="MerchantMule Sploded2" file=".\art\med_merchantmule_sploded2.bha"/>
+      <ANIM name="MerchantMule Pack" file=".\art\med_merchantmule_pack.bha"/>
+      <ANIM name="MerchantMule Unpack" file=".\art\med_merchantmule_unpack.bha"/>
+      <ANIM name="ModMerchantFleet Death1" file=".\art\modmerchantfleet_death1.bha"/>
+      <ANIM name="ModMerchantFleet Death2" file=".\art\modmerchantfleet_death2.bha"/>
+      <ANIM name="ModMerchantFleet Death3" file=".\art\modmerchantfleet_death3.bha"/>
+      <ANIM name="ModMerchantFleet Death4" file=".\art\modmerchantfleet_death4.bha"/>
+      <ANIM name="Fighter Death1" file=".\art\fighter_death1.bha"/>
+      <ANIM name="Fighter Death2" file=".\art\fighter_death2.bha"/>
+      <ANIM name="Fighter Death3" file=".\art\fighter_death3.bha"/>
+      <ANIM name="Fighter Attack" file=".\art\ww2fighter_attack.bha"/>
+      <ANIM name="JetFighter Attack" file=".\art\fighter_attack.bha"/>
+      <ANIM name="Wholesaler Death1" file=".\art\wholesaler_death1.bha"/>
+      <ANIM name="Wholesaler Death2" file=".\art\wholesaler_death2.bha"/>
+      <ANIM name="Wholesaler Death3" file=".\art\wholesaler_death3.bha"/>
+      <ANIM name="Wholesaler Death4" file=".\art\wholesaler_death4.bha"/>
+      <ANIM name="Wholesaler Pack" file=".\art\wholesaler_pack.bha"/>
+      <ANIM name="Wholesaler Unpack" file=".\art\wholesaler_unpack.bha"/>
+      <ANIM name="WholesalerTruck Death1" file=".\art\wholesaler_truckdeath1.bha"/>
+      <ANIM name="WholesalerTruck Death2" file=".\art\wholesaler_truckdeath2.bha"/>
+      <ANIM name="WholesalerTruck Death3" file=".\art\wholesaler_truckdeath3.bha"/>
+      <ANIM name="WholesalerTruck Death4" file=".\art\wholesaler_truckdeath4.bha"/>
+      <ANIM name="WholesalerTruck Pack" file=".\art\wholesaler_truckpack.bha"/>
+      <ANIM name="WholesalerTruck Unpack" file=".\art\wholesaler_truckunpack.bha"/>
+      <ANIM name="Trebuchet Attack1" file=".\art\trebuchet_attack1.bha"/>
+      <ANIM name="Trebuchet Death1" file=".\art\trebuchet_death1.bha"/>
+      <ANIM name="Trebuchet Death2" file=".\art\trebuchet_death2.bha"/>
+      <ANIM name="Trebuchet Death3" file=".\art\trebuchet_death3.bha"/>
+      <ANIM name="Trebuchet Pack" file=".\art\trebuchet_pack.bha"/>
+      <ANIM name="TrebuchetCrew1 Attack1" file=".\art\trebuchet_crew1_attack1.bha"/>
+      <ANIM name="TrebuchetCrew1 Death1" file=".\art\trebuchet_crew1_death1.bha"/>
+      <ANIM name="TrebuchetCrew1 Death2" file=".\art\trebuchet_crew1_death2.bha"/>
+      <ANIM name="TrebuchetCrew1 Death4" file=".\art\trebuchet_crew1_death4.bha"/>
+      <ANIM name="TrebuchetCrew1 Death5" file=".\art\trebuchet_crew1_death5.bha"/>
+      <ANIM name="TrebuchetCrew1 Death6" file=".\art\trebuchet_crew1_death6.bha"/>
+      <ANIM name="TrebuchetCrew1 Pack" file=".\art\trebuchet_crew1_pack.bha"/>
+      <ANIM name="TrebuchetCrew1 Unpack" file=".\art\trebuchet_crew1_unpack.bha"/>
+      <ANIM name="TrebuchetCrew2 Attack1" file=".\art\trebuchet_crew2_attack1.bha"/>
+      <ANIM name="TrebuchetCrew2 Death1" file=".\art\trebuchet_crew2_death1.bha"/>
+      <ANIM name="TrebuchetCrew2 Death2" file=".\art\trebuchet_crew2_death2.bha"/>
+      <ANIM name="TrebuchetCrew2 Death4" file=".\art\trebuchet_crew2_death4.bha"/>
+      <ANIM name="TrebuchetCrew2 Death5" file=".\art\trebuchet_crew2_death5.bha"/>
+      <ANIM name="TrebuchetCrew2 Death6" file=".\art\trebuchet_crew2_death6.bha"/>
+      <ANIM name="TrebuchetCrew2 Pack" file=".\art\trebuchet_crew2_pack.bha"/>
+      <ANIM name="TrebuchetCrew2 Unpack" file=".\art\trebuchet_crew2_unpack.bha"/>
+      <ANIM name="TrebuchetWagon Death1" file=".\art\trebuchet_wagon_death1.bha"/>
+      <ANIM name="TrebuchetWagon Death2" file=".\art\trebuchet_wagon_death2.bha"/>
+      <ANIM name="TrebuchetWagon Death3" file=".\art\trebuchet_wagon_death3.bha"/>
+      <ANIM name="TrebuchetWagon Unpack" file=".\art\trebuchet_wagon_upack.bha"/>
+      <ANIM name="TrebuchetWorkhorse Attack1" file=".\art\trebuchet_workhorse_attack1.bha"/>
+      <ANIM name="TrebuchetWorkhorse Death1" file=".\art\trebuchet_workhorse_death1.bha"/>
+      <ANIM name="TrebuchetWorkhorse Death2" file=".\art\trebuchet_workhorse_death2.bha"/>
+      <ANIM name="TrebuchetWorkhorse Death3" file=".\art\trebuchet_workhorse_death3.bha"/>
+      <ANIM name="TrebuchetWorkhorse Death4" file=".\art\trebuchet_workhorse_death4.bha"/>
+      <ANIM name="TrebuchetWorkhorse Death5" file=".\art\trebuchet_workhorse_death5.bha"/>
+      <ANIM name="TrebuchetWorkhorse Death6" file=".\art\trebuchet_workhorse_death6.bha"/>
+      <ANIM name="TrebuchetWorkhorse Pack" file=".\art\trebuchet_workhorse_pack.bha"/>
+      <ANIM name="TrebuchetWorkhorse Unpack" file=".\art\trebuchet_workhorse_unpack.bha"/>
+      <ANIM name="Howitzer attack1" file=".\art\howitzer_attack1.bha"/>
+      <ANIM name="Howitzer attack2" file=".\art\howitzer_attack2.bha"/>
+      <ANIM name="Howitzer attack3" file=".\art\howitzer_attack3.bha"/>
+      <ANIM name="Howitzer Unpacked Death1" file=".\art\howitzer_unpacked_death1.bha"/>
+      <ANIM name="Howitzer Unpacked Death2" file=".\art\howitzer_unpacked_death2.bha"/>
+      <ANIM name="Howitzer Unpacked Death3" file=".\art\howitzer_unpacked_death3.bha"/>
+      <ANIM name="Howitzer Packed Death1" file=".\art\howitzer_packed_death1.bha"/>
+      <ANIM name="Howitzer Packed Death2" file=".\art\howitzer_packed_death2.bha"/>
+      <ANIM name="Howitzer Packed Death3" file=".\art\howitzer_packed_death3.bha"/>
+      <ANIM name="Howitzer Pack" file=".\art\howitzer_pack.bha"/>
+      <ANIM name="Howitzer Unpack" file=".\art\howitzer_unpack.bha"/>
+      <ANIM name="Hummel attack1" file=".\art\hummel_attack1.bha"/>
+      <ANIM name="Hummel attack2" file=".\art\hummel_attack2.bha"/>
+      <ANIM name="Hummel attack3" file=".\art\hummel_attack3.bha"/>
+      <ANIM name="Hummel Unpacked Death1" file=".\art\hummel_unpacked_death1.bha"/>
+      <ANIM name="Hummel Unpacked Death2" file=".\art\hummel_unpacked_death2.bha"/>
+      <ANIM name="Hummel Unpacked Death3" file=".\art\hummel_unpacked_death3.bha"/>
+      <ANIM name="Hummel Packed Death1" file=".\art\hummel_packed_death1.bha"/>
+      <ANIM name="Hummel Packed Death2" file=".\art\hummel_packed_death2.bha"/>
+      <ANIM name="Hummel Pack" file=".\art\hummel_pack.bha"/>
+      <ANIM name="Hummel Unpack" file=".\art\hummel_unpack.bha"/>
+      <ANIM name="Katyusha Unpack" file=".\art\katyusha_unpack.bha"/>
+      <ANIM name="Katyusha Pack" file=".\art\katyusha_pack.bha"/>
+      <ANIM name="Katyusha Attack" file=".\art\katyusha_attack.bha"/>
+      <ANIM name="Katyusha Death1" file=".\art\katyusha_death1.bha"/>
+      <ANIM name="Katyusha Death2" file=".\art\katyusha_death2.bha"/>
+      <ANIM name="ArmoredSC AttackWalk" file=".\art\armoredSC_moveattack1.bha"/>
+      <ANIM name="ArmoredSC Attack1" file=".\art\armoredSC_attack1.bha"/>
+      <ANIM name="ArmoredSC Attack2" file=".\art\armoredSC_attack2.bha"/>
+      <ANIM name="ArmoredSC Attack3" file=".\art\armoredSC_attack3.bha"/>
+      <ANIM name="ArmoredSC Death1" file=".\art\armoredSC_death1.bha"/>
+      <ANIM name="ArmoredSC Death2" file=".\art\armoredSC_death2.bha"/>
+      <ANIM name="ArmoredSC Death3" file=".\art\armoredSC_death3.bha"/>
+      <ANIM name="ArmoredSC Death4" file=".\art\armoredSC_death4.bha"/>
+      <ANIM name="ArmoredSC Death5" file=".\art\armoredSC_death5.bha"/>
+      <ANIM name="ArmoredSC Death6" file=".\art\armoredSC_death6.bha"/>
+      <ANIM name="ArmoredCar AttackWalk" file=".\art\armcar_moveattack1.bha"/>
+      <ANIM name="ArmoredCar Attack2" file=".\art\armcar_attack1.bha"/>
+      <ANIM name="ArmoredCar Death2" file=".\art\armcar_death2.bha"/>
+      <ANIM name="ArmoredCar Death3" file=".\art\armcar_death3.bha"/>
+      <ANIM name="ArmoredCar Death4" file=".\art\armcar_death4.bha"/>
+      <ANIM name="ArmoredCav AttackWalk" file=".\art\armoredcavalry_moveattack1.bha"/>
+      <ANIM name="ArmoredCav Attack1" file=".\art\armoredcavalry_attack1.bha"/>
+      <ANIM name="ArmoredCav Attack2" file=".\art\armoredcavalry_attack2.bha"/>
+      <ANIM name="ArmoredCav Attack3" file=".\art\armoredcavalry_attack3.bha"/>
+      <ANIM name="ArmoredCav Death1" file=".\art\armoredcavalry_death1.bha"/>
+      <ANIM name="ArmoredCav Death2" file=".\art\armoredcavalry_death2.bha"/>
+      <ANIM name="ArmoredCav Death3" file=".\art\armoredcavalry_death3.bha"/>
+      <ANIM name="ArmoredCav Death4" file=".\art\armoredcavalry_death4.bha"/>
+      <ANIM name="ArmoredCav Death5" file=".\art\armoredcavalry_death5.bha"/>
+      <ANIM name="ArmoredCav Death6" file=".\art\armoredcavalry_death6.bha"/>
+      <ANIM name="TankDestroyer AttackWalk" file=".\art\tankdestroyer_moveattack1.bha"/>
+      <ANIM name="TankDestroyer Attack1" file=".\art\tankdestroyer_attack1.bha"/>
+      <ANIM name="TankDestroyer Attack2" file=".\art\tankdestroyer_attack2.bha"/>
+      <ANIM name="TankDestroyer Attack3" file=".\art\tankdestroyer_attack3.bha"/>
+      <ANIM name="TankDestroyer Death1" file=".\art\tankdestroyer_death1.bha"/>
+      <ANIM name="TankDestroyer Death2" file=".\art\tankdestroyer_death2.bha"/>
+      <ANIM name="TankDestroyer Death3" file=".\art\tankdestroyer_death3.bha"/>
+      <ANIM name="TankDestroyer Death4" file=".\art\tankdestroyer_death4.bha"/>
+      <ANIM name="TankDestroyer Death5" file=".\art\tankdestroyer_death5.bha"/>
+      <ANIM name="TankDestroyer Death6" file=".\art\tankdestroyer_death6.bha"/>
+      <ANIM name="Biplane Attack1" file=".\art\biplane_attack1.bha"/>
+      <ANIM name="Bomber Attack1" file=".\art\bomber_attack1.bha"/>
+      <ANIM name="StrategicBomber Attack1" file=".\art\strategicbomber_attack.bha"/>
+      <ANIM name="StealthBomber Attack" file=".\art\stealthbomber_attack.BHa"/>
+      <ANIM name="StealthBomber Death" file=".\art\stealthbomber_death.BHa"/>
+      <ANIM name="SpecialForces Sabotage " file=".\art\elite_specialforces_sab.bha"/>
+      <ANIM name="Commando Counterintel RemoveInform" file=".\art\commando_counterintel_removeinformer.bha"/>
+      <ANIM name="Commando Counterintel KillSpy" file=".\art\commando_counterintel_killspy.bha"/>
+      <ANIM name="Commando Sniper" file=".\art\commando_sniper.bha"/>
+      <ANIM name="Commando Sniper2" file=".\art\commando_sniper_SPANISH.bha"/>
+      <ANIM name="Scout0 Counterintel KillSpy" file=".\art\scout0_counterintel_killspy.bha"/>
+      <ANIM name="Scout0 Counterintel RemoveInform" file=".\art\scout0_counterintel_removeinformer.bha"/>
+      <ANIM name="Scout0Dog Attack1" file=".\art\scout0_dog_attack1.bha"/>
+      <ANIM name="Scout0Dog Death1" file=".\art\scout0_dog_death1.bha"/>
+      <ANIM name="MLRS attack2" file=".\art\MLRS_a2.BHa"/>
+      <ANIM name="MLRS pack shot1" file=".\art\MLRS_dp1.BHa"/>
+      <ANIM name="MLRS pack shot2" file=".\art\MLRS_dp2.BHa"/>
+      <ANIM name="MLRS pack splode1" file=".\art\MLRS_dp3.BHa"/>
+      <ANIM name="MLRS pack splode2" file=".\art\MLRS_dp4.BHa"/>
+      <ANIM name="MLRS unpack shot1" file=".\art\MLRS_du1.BHa"/>
+      <ANIM name="MLRS unpack shot2" file=".\art\MLRS_du2.BHa"/>
+      <ANIM name="MLRS unpack splode1" file=".\art\MLRS_du3.BHa"/>
+      <ANIM name="MLRS unpack splode2" file=".\art\MLRS_du4.BHa"/>
+      <ANIM name="MLRS pack" file=".\art\MLRS_pack.BHa"/>
+      <ANIM name="MLRS unpack" file=".\art\MLRS_unpack.BHa"/>
+      <ANIM name="Kushite Attack1" file=".\art\Kushite_attack1.BHa"/>
+      <ANIM name="Kushite Attack2" file=".\art\Kushite_attack2.BHa"/>
+      <ANIM name="Kushite Attack3" file=".\art\Kushite_attack3.BHa"/>
+      <ANIM name="Ashigaru Attack1" file=".\art\ashigaru_attack1.BHa"/>
+      <ANIM name="Ashigaru Attack2" file=".\art\ashigaru_attack2.BHa"/>
+      <ANIM name="Ashigaru Attack3" file=".\art\ashigaru_attack3.BHa"/>
+      <ANIM name="Ashigaru Shot1" file=".\art\ashigaru_shot1.BHa"/>
+      <ANIM name="Ashigaru Shot2" file=".\art\ashigaru_shot2.BHa"/>
+      <ANIM name="Ashigaru Stab1" file=".\art\ashigaru_stab1.BHa"/>
+      <ANIM name="Ashigaru Stab2" file=".\art\ashigaru_stab2.BHa"/>
+      <ANIM name="Chicken death" file=".\art\rooster_death.BHa"/>
+      <ANIM name="Pig death" file=".\art\pig_death.BHa"/>
+      <ANIM name="Xopilli Attack1" file=".\art\Xopilli_attack1.BHa"/>
+      <ANIM name="Xopilli Attack2" file=".\art\Xopilli_attack2.BHa"/>
+      <ANIM name="Xopilli Attack3" file=".\art\Xopilli_attack3.BHa"/>
+      <ANIM name="ADVFighter Death1" file=".\art\ADVFighter_Death.BHa"/>
+      <ANIM name="ADVFighter Attack1" file=".\art\ADVFighter_Attack1.BHa"/>
+      <ANIM name="ManchuMusk Attack1" file=".\art\Manchu_Musketeer_attack1.BHa"/>
+      <ANIM name="ManchuMusk Attack2" file=".\art\Manchu_Musketeer_attack2.BHa"/>
+      <ANIM name="ManchuMusk Attack3" file=".\art\Manchu_Musketeer_attack3.BHa"/>
+      <ANIM name="AirDefGun Attack1" file=".\art\airdefensegun_attack1.BHa"/>
+      <ANIM name="AirDefGun Unpack" file=".\art\airdefensegun_unpack.BHa"/>
+      <ANIM name="RadarDefGun Attack1" file=".\art\radardefensegun_attack1.BHa"/>
+      <ANIM name="RadarDefGun Unpack" file=".\art\radardefensegun_unpack.BHa"/>
+      <ANIM name="SAM Attack1" file=".\art\sam_attack1.BHa"/>
+      <ANIM name="KingTiger Attack1" file=".\art\kingtiger_attack1.BHa"/>
+      <ANIM name="KingTiger Attack2" file=".\art\kingtiger_attack2.BHa"/>
+      <ANIM name="KingTiger Attack3" file=".\art\kingtiger_attack3.BHa"/>
+      <ANIM name="KingTiger Death1" file=".\art\kingtiger_death1.BHa"/>
+      <ANIM name="KingTiger Death2" file=".\art\kingtiger_death2.BHa"/>
+      <ANIM name="KingTiger Death3" file=".\art\kingtiger_death3.BHa"/>
+      <ANIM name="KingTiger Death4" file=".\art\kingtiger_death4.BHa"/>
+      <ANIM name="AAGun Attack2" file=".\art\aagun_attack2.BHa"/>
+      <ANIM name="AAGun AttackWalk" file=".\art\aagun_attackwalk.BHa"/>
+      <ANIM name="AAGun Death1" file=".\art\aagun_death1.BHa"/>
+      <ANIM name="AAGun Death2" file=".\art\aagun_death2.BHa"/>
+      <ANIM name="AAGun Death3" file=".\art\aagun_death3.BHa"/>
+      <ANIM name="Mortar Unpack" file=".\art\Mortar_Unpack.bha"/>
+      <ANIM name="Mortar Pack" file=".\art\Mortar_pack.bha"/>
+      <ANIM name="MortarC0 Unpack" file=".\art\MortarC0_unpack.bha"/>
+      <ANIM name="MortarC0 Pack" file=".\art\MortarC0_pack.bha"/>
+      <ANIM name="MortarC1 Unpack" file=".\art\MortarC1_unpack.bha"/>
+      <ANIM name="MortarC1 Pack" file=".\art\MortarC1_pack.bha"/>
+      <ANIM name="Mortar Attack1" file=".\art\Mortar_Attack1.bha"/>
+      <ANIM name="Mortar Attack2" file=".\art\Mortar_Attack2.bha"/>
+      <ANIM name="MortarC0 Attack1" file=".\art\MortarC0_Attack1.bha"/>
+      <ANIM name="MortarC0 Attack2" file=".\art\MortarC0_Attack2.bha"/>
+      <ANIM name="MortarC1 Attack1" file=".\art\MortarC1_Attack1.bha"/>
+      <ANIM name="MortarC1 Attack2" file=".\art\MortarC1_Attack2.bha"/>
+      <ANIM name="MortarC1 Stab1" file=".\art\MortarC1_Stab1U.bha"/>
+      <ANIM name="MortarC1 Stab2" file=".\art\MortarC1_Stab2U.bha"/>
+      <ANIM name="MortarC1 Shot1" file=".\art\MortarC1_Shot1U.bha"/>
+      <ANIM name="MortarC1 Shot2" file=".\art\MortarC1_Shot2U.bha"/>
+      <ANIM name="MortarC1 Splode1" file=".\art\MortarC1_Splode1U.bha"/>
+      <ANIM name="MortarC1 Splode2" file=".\art\MortarC1_Splode2U.bha"/>
+      <ANIM name="Mortar Shot2" file=".\art\Mortar_Shot2U.bha"/>
+      <ANIM name="Mortar Splode1" file=".\art\Mortar_Splode1U.bha"/>
+      <ANIM name="Mortar Splode2" file=".\art\Mortar_Splode2U.bha"/>
+      <ANIM name="Mortar Death" file=".\art\Mortar_StillU.bha"/>
+      <ANIM name="SMortar Splode1" file=".\art\SMortar_sploded.bha"/>
+      <ANIM name="SMortarC0 Death1" file=".\art\SMortarC0_Death1.bha"/>
+      <ANIM name="SMortarC0 Death2" file=".\art\SMortarC0_Death2.bha"/>
+      <ANIM name="SMortarC0 Death3" file=".\art\SMortarC0_Death3.bha"/>
+      <ANIM name="SMortarC0 Death4" file=".\art\SMortarC0_Death4.bha"/>
+      <ANIM name="SMortar Death1" file=".\art\SMortar_UDeath.bha"/>
+      <ANIM name="SMortar Unpack" file=".\art\SMortar_Unpack.bha"/>
+      <ANIM name="SMortar Pack" file=".\art\SMortar_pack.bha"/>
+      <ANIM name="SMortarC0 Unpack" file=".\art\SMortarC0_unpack.bha"/>
+      <ANIM name="SMortarC0 Pack" file=".\art\SMortarC0_pack.bha"/>
+      <ANIM name="SMortarC1 Splode2" file=".\art\SMortarC1_Splode2.bha"/>
+      <ANIM name="SMortarC1 Splode1" file=".\art\SMortarC1_Splode1.bha"/>
+      <ANIM name="SMortarC1 Stab2" file=".\art\SMortarC1_Stab2.bha"/>
+      <ANIM name="SMortarC1 Stab1" file=".\art\SMortarC1_Stab1.bha"/>
+      <ANIM name="SMortarC1 Shot1" file=".\art\SMortarC1_Shot1.bha"/>
+      <ANIM name="SMortarC1 Unpack" file=".\art\SMortarC1_unpack.bha"/>
+      <ANIM name="SMortarC1 Pack" file=".\art\SMortarC1_pack.bha"/>
+      <ANIM name="SMortar Attack1" file=".\art\SMortar_Attack.bha"/>
+      <ANIM name="SMortarC0 Attack1" file=".\art\SMortarC0_Attack.bha"/>
+      <ANIM name="SMortarC1 Attack1" file=".\art\SMortarC1_Attack.bha"/>
+      <ANIM name="Helicopter Attack" file=".\art\helicopter_propspin.bha"/>
+      <ANIM name="LightTank Attack1" file=".\art\lighttank_attack1.bha"/>
+      <ANIM name="LightTank Attack2" file=".\art\lighttank_attack2.bha"/>
+      <ANIM name="LightTank Attack3" file=".\art\lighttank_attack3.bha"/>
+      <ANIM name="LightTank Death1" file=".\art\lighttank_death1.bha"/>
+      <ANIM name="LightTank Death2" file=".\art\lighttank_death2.bha"/>
+      <ANIM name="LightTank Death3" file=".\art\lighttank_death3.bha"/>
+      <ANIM name="LightTank Death4" file=".\art\lighttank_death4.bha"/>
+      <ANIM name="Clubmen Attack1" file=".\art\clubmen_attack1.bha"/>
+      <ANIM name="Clubmen Attack2" file=".\art\clubmen_attack2.bha"/>
+      <ANIM name="Clubmen Attack3" file=".\art\clubmen_attack3.bha"/>
+      <ANIM name="AdvBattleship Attack1" file=".\art\AdvBattleship_Attack1.bha"/>
+      <ANIM name="AdvBattleship Attack2" file=".\art\AdvBattleship_Attack2.bha"/>
+      <ANIM name="AdvBattleship Death1" file=".\art\AdvBattleship_Death1.bha"/>
+      <ANIM name="AdvBattleship Death2" file=".\art\AdvBattleship_Death2.bha"/>
+      <ANIM name="AdvBattleship Death3" file=".\art\AdvBattleship_Death3.bha"/>
+      <ANIM name="AdvBattleship Death4" file=".\art\AdvBattleship_Death4.bha"/>
+      <ANIM name="Cruiser Attack1" file=".\art\Cruiser_Attack1.bha"/>
+      <ANIM name="Cruiser Attack2" file=".\art\Cruiser_Attack2.bha"/>
+      <ANIM name="Cruiser Death1" file=".\art\Cruiser_Death1.bha"/>
+      <ANIM name="Cruiser Death2" file=".\art\Cruiser_Death2.bha"/>
+      <ANIM name="Cruiser Death3" file=".\art\Cruiser_Death3.bha"/>
+      <ANIM name="Cruiser Death4" file=".\art\Cruiser_Death4.bha"/>
+      <ANIM name="Macemen Attack1" file=".\art\Macemen_attack1.bha"/>
+      <ANIM name="Macemen Attack2" file=".\art\Macemen_attack2.bha"/>
+      <ANIM name="Macemen Attack3" file=".\art\Macemen_attack3.bha"/>
+      <ANIM name="Transport death1" file=".\art\Transport_Death1.bha"/>
+      <ANIM name="Transport death2" file=".\art\Transport_Death2.bha"/>
+      <ANIM name="Transport death3" file=".\art\Transport_Death3.bha"/>
+      <ANIM name="Transport death4" file=".\art\Transport_Death4.bha"/>
+      <ANIM name="Rusiny Attack2" file=".\art\Rusiny_attack2.bha"/>
+      <ANIM name="Rusiny Attack3" file=".\art\Rusiny_attack3.bha"/>
+      <ANIM name="Avenger Attack1" file=".\art\avenger_attack1.bha"/>
+      <ANIM name="Avenger Attack2" file=".\art\avenger_attack2.bha"/>
+      <ANIM name="Avenger Attack3" file=".\art\avenger_attack3.bha"/>
+      <ANIM name="Avenger AttackWalk" file=".\art\avenger_attackwalk.bha"/>
+      <ANIM name="Avenger Death1" file=".\art\avenger_death1.bha"/>
+      <ANIM name="Avenger Death2" file=".\art\avenger_death2.bha"/>
+      <ANIM name="Avenger Death3" file=".\art\avenger_death3.bha"/>
+      <ANIM name="Avenger Death4" file=".\art\avenger_death4.bha"/>
+      <ANIM name="Truck Death1" file=".\art\Truck_death1.bha"/>
+      <ANIM name="Truck Death2" file=".\art\Truck_death2.bha"/>
+      <ANIM name="Truck Death3" file=".\art\Truck_death3.bha"/>
+      <ANIM name="Balamob Attack1" file=".\art\Balamob_attack_1.bha"/>
+      <ANIM name="Balamob Attack2" file=".\art\Balamob_attack_2.bha"/>
+      <ANIM name="Balamob Attack3" file=".\art\Balamob_attack_3.bha"/>
+      <ANIM name="Balamob Death1" file=".\art\Balamob_death_1.bha"/>
+      <ANIM name="Balamob Death2" file=".\art\Balamob_death_2.bha"/>
+      <ANIM name="Balamob Death3" file=".\art\Balamob_death_3.bha"/>
+      <ANIM name="RoyalSlinger Attack1" file=".\art\Slinger_Royal_attack_1.bha"/>
+      <ANIM name="RoyalSlinger Attack2" file=".\art\Slinger_Royal_attack_2.bha"/>
+      <ANIM name="RoyalSlinger Attack3" file=".\art\Slinger_Royal_attack_3.bha"/>
+      <ANIM name="RoyalSlinger Death1" file=".\art\Slinger_Royal_Death_1.bha"/>
+      <ANIM name="RoyalSlinger Death2" file=".\art\Slinger_Royal_Death_2.bha"/>
+      <ANIM name="RoyalSlinger Death3" file=".\art\Slinger_Royal_Death_3.bha"/>
+      <ANIM name="EagleSlinger Attack1" file=".\art\Eagle_Slinger_attack_1.bha"/>
+      <ANIM name="EagleSlinger Attack2" file=".\art\Eagle_Slinger_attack_2.bha"/>
+      <ANIM name="EagleSlinger Attack3" file=".\art\Eagle_Slinger_attack_3.bha"/>
+      <ANIM name="EagleSlinger Death1" file=".\art\Eagle_Slinger_death_1.bha"/>
+      <ANIM name="EagleSlinger Death2" file=".\art\Eagle_Slinger_death_2.bha"/>
+      <ANIM name="EagleSlinger Death3" file=".\art\Eagle_Slinger_death_3.bha"/>
+      <ANIM name="Gunsamurai Attack1" file=".\art\gunsamurai_attack1.bha"/>
+      <ANIM name="Gunsamurai Attack2" file=".\art\gunsamurai_attack2.bha"/>
+      <ANIM name="Gunsamurai Attack3" file=".\art\gunsamurai_attack3.bha"/>
+      <ANIM name="Gunsamurai Death1" file=".\art\gunsamurai_death1.bha"/>
+      <ANIM name="Gunsamurai Death2" file=".\art\gunsamurai_death2.bha"/>
+      <ANIM name="Gunsamurai Splode1" file=".\art\gunsamurai_Splode1.bha"/>
+      <ANIM name="Gunsamurai Splode2" file=".\art\gunsamurai_splode2.bha"/>
+      <ANIM name="Janissary Attack1" file=".\art\Janissary_attack1.bha"/>
+      <ANIM name="Janissary Attack2" file=".\art\Janissary_attack2.bha"/>
+      <ANIM name="Janissary Attack3" file=".\art\Janissary_attack3.bha"/>
+      <ANIM name="Janissary Stab1" file=".\art\Janissary_stab1.bha"/>
+      <ANIM name="Janissary Stab2" file=".\art\Janissary_stab2.bha"/>
+      <ANIM name="Janissary Shot1" file=".\art\Janissary_shot1.bha"/>
+      <ANIM name="Janissary Shot2" file=".\art\Janissary_shot2.bha"/>
+      <ANIM name="Janissary Sploded" file=".\art\Janissary_sploded.bha"/>
+      <ANIM name="Janissary Sploded2" file=".\art\Janissary_sploded2.bha"/>
+      <ANIM name="BombKetch_attack1" file=".\art\BombKetch_attack1.bha"/>
+      <ANIM name="BombKetch_attack2" file=".\art\BombKetch_attack2.bha"/>
+      <ANIM name="BombKetch_death1" file=".\art\BombKetch_death1.bha"/>
+      <ANIM name="BombKetch_death2" file=".\art\BombKetch_death2.bha"/>
+      <ANIM name="BombKetch_death3" file=".\art\BombKetch_death3.bha"/>
+      <ANIM name="BombKetch_death4" file=".\art\BombKetch_death4.bha"/>
+      <ANIM name="Sloop Attack1" file=".\art\Sloop_Attack1.bha"/>
+      <ANIM name="Sloop Attack2" file=".\art\Sloop_Attack2.bha"/>
+      <ANIM name="Sloop Death1" file=".\art\Sloop_Death1.bha"/>
+      <ANIM name="Sloop Death2" file=".\art\Sloop_Death2.bha"/>
+      <ANIM name="Sloop Death3" file=".\art\Sloop_Death3.bha"/>
+      <ANIM name="Sloop Death4" file=".\art\Sloop_Death4.bha"/>
+      <ANIM name="Sloop Death5" file=".\art\Sloop_Death5.bha"/>
+      <ANIM name="Basilicabomb Attack1" file=".\art\basilicabomb_attack1.bha"/>
+      <ANIM name="Basilicabomb Death1" file=".\art\basilicabomb_Death1.bha"/>
+      <ANIM name="Basilicabomb Death2" file=".\art\basilicabomb_death2.bha"/>
+      <ANIM name="Basilicabomb Death3" file=".\art\basilicabomb_death3.bha"/>
+      <ANIM name="Basilicabomb Death4" file=".\art\basilicabomb_death4.bha"/>
+      <ANIM name="Citizen Attack1" file=".\art\citizen_attack1.bha"/>
+      <ANIM name="Citizen Attack2" file=".\art\citizen_attack2.bha"/>
+      <ANIM name="Citizen Attack3" file=".\art\citizen_attack3.bha"/>
+      <ANIM name="Citizen Attack4" file=".\art\citizen_attack4.bha"/>
+      <ANIM name="Carrack Attack1" file=".\art\Carrack_attack1.bha"/>
+      <ANIM name="Carrack Attack2" file=".\art\Carrack_attack2.bha"/>
+      <ANIM name="Carrack Attack3" file=".\art\Carrack_attack3.bha"/>
+      <ANIM name="Carrack Death1" file=".\art\Carrack_death1.bha"/>
+      <ANIM name="Carrack Death2" file=".\art\Carrack_death2.bha"/>
+      <ANIM name="Carrack Death3" file=".\art\Carrack_death3.bha"/>
+      <ANIM name="NukeBuild" file=".\art\nukesilo_open.bha"/>
+      <ANIM name="NukeLaunch" file=".\art\nukesilo_launch.bha"/>
+      <ANIM name="MissileBuild" file=".\art\nukesilo_open.bha"/>
+      <ANIM name="MissileLaunch" file=".\art\nukesilo_launch.bha"/>
+      <ANIM name="Trireme Death1" file=".\art\trireme_death1.bha"/>
+      <ANIM name="Trireme Death2" file=".\art\trireme_death2.bha"/>
+      <ANIM name="Trireme Death3" file=".\art\trireme_death3.bha"/>
+      <ANIM name="Trireme Death4" file=".\art\trireme_death4.bha"/>
+      <ANIM name="Trireme Attack1" file=".\art\trireme_attack1.bha"/>
+      <ANIM name="EliteCamel Attack1" file=".\art\EliteCamel_attack1.bha"/>
+      <ANIM name="EliteCamel Attack2" file=".\art\EliteCamel_attack2.bha"/>
+      <ANIM name="EliteCamel Attack3" file=".\art\EliteCamel_attack3.bha"/>
+      <ANIM name="BombVessel_attack1" file=".\art\BombVessel_attack1.bha"/>
+      <ANIM name="BombVessel_attack2" file=".\art\BombVessel_attack2.bha"/>
+      <ANIM name="BombVessel_death1" file=".\art\BombVessel_death1.bha"/>
+      <ANIM name="BombVessel_death2" file=".\art\BombVessel_death2.bha"/>
+      <ANIM name="BombVessel_death3" file=".\art\BombVessel_death3.bha"/>
+      <ANIM name="BombVessel_death4" file=".\art\BombVessel_death4.bha"/>
+      <ANIM name="ARBGeneral Death1" file=".\art\General_arab_death1.bha"/>
+      <ANIM name="ARBGeneral Death2" file=".\art\General_arab_death2.bha"/>
+      <ANIM name="ARBGeneral Death3" file=".\art\General_arab_death3.bha"/>
+      <ANIM name="ARBGeneral Death4" file=".\art\General_arab_death4.bha"/>
+      <ANIM name="ARBGeneral Death5" file=".\art\General_arab_death5.bha"/>
+      <ANIM name="ARBGeneral Ambush" file=".\art\General_arab_ambush.bha"/>
+      <ANIM name="ARBGeneral Rally" file=".\art\General_arab_rally.bha"/>
+      <ANIM name="ARBGeneral Forced March" file=".\art\General_arab_force.bha"/>
+      <ANIM name="Hawk Attack" file=".\art\hawk_attack1.bha"/>
+      <ANIM name="LightBomber Attack" file=".\art\lightbomber.BHa"/>
+      <ANIM name="submarine_attack" file=".\art\submarine_attack.bha"/>
+      <ANIM name="submarine_death1" file=".\art\submarine_death1.bha"/>
+      <ANIM name="submarine_death2" file=".\art\submarine_death2.bha"/>
+      <ANIM name="submarine_death3" file=".\art\submarine_death3.bha"/>
+      <ANIM name="submarine_death4" file=".\art\submarine_death4.bha"/>
+      <ANIM name="Militia6 Male Attack1" file=".\art\Militia6_shotgun_attack1.bha"/>
+      <ANIM name="Militia6 Male Attack2" file=".\art\Militia6_shotgun_attack2.bha"/>
+      <ANIM name="Militia6 Male Attack3" file=".\art\Militia6_shotgun_attack3.bha"/>
+      <ANIM name="Militia6 AK47 Attack1" file=".\art\Militia6_AK47_attack1.bha"/>
+      <ANIM name="Militia6 AK47 Attack2" file=".\art\Militia6_AK47_attack2.bha"/>
+      <ANIM name="Militia6 AK47 Attack3" file=".\art\Militia6_AK47_attack3.bha"/>
+      <ANIM name="Militia6 Rifle Attack1" file=".\art\Militia6_rifle_attack1.bha"/>
+      <ANIM name="Militia_amer Attack1" file=".\art\Militia_amer_Attack1.bha"/>
+      <ANIM name="Militia_amer Attack2" file=".\art\Militia_amer_Attack2.bha"/>
+      <ANIM name="Militia_fem_amer Attack1" file=".\art\Militia_fem_amer_Attack1.bha"/>
+      <ANIM name="Militia_fem_amer Attack2" file=".\art\Militia_fem_amer_Attack2.bha"/>
+      <ANIM name="Militia_fem_amer Attack3" file=".\art\Militia_fem_amer_Attack3.bha"/>
+      <ANIM name="AMGeneral Rally" file=".\art\AMGeneral_rally.bha"/>
+      <ANIM name="AMGeneral Ambush" file=".\art\AMGeneral_Ambush.bha"/>
+      <ANIM name="AMGeneral Force" file=".\art\AMGeneral_force.bha"/>
+      <ANIM name="CamelCorps Attack1" file=".\art\CamelCorps_attack1.bha"/>
+      <ANIM name="CamelCorps Attack2" file=".\art\CamelCorps_attack2.bha"/>
+      <ANIM name="CamelCorps Attack3" file=".\art\CamelCorps_attack3.bha"/>
+      <ANIM name="CamelCorps AttackRun" file=".\art\CamelCorps_attackrun.bha"/>
+      <ANIM name="CamelCorps Death1" file=".\art\CamelCorps_death1.bha"/>
+      <ANIM name="CamelCorps Death2" file=".\art\CamelCorps_death2.bha"/>
+      <ANIM name="CamelCorps Death3" file=".\art\CamelCorps_death3.bha"/>
+      <ANIM name="CamelCorps Death4" file=".\art\CamelCorps_death4.bha"/>
+      <ANIM name="CamelCorps Death5" file=".\art\CamelCorps_death5.bha"/>
+      <ANIM name="CamelCorps Death6" file=".\art\CamelCorps_death6.bha"/>
+      <ANIM name="Fireraft Death" file=".\art\fireraftdeath.bha"/>
+      <ANIM name="Galley Attack2" file=".\art\galley_attack2.bha"/>
+      <ANIM name="Porus Rally" file=".\art\porus_general_rally.bha"/>
+      <ANIM name="Porus Ambush" file=".\art\porus_general_ambush.bha"/>
+      <ANIM name="Porus Force March" file=".\art\porus_general_fmarch.bha"/>
+      <ANIM name="Porus Death1" file=".\art\porus_general_death1.bha"/>
+      <ANIM name="PorusDriver Attack" file=".\art\porus_driver_attack.bha"/>
+      <ANIM name="PorusElephant Attack" file=".\art\porus_elephant_attack.bha"/>
+      <ANIM name="Darius Attack1" file=".\art\darius_chariot_attacks.bha"/>
+      <ANIM name="Darius Horse Attack1" file=".\art\darius_horse_attacks.bha"/>
+      <ANIM name="WarElephant Death1" file=".\art\warelephant_death1.bha"/>
+      <ANIM name="WarElephant Death2" file=".\art\warelephant_death2.bha"/>
+      <ANIM name="WarElephant Death4" file=".\art\warelephant_death4.bha"/>
+      <ANIM name="WarElephantSpearguy Attack1" file=".\art\warelephant_spearguy_attack1.bha"/>
+      <ANIM name="WarElephantSpearguy Attack2" file=".\art\warelephant_spearguy_attack2.bha"/>
+      <ANIM name="WarElephantSpearguy Attack3" file=".\art\warelephant_spearguy_attack3.bha"/>
+      <ANIM name="WarElephantSpearguy Death1" file=".\art\warelephant_spearguy_death1.bha"/>
+      <ANIM name="WarElephantSpearguy Death2" file=".\art\warelephant_spearguy_death2.bha"/>
+      <ANIM name="WarElephantSpearguy Death3" file=".\art\warelephant_spearguy_death3.bha"/>
+      <ANIM name="WarElephantSpearguy Death4" file=".\art\warelephant_spearguy_death4.bha"/>
+      <ANIM name="Mahout Attack1" file=".\art\mahout_attack1.bha"/>
+      <ANIM name="Mahout Attack2" file=".\art\mahout_attack2.bha"/>
+      <ANIM name="Mahout Attack3" file=".\art\mahout_attack3.bha"/>
+      <ANIM name="Mahout AttackWalk" file=".\art\mahout_attackwalk.bha"/>
+      <ANIM name="Mahout AttackRange" file=".\art\mahout_attackrange.bha"/>
+      <ANIM name="Mahout Death3" file=".\art\mahout_death3.bha"/>
+      <ANIM name="Mahoutmusket Death1" file=".\art\mahoutmusket_death1.bha"/>
+      <ANIM name="MahoutmusketDriver Death1" file=".\art\mahoutmusket_driver_death1.bha"/>
+      <ANIM name="MahoutmusketSpearguy Death1" file=".\art\mahoutmusket_spearguy_death1.bha"/>
+      <ANIM name="Mahoutmusket Death2" file=".\art\mahoutmusket_death2.bha"/>
+      <ANIM name="MahoutmusketDriver Death2" file=".\art\mahoutmusket_driver_death2.bha"/>
+      <ANIM name="MahoutmusketSpearguy Death2" file=".\art\mahoutmusket_spearguy_death2.bha"/>
+      <ANIM name="Mahoutmusket Death3" file=".\art\mahoutmusket_death3.bha"/>
+      <ANIM name="MahoutmusketDriver Death3" file=".\art\mahoutmusket_driver_death3.bha"/>
+      <ANIM name="MahoutmusketSpearguy Death3" file=".\art\mahoutmusket_spearguy_death3.bha"/>
+      <ANIM name="Mahoutmusket Death4" file=".\art\mahoutmusket_death4.bha"/>
+      <ANIM name="MahoutmusketDriver Death4" file=".\art\mahoutmusket_driver_death4.bha"/>
+      <ANIM name="MahoutmusketSpearguy Death4" file=".\art\mahoutmusket_spearguy_death4.bha"/>
+      <ANIM name="Mahoutmusket Attack1" file=".\art\mahoutmusket_attack1.bha"/>
+      <ANIM name="MahoutmusketDriver Attack1" file=".\art\mahoutmusket_driver_attack1.bha"/>
+      <ANIM name="MahoutmusketSpearguy Attack1" file=".\art\mahoutmusket_spearguy_attack1.bha"/>
+      <ANIM name="Mahoutmusket Attack2" file=".\art\mahoutmusket_attack2.bha"/>
+      <ANIM name="MahoutmusketDriver Attack2" file=".\art\mahoutmusket_driver_attack2.bha"/>
+      <ANIM name="MahoutmusketSpearguy Attack2" file=".\art\mahoutmusket_spearguy_attack2.bha"/>
+      <ANIM name="Mahoutmusket Attack3" file=".\art\mahoutmusket_attack3.bha"/>
+      <ANIM name="MahoutmusketDriver Attack3" file=".\art\mahoutmusket_driver_attack3.bha"/>
+      <ANIM name="MahoutmusketSpearguy Attack3" file=".\art\mahoutmusket_spearguy_attack3.bha"/>
+      <ANIM name="Mahoutmusket AttackWalk" file=".\art\mahoutmusket_attackwalk.bha"/>
+      <ANIM name="MahoutmusketDriver AttackWalk" file=".\art\mahoutmusket_driver_attackwalk.bha"/>
+      <ANIM name="MahoutmusketSpearguy AttackWalk" file=".\art\mahoutmusket_spearguy_attackwalk.bha"/>
+      <ANIM name="Mahoutmusket AttackRange" file=".\art\mahoutmusket_attackrange.bha"/>
+      <ANIM name="MahoutmusketDriver AttackRange" file=".\art\mahoutmusket_driver_attackrange.bha"/>
+      <ANIM name="MahoutmusketSpearguy AttackRange" file=".\art\mahoutmusket_spearguy_attackrange.bha"/>
+      <ANIM name="Mahoutcult Attack1" file=".\art\mahoutcult_attack1.bha"/>
+      <ANIM name="Mahoutcult Attack2" file=".\art\mahoutcult_attack2.bha"/>
+      <ANIM name="Mahoutcult Attack3" file=".\art\mahoutcult_attack3.bha"/>
+      <ANIM name="Mahoutcult AttackWalk" file=".\art\mahoutcult_attackwalk.bha"/>
+      <ANIM name="Mahoutcult AttackRange" file=".\art\mahoutcult_attackrange.bha"/>
+      <ANIM name="Mahoutcult Death1" file=".\art\mahoutcult_death1.bha"/>
+      <ANIM name="Mahoutcult Death2" file=".\art\mahoutcult_death2.bha"/>
+      <ANIM name="Mahoutcult Death3" file=".\art\mahoutcult_death3.bha"/>
+      <ANIM name="Mahoutcult Death4" file=".\art\mahoutcult_death4.bha"/>
+      <ANIM name="DutchCaravan 0 Attack1" file=".\art\dutch_caravan_0_attack1.bha"/>
+      <ANIM name="DutchCaravan 0 AttackRun" file=".\art\dutch_caravan_0_attackwalk.bha"/>
+      <ANIM name="DutchCaravan Attack1" file=".\art\dutch_caravan_attack1.bha"/>
+      <ANIM name="DutchCaravan AttackRun" file=".\art\dutch_caravan_attackrun.bha"/>
+      <ANIM name="DutchCaravan Death1" file=".\art\dutch_caravan_death1.bha"/>
+      <ANIM name="DutchCaravan Death2" file=".\art\dutch_caravan_death2.bha"/>
+      <ANIM name="DutchCaravan Death3" file=".\art\dutch_caravan_death3.bha"/>
+      <ANIM name="DutchCaravan Death4" file=".\art\dutch_caravan_death4.bha"/>
+      <ANIM name="DutchHorse Attack1" file=".\art\dutch_horse_attack1.bha"/>
+      <ANIM name="Immortal MeleeAttack1" file=".\art\immortal_meleeattack1.bha"/>
+      <ANIM name="Immortal Attack2" file=".\art\immortal_attack2.bha"/>
+      <ANIM name="Immortal Attack3" file=".\art\immortal_attack3.bha"/>
+      <ANIM name="Dutch Wholesaler Escort pack" file=".\art\dutch_wholesaler_escort_pack.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Attack1" file=".\art\dutch_wholesaler_escort_attack1.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Attack2" file=".\art\dutch_wholesaler_escort_attack2.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Attack3" file=".\art\dutch_wholesaler_escort_attack3.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Death1" file=".\art\dutch_wholesaler_escort_death1.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Death2" file=".\art\dutch_wholesaler_escort_death2.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Death3" file=".\art\dutch_wholesaler_escort_death3.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Death4" file=".\art\dutch_wholesaler_escort_death4.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Sploded1" file=".\art\dutch_wholesaler_escort_sploded1.bha"/>
+      <ANIM name="Dutch Wholesaler Escort Sploded2" file=".\art\dutch_wholesaler_escort_sploded2.bha"/>
+      <ANIM name="Typhoon_pack" file=".\art\typhoon_pack.bha"/>
+      <ANIM name="Typhoon_unpack" file=".\art\typhoon_unpack.bha"/>
+      <ANIM name="PT_Boat Attack1" file=".\art\pt_boat_attack1.bha"/>
+      <ANIM name="PT_Boat Attack2" file=".\art\pt_boat_attack2.bha"/>
+      <ANIM name="PT_Boat Death1" file=".\art\pt_boat_death1.bha"/>
+      <ANIM name="PT_Boat Death2" file=".\art\pt_boat_death2.bha"/>
+      <ANIM name="PT_Boat Death3" file=".\art\pt_boat_death3.bha"/>
+      <ANIM name="PT_Boat Death4" file=".\art\pt_boat_death4.bha"/>
+      <ANIM name="MerchantMule Attack1" file=".\art\dutch_mule0_attack.bha"/>
+      <ANIM name="MerchantMule3 Attack1" file=".\art\dutch_mule3_attack.bha"/>
+    </NONLOOPING>
+    <BUILDING>
+      <ANIM name="Airbase Default" file=".\art\airbaseaddon_idle.bha"/>
+      <ANIM name="Bellows Default" file=".\art\smelterbellows.bha"/>
+      <ANIM name="Forge_0m Default" file=".\art\forge_0m_addon.bha"/>
+      <ANIM name="Oilwell Default" file=".\art\oilwellidle.bha"/>
+      <ANIM name="Woodcutter_0 Default" file=".\art\woodcutter_0Addon.bha"/>
+      <ANIM name="Woodcutter_3 Default" file=".\art\woodcutter_3Addon.bha"/>
+      <ANIM name="Woodcutter_6 Default" file=".\art\woodcutter_6Addon.bha"/>
+      <ANIM name="city_0ma Default" file=".\art\city_0ma_addon.bha"/>
+      <ANIM name="city_0s_addon Default" file=".\art\city_0s_addon.bha"/>
+      <ANIM name="village_0a_addon Default" file=".\art\village_0a_addon.bha"/>
+      <ANIM name="city_0a_addon Default" file=".\art\city_0a_addon.bha"/>
+      <ANIM name="metro_6k_addon Default" file=".\art\metro_6k_addon.bha"/>
+      <ANIM name="metro_6k_addon2 Default" file=".\art\metro_6k_addon2.bha"/>
+      <ANIM name="metro_6s_addon Default" file=".\art\metro_6s_addon.bha"/>
+      <ANIM name="metro_6s_addon2 Default" file=".\art\metro_6s_addon2.bha"/>
+      <ANIM name="metro_6s_addon3 Default" file=".\art\metro_6s_addon3.bha"/>
+      <ANIM name="metro_6t_addon Default" file=".\art\metro_6t_addon.bha"/>
+      <ANIM name="metro_6t_addon2 Default" file=".\art\metro_6t_addon2.bha"/>
+      <ANIM name="village_6s_addon Default" file=".\art\village_6s_addon.bha"/>
+      <ANIM name="village_6s_addon2 Default" file=".\art\village_6s_addon2.bha"/>
+      <ANIM name="village_6s_addon3 Default" file=".\art\village_6s_addon3.bha"/>
+      <ANIM name="village_6t_addon Default" file=".\art\village_6t_addon.bha"/>
+      <ANIM name="village_6t_addon2 Default" file=".\art\village_6t_addon2.bha"/>
+      <ANIM name="village_6a_addon Default" file=".\art\village_6a_addon.bha"/>
+      <ANIM name="village_6k_addon Default" file=".\art\village_6k_addon.bha"/>
+      <ANIM name="village_6k_addon2 Default" file=".\art\village_6k_addon2.bha"/>
+      <ANIM name="village_0s_addon Default" file=".\art\village_0s_addon.bha"/>
+      <ANIM name="village_0s_addon2 Default" file=".\art\village_0s_addon2.bha"/>
+      <ANIM name="village_3n_addon Default" file=".\art\village_3n_addon.bha"/>
+      <ANIM name="village_6n_addon2 Default" file=".\art\village_6n_addon2.bha"/>
+      <ANIM name="village_6n_addon Default" file=".\art\village_6n_addon.bha"/>
+      <ANIM name="village_3k_addon Default" file=".\art\village_3k_addon.bha"/>
+      <ANIM name="city_3k_addon Default" file=".\art\city_3k_addon.bha"/>
+      <ANIM name="city_0s_addon2 Default" file=".\art\city_0s_addon2.bha"/>
+      <ANIM name="village_3s_addon Default" file=".\art\village_3s_addon.bha"/>
+      <ANIM name="city_3s_addon Default" file=".\art\city_3s_addon.bha"/>
+      <ANIM name="city_3ma Default" file=".\art\city_3ma_addon.bha"/>
+      <ANIM name="city_3n_addon Default" file=".\art\city_3n_addon.bha"/>
+      <ANIM name="city_3aa Default" file=".\art\city_3aa_addon.bha"/>
+      <ANIM name="city_3aa_2 Default" file=".\art\city_3aa_addon_2.bha"/>
+      <ANIM name="city_3ta Default" file=".\art\city_3ta_addon.bha"/>
+      <ANIM name="city_3ta_2 Default" file=".\art\city_3t_addon_2.bha"/>
+      <ANIM name="city_3e Default" file=".\art\city_3e_addon.bha"/>
+      <ANIM name="village_0ma Default" file=".\art\village_0ma_addon.bha"/>
+      <ANIM name="village_3ma Default" file=".\art\village_3ma_addon.bha"/>
+      <ANIM name="village_3aa Default" file=".\art\village_3aa_addon.bha"/>
+      <ANIM name="village_3aa_2 Default" file=".\art\village_3aa_addon_2.bha"/>
+      <ANIM name="village_3t_addon Default" file=".\art\village_3t_addon.bha"/>
+      <ANIM name="oilplat_7_addon Default" file=".\art\oilplat_7_addon.bha"/>
+      <ANIM name="granary_0m Default" file=".\art\granary_0m_addon.bha"/>
+      <ANIM name="granary_0m Default2" file=".\art\granary_0m_addon2.bha"/>
+      <ANIM name="granary_0s Default" file=".\art\granary_0s_addon.bha"/>
+      <ANIM name="granary_0a Default" file=".\art\granary_0a_addon.bha"/>
+      <ANIM name="granary_0i Default" file=".\art\granary_0i_addon.bha"/>
+      <ANIM name="granary_3i_addon Default" file=".\art\granary_3i_addon.bha"/>
+      <ANIM name="granary_3k Default" file=".\art\granary_3k_addon.bha"/>
+      <ANIM name="granary_3k Default2" file=".\art\granary_3k_addon2.bha"/>
+      <ANIM name="granary_3a Default" file=".\art\granary_3a_addon.bha"/>
+      <ANIM name="granary_3a Default2" file=".\art\granary_3a_addon2.bha"/>
+      <ANIM name="granary_3m Default" file=".\art\granary_3m_addon.bha"/>
+      <ANIM name="granary_3m Default2" file=".\art\granary_3m_addon2.bha"/>
+      <ANIM name="granary_3e Default" file=".\art\granary_3e_addon1.bha"/>
+      <ANIM name="granary_3e Default2" file=".\art\granary_3e_addon2.bha"/>
+      <ANIM name="granary_3u Default" file=".\art\granary_3u_addon.bha"/>
+      <ANIM name="granary_3n Default" file=".\art\granary_3n_addon.bha"/>
+      <ANIM name="granary_3t Default" file=".\art\granary_3t_addon.bha"/>
+      <ANIM name="granary_3s Default" file=".\art\granary_3s_addon.bha"/>
+      <ANIM name="granary_6 Default" file=".\art\granary_6_addon.bha"/>
+      <ANIM name="sawmill_0a_addon Default" file=".\art\sawmill_0a.bha"/>
+      <ANIM name="sawmill_3k_addon Default" file=".\art\sawmill_3k_addon.bha"/>
+      <ANIM name="sawmill_0m Default" file=".\art\sawmill_0m_addon.bha"/>
+      <ANIM name="sawmill_3m Default" file=".\art\sawmill_3m_addon.bha"/>
+      <ANIM name="sawmill_3a Default" file=".\art\sawmill_3a_addon.bha"/>
+      <ANIM name="sawmill_3s Default" file=".\art\sawmill_3s_addon.bha"/>
+      <ANIM name="sawmill_6 Default" file=".\art\sawmill_6_addon.bha"/>
+      <ANIM name="sawmill_3n Default" file=".\art\sawmill_3n_addon.bha"/>
+      <ANIM name="senate_3n_addon1 Default" file=".\art\senate_3n_addon1.bha"/>
+      <ANIM name="smelter_3t Default" file=".\art\smelter_3t_addon.bha"/>
+      <ANIM name="smelter_3t_2 Default" file=".\art\smelter_3t_addon_2.bha"/>
+      <ANIM name="smelter_3s Default" file=".\art\smelter_3s_addon.bha"/>
+      <ANIM name="smelter_0a_addon Default" file=".\art\smelter_0a_addon.bha"/>
+      <ANIM name="smelter_3k_addon Default" file=".\art\smelter_3k_addon.bha"/>
+      <ANIM name="smelter_3e_addon Default" file=".\art\smelter_3e_addon.bha"/>
+      <ANIM name="smelter_0s Default" file=".\art\smelter_0s_addon.bha"/>
+      <ANIM name="smelter_0i_addon Default" file=".\art\smelter_0i_addon.bha"/>
+      <ANIM name="smelter_3i_addon Default" file=".\art\smelter_3i_addon.bha"/>
+      <ANIM name="Stable Default" file=".\art\stable_default.bha"/>
+      <ANIM name="Stable Default3" file=".\art\stable_default3.bha"/>
+      <ANIM name="Stable Default3a" file=".\art\stableaddon3a.bha"/>
+      <ANIM name="Stable_3t Default" file=".\art\stable_3t_addon.bha"/>
+      <ANIM name="Stable_3t_2 Default" file=".\art\stable_3t_addon_2.bha"/>
+      <ANIM name="University_3n Default" file=".\art\university_3n_addon.bha"/>
+      <ANIM name="Mine_0 Default" file=".\art\mine_0_addon.bha"/>
+      <ANIM name="Mine_6 Default" file=".\art\mine_6_addon.bha"/>
+      <ANIM name="hanginggardens_3daddon1 Default" file=".\art\hanginggardens_3daddon1.bha"/>
+      <ANIM name="hanginggardens_3daddon2 Default" file=".\art\hanginggardens_3daddon2.bha"/>
+      <ANIM name="hanginggardens_3daddon3 Default" file=".\art\hanginggardens_3daddon3.bha"/>
+      <ANIM name="hanginggardens_3daddon4 Default" file=".\art\hanginggardens_3daddon4.bha"/>
+      <ANIM name="hanginggardens_3daddon5 Default" file=".\art\hanginggardens_3daddon5.bha"/>
+      <ANIM name="hanginggardens_3daddon6 Default" file=".\art\hanginggardens_3daddon6.bha"/>
+      <ANIM name="hanginggardens_3daddon7 Default" file=".\art\hanginggardens_3daddon7.bha"/>
+      <ANIM name="hanginggardens_3daddon8 Default" file=".\art\hanginggardens_3daddon8.bha"/>
+    </BUILDING>
+    <PATH>
+      <ANIM name="Airbase Plane TakeOff" file=".\art\takeoff.bha"/>
+      <ANIM name="Airbase Plane Land" file=".\art\land.bha"/>
+    </PATH>
+  </ANIMATIONS>
+</ROOT>

@@ -1,0 +1,3208 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Johnathen Jacobson (Big Huge Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Bryant Freitag (Big Huge Games) -->
+<TILESETS>
+	<TILESET name="Snowy" weatherbase="0" riverbase="0" snowcaps="1" darkenminimap="1" darkencolor="0xD4D4D4" snowbuildings="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764">
+		<LIGHTING tint_red="0" tint_green="9" tint_blue="38">
+			<AMBIENT>
+				<COLOR name="alpha"> 1.0</COLOR>
+				<COLOR name="red"> .43</COLOR>
+				<COLOR name="green">0.37</COLOR>
+				<COLOR name="blue">0.23</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.2</COLOR>
+				<COLOR name="red">.94</COLOR> 
+				<COLOR name="green">.96</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/snowy/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\s_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\s_Late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/s_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/s_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\m_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\m_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\m_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\m_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\s_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers/farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers/farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers/s_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers/s_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains/s_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE file="./terrain art/tilesets/bordertex_good.tga" outerfile="./terrain art/tilesets/bordertex_outer.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<!--
+		;clumping -> 0-5
+		;forest base: the subtype of the land that goes under forest- 0 is fertile -> 3 is arid
+		;mountain base: the subtype of the land that goes under mountain- 0 is fertile -> 3 is arid
+		;Mountain Fringe Trees: % of mountain fringe wcoords that have trees on them
+		;Growth Chance: the growth chance is the probability of a base terrain tile bordering a forest becoming the forest base type
+		;for each tileset, specify the distribution of land subtypes within each land type
+		;these can be individually overridden in each map file
+		;Bushes/Rocks- %chance of doobers in immediate neighbors, min #, max #, same for secondary row of neighbors
+		-->
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="0"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="3"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="s_browngrass" supertile="1">
+				<TEXTURE name="s_browngrass.tga"/>
+				<MAPTEXTURE name="s_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="s_browngrass_snow" supertile="1">
+				<TEXTURE name="s_browngrass_snow.tga"/>
+				<MAPTEXTURE name="s_grass_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="s_snow_browngrass" supertile="1">
+				<TEXTURE name="s_snow_browngrass.tga"/>
+				<MAPTEXTURE name="s_snow_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="s_snow" supertile="1">
+				<TEXTURE name="s_snow.tga"/>
+				<MAPTEXTURE name="s_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0xD2C9A6">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\s_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\s_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_snowy_wheat_1.tga"/>
+		</FARMTEX>
+	</TILESET>
+	<TILESET name="Dirty_2" weatherbase="3" riverbase="3" snowcaps="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="18" tint_green="18" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/dirty/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\d_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\d_late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers/d_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers/d_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers/d_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers/d_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\t_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers/farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers/farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains/t_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="2"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="grass_2.tga"/>
+				<MAPTEXTURE name="grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="grass_dirt" supertile="1">
+				<TEXTURE name="grass_dirt_2.tga"/>
+				<MAPTEXTURE name="grass_dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="dirt_grass_2.tga"/>
+				<MAPTEXTURE name="dirt_grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="dirt_2.tga"/>
+				<MAPTEXTURE name="dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="sand.tga"/>
+				<MAPTEXTURE name="sand.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart_map.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop_map.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid_map.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand_map.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet_map.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1_map.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x857f69">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<RIVERS minimap_color="0x576870"/>
+	</TILESET>
+	<TILESET name="Dirty" weatherbase="3" riverbase="3" snowcaps="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="18" tint_green="18" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/dirty/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\d_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\d_late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers/d_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers/d_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers/d_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers/d_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\t_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers/farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers/farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains/t_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="2"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="grass.tga"/>
+				<MAPTEXTURE name="grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="grass_dirt" supertile="1">
+				<TEXTURE name="grass_dirt.tga"/>
+				<MAPTEXTURE name="grass_dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="dirt_grass.tga"/>
+				<MAPTEXTURE name="dirt_grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="dirt.tga"/>
+				<MAPTEXTURE name="dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="sand.tga"/>
+				<MAPTEXTURE name="sand.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart_map.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop_map.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid_map.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand_map.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet_map.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1_map.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x857f69">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<RIVERS minimap_color="0x576870"/>
+	</TILESET>
+	<TILESET name="autumn" weatherbase="2" riverbase="2" snowcaps="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="18" tint_green="18" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/dirty/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\autumn_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\d_late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers/d_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers/d_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers/d_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers/d_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\t_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers/farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers/farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains/t_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_02.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="2"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="grass_autumn.tga"/>
+				<MAPTEXTURE name="grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="grass_dirt" supertile="1">
+				<TEXTURE name="grass_dirt_autumn.tga"/>
+				<MAPTEXTURE name="grass_dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="dirt_grass_autumn.tga"/>
+				<MAPTEXTURE name="dirt_grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="dirt_autumn.tga"/>
+				<MAPTEXTURE name="dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="sand.tga"/>
+				<MAPTEXTURE name="sand.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart_map.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop_map.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid_map.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand_map.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet_map.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1_map.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x857f69">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<RIVERS minimap_color="0x576870"/>
+	</TILESET>
+	<TILESET name="early_autumn" weatherbase="2" riverbase="2" snowcaps="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="18" tint_green="18" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/dirty/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\autumn_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\d_late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers/d_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers/d_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers/d_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers/d_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\t_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers/farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers/farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains/t_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_02.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="2"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="grass_early_autumn.tga"/>
+				<MAPTEXTURE name="grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="grass_dirt" supertile="1">
+				<TEXTURE name="dirt_grass_early_autumn.tga"/>
+				<MAPTEXTURE name="grass_dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="grass_dirt_early_autumn.tga"/>
+				<MAPTEXTURE name="dirt_grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="dirt_early_autumn.tga"/>
+				<MAPTEXTURE name="dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="sand.tga"/>
+				<MAPTEXTURE name="sand.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart_map.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop_map.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid_map.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand_map.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet_map.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1_map.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x857f69">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<RIVERS minimap_color="0x576870"/>
+	</TILESET>
+	<TILESET name="late_autumn" weatherbase="2" riverbase="2" snowcaps="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="18" tint_green="18" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/dirty/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\autumn_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\d_late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers/d_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers/d_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers/d_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers/d_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\t_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers/farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers/farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains/t_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_02.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="2"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="grass_autumn_snow.tga"/>
+				<MAPTEXTURE name="grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="grass_dirt" supertile="1">
+				<TEXTURE name="grass_dirt_autumn_snow.tga"/>
+				<MAPTEXTURE name="grass_dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="dirt_grass_autumn_snow.tga"/>
+				<MAPTEXTURE name="dirt_grass_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="dirt_autumn_snow.tga"/>
+				<MAPTEXTURE name="dirt_map.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="sand.tga"/>
+				<MAPTEXTURE name="sand.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart_map.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop_map.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid_map.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand_map.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet_map.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1_map.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x857f69">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\t_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<RIVERS minimap_color="0x576870"/>
+	</TILESET>
+	<TILESET name="SW_Desert" weatherbase="3" riverbase="3" snowcaps="0" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="38" tint_green="29" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">1.0</COLOR>
+				<COLOR name="red">0.07916</COLOR>
+				<COLOR name="green">0.06</COLOR>
+				<COLOR name="blue">0.1458333</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.2</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">0.94583</COLOR>
+				<COLOR name="blue">0.7708</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/sw_desert/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\m_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\m_Late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\sw_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\sw_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\d_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\d_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\d_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\d_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\sw_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\sw_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\sw_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\s_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="0"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="swgrass.tga"/>
+				<MAPTEXTURE name="swgrass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="grass_dirt" supertile="1">
+				<TEXTURE name="swgrass_dirt.tga"/>
+				<MAPTEXTURE name="swgrass_dirt.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="swdirt_grass.tga"/>
+				<MAPTEXTURE name="swdirt_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="swdirt.tga"/>
+				<MAPTEXTURE name="swdirt.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x000000">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\sw_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\sw_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="128"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<DOOBERS>
+			<BUSH path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_bushes.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</BUSH>
+			<ROCK path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_rocks.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</ROCK>
+			<STUMP path=".\art\doober_stumps.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Billboard"/>
+			</STUMP>
+			<MINEROCK path=".\terrain art\tilesets\sw_desert\swdoobers\doober_rocks_02.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.75"/>
+				<SELECT type="Random"/>
+			</MINEROCK>
+			<BUILDDEATHFILLER path=".\art\doober_build_destruction_filler.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Random"/>
+			</BUILDDEATHFILLER>
+			<BUILDEWCORNER path=".\art\doober_build_destruction_ew.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDEWCORNER>
+			<BUILDNSCORNER path=".\art\doober_build_destruction_ns.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDNSCORNER>
+		</DOOBERS>
+	</TILESET>
+	<TILESET name="GS_Desert" weatherbase="3" riverbase="3" snowcaps="0" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="1" darkencolor="0xE8E8E8">
+		<LIGHTING tint_red="38" tint_green="29" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">1.0</COLOR>
+				<COLOR name="red">0.39</COLOR>
+				<COLOR name="green">0.39</COLOR>
+				<COLOR name="blue">0.39</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.2</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">0.94583</COLOR>
+				<COLOR name="blue">0.7708</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/GS_Desert/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\m_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\m_Late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\sw_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\sw_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\d_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\/d_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\d_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\d_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\gs_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\gs_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\gs_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\gs_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="GS_desertsand.tga"/>
+				<MAPTEXTURE name="GS_desertsand.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="GS_desertsandgrass.tga"/>
+				<MAPTEXTURE name="GS_desertsandgrass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="GS_desertgrasssand.tga"/>
+				<MAPTEXTURE name="GS_desertgrasssand.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="GS_desertgrass.tga"/>
+				<MAPTEXTURE name="GS_desertgrass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0xB2AB8D">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\gs_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\gs_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<DOOBERS>
+			<BUSH path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_bushes.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</BUSH>
+			<ROCK path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_rocks.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</ROCK>
+			<STUMP path=".\art\doober_stumps.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Billboard"/>
+			</STUMP>
+			<MINEROCK path=".\terrain art\tilesets\sw_desert\swdoobers\doober_rocks_02.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.75"/>
+				<SELECT type="Random"/>
+			</MINEROCK>
+			<BUILDDEATHFILLER path=".\art\doober_build_destruction_filler.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Random"/>
+			</BUILDDEATHFILLER>
+			<BUILDEWCORNER path=".\art\doober_build_destruction_ew.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDEWCORNER>
+			<BUILDNSCORNER path=".\art\doober_build_destruction_ns.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDNSCORNER>
+		</DOOBERS>
+	</TILESET>
+	<TILESET name="jungle" weatherbase="1" riverbase="3" snowcaps="0" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="20" tint_green="20" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">1.0</COLOR>
+				<COLOR name="red">0.39</COLOR>
+				<COLOR name="green">0.39</COLOR>
+				<COLOR name="blue">0.39</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.2</COLOR>
+				<COLOR name="red">0.6</COLOR>
+				<COLOR name="green">0.6</COLOR>
+				<COLOR name="blue">0.39</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.0" low_treescale="1.0
+	" minimap_color="0x313501"/>
+		<BASEDIR path="./terrain art/tilesets/jungle/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\j_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\j_Late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\j_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\j_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\j_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\j_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\j_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\j_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\j_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_j_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_j_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\j_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\j_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\j_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="b_jungle1.tga"/>
+				<MAPTEXTURE name="b_jungle1.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="b_jungle2.tga"/>
+				<MAPTEXTURE name="b_jungle2.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="b_jungle3.tga"/>
+				<MAPTEXTURE name="b_jungle3.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="b_jungle4.tga"/>
+				<MAPTEXTURE name="b_jungle4.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x857f69">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\j_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\j_mountain_blend.tga"/>
+			<MINIMAPTEX file="./terrain art/tilesets/jungle/jmountains/jmountain_plain_02.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="120" tint_green="100" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_jungle_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade_dark.tga"/>
+		</FOGTEX>
+		<DOOBERS>
+			<BUSH path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_bushes.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</BUSH>
+			<ROCK path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_rocks.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</ROCK>
+			<STUMP path=".\art\doober_stumps.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Billboard"/>
+			</STUMP>
+			<MINEROCK path=".\terrain art\tilesets\sw_desert\swdoobers\doober_rocks_02.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.75"/>
+				<SELECT type="Random"/>
+			</MINEROCK>
+			<BUILDDEATHFILLER path=".\art\doober_build_destruction_filler.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Random"/>
+			</BUILDDEATHFILLER>
+			<BUILDEWCORNER path=".\art\doober_build_destruction_ew.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDEWCORNER>
+			<BUILDNSCORNER path=".\art\doober_build_destruction_ns.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDNSCORNER>
+		</DOOBERS>
+	</TILESET>
+	<TILESET name="tropical_wet" weatherbase="1" riverbase="3" snowcaps="0" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="20" tint_green="20" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">1.0</COLOR>
+				<COLOR name="red">0.07916</COLOR>
+				<COLOR name="green">0.06</COLOR>
+				<COLOR name="blue">0.1458333</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.2</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">0.94583</COLOR>
+				<COLOR name="blue">0.7708</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.25" low_treescale="1.0
+	" minimap_color="0x313501"/>
+		<BASEDIR path="./terrain art/tilesets/jungle/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\j_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\j_Late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\j_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\j_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\j_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\j_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\j_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\j_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\tropical_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_j_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_j_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\j_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\j_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\j_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="wetlands_0.tga"/>
+				<MAPTEXTURE name="wetlands_0.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="wetlands_1.tga"/>
+				<MAPTEXTURE name="wetlands_1.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="wetlands_2.tga"/>
+				<MAPTEXTURE name="wetlands_2.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="wetlands_3.tga"/>
+				<MAPTEXTURE name="wetlands_3.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x857f69">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\tropical_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\tropical_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\terrain art\tilesets\common\common_mountains\tropical_mountain_plain.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="120" tint_green="100" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_jungle_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade_dark.tga"/>
+		</FOGTEX>
+		<DOOBERS>
+			<BUSH path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_bushes.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</BUSH>
+			<ROCK path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_rocks.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</ROCK>
+			<STUMP path=".\art\doober_stumps.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Billboard"/>
+			</STUMP>
+			<MINEROCK path=".\terrain art\tilesets\sw_desert\swdoobers\doober_rocks_02.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.75"/>
+				<SELECT type="Random"/>
+			</MINEROCK>
+			<BUILDDEATHFILLER path=".\art\doober_build_destruction_filler.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Random"/>
+			</BUILDDEATHFILLER>
+			<BUILDEWCORNER path=".\art\doober_build_destruction_ew.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDEWCORNER>
+			<BUILDNSCORNER path=".\art\doober_build_destruction_ns.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDNSCORNER>
+		</DOOBERS>
+	</TILESET>
+	<TILESET name="tropical" weatherbase="1" riverbase="3" snowcaps="0" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="20" tint_green="20" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">1.0</COLOR>
+				<COLOR name="red">0.07916</COLOR>
+				<COLOR name="green">0.06</COLOR>
+				<COLOR name="blue">0.1458333</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.2</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">0.94583</COLOR>
+				<COLOR name="blue">0.7708</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.25" low_treescale="1.0
+	" minimap_color="0x313501"/>
+		<BASEDIR path="./terrain art/tilesets/jungle/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\j_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\j_Late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\j_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\j_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\j_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\j_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\j_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\j_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\tropical_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_j_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_j_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\j_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\j_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\j_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="c_jungle1.tga"/>
+				<MAPTEXTURE name="b_jungle1.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="c_jungle2.tga"/>
+				<MAPTEXTURE name="b_jungle2.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="c_jungle3.tga"/>
+				<MAPTEXTURE name="b_jungle3.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="c_jungle4.tga"/>
+				<MAPTEXTURE name="b_jungle4.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x857f69">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\tropical_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\tropical_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\terrain art\tilesets\common\common_mountains\tropical_mountain_plain.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="120" tint_green="100" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_jungle_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade_dark.tga"/>
+		</FOGTEX>
+		<DOOBERS>
+			<BUSH path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_bushes.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</BUSH>
+			<ROCK path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_rocks.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</ROCK>
+			<STUMP path=".\art\doober_stumps.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Billboard"/>
+			</STUMP>
+			<MINEROCK path=".\terrain art\tilesets\sw_desert\swdoobers\doober_rocks_02.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.75"/>
+				<SELECT type="Random"/>
+			</MINEROCK>
+			<BUILDDEATHFILLER path=".\art\doober_build_destruction_filler.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Random"/>
+			</BUILDDEATHFILLER>
+			<BUILDEWCORNER path=".\art\doober_build_destruction_ew.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDEWCORNER>
+			<BUILDNSCORNER path=".\art\doober_build_destruction_ns.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDNSCORNER>
+		</DOOBERS>
+	</TILESET>
+	<TILESET name="african_savannah" weatherbase="1" riverbase="3" snowcaps="0" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="38" tint_green="29" tint_blue="0">
+			<AMBIENT>
+				<COLOR name="alpha">1.0</COLOR>
+				<COLOR name="red">0.39</COLOR>
+				<COLOR name="green">0.39</COLOR>
+				<COLOR name="blue">0.39</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.2</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">0.94</COLOR>
+				<COLOR name="blue">0.85</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/african_savannah/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\m_Middle_Road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\d_Late_Road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers/d_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers/d_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers/d_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers/d_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\as_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers/farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers/farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers/d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers/d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\as_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE outerfile="./terrain art/tilesets/bordertex_outer.tga" file="./terrain art/tilesets/bordertex_good.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="3"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="2"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="grass" supertile="1">
+				<TEXTURE name="savannah_clear.tga"/>
+				<MAPTEXTURE name="savannah_clear.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt_grass" supertile="1">
+				<TEXTURE name="savannah_undergrowth.tga"/>
+				<MAPTEXTURE name="savannah_undergrowth.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="savannah_bushes.tga"/>
+				<MAPTEXTURE name="savannah_b.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="dirt" supertile="1">
+				<TEXTURE name="savannah_rocky.tga"/>
+				<MAPTEXTURE name="savannah_rocky.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x926a00">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\as_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\as_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<CLIFFCOLOR bias_val="200"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<DOOBERS>
+			<BUSH path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_bushes.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</BUSH>
+			<ROCK path=".\terrain art\tilesets\sw_desert\swdoobers\sw_desert_doober_rocks.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Billboard"/>
+			</ROCK>
+			<STUMP path=".\art\doober_stumps.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Billboard"/>
+			</STUMP>
+			<MINEROCK path=".\terrain art\tilesets\sw_desert\swdoobers\doober_rocks_02.tga">
+				<ROWS num="2"/>
+				<COLS num="2"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.75"/>
+				<SELECT type="Random"/>
+			</MINEROCK>
+			<BUILDDEATHFILLER path=".\art\doober_build_destruction_filler.tga">
+				<ROWS num="4"/>
+				<COLS num="4"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Random"/>
+			</BUILDDEATHFILLER>
+			<BUILDEWCORNER path=".\art\doober_build_destruction_ew.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDEWCORNER>
+			<BUILDNSCORNER path=".\art\doober_build_destruction_ns.tga">
+				<ROWS num="2"/>
+				<COLS num="1"/>
+				<STYLE type="Sprite"/>
+				<CENTERING num="0.5"/>
+				<SELECT type="Selected"/>
+			</BUILDNSCORNER>
+		</DOOBERS>
+	</TILESET>
+	<TILESET name="arctic" weatherbase="0" riverbase="0" snowcaps="1" darkenminimap="1" darkencolor="0xD7D7D7" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" snowbuildings="1">
+		<LIGHTING tint_red="0" tint_green="9" tint_blue="38">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/arctic/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\arctic_middle_road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads\arctic_late_road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\s_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\s_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\arctic_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\arctic_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\arctic_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\arctic_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\arctic_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\s_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\s_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\s_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE file="./terrain art/tilesets/bordertex_good.tga" outerfile="./terrain art/tilesets/bordertex_outer.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<!--
+		;clumping -> 0-5
+		;forest base: the subtype of the land that goes under forest- 0 is fertile -> 3 is arid
+		;mountain base: the subtype of the land that goes under mountain- 0 is fertile -> 3 is arid
+		;Mountain Fringe Trees: % of mountain fringe wcoords that have trees on them
+		;Growth Chance: the growth chance is the probability of a base terrain tile bordering a forest becoming the forest base type
+		;for each tileset, specify the distribution of land subtypes within each land type
+		;these can be individually overridden in each map file
+		;Bushes/Rocks- %chance of doobers in immediate neighbors, min #, max #, same for secondary row of neighbors
+		-->
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="0"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="3"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="1" supertile="1">
+				<TEXTURE name="arctic1.tga"/>
+				<MAPTEXTURE name="s_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="2" supertile="1">
+				<TEXTURE name="arctic2.tga"/>
+				<MAPTEXTURE name="s_grass_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="3" supertile="1">
+				<TEXTURE name="arctic3.tga"/>
+				<MAPTEXTURE name="s_snow_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="4" supertile="1">
+				<TEXTURE name="arctic4.tga"/>
+				<MAPTEXTURE name="s_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0xDDD3AF">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\arctic_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\arctic_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_snowy_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<CLIFFCOLOR bias_val="200"/>
+	</TILESET>
+	<TILESET name="m_steppe_3" weatherbase="0" riverbase="2" snowcaps="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="5" tint_green="0" tint_blue="15">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/m_steppe/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads/gs_middle_road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads/d_late_road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\m_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\m_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\m_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\m_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\s_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\m_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE file="./terrain art/tilesets/bordertex_good.tga" outerfile="./terrain art/tilesets/bordertex_outer.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<!--
+		;clumping -> 0-5
+		;forest base: the subtype of the land that goes under forest- 0 is fertile -> 3 is arid
+		;mountain base: the subtype of the land that goes under mountain- 0 is fertile -> 3 is arid
+		;Mountain Fringe Trees: % of mountain fringe wcoords that have trees on them
+		;Growth Chance: the growth chance is the probability of a base terrain tile bordering a forest becoming the forest base type
+		;for each tileset, specify the distribution of land subtypes within each land type
+		;these can be individually overridden in each map file
+		;Bushes/Rocks- %chance of doobers in immediate neighbors, min #, max #, same for secondary row of neighbors
+		-->
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="0"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="3"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="1" supertile="1">
+				<TEXTURE name="mongolia4_b.tga"/>
+				<MAPTEXTURE name="s_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="2" supertile="1">
+				<TEXTURE name="mongolia1_b.tga"/>
+				<MAPTEXTURE name="s_grass_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="3" supertile="1">
+				<TEXTURE name="mongolia1_b.tga"/>
+				<MAPTEXTURE name="s_snow_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="4" supertile="1">
+				<TEXTURE name="mongolia2_b.tga"/>
+				<MAPTEXTURE name="s_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x75705c">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\s_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\s_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<CLIFFCOLOR bias_val="200"/>
+	</TILESET>
+	<TILESET name="m_steppe_2" weatherbase="3" riverbase="2" snowcaps="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="5" tint_green="0" tint_blue="15">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/m_steppe/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads/gs_middle_road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads/d_late_road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\m_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\m_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\m_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\m_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\s_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\m_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE file="./terrain art/tilesets/bordertex_good.tga" outerfile="./terrain art/tilesets/bordertex_outer.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<!--
+		;clumping -> 0-5
+		;forest base: the subtype of the land that goes under forest- 0 is fertile -> 3 is arid
+		;mountain base: the subtype of the land that goes under mountain- 0 is fertile -> 3 is arid
+		;Mountain Fringe Trees: % of mountain fringe wcoords that have trees on them
+		;Growth Chance: the growth chance is the probability of a base terrain tile bordering a forest becoming the forest base type
+		;for each tileset, specify the distribution of land subtypes within each land type
+		;these can be individually overridden in each map file
+		;Bushes/Rocks- %chance of doobers in immediate neighbors, min #, max #, same for secondary row of neighbors
+		-->
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="0"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="3"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="1" supertile="1">
+				<TEXTURE name="mongolia4_b.tga"/>
+				<MAPTEXTURE name="s_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="2" supertile="1">
+				<TEXTURE name="mongolia2_b.tga"/>
+				<MAPTEXTURE name="s_grass_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="3" supertile="1">
+				<TEXTURE name="mongolia1_b.tga"/>
+				<MAPTEXTURE name="s_snow_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="4" supertile="1">
+				<TEXTURE name="mongolia3_b.tga"/>
+				<MAPTEXTURE name="s_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x75705c">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\s_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\s_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<CLIFFCOLOR bias_val="200"/>
+	</TILESET>
+	<TILESET name="m_steppe" weatherbase="1" riverbase="0" snowcaps="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="5" tint_green="0" tint_blue="15">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/m_steppe/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads/gs_middle_road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads/d_late_road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\m_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\m_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\m_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\m_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\m_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\m_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE file="./terrain art/tilesets/bordertex_good.tga" outerfile="./terrain art/tilesets/bordertex_outer.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<!--
+		;clumping -> 0-5
+		;forest base: the subtype of the land that goes under forest- 0 is fertile -> 3 is arid
+		;mountain base: the subtype of the land that goes under mountain- 0 is fertile -> 3 is arid
+		;Mountain Fringe Trees: % of mountain fringe wcoords that have trees on them
+		;Growth Chance: the growth chance is the probability of a base terrain tile bordering a forest becoming the forest base type
+		;for each tileset, specify the distribution of land subtypes within each land type
+		;these can be individually overridden in each map file
+		;Bushes/Rocks- %chance of doobers in immediate neighbors, min #, max #, same for secondary row of neighbors
+		-->
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="0"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="3"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="1" supertile="1">
+				<TEXTURE name="mongolia3.tga"/>
+				<MAPTEXTURE name="s_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="2" supertile="1">
+				<TEXTURE name="mongolia2.tga"/>
+				<MAPTEXTURE name="s_grass_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="3" supertile="1">
+				<TEXTURE name="mongolia1.tga"/>
+				<MAPTEXTURE name="s_snow_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="4" supertile="1">
+				<TEXTURE name="mongolia4.tga"/>
+				<MAPTEXTURE name="s_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x75705c">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\m_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\m_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<CLIFFCOLOR bias_val="200"/>
+	</TILESET>
+	<TILESET name="m_steppe_autumn" weatherbase="1" riverbase="0" snowcaps="1" minimap_ocean="0x12aff8" minimap_ocean_bottom="0x064764" darkenminimap="0">
+		<LIGHTING tint_red="5" tint_green="0" tint_blue="15">
+			<AMBIENT>
+				<COLOR name="alpha">2.0</COLOR>
+				<COLOR name="red">0.01</COLOR>
+				<COLOR name="green">0.03</COLOR>
+				<COLOR name="blue">0.18</COLOR>
+			</AMBIENT>
+			<DIFFUSE>
+				<COLOR name="alpha">1.36</COLOR>
+				<COLOR name="red">1.0</COLOR>
+				<COLOR name="green">1.0</COLOR>
+				<COLOR name="blue">1.0</COLOR>
+			</DIFFUSE>
+		</LIGHTING>
+		<TREES treescale="1.3" low_treescale="1.0" minimap_color="0x425542"/>
+		<BASEDIR path="./terrain art/tilesets/m_steppe/"/>
+		<ROADTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads/gs_middle_road.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_roads/d_late_road.tga"/>
+		</ROADTEX>
+		<OILTEX>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\d_rough.tga"/>
+			<TEXTURE name=".\terrain art\tilesets\common\common_doobers\d_rough_oil.tga"/>
+		</OILTEX>
+		<RIVERTEX_NORMAL>
+			<TEXTURE name="normal" file=".\terrain art\tilesets\common\common_rivers\m_rivertexture.tga"/>
+		</RIVERTEX_NORMAL>
+		<RIVERTEX_DELTA>
+			<TEXTURE name="delta" file=".\terrain art\tilesets\common\common_rivers\m_riverdelta.tga"/>
+		</RIVERTEX_DELTA>
+		<RIVERTEX_HALFDELTA>
+			<TEXTURE name="halfdelta" file=".\terrain art\tilesets\common\common_rivers\m_riverhalfdelta.tga"/>
+		</RIVERTEX_HALFDELTA>
+		<RIVERTEX_WATER>
+			<TEXTURE name="water" file=".\terrain art\tilesets\common\common_rivers\m_wateralpha_real.tga"/>
+		</RIVERTEX_WATER>
+		<CLIFFTEX>
+			<TEXTURE name="cliffs" file=".\terrain art\tilesets\common\common_mountains\m_mountain_cliff.tga"/>
+		</CLIFFTEX>
+		<CORALTEX>
+			<TEXTURE name="coral" file="./terrain art/tilesets/coralblend.tga"/>
+		</CORALTEX>
+		<UNDERLAYS>
+			<TEXTURE id="pigfarm" file=".\terrain art\tilesets\common\common_doobers\farm_animals.tga"/>
+			<TEXTURE id="wheatfarm" file=".\terrain art\tilesets\common\common_doobers\farm_wheat.tga"/>
+			<TEXTURE id="rough" file=".\terrain art\tilesets\common\common_doobers\d_rough.tga"/>
+			<TEXTURE id="oil" file=".\terrain art\tilesets\common\common_doobers\d_rough_oil.tga"/>
+			<TEXTURE id="snowcap" file=".\terrain art\tilesets\common\common_mountains\m_mountainpeak.tga"/>
+		</UNDERLAYS>
+		<TREEDECO>
+			<BASE>
+				<TEXTURE name=".\terrain art\tilesets\common\common_doobers\T_Flat_Land_Grass_Thick_01.tga"/>
+			</BASE>
+			<ALPHAS>
+				<ALPHA size="1">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_T_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_01.tga"/>
+				</ALPHA>
+				<ALPHA size="2">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_F_02.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_01.tga"/>
+				</ALPHA>
+				<ALPHA size="4">
+					<TEXTURE name=".\Terrain Art\T_Flat_Land_Deco_W_02.tga"/>
+				</ALPHA>
+			</ALPHAS>
+		</TREEDECO>
+		<BORDERTEX>
+			<TEXTURE file="./terrain art/tilesets/bordertex_good.tga" outerfile="./terrain art/tilesets/bordertex_outer.tga"/>
+		</BORDERTEX>
+		<TERRAINGROUP>
+			<!--
+		;clumping -> 0-5
+		;forest base: the subtype of the land that goes under forest- 0 is fertile -> 3 is arid
+		;mountain base: the subtype of the land that goes under mountain- 0 is fertile -> 3 is arid
+		;Mountain Fringe Trees: % of mountain fringe wcoords that have trees on them
+		;Growth Chance: the growth chance is the probability of a base terrain tile bordering a forest becoming the forest base type
+		;for each tileset, specify the distribution of land subtypes within each land type
+		;these can be individually overridden in each map file
+		;Bushes/Rocks- %chance of doobers in immediate neighbors, min #, max #, same for secondary row of neighbors
+		-->
+			<CLUMP_FACTOR value="3"/>
+			<FOREST_BASE value="0"/>
+			<FOREST_GROWTH_PROB value="30"/>
+			<MOUNTAIN_BASE value="3"/>
+			<MOUNTAIN_GROWTH_PROB value="30"/>
+			<MOUNTAIN_FRINGE_TREE_PROB value="40"/>
+			<COAST_BASE value="3"/>
+			<COAST_GROWTH_PROB value="30"/>
+			<BUSH_CLUMP_PROB value="60"/>
+			<BUSH_SPACING value="50"/>
+			<BUSH_MIN value="3"/>
+			<BUSH_MAX value="5"/>
+			<MOUNTAIN_ROCK_CLUMP_PROB value="50"/>
+			<MOUNTAIN_ROCK_SPACING value="100"/>
+			<MOUNTAIN_ROCK_MIN value="1"/>
+			<MOUNTAIN_ROCK_MAX value="4"/>
+		</TERRAINGROUP>
+		<BASELAND>
+			<BASE name="1" supertile="1">
+				<TEXTURE name="mongolia3_c.tga"/>
+				<MAPTEXTURE name="s_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="2" supertile="1">
+				<TEXTURE name="mongolia2_c.tga"/>
+				<MAPTEXTURE name="s_grass_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="3" supertile="1">
+				<TEXTURE name="mongolia1_c.tga"/>
+				<MAPTEXTURE name="s_snow_grass.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+			<BASE name="4" supertile="1">
+				<TEXTURE name="mongolia4_c.tga"/>
+				<MAPTEXTURE name="s_snow.tga"/>
+				<CLUMPTEXTURE name="../grassclump.tga"/>
+			</BASE>
+		</BASELAND>
+		<COASTAL>
+			<BASE name="coastal">
+				<TEXTURE name="coastal.tga"/>
+				<MAPTEXTURE name="coastal.tga"/>
+			</BASE>
+			<SUPPORT>
+				<COASTALPHASTART>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstart.tga"/>
+				</COASTALPHASTART>
+				<COASTALPHASTOP>
+					<TEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalblendstop.tga"/>
+				</COASTALPHASTOP>
+				<COASTALPHAMID>
+					<TEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\coastalmid.tga"/>
+				</COASTALPHAMID>
+				<SANDDRY>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sand.tga"/>
+				</SANDDRY>
+				<SANDWET>
+					<TEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\transitions\\shores\\blends\\sandwet.tga"/>
+				</SANDWET>
+				<CORAL>
+					<TEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+					<MAPTEXTURE name=".\\Terrain Art\\sand_sea1.tga"/>
+				</CORAL>
+			</SUPPORT>
+		</COASTAL>
+		<MOUNTAINS minimap_color="0x75705c">
+			<BASETEX file=".\terrain art\tilesets\common\common_mountains\m_mountain_plain.tga"/>
+			<ALPHATEX file=".\terrain art\tilesets\common\common_mountains\m_mountain_blend.tga"/>
+			<MINIMAPTEX file=".\art\mountain_blend_01.tga"/>
+		</MOUNTAINS>
+		<OCEAN>
+			<BASE name="ocean">
+				<TEXTURE name="ocean_floor_5.tga"/>
+				<MAPTEXTURE name="ocean_floor_5.tga"/>
+			</BASE>
+		</OCEAN>
+		<RIVERTINT tint_red="0" tint_green="0" tint_blue="0"/>
+		<RIVERS minimap_color="0x576870"/>
+		<FARMTEX>
+			<TEXTURE file="./art/farm_wheat_1.tga"/>
+		</FARMTEX>
+		<FOGTEX>
+			<TEXTURE file="./art/fow_fade.tga"/>
+		</FOGTEX>
+		<CLIFFCOLOR bias_val="200"/>
+	</TILESET>
+	<COMMON>
+		<WEATHERING>
+			<WEATHERELEM name="Rough" age="0" file1=".\terrain art\base_0_0.tga" file2=".\terrain art\base_0_1.tga"/>
+			<WEATHERELEM name="Cobble" age="1" file1=".\terrain art\base_1_0.tga" file2=".\terrain art\base_1_1.tga"/>
+			<WEATHERELEM name="Modern" age="2" file1=".\terrain art\Modern_Weathering.tga" file2=".\terrain art\Modern_Weathering.tga"/>
+			<ALPHAELEM name="TwoByTwo" height="2" width="2" age0=".\terrain art\age0_22.tga" age1=".\terrain art\age0_22.tga" age2=".\terrain art\age0_22.tga"/>
+			<ALPHAELEM name="ThreeByThree" height="3" width="3" age0=".\terrain art\age0_22.tga" age1=".\terrain art\age0_22.tga" age2=".\terrain art\age0_22.tga"/>
+			<ALPHAELEM name="FourByFour" height="4" width="4" age0=".\terrain art\age0_22.tga" age1=".\terrain art\age0_22.tga" age2=".\terrain art\age0_22.tga"/>
+			<ALPHAELEM name="FiveByFive" height="5" width="5" age0=".\terrain art\age0_22.tga" age1=".\terrain art\age0_22.tga" age2=".\terrain art\age0_22.tga"/>
+			<ALPHAELEM name="SixBySix" height="6" width="6" age0=".\terrain art\age0_22.tga" age1=".\terrain art\age0_22.tga" age2=".\terrain art\age0_22.tga"/>
+			<ALPHAELEM name="SevenbySeven" height="7" width="7" age0=".\terrain art\age0_22.tga" age1=".\terrain art\age0_22.tga" age2=".\terrain art\age0_22.tga"/>
+			<ALPHAELEM name="NineByFive" height="9" width="5" age0=".\terrain art\age0_22.tga" age1=".\terrain art\age0_22.tga" age2=".\terrain art\age0_22.tga"/>
+		</WEATHERING>
+	</COMMON>
+</TILESETS>

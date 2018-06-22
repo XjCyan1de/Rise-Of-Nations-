@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Ike Ellis (Big Huge Games) -->
+<!DOCTYPE ROOT SYSTEM "citytemplates.dtd">
+<?xmlspysps citytemplates.sps?>
+<ROOT>
+	<TEMPLATE size="small">
+		<Build offset_x="480" offset_y="-1632" type="Farm"/>
+		<Build offset_x="-288" offset_y="-1632" type="Farm"/>
+		<Build offset_x="-1248" offset_y="-1632" type="Farm"/>
+		<Build offset_x="-1536" offset_y="192" type="Library"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="2592" offset_y="1632" type="Farm"/>
+		<Build offset_x="1824" offset_y="1632" type="Farm"/>
+		<Build offset_x="2208" offset_y="864" type="Farm"/>
+		<Build offset_x="384" offset_y="-1728" type="Library"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-2016" offset_y="-1440" type="Farm"/>
+		<Build offset_x="-2016" offset_y="-480" type="Farm"/>
+		<Build offset_x="-2016" offset_y="480" type="Farm"/>
+		<Build offset_x="-192" offset_y="-2304" type="Library"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-288" offset_y="-1056" type="Farm"/>
+		<Build offset_x="480" offset_y="-1056" type="Farm"/>
+		<Build offset_x="-288" offset_y="-1824" type="Farm"/>
+		<Build offset_x="576" offset_y="-1920" type="Library"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-1056" offset_y="-288" type="Farm"/>
+		<Build offset_x="-96" offset_y="-1056" type="Farm"/>
+		<Build offset_x="672" offset_y="-1056" type="Farm"/>
+		<Build offset_x="1344" offset_y="0" type="Library"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-192" offset_y="-1152" type="Library"/>
+		<Build offset_x="-1056" offset_y="480" type="Farm"/>
+		<Build offset_x="-1056" offset_y="-288" type="Farm"/>
+		<Build offset_x="-1824" offset_y="96" type="Farm"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-1152" offset_y="192" type="Library"/>
+		<Build offset_x="-864" offset_y="1248" type="Farm"/>
+		<Build offset_x="-96" offset_y="1248" type="Farm"/>
+		<Build offset_x="672" offset_y="1248" type="Farm"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-192" offset_y="1344" type="Library"/>
+		<Build offset_x="1248" offset_y="480" type="Farm"/>
+		<Build offset_x="1248" offset_y="-288" type="Farm"/>
+		<Build offset_x="288" offset_y="-1056" type="Farm"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="1344" offset_y="0" type="Library"/>
+		<Build offset_x="-1056" offset_y="-288" type="Farm"/>
+		<Build offset_x="-1056" offset_y="480" type="Farm"/>
+		<Build offset_x="-1824" offset_y="-96" type="Farm"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="0" offset_y="-1344" type="Library"/>
+		<Build offset_x="-288" offset_y="1248" type="Farm"/>
+		<Build offset_x="480" offset_y="1248" type="Farm"/>
+		<Build offset_x="-1056" offset_y="1248" type="Farm"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="1344" offset_y="1344" type="Library"/>
+		<Build offset_x="480" offset_y="1248" type="Farm"/>
+		<Build offset_x="-288" offset_y="1248" type="Farm"/>
+		<Build offset_x="480" offset_y="2016" type="Farm"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="1344" offset_y="-960" type="Library"/>
+		<Build offset_x="1248" offset_y="96" type="Farm"/>
+		<Build offset_x="2016" offset_y="96" type="Farm"/>
+		<Build offset_x="1248" offset_y="864" type="Farm"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-1344" offset_y="-192" type="Library"/>
+		<Build offset_x="1248" offset_y="-96" type="Farm"/>
+		<Build offset_x="1248" offset_y="-864" type="Farm"/>
+		<Build offset_x="1248" offset_y="672" type="Farm"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-1056" offset_y="-864" type="Farm"/>
+		<Build offset_x="-1824" offset_y="-864" type="Farm"/>
+		<Build offset_x="-1440" offset_y="-1632" type="Farm"/>
+		<Build offset_x="1536" offset_y="0" type="Library"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-1056" offset_y="-864" type="Farm"/>
+		<Build offset_x="1536" offset_y="0" type="Library"/>
+		<Build offset_x="-1056" offset_y="-96" type="Farm"/>
+		<Build offset_x="-1824" offset_y="-480" type="Farm"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="480" offset_y="1056" type="Farm"/>
+		<Build offset_x="-288" offset_y="1056" type="Farm"/>
+		<Build offset_x="96" offset_y="1824" type="Farm"/>
+		<Build offset_x="384" offset_y="-1344" type="Library"/>
+	</TEMPLATE>
+	<TEMPLATE size="small">
+		<Build offset_x="-1152" offset_y="192" type="Library"/>
+		<Build offset_x="1248" offset_y="-96" type="Farm"/>
+		<Build offset_x="1248" offset_y="672" type="Farm"/>
+		<Build offset_x="2016" offset_y="480" type="Farm"/>
+	</TEMPLATE>
+</ROOT>

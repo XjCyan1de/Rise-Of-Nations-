@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<ROOT>
+  <LOGO>
+    <LOGODIFFUSE x="492" y="200" texture=".\art\ron_logo_texture_map.tga" normalmap=".\art\ron_logo_normal_map.tga"/>
+    <LOGOSPECULAR x="492" y="200" texture=".\art\ron_logo_normal_map.tga" normalmap=".\art\ronlogo_specmap.tga"/>
+    <LOGOLIGHT ambientr="1.0" ambientg="1.0" ambientb="1.0" ambienti="1.0" diffuser="1.0f" diffuseg="1.0" diffuseb="1.0f" diffusei="1.0" x="-30.0" y="-30.0" z="30.0"/>
+  </LOGO>
+  <TOPMENU>
+    <BACKGROUND name="topmenu" left="0" top="0" right_inverse="0" bottom_inverse="0">
+      <STYLE BOTTOM="1"/>
+		<!-- Menu Glow + Vignette -->
+	   <IFACETEXLOAD id="ANIM_OVERLAY" file=".\art\anim\anim_overlay.tga" sort="20" pixformat="PF_32"/>
+	   <IFACETEX name="anim_overlay" texture="ANIM_OVERLAY" left="0" top="0" width="1280" height="720"/>
+	   
+	   <!-- Destroyer animation textures -->
+	  <IFACETEXLOAD id="ANIM_BG_0_LAYER_0" file=".\art\anim\anim_bg_0_layer_0.tga" sort="0" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_0_LAYER_1" file=".\art\anim\anim_bg_0_layer_1.tga" sort="1" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_0_LAYER_2" file=".\art\anim\anim_bg_0_layer_2.tga" sort="2" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_0_LAYER_3" file=".\art\anim\anim_bg_0_layer_3.tga" sort="3" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_0_LAYER_4" file=".\art\anim\anim_bg_0_layer_4.tga" sort="4" pixformat="PF_32"/>
+	  <IFACETEX name="anim_bg0_tex0" texture="ANIM_BG_0_LAYER_0" left="0" top="0" width="1280" height="720"/>	<!-- Background -->
+	  <IFACETEX name="anim_bg0_tex1" texture="ANIM_BG_0_LAYER_1" left="0" top="0" width="1280" height="720" />	<!-- Ship -->
+	  <IFACETEX name="anim_bg0_tex2" texture="ANIM_BG_0_LAYER_2" left="0" top="0" width="1280" height="720"/>	<!-- Sea base -->
+	  <IFACETEX name="anim_bg0_tex3" texture="ANIM_BG_0_LAYER_3" left="0" top="0" width="1280" height="720"/>	<!-- Sea choppy -->
+	  <IFACETEX name="anim_bg0_tex4" texture="ANIM_BG_0_LAYER_4" left="0" top="0" width="1280" height="720"/>	<!-- Spray -->
+	  
+	  <!-- Ambush animation textures -->
+	  <IFACETEXLOAD id="ANIM_BG_1_LAYER_0" file=".\art\anim\anim_bg_1_layer_0.tga" sort="0" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_1_LAYER_1" file=".\art\anim\anim_bg_1_layer_1.tga" sort="1" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_1_LAYER_2" file=".\art\anim\anim_bg_1_layer_2.tga" sort="2" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_1_LAYER_3" file=".\art\anim\anim_bg_1_layer_3.tga" sort="3" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_1_LAYER_4" file=".\art\anim\anim_bg_1_layer_4.tga" sort="4" pixformat="PF_32"/>
+	  <IFACETEX name="anim_bg1_tex0" texture="ANIM_BG_1_LAYER_0" left="0" top="0" width="1280" height="720"/>	<!-- Background -->
+	  <IFACETEX name="anim_bg1_tex1" texture="ANIM_BG_1_LAYER_1" left="0" top="0" width="1280" height="720" />	<!-- Blast -->
+	  <IFACETEX name="anim_bg1_tex2" texture="ANIM_BG_1_LAYER_2" left="0" top="0" width="1280" height="720"/>	<!-- Fortification -->
+	  <IFACETEX name="anim_bg1_tex3" texture="ANIM_BG_1_LAYER_3" left="0" top="0" width="1280" height="720"/>	<!-- Soldier -->
+	  <IFACETEX name="anim_bg1_tex4" texture="ANIM_BG_1_LAYER_4" left="0" top="0" width="1280" height="720"/>	<!-- Smoke -->
+	  
+	  <!-- Horses animation textures -->
+	  <IFACETEXLOAD id="ANIM_BG_2_LAYER_0" file=".\art\anim\anim_bg_2_layer_0.tga" sort="0" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_2_LAYER_1" file=".\art\anim\anim_bg_2_layer_1.tga" sort="1" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_2_LAYER_2" file=".\art\anim\anim_bg_2_layer_2.tga" sort="2" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_2_LAYER_3" file=".\art\anim\anim_bg_2_layer_3.tga" sort="3" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_2_LAYER_4" file=".\art\anim\anim_bg_2_layer_4.tga" sort="4" pixformat="PF_32"/>
+	  <IFACETEX name="anim_bg2_tex0" texture="ANIM_BG_2_LAYER_0" left="0" top="0" width="1280" height="720"/>	<!-- Background -->
+	  <IFACETEX name="anim_bg2_tex1" texture="ANIM_BG_2_LAYER_1" left="0" top="0" width="1280" height="720" />	<!-- Dust -->
+	  <IFACETEX name="anim_bg2_tex2" texture="ANIM_BG_2_LAYER_2" left="0" top="0" width="1280" height="720"/>	<!-- Back horse -->
+	  <IFACETEX name="anim_bg2_tex3" texture="ANIM_BG_2_LAYER_3" left="0" top="0" width="1280" height="720"/>	<!-- Mid horse -->
+	  <IFACETEX name="anim_bg2_tex4" texture="ANIM_BG_2_LAYER_4" left="0" top="0" width="1280" height="720"/>	<!-- Front horse -->
+	  
+	  <!-- Jeep animation textures -->
+	  <IFACETEXLOAD id="ANIM_BG_3_LAYER_0" file=".\art\anim\anim_bg_3_layer_0.tga" sort="0" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_3_LAYER_1" file=".\art\anim\anim_bg_3_layer_1.tga" sort="1" pixformat="PF_32"/>
+	  <IFACETEXLOAD id="ANIM_BG_3_LAYER_2" file=".\art\anim\anim_bg_3_layer_2.tga" sort="2" pixformat="PF_32"/>
+	  <IFACETEX name="anim_bg3_tex0" texture="ANIM_BG_3_LAYER_0" left="0" top="0" width="1280" height="720"/>	<!-- Background -->
+	  <IFACETEX name="anim_bg3_tex1" texture="ANIM_BG_3_LAYER_1" left="0" top="0" width="1280" height="720" />	<!-- Explosion -->
+	  <IFACETEX name="anim_bg3_tex2" texture="ANIM_BG_3_LAYER_2" left="0" top="0" width="1280" height="720"/>	<!-- Jeep -->
+	  
+	  <!-- Destroyer animation -->
+	  <ANIM duration="30"> 
+		<ANIMLAYER texture="anim_overlay" move_x="0.0" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg0_tex4" move_x="0.001" move_y="-0.002" />
+		<ANIMLAYER texture="anim_bg0_tex3" move_x="0.003" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg0_tex2" move_x="0.0" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg0_tex1" move_x="-0.003" move_y="0.001" start_offset_x="0.1" />
+		<ANIMLAYER texture="anim_bg0_tex0" move_x="0.0" move_y="0.0" />
+	  </ANIM>
+	  
+	  <!-- Ambush animation -->
+	  <ANIM duration="30"> 
+		<ANIMLAYER texture="anim_overlay" move_x="0.0" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg1_tex4" move_x="-0.002" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg1_tex3" move_x="-0.001" move_y="0.0" start_offset_x="0.1" />
+		<ANIMLAYER texture="anim_bg1_tex2" move_x="0.001" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg1_tex1" move_x="-0.001" move_y="-0.001" />
+		<ANIMLAYER texture="anim_bg1_tex0" move_x="0.0" move_y="0.0" />
+	  </ANIM>
+	  
+	  <!-- Horse animation -->
+	  <ANIM duration="30"> 
+		<ANIMLAYER texture="anim_overlay" move_x="0.0" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg2_tex4" move_x="0.0025" move_y="0.001" />
+		<ANIMLAYER texture="anim_bg2_tex3" move_x="-0.002" move_y="0.0005" />
+		<ANIMLAYER texture="anim_bg2_tex2" move_x="0.001" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg2_tex1" move_x="-0.001" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg2_tex0" move_x="0.0" move_y="0.0" />
+	  </ANIM>
+	  
+	  <!-- Jeep animation -->
+	  <ANIM duration="30"> 
+		<ANIMLAYER texture="anim_overlay" move_x="0.0" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg3_tex2" move_x="0.002" move_y="-0.001" />
+		<ANIMLAYER texture="anim_bg3_tex1" move_x="-0.002" move_y="0.0" />
+		<ANIMLAYER texture="anim_bg3_tex0" move_x="0.0" move_y="0.0" />
+	  </ANIM>
+	  
+      <IFACETEXLOAD id="TEX_TOPMENU_0" file=".\art\iface_wrapper1.tga" sort="0" pixformat="PF_32"/>
+      <IFACETEXLOAD id="TEX_WRAPPER_LOGO" file=".\art\wrapper_main_logo_01.tga" sort="0" pixformat="PF_32"/>
+      <IFACETEX name="static_bg_tex" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+      <IFACETEX name="logo" texture="TEX_WRAPPER_LOGO" left="0" top="0" width="512" height="273"/>
+      <!--<IFACEBORDER name="main_border">
+        <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="300" top="295" width="25" height="25"/>
+        <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="300" top="295" width="25" height="25"/>
+        <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="300" top="295" width="25" height="25"/>
+        <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="300" top="295" width="25" height="25"/>
+        <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="295" top="264" width="190" height="13"/>
+        <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="381" top="1" width="13" height="167"/>
+        <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="295" top="278" width="190" height="13"/>
+        <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="395" top="1" width="13" height="167"/>
+      </IFACEBORDER>-->
+      <IFACEBORDER name="motd_border">
+        <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="329" top="292" width="4" height="4"/>
+        <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="346" top="292" width="4" height="4"/>
+        <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="346" top="297" width="4" height="4"/>
+        <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="329" top="297" width="4" height="4"/>
+        <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="334" top="292" width="11" height="4"/>
+        <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="356" top="292" width="4" height="6"/>
+        <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="334" top="297" width="11" height="4"/>
+        <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="351" top="292" width="4" height="6"/>
+      </IFACEBORDER>
+      <IFACERECT name="logo" right_inverse="30" width="-512" height="273"/>
+      <WINDOW name="helpwin" show="1" left="0" top="0" width="1920" height="1080">
+        <STYLE PASS_CONTROLS="1" CHILD="1"/>
+        <IFACERECT name="main" left="3" top="3" right_inverse="3" bottom_inverse="3" width ="1200"/>
+      </WINDOW>
+      <STRINGBOX name="motd" right_inverse="40" bottom_inverse="40" width="-400" height="-600">
+        <FONTCOLOR r="255" g="255" b="255"/>
+      </STRINGBOX>
+    </BACKGROUND>
+
+    <XBOXLIVEICON>
+      <IFACETEXLOAD id="TEX_WRAPPER_1" file=".\art\wrapper_pieces_02.tga" pixformat="PF_32"/>
+      <XBOXWIN name="xboxwin" left="32" top="32" width="1920" height="100">
+      <STYLE PASS_CONTROLS="1" CHILD="1" TOP="1"/>
+          <IFACETEX name="large_button_left" texture="TEX_WRAPPER_1" left="193" top="78" width="17" height="30"/>
+          <IFACETEX name="large_button_mid" texture="TEX_WRAPPER_1" left="211" top="78" width="142" height="30"/>
+          <IFACETEX name="large_button_right" texture="TEX_WRAPPER_1" left="354" top="78" width="17" height="30"/>
+          <BUTTON name="xbox-live-button" title="" width="320" height="35" />
+      </XBOXWIN>
+    </XBOXLIVEICON>
+    
+    <IFACETEXLOAD id="TEX_WRAPPER_4" file=".\art\wrapper_pieces_05.tga"/>
+    <TOPMENUSELECTION name="topmenuselection">
+      <IFACETEXLOAD id="TEX_WRAPPER_4" file=".\art\wrapper_pieces_05.tga"/>
+      <IFACERECT name="title" left="41" top="22" width="454" height="74"/>
+      <IFACERECT name="title_text" left="41" top="22" width="454" height="60"/>
+      <IFACETEX name="button_left" texture="TEX_WRAPPER_1" left="1" top="436" width="19" height="37"/>
+      <IFACETEX name="button_mid" texture="TEX_WRAPPER_1" left="21" top="436" width="291" height="37"/>
+      <IFACETEX name="button_right" texture="TEX_WRAPPER_1" left="313" top="436" width="19" height="37"/>
+      <IFACETEX name="ribbon" texture="TEX_WRAPPER_4" left="198" top="0" width="59" height="74"/>
+      <IFACETEX name="ribbon" texture="TEX_WRAPPER_4" left="258" top="0" width="194" height="74"/>
+      <IFACETEX name="ribbon" texture="TEX_WRAPPER_4" left="453" top="0" width="59" height="74"/>
+      <IFACEBORDER name="border">
+        <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="1" top="1" width="42" height="42"/>
+        <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="252" top="1" width="42" height="42"/>
+        <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="252" top="252" width="42" height="42"/>
+        <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="1" top="252" width="42" height="42"/>
+        <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="1" top="338" width="295" height="42"/>
+        <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="295" top="1" width="41" height="262"/>
+        <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="1" top="295" width="295" height="42"/>
+        <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="339" top="1" width="41" height="262"/>
+        <IFACETEX name="extra0" texture="TEX_WRAPPER_0" left="44" top="1" width="103" height="42"/>
+        <IFACETEX name="extra1" texture="TEX_WRAPPER_0" left="148" top="1" width="103" height="42"/>
+        <IFACETEX name="extra2" texture="TEX_WRAPPER_0" left="252" top="64" width="42" height="83"/>
+        <IFACETEX name="extra3" texture="TEX_WRAPPER_0" left="252" top="148" width="42" height="83"/>
+        <IFACETEX name="extra4" texture="TEX_WRAPPER_0" left="148" top="252" width="103" height="42"/>
+        <IFACETEX name="extra5" texture="TEX_WRAPPER_0" left="44" top="252" width="103" height="42"/>
+        <IFACETEX name="extra6" texture="TEX_WRAPPER_0" left="1" top="148" width="42" height="83"/>
+        <IFACETEX name="extra7" texture="TEX_WRAPPER_0" left="1" top="64" width="42" height="83"/>
+      </IFACEBORDER>
+    </TOPMENUSELECTION>
+    <MAINMENU name="Main Menu" title="Main Menu" left="30" top="40" width="548" height="768">
+      <STYLE TOP="1" CHILD="0"/>
+      <POSITIONING x="41" y="114" inc_y="36">
+        <BUTTON name="tutorial" title="Learn to Play" width="454" height="35"/>
+        <BUTTON name="ctw" title="Conquer the World Campaigns" width="454" height="35"/>
+        <BUTTON name="solo_menu" title="Solo Game" width="454" height="35"/>
+        <BUTTON name="mp_menu" title="Multiplayer Game" width="454" height="35"/>
+        <BUTTON name="options" title="Options &amp; Profiles" width="454" height="35"/>
+        <BUTTON name="options_menu" title="Tools &amp; Extras" width="454" height="35"/>
+        <BUTTON name="quit" title="Exit" width="454" height="35"/>
+      </POSITIONING>
+    </MAINMENU>
+    <SOLO name="Solo Game Menu" title="Solo Game Menu" left="30" top="40" width="548" height="768">
+      <IFACETEXLOAD id="TEX_TOPMENU_0" sort="0" file=".\art\iface_wrapper1.tga" pixformat="PF_32"/>
+      <STYLE CHILD="0" TOP="1"/>
+      <IFACETEX name="back" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+      <POSITIONING x="41" y="114">
+        <POSITIONING inc_y="36">
+          <BUTTON name="solo" title="Quick Battle" width="454" height="35"/>
+          <BUTTON name="ctw" title="Conquer the World Campaigns" width="454" height="35"/>
+          <BUTTON name="main_load_scenario" title="Load a Scenario" width="454" height="35"/>
+          <BUTTON name="load_solo" title="Load Saved Game" width="454" height="35"/>
+          <BUTTON name="solo_recorded" title="Recorded Game Playback" width="454" height="35"/>
+          <BUTTON name="back" title="Back to Main Menu" width="454" height="35"/>
+        </POSITIONING>
+      </POSITIONING>
+    </SOLO>
+    <MULTI name="Multiplayer Game Menu" title="Multiplayer Game Menu" left="30" top="40" width="548" height="768">
+      <IFACETEXLOAD id="TEX_TOPMENU_0" sort="0" file=".\art\iface_wrapper1.tga" pixformat="PF_32"/>
+      <STYLE CHILD="0" TOP="1"/>
+      <IFACETEX name="back" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+      <POSITIONING x="41" y="114">
+        <POSITIONING inc_y="36">
+          <BUTTON name="steamqm" title="QuickMatch" width="454" height="35" disabled="0"/>
+          <BUTTON name="steamlobby" title="Game Browser" width="454" height="35" disabled="0"/>
+          <BUTTON name="steamleaderboards" title="Leaderboards" width="454" height="35" disabled="0"/>
+          <BUTTON name="mp_recorded" title="Recorded Game Playback" width="454" height="35"/>
+          <BUTTON name="back" title="Back to Main Menu" width="454" height="35"/>
+        </POSITIONING>
+      </POSITIONING>
+    </MULTI>
+    <LEADERBOARDS name="Leaderboards Menu" title="Leaderboards Menu" left="30" top="40" width="548" height="768">
+      <IFACETEXLOAD id="TEX_TOPMENU_0" sort="0" file=".\art\iface_wrapper1.tga" pixformat="PF_32"/>
+      <STYLE CHILD="0" TOP="1"/>
+      <IFACETEX name="back" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+      <POSITIONING x="41" y="114">
+        <POSITIONING inc_y="36">
+          <BUTTON name="Deathmatch" title="Deathmatch" width="454" height="35" disabled="0"/>
+          <BUTTON name="Fast Game" title="Fast Game" width="454" height="35" disabled="0"/>
+          <BUTTON name="No Rush" title="No Rush" width="454" height="35" disabled="0"/>
+          <BUTTON name="Sudden Death" title="Sudden Death" width="454" height="35"/>
+          <BUTTON name="Survival of the Fittest" title="Survival of the Fittest" width="454" height="35"/>
+          <BUTTON name="back" title="Back to Multiplayer Menu" width="454" height="35"/>
+        </POSITIONING>
+      </POSITIONING>
+    </LEADERBOARDS>
+    <OPTIONS name="Tools &amp; Extras" title="Tools &amp; Extras" left="30" top="40" width="548" height="768">
+      <STYLE CHILD="0" TOP="1"/>
+      <IFACETEXLOAD id="TEX_TOPMENU_0" sort="0" file=".\art\iface_wrapper1.tga" pixformat="PF_32"/>
+      <IFACETEX name="back" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+      <POSITIONING x="41" y="114">
+        <POSITIONING inc_y="36">
+          <BUTTON name="editor" title="Scenario Editor" width="454" height="35"/>
+          <BUTTON name="skilltest" title="Skill Test" width="454" height="35"/>
+          <BUTTON name="script_ide" title="Script Editor" width="454" height="35"/>
+          <!--<BUTTON name="map_balance" title="Map Balance Tool" width="454" height="35"/>-->
+          <BUTTON name="credits" title="View Credits" width="454" height="35"/>
+          <BUTTON name="about" title="About Rise of Nations" width="454" height="35"/>
+          <BUTTON name="back" title="Back to Main Menu" width="454" height="35"/>
+        </POSITIONING>
+      </POSITIONING>
+    </OPTIONS>
+	<TWITCH name="Twitch" title="Twitch" left="30" top="40" width="1024" height="768">
+		<STYLE CHILD="0" TOP="1"/>
+		<IFACETEXLOAD id="TEX_TOPMENU_0" sort="0" file=".\art\iface_wrapper1.tga" pixformat="PF_32"/>
+		<IFACETEX name="back" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+		<POSITIONING x="41" y="114">
+			<POSITIONING inc_y="36">
+				<BUTTON name="back" title="Back to Main Menu" width="454" height="35"/>
+			</POSITIONING>
+		</POSITIONING>
+	</TWITCH>
+  </TOPMENU>
+  <TOPMENU_TRIAL>
+    <BACKGROUND name="topmenu" left="0" top="0" right_inverse="0" bottom_inverse="0">
+      <STYLE BOTTOM="1"/>
+      <IFACETEXLOAD id="TEX_TOPMENU_0" file=".\art\iface_wrapper1.tga" sort="0" pixformat="PF_32"/>
+      <IFACETEXLOAD id="TEX_WRAPPER_LOGO" file=".\trial art\wrapper_main_logo_01.tga" sort="0" pixformat="PF_32"/>
+      <IFACETEX name="static_bg_tex" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+      <IFACETEX name="logo" texture="TEX_WRAPPER_LOGO" left="0" top="0" width="512" height="273"/>
+      <IFACEBORDER name="main_border">
+        <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="300" top="295" width="25" height="25"/>
+        <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="300" top="295" width="25" height="25"/>
+        <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="300" top="295" width="25" height="25"/>
+        <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="300" top="295" width="25" height="25"/>
+        <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="295" top="264" width="190" height="13"/>
+        <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="381" top="1" width="13" height="167"/>
+        <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="295" top="278" width="190" height="13"/>
+        <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="395" top="1" width="13" height="167"/>
+      </IFACEBORDER>
+      <IFACERECT name="logo" right_inverse="30" width="-512" height="273"/>
+      <WINDOW name="helpwin" show="1" left="96" top="575" width="380" height="145">
+        <STYLE PASS_CONTROLS="1" CHILD="1"/>
+        <IFACEBORDER name="border">
+          <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="329" top="292" width="4" height="4"/>
+          <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="346" top="292" width="4" height="4"/>
+          <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="346" top="297" width="4" height="4"/>
+          <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="329" top="297" width="4" height="4"/>
+          <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="334" top="292" width="11" height="4"/>
+          <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="356" top="292" width="4" height="6"/>
+          <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="334" top="297" width="11" height="4"/>
+          <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="351" top="292" width="4" height="6"/>
+        </IFACEBORDER>
+        <IFACERECT name="main" left="3" top="3" right_inverse="3" bottom_inverse="3"/>
+      </WINDOW>
+    </BACKGROUND>
+    <IFACETEXLOAD id="TEX_WRAPPER_4" file=".\art\wrapper_pieces_05.tga"/>
+    <TOPMENUSELECTION name="topmenuselection">
+      <IFACETEXLOAD id="TEX_WRAPPER_4" file=".\art\wrapper_pieces_05.tga"/>
+      <IFACERECT name="title" left="41" top="0" width="454" height="74"/>
+      <IFACERECT name="title_text" left="41" top="0" width="454" height="60"/>
+      <IFACETEX name="button_left" texture="TEX_WRAPPER_1" left="1" top="436" width="19" height="37"/>
+      <IFACETEX name="button_mid" texture="TEX_WRAPPER_1" left="21" top="436" width="291" height="37"/>
+      <IFACETEX name="button_right" texture="TEX_WRAPPER_1" left="313" top="436" width="19" height="37"/>
+      <IFACETEX name="ribbon" texture="TEX_WRAPPER_4" left="198" top="0" width="59" height="74"/>
+      <IFACETEX name="ribbon" texture="TEX_WRAPPER_4" left="258" top="0" width="194" height="74"/>
+      <IFACETEX name="ribbon" texture="TEX_WRAPPER_4" left="453" top="0" width="59" height="74"/>
+      <IFACEBORDER name="border">
+        <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="1" top="1" width="42" height="42"/>
+        <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="252" top="1" width="42" height="42"/>
+        <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="252" top="252" width="42" height="42"/>
+        <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="1" top="252" width="42" height="42"/>
+        <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="1" top="338" width="295" height="42"/>
+        <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="295" top="1" width="41" height="262"/>
+        <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="1" top="295" width="295" height="42"/>
+        <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="339" top="1" width="41" height="262"/>
+        <IFACETEX name="extra0" texture="TEX_WRAPPER_0" left="44" top="1" width="103" height="42"/>
+        <IFACETEX name="extra1" texture="TEX_WRAPPER_0" left="148" top="1" width="103" height="42"/>
+        <IFACETEX name="extra2" texture="TEX_WRAPPER_0" left="252" top="44" width="42" height="103"/>
+        <IFACETEX name="extra3" texture="TEX_WRAPPER_0" left="252" top="148" width="42" height="103"/>
+        <IFACETEX name="extra4" texture="TEX_WRAPPER_0" left="148" top="252" width="103" height="42"/>
+        <IFACETEX name="extra5" texture="TEX_WRAPPER_0" left="44" top="252" width="103" height="42"/>
+        <IFACETEX name="extra6" texture="TEX_WRAPPER_0" left="1" top="148" width="42" height="103"/>
+        <IFACETEX name="extra7" texture="TEX_WRAPPER_0" left="1" top="44" width="42" height="103"/>
+      </IFACEBORDER>
+    </TOPMENUSELECTION>
+    <MAINMENU name="Main Menu" title="Main Menu" left="30" top="40" width="1024" height="768">
+      <STYLE TOP="1" CHILD="0"/>
+      <POSITIONING x="41" y="114" inc_y="36">
+        <BUTTON name="tutorial" title="Learn to Play" width="454" height="35"/>
+        <BUTTON name="solo" title="Quick Battle" width="454" height="35"/>
+        <BUTTON name="ctw" title="Conquer the World Campaign" width="454" height="35"/>
+        <BUTTON name="mp_menu" title="Multiplayer Game" width="454" height="35"/>
+        <BUTTON name="options" title="Options &amp; Profiles" width="454" height="35"/>
+        <BUTTON name="about" title="About Rise of Nations" width="454" height="35"/>
+        <BUTTON name="quit" title="Exit" width="454" height="35"/>
+      </POSITIONING>
+    </MAINMENU>
+    <SOLO name="Solo Game Menu" title="Solo Game Menu" left="30" top="40" width="1024" height="768">
+      <IFACETEXLOAD id="TEX_TOPMENU_0" sort="0" file=".\art\iface_wrapper1.tga" pixformat="PF_32"/>
+      <STYLE CHILD="0" TOP="1"/>
+      <IFACETEX name="back" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+      <POSITIONING x="41" y="114">
+        <POSITIONING inc_y="36">
+          <BUTTON name="solo" title="Quick Battle" width="454" height="35"/>
+          <BUTTON name="ctw" title="Conquer the World Campaign" width="454" height="35"/>
+          <BUTTON name="main_load_scenario" title="Load a Scenario" width="454" height="35"/>
+          <BUTTON name="load_solo" title="Load Saved Game" width="454" height="35"/>
+          <BUTTON name="solo_recorded" title="Recorded Game Playback" width="454" height="35"/>
+          <BUTTON name="back" title="Back to Main Menu" width="454" height="35"/>
+        </POSITIONING>
+      </POSITIONING>
+    </SOLO>
+    <MULTI name="Multiplayer Game Menu" title="Multiplayer Game Menu" left="30" top="40" width="1024" height="768">
+      <IFACETEXLOAD id="TEX_TOPMENU_0" sort="0" file=".\art\iface_wrapper1.tga" pixformat="PF_32"/>
+      <STYLE CHILD="0" TOP="1"/>
+      <IFACETEX name="back" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+      <POSITIONING x="41" y="114">
+        <POSITIONING inc_y="36">
+          <BUTTON name="gamespy" title="GameSpy Internet Matchmaking" width="454" height="35" disabled="0"/>
+          <BUTTON name="lan" title="Local Area Network or Direct Internet" width="454" height="35"/>
+          <BUTTON name="mp_recorded" title="Recorded Game Playback" width="454" height="35"/>
+          <BUTTON name="back" title="Back to Main Menu" width="454" height="35"/>
+        </POSITIONING>
+      </POSITIONING>
+    </MULTI>
+    <OPTIONS name="Tools &amp; Extras" title="Tools &amp; Extras" left="30" top="40" width="1024" height="768">
+      <STYLE CHILD="0" TOP="1"/>
+      <IFACETEXLOAD id="TEX_TOPMENU_0" sort="0" file=".\art\iface_wrapper1.tga" pixformat="PF_32"/>
+      <IFACETEX name="back" texture="TEX_TOPMENU_0" left="0" top="0" width="1024" height="768"/>
+      <POSITIONING x="41" y="114">
+        <POSITIONING inc_y="36">
+          <BUTTON name="editor" title="Scenario Editor" width="454" height="35"/>
+          <BUTTON name="skilltest" title="Skill Test" width="454" height="35"/>
+          <BUTTON name="script_ide" title="Script Editor" width="454" height="35"/>
+          <!--<BUTTON name="map_balance" title="Map Balance Tool" width="454" height="35"/>-->
+          <BUTTON name="credits" title="View Credits" width="454" height="35"/>
+          <BUTTON name="about" title="About Rise of Nations" width="454" height="35"/>
+          <BUTTON name="back" title="Back to Main Menu" width="454" height="35"/>
+        </POSITIONING>
+      </POSITIONING>
+    </OPTIONS>
+  </TOPMENU_TRIAL>
+</ROOT>
