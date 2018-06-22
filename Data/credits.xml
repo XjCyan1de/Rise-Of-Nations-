@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION-->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<ROOT>
+	<CREDITSWIN name="CreditsWin" left="0" top="0" percent_width="1000" percent_height="1000">
+		<!-- width="1024" height="768">-->
+		<STYLE TOP="1"/>
+		<MUSIC filename=".\sounds\Thrones_and_Patriots.wav"/>
+		<POSITION index="0" pic_left="500" pic_top="500" text_left="100" text_top="100"/>
+		<POSITION index="1" pic_left="250" pic_top="500" text_left="900" text_top="100"/>
+		<POSITION index="2" pic_left="250" pic_top="250" text_left="900" text_top="500"/>
+		<POSITION index="3" pic_left="500" pic_top="250" text_left="100" text_top="500"/>
+		<POSITION index="4" pic_left="0" pic_top="0" text_left="512" text_top="20"/>
+		<POSITION index="5" pic_left="140" pic_top="110" text_left="512" text_top="100"/>
+		<POSITION index="6" pic_left="750" pic_top="350" text_left="200" text_top="100"/>
+		<POSITION index="7" pic_left="140" pic_top="660" text_left="512" text_top="100"/>
+		<POSITION index="8" pic_left="880" pic_top="660" text_left="512" text_top="100"/>
+		<POSITION index="9" pic_left="140" pic_top="384" text_left="512" text_top="100"/>
+		<POSITION index="10" pic_left="880" pic_top="384" text_left="512" text_top="100"/>
+		<POSITION index="11" pic_left="512" pic_top="200" text_left="512" text_top="330"/>
+		<POSITION index="12" pic_left="512" pic_top="200" text_left="512" text_top="280"/>
+		<POSITION index="13" pic_left="512" pic_top="365" text_left="512" text_top="300"/>
+		<POSITION index="14" pic_left="880" pic_top="384" text_left="512" text_top="150"/>
+		<CREDITSCREEN title="" pos="13">
+			<MEDIA filename=".\art\ron_logo_texture_map.tga" time="5"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Big Huge Games" pos="0">
+			<CREDIT text="Design Team"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Design Lead}"/>
+			<CREDIT text="Brian Reynolds"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Designers}"/>
+			<CREDIT text="Douglas Kaufman"/>
+			<CREDIT text="John Hawkins"/>
+			<CREDIT text="Mark Sobota"/>
+			<CREDIT text="Ike Ellis"/>
+			<MEDIA filename=".\credits\design.tga" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title=" " pos="3">
+			<CREDIT text="{Executive Producer}"/>
+			<CREDIT text="Tim Train"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Producers}"/>
+			<CREDIT text="Paul Stephanouk"/>
+			<CREDIT text="Jason Schklar"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Production Interns}"/>
+			<CREDIT text="Mathew Bloch"/>
+			<CREDIT text="Lindsey Wilkinson"/>
+			<MEDIA filename=".\credits\production.tga" time="8"/>     
+		</CREDITSCREEN>
+		<CREDITSCREEN title=" " pos="1">
+			<CREDIT text="{Programming Lead}"/>
+			<CREDIT text="Jason Coleman"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Programmers}"/>
+			<CREDIT text="Jason Bestimt"/>
+			<CREDIT text="Pranas Pauliukonis"/>
+			<CREDIT text="Bryant Freitag"/>
+			<CREDIT text="Scott Lewis"/>
+			<CREDIT text="Ilya Kreymer"/>
+			<CREDIT text="Stuart Jeff"/>
+			<CREDIT text="Jhon Restrepo"/>
+			<CREDIT text="Mike LeGrand"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Programming Interns}"/>
+			<CREDIT text="Zackery Smith"/>
+			<CREDIT text="Josh Mitnick"/>
+			<MEDIA filename=".\credits\programmers.tga" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title=" " pos="6">
+			<CREDIT text="{Art Director}"/>
+			<CREDIT text="David Inscore"/>
+			<CREDIT text=" "/>       
+			<CREDIT text="{Unit Art Lead}"/>
+			<CREDIT text="Bill Podurgiel"/>
+			<CREDIT text=" "/>  
+			<CREDIT text="{Building Art Lead}"/>
+			<CREDIT text="Ted Terranova"/>
+			<CREDIT text=" "/>  
+			<CREDIT text="{Artists}"/>
+			<CREDIT text="Zero Dean"/>
+			<CREDIT text="John FitzGerald III"/>
+			<CREDIT text="Jason Johnson"/>
+			<CREDIT text="Jonathan Jacobson"/>
+			<CREDIT text="Michael D. M. Smith"/>
+			<CREDIT text="David Locke"/>
+			<CREDIT text="Dan Halka"/>
+			<CREDIT text="Eric Kwon"/>
+			<CREDIT text="Jeff Feligno"/>
+			<CREDIT text=" "/>  
+			<CREDIT text="{Art Interns}"/>
+			<CREDIT text="Jay Gillen"/>
+			<CREDIT text="Adam Hale"/>
+			<CREDIT text=" "/>  
+			<MEDIA filename=".\credits\art.tga" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title=" " pos="3">
+			<CREDIT text="{Office Manager}"/>
+			<CREDIT text="Jennifer Coenen"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{IT Manager}"/>
+			<CREDIT text="Michael Payne"/>
+			<CREDIT text=" "/> 
+			<CREDIT text="{IT Support}"/>
+			<CREDIT text="Mark Whitehead"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Web Community}"/>
+			<CREDIT text="Graham Somers"/>
+			<MEDIA filename=".\credits\support.tga" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title=" " pos="2">
+			<CREDIT text="{Test Manager}"/>
+			<CREDIT text="Chris Coleman"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Test Team}"/>
+			<CREDIT text="Jason Cain"/>
+			<CREDIT text="Andrew Clark"/>
+			<CREDIT text="Gregory Marques"/>
+			<CREDIT text="Brad Turner"/>
+			<CREDIT text="Fabio Tola"/>
+			<CREDIT text="Kamil Kuza"/>
+			<CREDIT text="Ryan McFall"/>
+			<MEDIA filename=".\credits\playtest.tga" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Thanks" pos="4">
+			<CREDIT text=" "/>
+			<CREDIT text="Jonathan Bell"/>
+			<CREDIT text="Harold Simons"/>
+			<CREDIT text="Allen Rausch"/>
+			<CREDIT text="Marc Asher"/>
+			<CREDIT text="Robert Gendler"/>
+			<CREDIT text="David Train"/>
+			<CREDIT text="Stuart Moulder"/>
+			<CREDIT text="Greenber Traurig"/>
+			<CREDIT text="Asher &amp; Simons"/>
+			<CREDIT text="Intel Corporation"/>
+			<CREDIT text="Matthias Wloka, Nvidia Corporation"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Special Thanks To" pos="4">
+			<CREDIT text=" "/>
+			<CREDIT text="Jill, Ro, and Tay Reynolds"/>
+			<CREDIT text="Eva Train"/>
+			<CREDIT text="Anjeli and Marcus Inscore"/>
+			<CREDIT text="Holly and Ella Coleman"/>  
+			<CREDIT text="Allegra Kim"/>   
+			<CREDIT text="Wendy, Adam, and Naomi Kaufman"/>
+			<CREDIT text="Vicky Barone and the Bestimt Family"/>
+			<CREDIT text="Sharon &amp; Nicole Stephanouk"/>
+			<CREDIT text="Kym and Gamera"/>
+			<CREDIT text="Stephanie Coleman"/>
+			<CREDIT text="Meggan Johnson"/>     
+			<CREDIT text="Helai and Carter"/>
+			<CREDIT text="Bonnie, Tom, Schuyler, &amp; Jocelyn Dean"/>
+			<CREDIT text="Sylvia and Jeffrey Jacobson"/>
+			<CREDIT text="Kelsey Hicks &amp; The Ellis Family"/>
+			<CREDIT text="Angi Freitag"/>
+			<CREDIT text="Eric &amp; Todd Lewis"/>
+			<CREDIT text="Stephanie &amp; Christopher Payne"/>
+			<CREDIT text="Melanie Lofton"/>
+			<CREDIT text="Mom, Dad, Rachel, &amp; Lisa Schklar"/>
+			<CREDIT text="Alice Bloch"/>
+			<CREDIT text="and INS Agents everywhere!"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Microsoft Team" pos="4">
+			<CREDIT text=" "/>
+			<CREDIT text="{Producers}"/>
+			<CREDIT text="Steven Hill    Producer"/>
+			<CREDIT text="Danan Davis    Producer"/>
+			<CREDIT text="James McDaniel    Producer"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Test Team}"/>
+			<CREDIT text="Jason Richert    Software Test Lead"/>
+			<CREDIT text="Bruce &quot;Wiley&quot; Carr Jr. (Volt)    Software Test Engineer"/>
+			<CREDIT text="Sean J. Cruz (Volt)    Software Test Engineer"/>
+			<CREDIT text="James A. Duchow (Volt)    Software Test Engineer"/>
+			<CREDIT text="Michael &quot;Axehilt&quot; Engle (Volt)    Software Test Engineer "/>
+			<CREDIT text="Ryan C. Lewis (Volt)    Software Test Engineer"/>
+			<CREDIT text="William &quot;Silvery Dragon&quot; Loera (Volt)    Software Test Engineer"/>
+			<CREDIT text="Dennis W. Stone    Software Test Engineer "/>
+			<CREDIT text="Jeremy Baird Tate (Volt)    Software Test Engineer"/>
+			<CREDIT text="George Townsend (Volt)    Software Test Engineer"/>
+			<CREDIT text="Michael W. Wagner (Volt)    Software Test Engineer"/>
+			<CREDIT text="Marc K. Watkins (Excell)    Software Test Engineer"/>
+			<CREDIT text="Sean Jenkin    SDET Lead"/>
+			<CREDIT text="Marwan Jubran    Software Design Engineer/Test"/>
+			<CREDIT text="Steve Dolan    Software Design Engineer/Test"/>
+			<CREDIT text="Patrick Ascolese    Configuration Tester"/>
+			<CREDIT text="Mehdi Slaoui Andaloussi    Multiplayer Tester"/>
+			<CREDIT text="Patrick O'Day (Volt)    Multiplayer Tester"/>
+			<CREDIT text="Joshua Strong (Volt)    Lab Technician"/>
+			<CREDIT text="Chris Green (Volt)    Recon Tester"/>
+			<CREDIT text="Phil Balsley (Volt)    Recon Tester"/>
+			<CREDIT text="James M. Costello (Volt)    Recon Tester"/>
+			<CREDIT text="Tokini Dodoye-Alali (Volt)    Recon Tester"/>
+			<CREDIT text="Dustin Worrell (Volt)    Recon Tester"/>
+			<CREDIT text="Karla Margeson (Volt)    Recon Tester"/>    
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Microsoft Team" pos="4">     
+			<CREDIT text=" "/>
+			<CREDIT text="{User Testing}"/>
+			<CREDIT text="Eric Schuh    User-testing Group Lead"/>
+			<CREDIT text="Bill Fulton    User-testing Manager"/>
+			<CREDIT text="Melissa Federoff (Siemens Business Services)    User-testing Assistant"/>
+			<CREDIT text="John Warren Hopson (Excell Data Corporation)    User-testing Assistant"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Setup Team}"/>
+			<CREDIT text="Sean Stroud (Siemens Business Services)    Team Lead"/>
+			<CREDIT text="Jason Brown (Siemens Business Services)    Scripter"/>
+			<CREDIT text="Randy Shedden    Developer"/>
+			<CREDIT text="Christopher Guthrie (Siemens Business Services)    Anti-Piracy"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Product Planning}"/>
+			<CREDIT text="Jon Kimmich    Lead Product Planner"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Marketing}"/>
+			<CREDIT text="John Dongelmans    Product Manager"/>
+			<CREDIT text="Stephanie Peterson    International Product Manager"/>
+			<CREDIT text="Lisa Krost    Packaging"/>
+			<CREDIT text="Jen Martin    PR"/>
+			<CREDIT text="Ran Feder    Channel Marketing Manager"/>
+			<CREDIT text="Nate Brooling (Kelly Services Inc)    Online Advertising Manager"/>
+			<CREDIT text="Ryan James (Edelman)"/>
+			<CREDIT text="Annie Eckles (Edelman)"/>
+			<CREDIT text="Brian Rekasis    Advertising Manager"/>
+			<CREDIT text="Claudine Ursino    Lead Merchandising Manager"/>
+			<CREDIT text="Gina Jones    Operations Product Manager"/>
+			<CREDIT text="Tim Stuart    Assoc Financial Analyst"/>    
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Microsoft Team" pos="4"> 
+			<CREDIT text=" "/>
+			<CREDIT text="{Audio Production}"/>
+			<CREDIT text="Duane Decker    Composer / Mixing / Mastering"/>
+			<CREDIT text="Mary Olson (ArtSource)    Engineer"/>
+			<CREDIT text="Bill Wolford    Sound Effect Designer"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Orchestra}"/>
+			<CREDIT text="Stan LePard    Orchestrator"/>
+			<CREDIT text="Simon James    Concertmaster/Violin"/>
+			<CREDIT text="Ronald Patterson    Violin"/>
+			<CREDIT text="Steve Bryant    Violin"/>
+			<CREDIT text="Alicia Yang    Violin"/>
+			<CREDIT text="Susan J. Bryant    Viola"/>
+			<CREDIT text="Roxanna Patterson    Viola"/>
+			<CREDIT text="Charles Jacot    Cello"/>
+			<CREDIT text="Amos Yang    Cello"/>
+			<CREDIT text="Jennifer Godfrey    Contrabass"/>
+			<CREDIT text="L. Russell Campbell    Trumpet"/>
+			<CREDIT text="Rodger Burnett    French Horn"/>
+			<CREDIT text="Jeff Fair    French Horn"/>
+			<CREDIT text="Hamod Abu-Eid    Trombone"/>
+			<CREDIT text="Ryan W. Schultz    Tuba"/>
+			<CREDIT text="Erin James    Flute &amp; Alto Flute"/>
+			<CREDIT text="Janet L. Putnam    Oboe &amp; English Horn"/>
+			<CREDIT text="Derek Decker    Snare on &quot;Rockets&quot;"/>
+			<CREDIT text="Eric Lucas    Drumline Conductor"/>
+			<CREDIT text="James Hawkins    Snare"/>
+			<CREDIT text="Jared Brown    Snare"/>
+			<CREDIT text="Desiree Decker    Quads"/>
+			<CREDIT text="Joe Britton    Quads"/>
+			<CREDIT text="Kris Petter    Large Bass Drum"/>
+			<CREDIT text="Nick Matthies    Small Bass Drum"/>
+			<CREDIT text="Elias Haldorsen    Cymbals &amp; Rims"/>
+			<CREDIT text="Duane Decker    All Other Instruments"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Microsoft Team" pos="4">
+			<CREDIT text=" "/>
+			<CREDIT text="{Voice Acting}"/>
+			<CREDIT text="Jock Blaney    Narrator"/>
+			<CREDIT text=""/>
+			<CREDIT text="{Product Support}"/>
+			<CREDIT text="Greg Frankovic"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Developers}"/>
+			<CREDIT text="Glenn Doren   Software Design Engineer"/>
+			<CREDIT text="Jesse Janosov   Software Design Engineer"/>
+			<CREDIT text="Alex Robinson (Siemens Business Services, Inc)   Setup Software Design Engineer"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{User Experience - Content Leads}"/>
+			<CREDIT text="Beth Demetrescu"/>
+			<CREDIT text="Eric Nylund"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{User Experience - Content Creation}"/>
+			<CREDIT text="Bryan Howell"/>
+			<CREDIT text="Jeannie Voirin"/>
+			<CREDIT text="Chris Lassen"/>
+			<CREDIT text="Melanie Henry (S&amp;T Onsite)"/>
+			<CREDIT text="Yvette Kirby Waters (S&amp;T Onsite)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Geopolitical Strategy}"/>
+			<CREDIT text="Tom Edwards    Senior Geopolitical Strategist"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Microsoft Team" pos="4">
+			<CREDIT text=" "/>
+			<CREDIT text="{Legal}"/>
+			<CREDIT text="Peter Becker"/>
+			<CREDIT text="Jama Cantrell"/>
+			<CREDIT text="Hubert Cheng"/>
+			<CREDIT text="Sue Stickney"/>
+			<CREDIT text="Judy Weston"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Management}"/>
+			<CREDIT text="Ed Fries    MGS Vice President"/>
+			<CREDIT text="Phil Spencer    MGS Publishing General Manager"/>
+			<CREDIT text="Ken Lobb    Studio Manager"/>
+			<CREDIT text="Shannon Loftis    Group Program Manager"/>
+			<CREDIT text="Jimbo Phieffer    Studio Test Manager"/>
+			<CREDIT text="Greg B. Jones    Publishing Test Manager"/>
+			<CREDIT text="Chenelle Bremont    Administrative Assistant"/>
+			<CREDIT text="Chris Di Cesare    Director Of Product Marketing"/>
+			<CREDIT text="Peter Kingsley    Intl Group Product Manager"/>
+			<CREDIT text="Beth Featherstone    Senior Marketing Director"/>
+			<CREDIT text="Eli Friedman    Group Marketing Manager"/>
+			<CREDIT text="Gunn Robison    Group Channel Marketing Manager"/>
+			<CREDIT text="Jo Tyo    Creative Content Manager"/>
+			<CREDIT text="Matt Whiting    Group User Experience Manager"/>
+			<CREDIT text="Jeremy Los     User Experience Manager"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Rise of Nations Localization Teams" pos="4">
+			<CREDIT text=" "/>
+			<CREDIT text="{Rise of Nations US Team}"/>
+			<CREDIT text="Ann Foley (S&amp;T Onsite)    Localization Program Manager"/>
+			<CREDIT text="Kazuyuki Shibuya    Software Test Engineer"/>
+			<CREDIT text="Lief Thompson    Localization Program Manager"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Rise of Nations Seoul Team}"/>
+			<CREDIT text="Jae Youn Kim    Localization Program Manager"/>
+			<CREDIT text="Il Jin Park (ManPower)	  Software Test Engineer"/>
+			<CREDIT text="Whi Young Yoon (Wise SerTech)    Localization Program Manager"/>
+			<CREDIT text="Ji Young Kim (R&amp;D)    Localization Program Manager"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Rise of Nations Tokyo Team}"/>
+			<CREDIT text="Kaoru Ito    Localization Program Manager"/>
+			<CREDIT text="Kazuyuki Kumai    SR Manager"/>
+			<CREDIT text="Masaki Kokubun (ManPower)    Tester"/>
+			<CREDIT text="Miyuki Nouguchi (Japan Convention Service)    User Experience"/>
+			<CREDIT text="Munetaka Fuse    Software Development Engineer"/>
+			<CREDIT text="Yuji Yoneshige    Test Lead"/>
+			<CREDIT text="Yukihiro Ishida    Localization Program Manager"/>
+			<CREDIT text="Yutaka Hasegawa    Lead Software Development Engineer"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Rise of Nations Localization Teams" pos="4">
+			<CREDIT text=" "/>
+			<CREDIT text="{Rise of Nations Taiwan Team}"/>
+			<CREDIT text="Carole Lin (Turnkey)    Localization Program Manager"/>
+			<CREDIT text="Cathy Chen (Turnkey)    Software Test Engineer"/>
+			<CREDIT text="Lana Peng    Program Manager"/>
+			<CREDIT text="Lilia Lee (Turnkey)    Software Test Engineer"/>
+			<CREDIT text="Wen-Chin Deng    Software Test Lead"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Rise of Nations Dublin Team}"/>
+			<CREDIT text="Enda Kelly    Test Lead"/>
+			<CREDIT text="Ciaran Boylan    Software Test Engineer"/>
+			<CREDIT text="Bernard Morgan    Software Test Engineer"/>
+			<CREDIT text="Niamh Marsh    UX Manager"/>
+			<CREDIT text="Jude Shiels    Software Test Engineer"/>
+			<CREDIT text="Redmond O' Hanlon    Software Test Engineer"/>
+			<CREDIT text="Rita Thiede    Localization Program Manager"/>
+			<CREDIT text="Steven Garrad    Software Development Engineer"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Microsoft Thanks" pos="4">
+			<CREDIT text="Michele D' Amour"/>
+			<CREDIT text="Justin Greywolf"/>
+			<MEDIA filename="" time="4"/>
+		</CREDITSCREEN>
+		<!-- New Skybox Credits -->
+		<CREDITSCREEN title="SkyBox Labs" pos="12">
+			<CREDIT text=" "/>
+			<CREDIT text="{Studio Management}"/>
+			<CREDIT text="Shyang Kong"/>
+			<CREDIT text="Derek MacNeil"/>
+			<CREDIT text="Steve Silvester"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Development Team}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Lead Producer}"/>
+			<CREDIT text="Chris Hrennikoff"/>
+			<CREDIT text="Damian Zerr"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Lead Software Engineer}"/>
+			<CREDIT text="Marc Faulise"/>
+			<CREDIT text="Peter Quickert"/>
+			<CREDIT text="Ghafur Remtulla"/>
+			<MEDIA filename=".\art\skyboxLogo.tga" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="SkyBox Labs" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Software Engineer Team}"/>
+			<CREDIT text="Clark Allenby"/>
+			<CREDIT text="Benard Ebinu"/>
+			<CREDIT text="Jason Fleming"/>
+			<CREDIT text="Geoffrey Fisher"/>
+			<CREDIT text="Dana Fujikawa"/>
+			<CREDIT text="Robb Gray"/>
+			<CREDIT text="Alexander Houghton"/>
+			<CREDIT text="Gijs Kaerts"/>
+			<CREDIT text="Hironobu Kikuchi"/>
+			<CREDIT text="Michael Kuntz"/>
+			<CREDIT text="Peter Lolley"/>
+			<CREDIT text="Byron Munsie"/>
+			<CREDIT text="Andrew Osborne"/>
+			<CREDIT text="Luis Placid"/>
+			<CREDIT text="Maxim Popov"/>
+			<CREDIT text="Laura Puerto"/>
+			<CREDIT text="Jagdeep Rana"/>
+			<CREDIT text="James Reid"/>
+			<CREDIT text="Daniel Savage"/>
+			<CREDIT text="Amit Suri"/>
+			<CREDIT text="Dwight Tomalty"/>
+			<CREDIT text="Craig Young"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="SkyBox Labs" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Art Director}"/>
+			<CREDIT text="Martin Bae"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Art Team}"/>
+			<CREDIT text="Peter Gikandi"/>
+			<CREDIT text="Ross Young"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{QA Test Lead}"/>
+			<CREDIT text="Ace Cheung"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{QA Test Team}"/>
+			<CREDIT text="Taro Racanelli"/>
+			<CREDIT text="Jeremy Katsumata"/>
+			<CREDIT text="Marcos Chen"/>
+			<CREDIT text="Alina Varela"/>
+			<CREDIT text="Olivia Chung"/>
+			<CREDIT text="Keven Nguyen"/>
+			<CREDIT text="Michael Ventura"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Special Thanks}"/>
+			<CREDIT text="Richard Walker"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Experis" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Experis Test Manager}"/>
+			<CREDIT text="Christopher Cromwell"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Experis Test Engineer}"/>
+			<CREDIT text="Jason Rex Miller"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Experis Test Associates}"/>
+			<CREDIT text="Joseph Bourgeois"/>
+			<CREDIT text="Christopher Case"/>
+			<CREDIT text="Alexander Draper"/>
+			<CREDIT text="Hunter Esmon"/>
+			<CREDIT text="Terressa Leigh Cook"/>
+			<CREDIT text="Tim Walls"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Special Thanks}"/>
+			<CREDIT text="Carol Stearns"/>
+			<CREDIT text="Gavin Kennedy"/>
+			<CREDIT text="Kevin Finck"/>
+			<CREDIT text="Lyndon Moore"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="MICROSOFT STUDIOS" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{GLOBAL PUBLISHING TEAM}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{PRODUCTION}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Executive Producer}"/>
+			<CREDIT text="Earnest Yuen"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Senior Producer}"/>
+			<CREDIT text="Tim Fritz"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{ENGINEERING}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Principal Software Engineers}"/>
+			<CREDIT text="Russ Almond"/>
+			<CREDIT text="Scott Guest"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Senior Software Engineers}"/>
+			<CREDIT text="Kyle Schouviller"/>
+			<CREDIT text="Todd Heckel"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="MICROSOFT STUDIOS" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{ART}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Art Director}"/>
+			<CREDIT text="Patrick Shettlesworth"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{GLOBAL PUBLISHING MANAGEMENT TEAM}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{General Manager}"/>
+			<CREDIT text="Shannon Loftis"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Head of Production}"/>
+			<CREDIT text="Jorg Neumann"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Creative Director}"/>
+			<CREDIT text="Ken Lobb"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Director of Technology}"/>
+			<CREDIT text="Brian Stone"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Head of Art}"/>
+			<CREDIT text="Paul Amer"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Head of Audio}"/>
+			<CREDIT text="Kristofor Mellroth"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="MICROSOFT STUDIOS" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Creative Director}"/>
+			<CREDIT text="Joseph Staten"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Director of Business Operations}"/>
+			<CREDIT text="Julie DiRamio"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Global Head of Consumer Engagement}"/>
+			<CREDIT text="Torrie Dorrell"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{GLOBAL MARKETING}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Global Marketing Director}"/>
+			<CREDIT text="John Dongelmans"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{PUBLIC RELATIONS}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Communications Director, Microsoft Studios}"/>
+			<CREDIT text="Regan O’Leary"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Senior Communications Manager, Microsoft Studios}"/>
+			<CREDIT text="Shon Damron"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="MICROSOFT STUDIOS" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Assembly PR for Microsoft Studios}"/>
+			<CREDIT text="Thierry Nguyen (Assembly)"/>
+			<CREDIT text="Ken Zhang (Assembly)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{BUSINESS MANAGEMENT}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Business Manager}"/>
+			<CREDIT text="Julie DiRamio"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{BUSINESS DEVELOPMENT}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Business Development Manager}"/>
+			<CREDIT text="Michael Schauble"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{RELEASE MANAGEMENT}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Release Managers}"/>
+			<CREDIT text="Erin Schauble"/>
+			<CREDIT text="Jim Pekola"/>
+			<CREDIT text="Jeremiah Armstrong (Insight Global)"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="SHIELD COMPATIBILITY LAB" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Program Manager}"/>
+			<CREDIT text="Paul H. Gradwohl (Experis)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Lab Manager}"/>
+			<CREDIT text="Vince Loughney (Experis)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Lab Technician}"/>
+			<CREDIT text="Dallas Holmstead (Experis)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Multiplayer Lead}"/>
+			<CREDIT text="Alex Hunte (Experis)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Configuration Lead}"/>
+			<CREDIT text="Mimi Guarino (Experis)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Photosensitivity &amp; Epilepsy Lead}"/>
+			<CREDIT text="Chris Carleson (Experis)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{First Party Devices Lead}"/>
+			<CREDIT text="Matt Igaz (Experis)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Research &amp; Development Lead}"/>
+			<CREDIT text="Rob Brown (Experis)"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="SHIELD COMPATIBILITY LAB" pos="14">
+			<CREDIT text=""/>
+			<CREDIT text="{R&amp;D Engineer}"/>
+			<CREDIT text="Nicholas Starner (Experis)"/>
+			<CREDIT text=""/>
+			<CREDIT text="{Technical Testers}"/>
+			<CREDIT text="David Hendrickson (Experis)"/>
+			<CREDIT text="Greg Hernandez (Experis)"/>
+			<CREDIT text="Luke Szarmach (Experis)"/>
+			<CREDIT text="Michael Quiban (Experis)"/>
+			<CREDIT text="Miles Cooper (Experis)"/>
+			<CREDIT text="Pedro Rosario-Valentin (Experis)"/>
+			<CREDIT text="Thomas Allen (Experis)"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="CELA" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Senior Attorney}"/>
+			<CREDIT text="Nick Morgan (CELA)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Senior Paralegal}"/>
+			<CREDIT text="Carla Woo (CELA)"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{FINANCE}"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Finance Manager}"/>
+			<CREDIT text="Zak Belisle"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="PLATFORM RELEASE MANAGEMENT" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Release Managers}"/>
+			<CREDIT text="Brian Weiss"/>
+			<CREDIT text="Ben Robinson"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="MICROSOFT STUDIOS THANKS:" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="Aaron Greenberg"/>
+			<CREDIT text="Ada Duan"/>
+			<CREDIT text="Barb Espejo"/>
+			<CREDIT text="Clayton Vaught"/>
+			<CREDIT text="Deborah Henderson (SUR)"/>
+			<CREDIT text="Ferdinand Schober"/>
+			<CREDIT text="James Cadd"/>
+			<CREDIT text="Jimmy Bischoff"/>
+			<CREDIT text="Laura Hamilton (CELA)"/>
+			<CREDIT text="Karl Stricker"/>
+			<CREDIT text="Noah Musler"/>
+			<CREDIT text="Phil Spencer"/>
+			<CREDIT text="Rick Lockyear"/>
+			<CREDIT text="Robin Raymond (Optical Tone Ltd)"/>
+			<CREDIT text="Scott Dell’Osso"/>
+			<CREDIT text="Sarah Huschle"/>
+			<CREDIT text="Tim Stuart"/>
+			<CREDIT text="Yasmine Nelson"/>
+			<CREDIT text="Yumiko Murphy"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<!-- New Skybox Credits -->
+		<CREDITSCREEN title="Microsoft Studios" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Executive Producer}"/>
+			<CREDIT text="Kevin Perry"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Producer}"/>
+			<CREDIT text="Tristan Hall"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Business Development}"/>
+			<CREDIT text="James Kuk"/>
+			<CREDIT text="Andrew Adamyk"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Legal}"/>
+			<CREDIT text="Christi Davisson"/>
+			<CREDIT text="Carla Woo"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Engineering and Web}"/>
+			<CREDIT text="John O’Brien – Senior Developer"/>
+			<CREDIT text="Jason Fortman – Web Producer"/>
+			<CREDIT text="J Kovach"/>
+			<CREDIT text="QuiQue Olvera-Garcia"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Microsoft Studios" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Community &amp; Support}"/>
+			<CREDIT text="Mike Gills – Community Team Lead"/>
+			<CREDIT text="Alexander Judd"/>
+			<CREDIT text="Ashton Williams"/>
+			<CREDIT text="Corey Clemans"/>
+			<CREDIT text="Helen Casper"/>
+			<CREDIT text="Jessica Capuano Mora"/>
+			<CREDIT text="Kieffer Bryant"/>
+			<CREDIT text="Andrew Adamyk"/>
+			<CREDIT text="Mike Robles"/>
+			<CREDIT text="Richard Dickinson"/>
+			<CREDIT text="Rukari Austin"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Special Thanks}"/>
+			<CREDIT text="Matt Booty"/>
+			<CREDIT text="Ryan Chaply"/>
+			<CREDIT text="Tom Giardino"/>
+			<CREDIT text="Justin Yorke"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Enzyme" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Head of Production}"/>
+			<CREDIT text="Pascal Faucher"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Project Manager}"/>
+			<CREDIT text="Steve Paquin"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Team Managers}"/>
+			<CREDIT text="Maxim Lacasse"/>
+			<CREDIT text="Brian Zalavolgyi"/>
+			<CREDIT text=" "/>
+			<CREDIT text="{Lead Testers}"/>
+			<CREDIT text="Simon Ricard"/>
+			<CREDIT text="Chafik Badache"/>
+			<CREDIT text="Hudson Lee"/>
+			<CREDIT text="Jean-Frédéryk Taché"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Enzyme" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Functionality Testers}"/>
+			<CREDIT text="Rock Demers"/>
+			<CREDIT text="Kevin Delcourt"/>
+			<CREDIT text="Sébastien Bédard"/>
+			<CREDIT text="Jonathan Ouimet"/>
+			<CREDIT text="Gabriel Aubin"/>
+			<CREDIT text="Guillaume Jubinville"/>
+			<CREDIT text="Michael Coulombe"/>
+			<CREDIT text="Frédéric Renard"/>
+			<CREDIT text="Matias Montt"/>
+			<CREDIT text="Kristian Knop"/>
+			<CREDIT text="Annie-Pier Sénéchal"/>
+			<CREDIT text="Dona-Pier Crochetière Trépanier"/>
+			<CREDIT text="Jacques Roy"/>
+			<CREDIT text="Espen Helmersen"/>
+			<CREDIT text="François Beaulieu"/>
+			<CREDIT text="Olivier Guénette"/>
+			<CREDIT text="Maxime Chevalier"/>
+			<CREDIT text="Pavel Cieszynski"/>
+			<CREDIT text="Maryse Melançon"/>
+			<CREDIT text="Alex Robidoux"/>
+			<CREDIT text="Samuel Desormeaux"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="Enzyme" pos="14">
+			<CREDIT text=" "/>
+			<CREDIT text="{Compatibility Testers}"/>
+			<CREDIT text="Alexandre Cossette"/>
+			<CREDIT text="Frédéric Devost"/>
+			<CREDIT text="Jonathan-Joey Baillargeon"/>
+			<CREDIT text="Michael Reichel"/>
+			<CREDIT text="Dominic Ducharme"/>
+			<CREDIT text="Maxime Bastien"/>
+			<CREDIT text=""/>
+			<CREDIT text="{Localization Testers}"/>
+			<CREDIT text="Cesar Suarez Noriega"/>
+			<CREDIT text="Cristina Contillo"/>
+			<CREDIT text="Grégory Bonboire"/>
+			<CREDIT text="Henar Pardo Garcia"/>
+			<CREDIT text="Jose Menendez Llosa"/>
+			<CREDIT text="Julien Waroux"/>
+			<CREDIT text="Lorenza Tonoli"/>
+			<CREDIT text="Martin Schuetz"/>
+			<CREDIT text="Steffen Lippert"/>
+			<CREDIT text="Viviana Montanaro"/>
+			<CREDIT text="Anouk Laurence"/>
+			<MEDIA filename="" time="8"/>
+		</CREDITSCREEN>
+		<CREDITSCREEN title="RISE OF NATIONS" pos="11">
+			<CREDIT text=" "/>
+			<CREDIT text="Photographs provided by Corbis."/>
+			<CREDIT text=" "/>
+			<!--
+			<CREDIT text="This product contains software technology licensed from GameSpy Industries, Inc."/>
+			<CREDIT text=" (c) 1999-2004 GameSpy Industries, Inc. "/>
+			<CREDIT text='GameSpy and the "Powered by GameSpy" design are trademarks of GameSpy Industries, Inc.'/>
+			<CREDIT text="All rights reserved."/>
+			-->
+			<MEDIA filename=".\art\skyboxLogo.tga" time="5"/>
+		</CREDITSCREEN>
+	</CREDITSWIN>
+</ROOT>

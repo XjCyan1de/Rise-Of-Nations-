@@ -1,0 +1,784 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Isaac Ellis (Big Huge Games) -->
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: STRING elements.-->
+<!-- LOCALIZATION: STRING elements.-->
+<!-- LOCALIZATION: STRING elements.-->
+<!-- LOCALIZATION: STRING elements.-->
+<!-- LOCALIZATION: STRING elements.-->
+<ROOT>
+  <TRACKS>
+    <INTROS>
+      <SOUND file=".\sounds\tracks\Misfire.wav"/>--
+      <SOUND file=".\sounds\tracks\PeacePipe.wav"/>
+      <SOUND file=".\sounds\tracks\Rockets.wav"/>
+      <SOUND file=".\sounds\tracks\Bengal.wav"/>
+      <SOUND file=".\sounds\tracks\TheHague(ruffmix2).wav"/>
+      <SOUND file=".\sounds\tracks\ThunderBird.wav"/>
+      <SOUND file=".\sounds\tracks\OverTheDam.wav"/>
+    </INTROS>
+    <FULLINTROS>
+      <SOUND file=".\sounds\tracks\SacrificeToTheSun.wav"/>
+      <SOUND file=".\sounds\tracks\Misfire.wav"/>
+      <SOUND file=".\sounds\tracks\PeacePipe.wav"/>
+      <SOUND file=".\sounds\tracks\Rockets.wav"/>
+      <SOUND file=".\sounds\tracks\Bengal.wav"/>
+      <SOUND file=".\sounds\tracks\TheHague(ruffmix2).wav"/>
+      <SOUND file=".\sounds\tracks\ThunderBird.wav"/>
+      <SOUND file=".\sounds\tracks\OverTheDam.wav"/>
+      <SOUND file=".\sounds\tracks\HalfMoon.wav"/>
+      <SOUND file=".\sounds\tracks\ThunderBird.wav"/>
+      <SOUND file=".\sounds\tracks\AcrossTheBog.wav"/>
+      <SOUND file=".\sounds\tracks\Allerton.wav"/>
+      <SOUND file=".\sounds\tracks\Santiago.wav"/>
+      <SOUND file=".\sounds\tracks\Hearth.wav"/>
+      <SOUND file=".\sounds\tracks\Gobi.wav"/>
+      <SOUND file=".\sounds\tracks\Brazil.wav"/>
+      <SOUND file=".\sounds\tracks\TheRussian.wav"/>
+      <SOUND file=".\sounds\tracks\Morocco.wav"/>
+      <SOUND file=".\sounds\tracks\DarkForest.wav"/>
+      <SOUND file=".\sounds\tracks\Eire.wav"/>
+      <SOUND file=".\sounds\tracks\HighStrung.wav"/>
+      <SOUND file=".\sounds\tracks\BattleAtWitchCreek.wav"/>
+      <SOUND file=".\sounds\tracks\MistAtDawn.wav"/>
+      <SOUND file=".\sounds\tracks\DesertWind.wav"/>
+      <SOUND file=".\sounds\tracks\Osaka.wav"/>
+      <SOUND file=".\sounds\tracks\WilliamWallace.wav"/>
+      <SOUND file=".\sounds\tracks\Galleons.wav"/>
+      <SOUND file=".\sounds\tracks\Attack.wav"/>
+      <SOUND file=".\sounds\tracks\Revolver.wav"/>
+      <SOUND file=".\sounds\tracks\Indochine.wav"/>
+      <SOUND file=".\sounds\tracks\SriLanka.wav"/>
+      <SOUND file=".\sounds\tracks\Tribes.wav"/>
+      <SOUND file=".\sounds\tracks\WingAndAPrayer.wav"/>
+      <SOUND file=".\sounds\tracks\SimpleSong.wav"/>
+    </FULLINTROS>
+    <WIN>
+      <SOUND file=".\sounds\tracks\ArcDeTriomphe.wav"/>
+    </WIN>
+    <LOSE>
+      <SOUND file=".\sounds\tracks\Waterloo.wav"/>
+    </LOSE>
+    <TRIBE tribe="default">
+      <AGE age="0">
+        <!--//BR// 1/18/2003 -> gave a last listen to everything with the new recordings and sorted the moods-->
+        <MOOD mood="BATTLE_VICTORY">
+          <SOUND file=".\sounds\tracks\WilliamWallace.wav"/>
+          <SOUND file=".\sounds\tracks\Galleons.wav"/>
+          <SOUND file=".\sounds\tracks\Attack.wav"/>
+          <SOUND file=".\sounds\tracks\Revolver.wav"/>
+          <SOUND file=".\sounds\tracks\TheRussian.wav"/>
+          <SOUND file=".\sounds\tracks\HighStrung.wav"/>
+        </MOOD>
+        <MOOD mood="BATTLE_DEFEAT">
+          <SOUND file=".\sounds\tracks\BattleAtWitchCreek.wav"/>
+          <SOUND file=".\sounds\tracks\MistAtDawn.wav"/>
+          <SOUND file=".\sounds\tracks\DesertWind.wav"/>
+          <SOUND file=".\sounds\tracks\Osaka.wav"/>
+          <SOUND file=".\sounds\tracks\Tribes.wav"/>
+          <SOUND file=".\sounds\tracks\Allerton.wav"/>
+          <SOUND file=".\sounds\tracks\Misfire.wav"/>
+        </MOOD>
+        <MOOD mood="ECONOMIC">
+          <SOUND file=".\sounds\tracks\AcrossTheBog.wav"/>
+          <SOUND file=".\sounds\tracks\Brazil.wav"/>
+          <SOUND file=".\sounds\tracks\DarkForest.wav"/>
+          <SOUND file=".\sounds\tracks\Eire.wav"/>
+          <SOUND file=".\sounds\tracks\Gobi.wav"/>
+          <SOUND file=".\sounds\tracks\Hearth.wav"/>
+          <SOUND file=".\sounds\tracks\Indochine.wav"/>
+          <SOUND file=".\sounds\tracks\Morocco.wav"/>
+          <SOUND file=".\sounds\tracks\Santiago.wav"/>
+          <SOUND file=".\sounds\tracks\SimpleSong.wav"/>
+          <SOUND file=".\sounds\tracks\SriLanka.wav"/>
+          <SOUND file=".\sounds\tracks\WingAndAPrayer.wav"/>
+          <SOUND file=".\sounds\tracks\SacrificeToTheSun.wav"/>
+          <SOUND file=".\sounds\tracks\PeacePipe.wav"/>
+          <SOUND file=".\sounds\tracks\Rockets.wav"/>
+          <SOUND file=".\sounds\tracks\Bengal.wav"/>
+          <SOUND file=".\sounds\tracks\TheHague(ruffmix2).wav"/>
+          <SOUND file=".\sounds\tracks\ThunderBird.wav"/>
+          <SOUND file=".\sounds\tracks\OverTheDam.wav"/>
+          <SOUND file=".\sounds\tracks\HalfMoon.wav"/>
+        </MOOD>
+      </AGE>
+    </TRIBE>
+  </TRACKS>
+  <!--  <TRACKS>
+    <INTROS>
+      <SOUND file=".\sounds\tracks\Osaka.wav"/>
+      <SOUND file=".\sounds\tracks\WilliamWallace.wav"/>
+      <SOUND file=".\sounds\tracks\Attack.wav"/>
+      <SOUND file=".\sounds\tracks\Revolver.wav"/>
+      <SOUND file=".\sounds\tracks\Tribes.wav"/>
+    </INTROS>
+    <FULLINTROS>
+      <SOUND file=".\sounds\tracks\AcrossTheBog.wav"/>
+      <SOUND file=".\sounds\tracks\Allerton.wav"/>
+      <SOUND file=".\sounds\tracks\Santiago.wav"/>
+      <SOUND file=".\sounds\tracks\Hearth.wav"/>
+      <SOUND file=".\sounds\tracks\Gobi.wav"/>
+      <SOUND file=".\sounds\tracks\Brazil.wav"/>
+      <SOUND file=".\sounds\tracks\TheRussian.wav"/>
+      <SOUND file=".\sounds\tracks\Morocco.wav"/>
+      <SOUND file=".\sounds\tracks\DarkForest.wav"/>
+      <SOUND file=".\sounds\tracks\Eire.wav"/>
+      <SOUND file=".\sounds\tracks\HighStrung.wav"/>
+      <SOUND file=".\sounds\tracks\BattleAtWitchCreek.wav"/>
+      <SOUND file=".\sounds\tracks\MistAtDawn.wav"/>
+      <SOUND file=".\sounds\tracks\DesertWind.wav"/>
+      <SOUND file=".\sounds\tracks\Osaka.wav"/>
+      <SOUND file=".\sounds\tracks\WilliamWallace.wav"/>
+      <SOUND file=".\sounds\tracks\Galleons.wav"/>
+      <SOUND file=".\sounds\tracks\Attack.wav"/>
+      <SOUND file=".\sounds\tracks\Revolver.wav"/>
+      <SOUND file=".\sounds\tracks\Indochine.wav"/>
+      <SOUND file=".\sounds\tracks\SriLanka.wav"/>
+      <SOUND file=".\sounds\tracks\Tribes.wav"/>
+      <SOUND file=".\sounds\tracks\WingAndAPrayer.wav"/>
+      <SOUND file=".\sounds\tracks\SimpleSong.wav"/>
+    </FULLINTROS>
+    <WIN>
+      <SOUND file=".\sounds\tracks\ArcDeTriomphe.wav"/>
+    </WIN>
+    <LOSE>
+      <SOUND file=".\sounds\tracks\Waterloo.wav"/>
+    </LOSE>
+    <TRIBE tribe="default">
+      <AGE age="0">
+        <MOOD mood="BATTLE_VICTORY">
+          <SOUND file=".\sounds\tracks\WilliamWallace.wav"/>
+          <SOUND file=".\sounds\tracks\Galleons.wav"/>
+          <SOUND file=".\sounds\tracks\Attack.wav"/>
+          <SOUND file=".\sounds\tracks\Revolver.wav"/>
+          <SOUND file=".\sounds\tracks\TheRussian.wav"/>
+          <SOUND file=".\sounds\tracks\HighStrung.wav"/>
+        </MOOD>
+        <MOOD mood="BATTLE_DEFEAT">
+          <SOUND file=".\sounds\tracks\BattleAtWitchCreek.wav"/>
+          <SOUND file=".\sounds\tracks\MistAtDawn.wav"/>
+          <SOUND file=".\sounds\tracks\DesertWind.wav"/>
+          <SOUND file=".\sounds\tracks\Osaka.wav"/>
+          <SOUND file=".\sounds\tracks\Tribes.wav"/>
+          <SOUND file=".\sounds\tracks\Allerton.wav"/>
+        </MOOD>
+        <MOOD mood="ECONOMIC">
+          <SOUND file=".\sounds\tracks\AcrossTheBog.wav"/>
+          <SOUND file=".\sounds\tracks\Brazil.wav"/>
+          <SOUND file=".\sounds\tracks\DarkForest.wav"/>
+          <SOUND file=".\sounds\tracks\Eire.wav"/>
+          <SOUND file=".\sounds\tracks\Gobi.wav"/>
+          <SOUND file=".\sounds\tracks\Hearth.wav"/>
+          <SOUND file=".\sounds\tracks\Indochine.wav"/>
+          <SOUND file=".\sounds\tracks\Morocco.wav"/>
+          <SOUND file=".\sounds\tracks\Santiago.wav"/>
+          <SOUND file=".\sounds\tracks\SimpleSong.wav"/>
+          <SOUND file=".\sounds\tracks\SriLanka.wav"/>
+          <SOUND file=".\sounds\tracks\WingAndAPrayer.wav"/>
+        </MOOD>
+      </AGE>
+    </TRIBE>
+  </TRACKS> -->
+  <TAUNTS>
+    <TAUNT index="1" file=".\sounds\taunts\yes-3.wav" id="" volume="255">
+      <STRING>Yes.</STRING>
+    </TAUNT>
+    <TAUNT index="2" file=".\sounds\taunts\no-2.wav" id="" volume="255">
+      <STRING>No.</STRING>
+    </TAUNT>
+    <TAUNT index="3" file=".\sounds\taunts\maybe-2.wav" id="" volume="255">
+      <STRING>Maybe.</STRING>
+    </TAUNT>
+    <TAUNT index="4" file=".\sounds\taunts\need_food-2.wav" id="NEED_FOOD" volume="255">
+      <STRING>I need Food.</STRING>
+    </TAUNT>
+    <TAUNT index="5" file=".\sounds\taunts\needtimber-2.wav" id="NEED_TIMBER" volume="255">
+      <STRING>I need Timber.</STRING>
+    </TAUNT>
+    <TAUNT index="6" file=".\sounds\taunts\need_metal-1.wav" id="NEED_METAL" volume="255">
+      <STRING>I need Metal.</STRING>
+    </TAUNT>
+    <TAUNT index="7" file=".\sounds\taunts\needwealth-3.wav" id="NEED_WEALTH" volume="255">
+      <STRING>I need Wealth.</STRING>
+    </TAUNT>
+    <TAUNT index="8" file=".\sounds\taunts\needoil-2.wav" id="NEED_OIL" volume="255">
+      <STRING>I need Oil.</STRING>
+    </TAUNT>
+    <TAUNT index="9" file=".\sounds\taunts\needknowledge-1.wav" id="" volume="255">
+      <STRING>I need Knowledge.</STRING>
+    </TAUNT>
+    <TAUNT index="10" file=".\sounds\taunts\ask_resources-2.wav" id="NEED" volume="255">
+      <STRING>Do you need resources?</STRING>
+    </TAUNT>
+    <TAUNT index="11" file=".\sounds\taunts\help_here-3.wav" id="HELP" volume="255">
+      <STRING>Little help here...</STRING>
+    </TAUNT>
+    <TAUNT index="12" file=".\sounds\taunts\noob_rush-1.wav" id="HELP" volume="255">
+      <STRING>This noob's rushing me.</STRING>
+    </TAUNT>
+    <TAUNT index="13" file=".\sounds\taunts\buildtroops-1.wav" id="BUILD_TROOPS" volume="255">
+      <STRING>Build more troops.</STRING>
+    </TAUNT>
+    <TAUNT index="14" file=".\sounds\taunts\build_wonder-3.wav" id="BUILD_WONDER" volume="255">
+      <STRING>Build a wonder.</STRING>
+    </TAUNT>
+    <TAUNT index="15" file=".\sounds\taunts\work_econ-1.wav" id="BUILD_ECON" volume="255">
+      <STRING>Work on your economy.</STRING>
+    </TAUNT>
+    <TAUNT index="16" file=".\sounds\taunts\work_airforce-2.wav" id="BUILD_AIR" volume="255">
+      <STRING>Work on your air force.</STRING>
+    </TAUNT>
+    <TAUNT index="17" file=".\sounds\taunts\work_navy-3.wav" id="BUILD_NAVY" volume="255">
+      <STRING>Work on your navy.</STRING>
+    </TAUNT>
+    <TAUNT index="18" file=".\sounds\taunts\signal_attack-3.wav" id="BUILD_ECON" volume="255">
+      <STRING>Wait for my signal to attack.</STRING>
+    </TAUNT>
+    <TAUNT index="19" file=".\sounds\taunts\attack-3.wav" id="ATTACK" volume="255">
+      <STRING>Attack!</STRING>
+    </TAUNT>
+    <TAUNT index="20" file=".\sounds\taunts\get_em-2.wav" id="ATTACK" volume="255">
+      <STRING>Let's get 'em.</STRING>
+    </TAUNT>
+    <TAUNT index="21" file=".\sounds\taunts\guard_artillery-2.wav" id="GUARD" volume="255">
+      <STRING>Guard my artillery.</STRING>
+    </TAUNT>
+    <TAUNT index="22" file=".\sounds\taunts\move_troops-2.wav" id="HELP" volume="255">
+      <STRING>Move troops here.</STRING>
+    </TAUNT>
+    <TAUNT index="23" file=".\sounds\taunts\grab_territory-1.wav" id="" volume="255">
+      <STRING>Grab some territory.</STRING>
+    </TAUNT>
+    <TAUNT index="24" file=".\sounds\taunts\gonna_boom-2.wav" id="BOOMING" volume="255">
+      <STRING>Gonna boom.</STRING>
+    </TAUNT>
+    <TAUNT index="25" file=".\sounds\taunts\gonna_rush-1.wav" id="RUSHING" volume="255">
+      <STRING>Gonna rush.</STRING>
+    </TAUNT>
+    <TAUNT index="26" file=".\sounds\taunts\wanna_ally-3.wav" id="" volume="255">
+      <STRING>Wanna ally?</STRING>
+    </TAUNT>
+    <TAUNT index="27" file=".\sounds\taunts\wanna_peace-3.wav" id="" volume="255">
+      <STRING>Wanna make peace?</STRING>
+    </TAUNT>
+    <TAUNT index="28" file=".\sounds\taunts\means_war-3.wav" id="" volume="255">
+      <STRING>Of course you realize, this means war...</STRING>
+    </TAUNT>
+    <TAUNT index="29" file=".\sounds\taunts\pay_die-1.wav" id="" volume="255">
+      <STRING>Pay up or die.</STRING>
+    </TAUNT>
+    <TAUNT index="30" file=".\sounds\taunts\prepare_crushed-1.wav" id="" volume="255">
+      <STRING>Prepare to be crushed.</STRING>
+    </TAUNT>
+    <TAUNT index="31" file=".\sounds\taunts\who_attack-3.wav" id="" volume="255">
+      <STRING>Who we gonna attack?</STRING>
+    </TAUNT>
+    <TAUNT index="32" file=".\sounds\taunts\when_attack-2.wav" id="" volume="255">
+      <STRING>When shall we attack?</STRING>
+    </TAUNT>
+    <TAUNT index="33" file=".\sounds\taunts\where_enemy-1.wav" id="" volume="255">
+      <STRING>Where's the enemy?</STRING>
+    </TAUNT>
+    <TAUNT index="34" file=".\sounds\taunts\airpower-3.wav" id="" volume="255">
+      <STRING>They've got air power.</STRING>
+    </TAUNT>
+    <TAUNT index="35" file=".\sounds\taunts\ships_ahoy-3.wav" id="" volume="255">
+      <STRING>Ships ahoy!</STRING>
+    </TAUNT>
+    <TAUNT index="36" file=".\sounds\taunts\spy_spy-3.wav" id="" volume="255">
+      <STRING>I spy a spy.</STRING>
+    </TAUNT>
+    <TAUNT index="37" file=".\sounds\taunts\rare_resources-3.wav" id="" volume="255">
+      <STRING>Rare resources for the taking.</STRING>
+    </TAUNT>
+    <TAUNT index="38" file=".\sounds\taunts\city_down-1.wav" id="" volume="255">
+      <STRING>The city is going down.</STRING>
+    </TAUNT>
+    <TAUNT index="39" file=".\sounds\taunts\checkouttimer-2.wav" id="" volume="255">
+      <STRING>Check out the timer.</STRING>
+    </TAUNT>
+    <TAUNT index="40" file=".\sounds\taunts\setup_shop-2.wav" id="" volume="255">
+      <STRING>Let's set up shop.</STRING>
+    </TAUNT>
+    <TAUNT index="41" file=".\sounds\taunts\wanna_bet-2.wav" id="" volume="255">
+      <STRING>Wanna bet?</STRING>
+    </TAUNT>
+    <TAUNT index="42" file=".\sounds\taunts\itson-1.wav" id="" volume="255">
+      <STRING>It's on.</STRING>
+    </TAUNT>
+    <TAUNT index="43" file=".\sounds\taunts\supposed_hurt-1.wav" id="" volume="255">
+      <STRING>Was that supposed to hurt?</STRING>
+    </TAUNT>
+    <TAUNT index="44" file=".\sounds\taunts\fixed_problem-1.wav" id="" volume="255">
+      <STRING>Have you fixed your little problem?</STRING>
+    </TAUNT>
+    <TAUNT index="45" file=".\sounds\taunts\good_luck-1.wav" id="" volume="255">
+      <STRING>Good luck with that.</STRING>
+    </TAUNT>
+    <TAUNT index="46" file=".\sounds\taunts\works_out-1.wav" id="" volume="255">
+      <STRING>Let me know how that works out for you.</STRING>
+    </TAUNT>
+    <TAUNT index="47" file=".\sounds\taunts\slow_ahead-3.wav" id="" volume="255">
+      <STRING>I may be slow, but I'm ahead of you.</STRING>
+    </TAUNT>
+    <TAUNT index="48" file=".\sounds\taunts\classy-3.wav" id="" volume="255">
+      <STRING>Classy.</STRING>
+    </TAUNT>
+    <TAUNT index="49" file=".\sounds\taunts\tutorials_noob-1.wav" id="" volume="255">
+      <STRING>Play the tutorials, noob.</STRING>
+    </TAUNT>
+    <TAUNT index="50" file=".\sounds\taunts\wake_done-1.wav" id="" volume="255">
+      <STRING>Wake me up when you're done.</STRING>
+    </TAUNT>
+    <TAUNT index="51" file=".\sounds\taunts\get_outta-3.wav" id="" volume="255">
+      <STRING>Get outta my face.</STRING>
+    </TAUNT>
+    <TAUNT index="52" file=".\sounds\taunts\leavemealone-2.wav" id="" volume="255">
+      <STRING>Leave me alone.</STRING>
+    </TAUNT>
+    <TAUNT index="53" file=".\sounds\taunts\need_that-3.wav" id="" volume="255">
+      <STRING>'Cause you need that.</STRING>
+    </TAUNT>
+    <TAUNT index="54" file=".\sounds\taunts\over_yet-4.wav" id="" volume="255">
+      <STRING>Is it over yet?</STRING>
+    </TAUNT>
+    <TAUNT index="55" file=".\sounds\taunts\parents_late-2.wav" id="" volume="255">
+      <STRING>Do your parents know you're up this late?</STRING>
+    </TAUNT>
+    <TAUNT index="56" file=".\sounds\taunts\you_ok-1.wav" id="" volume="255">
+      <STRING>You okay over there?</STRING>
+    </TAUNT>
+    <TAUNT index="57" file=".\sounds\taunts\stayout-1.wav" id="" volume="255">
+      <STRING>And stay out!</STRING>
+    </TAUNT>
+    <TAUNT index="58" file=".\sounds\taunts\bwahaha-1.wav" id="" volume="255">
+      <STRING>Bwa ha ha ha ha!</STRING>
+    </TAUNT>
+    <TAUNT index="59" file=".\sounds\taunts\stormin_castle-1.wav" id="" volume="255">
+      <STRING>Have fun stormin the castle.</STRING>
+    </TAUNT>
+    <TAUNT index="60" file=".\sounds\taunts\randomrandom-2.wav" id="" volume="255">
+      <STRING>Random! Random!</STRING>
+    </TAUNT>
+    <TAUNT index="61" file=".\sounds\taunts\randomrandom-4.wav" id="" volume="255">
+      <STRING>RanDOM! RanDOM!</STRING>
+    </TAUNT>
+    <TAUNT index="62" file=".\sounds\taunts\game_begin-3.wav" id="" volume="255">
+      <STRING>Let the game begin.</STRING>
+    </TAUNT>
+    <TAUNT index="63" file=".\sounds\taunts\dude_pickem-1.wav" id="" volume="255">
+      <STRING>Dude, we know who you're going to take. Just pick 'em and get on with it.</STRING>
+    </TAUNT>
+    <TAUNT index="64" file=".\sounds\taunts\click_understand-2.wav" id="" volume="255">
+      <STRING>Which part of "Click in" didn't you understand?</STRING>
+    </TAUNT>
+    <TAUNT index="65" file=".\sounds\taunts\what_holdup-2.wav" id="" volume="255">
+      <STRING>What's the holdup?</STRING>
+    </TAUNT>
+    <TAUNT index="66" file=".\sounds\taunts\ahh-1.wav" id="" volume="255">
+      <STRING>Ahhh.</STRING>
+    </TAUNT>
+    <TAUNT index="67" file=".\sounds\taunts\uhh_uhh-1.wav" id="" volume="255">
+      <STRING>Unh Unh Unh.</STRING>
+    </TAUNT>
+    <TAUNT index="68" file=".\sounds\taunts\ohhh-4.wav" id="" volume="255">
+      <STRING>Ohhh.</STRING>
+    </TAUNT>
+    <TAUNT index="69" file=".\sounds\taunts\uhhh-2.wav" id="" volume="255">
+      <STRING>Ughhhhhhhh.</STRING>
+    </TAUNT>
+    <TAUNT index="70" file=".\sounds\taunts\unh-3.wav" id="" volume="255">
+      <STRING>Unh!</STRING>
+    </TAUNT>
+    <TAUNT index="71" file=".\sounds\taunts\doomed-1.wav" id="" volume="255">
+      <STRING>We're doomed!</STRING>
+    </TAUNT>
+    <TAUNT index="72" file=".\sounds\taunts\wanngiveup-2.wav" id="" volume="255">
+      <STRING>Wanna give up?</STRING>
+    </TAUNT>
+    <TAUNT index="73" file=".\sounds\taunts\victoryismine-3.wav" id="" volume="255">
+      <STRING>Victory is mine!</STRING>
+    </TAUNT>
+    <TAUNT index="74" file=".\sounds\taunts\owmyeye-1.wav" id="" volume="255">
+      <STRING>Oww! My eye!</STRING>
+    </TAUNT>
+    <TAUNT index="75" file=".\sounds\taunts\notintheface-1.wav" id="" volume="255">
+      <STRING>Not in the face! Not in the face!</STRING>
+    </TAUNT>
+    <TAUNT index="76" file=".\sounds\taunts\coming-4.wav" id="" volume="255">
+      <STRING>Coming.</STRING>
+    </TAUNT>
+    <TAUNT index="77" file=".\sounds\taunts\berightthere-1.wav" id="" volume="255">
+      <STRING>Be right there.</STRING>
+    </TAUNT>
+    <TAUNT index="78" file=".\sounds\taunts\onmyway-1.wav" id="" volume="255">
+      <STRING>On my way.</STRING>
+    </TAUNT>
+    <TAUNT index="79" file=".\sounds\taunts\send_help-1.wav" id="" volume="255">
+      <STRING>I'm trying to send some help.</STRING>
+    </TAUNT>
+    <TAUNT index="80" file=".\sounds\taunts\gotchacovered-3.wav" id="" volume="255">
+      <STRING>Gotcha covered.</STRING>
+    </TAUNT>
+    <TAUNT index="81" file=".\sounds\taunts\check-2.wav" id="" volume="255">
+      <STRING>Check.</STRING>
+    </TAUNT>
+    <TAUNT index="82" file=".\sounds\taunts\itshallbedone-1.wav" id="" volume="255">
+      <STRING>It shall be done.</STRING>
+    </TAUNT>
+    <TAUNT index="83" file=".\sounds\taunts\rightonthat-2.wav" id="" volume="255">
+      <STRING>Let me get right on that.</STRING>
+    </TAUNT>
+    <TAUNT index="84" file=".\sounds\taunts\sweet-3.wav" id="" volume="255">
+      <STRING>Sweet.</STRING>
+    </TAUNT>
+    <TAUNT index="85" file=".\sounds\taunts\youdaman-2.wav" id="" volume="255">
+      <STRING>You da man.</STRING>
+    </TAUNT>
+    <TAUNT index="86" file=".\sounds\taunts\talking_about-1.wav" id="" volume="255">
+      <STRING>That's what I'm talking about.</STRING>
+    </TAUNT>
+    <TAUNT index="87" file=".\sounds\taunts\takencareof-3.wav" id="" volume="255">
+      <STRING>Consider it taken care of.</STRING>
+    </TAUNT>
+    <TAUNT index="88" file=".\sounds\taunts\soundslikeaplan-2.wav" id="" volume="255">
+      <STRING>Sounds like a plan.</STRING>
+    </TAUNT>
+    <TAUNT index="89" file=".\sounds\taunts\groovy-3.wav" id="" volume="255">
+      <STRING>Groovy.</STRING>
+    </TAUNT>
+    <TAUNT index="90" file=".\sounds\taunts\color_red-1.wav" id="" volume="255">
+      <STRING>Red</STRING>
+    </TAUNT>
+    <TAUNT index="91" file=".\sounds\taunts\color_blue-1.wav" id="" volume="255">
+      <STRING>Blue</STRING>
+    </TAUNT>
+    <TAUNT index="92" file=".\sounds\taunts\color_purple-2.wav" id="" volume="255">
+      <STRING>Purple</STRING>
+    </TAUNT>
+    <TAUNT index="93" file=".\sounds\taunts\color_green-1.wav" id="" volume="255">
+      <STRING>Green</STRING>
+    </TAUNT>
+    <TAUNT index="94" file=".\sounds\taunts\color_yellow.wav" id="" volume="255">
+      <STRING>Yellow</STRING>
+    </TAUNT>
+    <TAUNT index="95" file=".\sounds\taunts\color_ltblue-1.wav" id="" volume="255">
+      <STRING>Light Blue</STRING>
+    </TAUNT>
+    <TAUNT index="96" file=".\sounds\taunts\color_white-3.wav" id="" volume="255">
+      <STRING>White</STRING>
+    </TAUNT>
+    <TAUNT index="97" file=".\sounds\taunts\color_orange-2.wav" id="" volume="255">
+      <STRING>Orange</STRING>
+    </TAUNT>
+    <TAUNT index="98" file=".\sounds\taunts\humanity-3.wav" id="" volume="255">
+      <STRING>Aaaaagh! The Humanity!</STRING>
+    </TAUNT>
+    <TAUNT index="99" file=".\sounds\taunts\getthat-3.wav" id="" volume="255">
+      <STRING>Let me get that for you.</STRING>
+    </TAUNT>
+    <TAUNT index="100" file=".\sounds\taunts\keep_risin-1.wav" id="" volume="255">
+      <STRING>They keep on rising!</STRING>
+    </TAUNT>
+    <TAUNT index="101" file=".\sounds\taunts\yes-3.wav" id="" volume="255">
+      <STRING>Yes.</STRING>
+    </TAUNT>
+    <TAUNT index="102" file=".\sounds\taunts\no-2.wav" id="" volume="255">
+      <STRING>No.</STRING>
+    </TAUNT>
+    <TAUNT index="103" file=".\sounds\taunts\maybe-2.wav" id="" volume="255">
+      <STRING>Maybe.</STRING>
+    </TAUNT>
+    <TAUNT index="104" file=".\sounds\taunts\need_food-2.wav" id="NEED_FOOD" volume="255">
+      <STRING>I need Food.</STRING>
+    </TAUNT>
+    <TAUNT index="105" file=".\sounds\taunts\needtimber-2.wav" id="NEED_TIMBER" volume="255">
+      <STRING>I need Timber.</STRING>
+    </TAUNT>
+    <TAUNT index="106" file=".\sounds\taunts\need_metal-1.wav" id="NEED_METAL" volume="255">
+      <STRING>I need Metal.</STRING>
+    </TAUNT>
+    <TAUNT index="107" file=".\sounds\taunts\needwealth-3.wav" id="NEED_WEALTH" volume="255">
+      <STRING>I need Wealth.</STRING>
+    </TAUNT>
+    <TAUNT index="108" file=".\sounds\taunts\needoil-2.wav" id="NEED_OIL" volume="255">
+      <STRING>I need Oil.</STRING>
+    </TAUNT>
+    <TAUNT index="109" file=".\sounds\taunts\needknowledge-1.wav" id="" volume="255">
+      <STRING>I need Knowledge.</STRING>
+    </TAUNT>
+    <TAUNT index="110" file=".\sounds\taunts\ask_resources-2.wav" id="" volume="255">
+      <STRING>Do you need resources?</STRING>
+    </TAUNT>
+    <TAUNT index="111" file=".\sounds\taunts\help_here-3.wav" id="HELP" volume="255">
+      <STRING>Little help here...</STRING>
+    </TAUNT>
+    <TAUNT index="112" file=".\sounds\taunts\noob_rush-1.wav" id="HELP" volume="255">
+      <STRING>This noob's rushing me.</STRING>
+    </TAUNT>
+    <TAUNT index="113" file=".\sounds\taunts\buildtroops-1.wav" id="BUILD_TROOPS" volume="255">
+      <STRING>Build more troops.</STRING>
+    </TAUNT>
+    <TAUNT index="114" file=".\sounds\taunts\build_wonder-3.wav" id="BUILD_WONDER" volume="255">
+      <STRING>Build a wonder.</STRING>
+    </TAUNT>
+    <TAUNT index="115" file=".\sounds\taunts\work_econ-1.wav" id="BUILD_ECON" volume="255">
+      <STRING>Work on your economy.</STRING>
+    </TAUNT>
+    <TAUNT index="116" file=".\sounds\taunts\work_airforce-2.wav" id="BUILD_AIR" volume="255">
+      <STRING>Work on your air force.</STRING>
+    </TAUNT>
+    <TAUNT index="117" file=".\sounds\taunts\work_navy-3.wav" id="BUILD_NAVY" volume="255">
+      <STRING>Work on your navy.</STRING>
+    </TAUNT>
+    <TAUNT index="118" file=".\sounds\taunts\signal_attack-3.wav" id="BUILD_ECON" volume="255">
+      <STRING>Wait for my signal to attack.</STRING>
+    </TAUNT>
+    <TAUNT index="119" file=".\sounds\taunts\attack-3.wav" id="ATTACK" volume="255">
+      <STRING>Attack!</STRING>
+    </TAUNT>
+    <TAUNT index="120" file=".\sounds\taunts\get_em-2.wav" id="ATTACK" volume="255">
+      <STRING>Let's get 'em.</STRING>
+    </TAUNT>
+    <TAUNT index="121" file=".\sounds\taunts\guard_artillery-2.wav" id="GUARD" volume="255">
+      <STRING>Guard my artillery.</STRING>
+    </TAUNT>
+    <TAUNT index="122" file=".\sounds\taunts\move_troops-2.wav" id="HELP" volume="255">
+      <STRING>Move troops here.</STRING>
+    </TAUNT>
+    <TAUNT index="123" file=".\sounds\taunts\grab_territory-1.wav" id="" volume="255">
+      <STRING>Grab some territory.</STRING>
+    </TAUNT>
+    <TAUNT index="124" file=".\sounds\taunts\gonna_boom-2.wav" id="BOOMING" volume="255">
+      <STRING>Gonna boom.</STRING>
+    </TAUNT>
+    <TAUNT index="125" file=".\sounds\taunts\gonna_rush-1.wav" id="RUSHING" volume="255">
+      <STRING>Gonna rush.</STRING>
+    </TAUNT>
+    <TAUNT index="126" file=".\sounds\taunts\wanna_ally-3.wav" id="" volume="255">
+      <STRING>Wanna ally?</STRING>
+    </TAUNT>
+    <TAUNT index="127" file=".\sounds\taunts\wanna_peace-3.wav" id="" volume="255">
+      <STRING>Wanna make peace?</STRING>
+    </TAUNT>
+    <TAUNT index="128" file=".\sounds\taunts\means_war-3.wav" id="" volume="255">
+      <STRING>Of course you realize, this means war...</STRING>
+    </TAUNT>
+    <TAUNT index="129" file=".\sounds\taunts\pay_die-1.wav" id="" volume="255">
+      <STRING>Pay up or die.</STRING>
+    </TAUNT>
+    <TAUNT index="130" file=".\sounds\taunts\prepare_crushed-1.wav" id="" volume="255">
+      <STRING>Prepare to be crushed.</STRING>
+    </TAUNT>
+    <TAUNT index="131" file=".\sounds\taunts\who_attack-3.wav" id="" volume="255">
+      <STRING>Who we gonna attack?</STRING>
+    </TAUNT>
+    <TAUNT index="132" file=".\sounds\taunts\when_attack-2.wav" id="" volume="255">
+      <STRING>When shall we attack?</STRING>
+    </TAUNT>
+    <TAUNT index="133" file=".\sounds\taunts\where_enemy-1.wav" id="" volume="255">
+      <STRING>Where's the enemy?</STRING>
+    </TAUNT>
+    <TAUNT index="134" file=".\sounds\taunts\airpower-3.wav" id="" volume="255">
+      <STRING>They've got air power.</STRING>
+    </TAUNT>
+    <TAUNT index="135" file=".\sounds\taunts\ships_ahoy-3.wav" id="" volume="255">
+      <STRING>Ships ahoy!</STRING>
+    </TAUNT>
+    <TAUNT index="136" file=".\sounds\taunts\spy_spy-3.wav" id="" volume="255">
+      <STRING>I spy a spy.</STRING>
+    </TAUNT>
+    <TAUNT index="137" file=".\sounds\taunts\rare_resources-3.wav" id="" volume="255">
+      <STRING>Rare resources for the taking.</STRING>
+    </TAUNT>
+    <TAUNT index="138" file=".\sounds\taunts\city_down-1.wav" id="" volume="255">
+      <STRING>The city is going down.</STRING>
+    </TAUNT>
+    <TAUNT index="139" file=".\sounds\taunts\checkouttimer-2.wav" id="" volume="255">
+      <STRING>Check out the timer.</STRING>
+    </TAUNT>
+    <TAUNT index="140" file=".\sounds\taunts\setup_shop-2.wav" id="" volume="255">
+      <STRING>Let's set up shop.</STRING>
+    </TAUNT>
+    <TAUNT index="141" file=".\sounds\taunts\wanna_bet-2.wav" id="" volume="255">
+      <STRING>Wanna bet?</STRING>
+    </TAUNT>
+    <TAUNT index="142" file=".\sounds\taunts\itson-1.wav" id="" volume="255">
+      <STRING>It's on.</STRING>
+    </TAUNT>
+    <TAUNT index="143" file=".\sounds\taunts\supposed_hurt-1.wav" id="" volume="255">
+      <STRING>Was that supposed to hurt?</STRING>
+    </TAUNT>
+    <TAUNT index="144" file=".\sounds\taunts\fixed_problem-1.wav" id="" volume="255">
+      <STRING>Have you fixed your little problem?</STRING>
+    </TAUNT>
+    <TAUNT index="145" file=".\sounds\taunts\good_luck-1.wav" id="" volume="255">
+      <STRING>Good luck with that.</STRING>
+    </TAUNT>
+    <TAUNT index="146" file=".\sounds\taunts\works_out-1.wav" id="" volume="255">
+      <STRING>Let me know how that works out for you.</STRING>
+    </TAUNT>
+    <TAUNT index="147" file=".\sounds\taunts\slow_ahead-3.wav" id="" volume="255">
+      <STRING>I may be slow, but I'm ahead of you.</STRING>
+    </TAUNT>
+    <TAUNT index="148" file=".\sounds\taunts\classy-3.wav" id="" volume="255">
+      <STRING>Classy.</STRING>
+    </TAUNT>
+    <TAUNT index="149" file=".\sounds\taunts\tutorials_noob-1.wav" id="" volume="255">
+      <STRING>Play the tutorials, noob.</STRING>
+    </TAUNT>
+    <TAUNT index="150" file=".\sounds\taunts\wake_done-1.wav" id="" volume="255">
+      <STRING>Wake me up when you're done.</STRING>
+    </TAUNT>
+    <TAUNT index="151" file=".\sounds\taunts\get_outta-3.wav" id="" volume="255">
+      <STRING>Get outta my face.</STRING>
+    </TAUNT>
+    <TAUNT index="152" file=".\sounds\taunts\leavemealone-2.wav" id="" volume="255">
+      <STRING>Leave me alone.</STRING>
+    </TAUNT>
+    <TAUNT index="153" file=".\sounds\taunts\need_that-3.wav" id="" volume="255">
+      <STRING>'Cause you need that.</STRING>
+    </TAUNT>
+    <TAUNT index="154" file=".\sounds\taunts\over_yet-4.wav" id="" volume="255">
+      <STRING>Is it over yet?</STRING>
+    </TAUNT>
+    <TAUNT index="155" file=".\sounds\taunts\parents_late-2.wav" id="" volume="255">
+      <STRING>Do your parents know you're up this late?</STRING>
+    </TAUNT>
+    <TAUNT index="156" file=".\sounds\taunts\you_ok-1.wav" id="" volume="255">
+      <STRING>You okay over there?</STRING>
+    </TAUNT>
+    <TAUNT index="157" file=".\sounds\taunts\stayout-1.wav" id="" volume="255">
+      <STRING>And stay out!</STRING>
+    </TAUNT>
+    <TAUNT index="158" file=".\sounds\taunts\bwahaha-1.wav" id="" volume="255">
+      <STRING>Bwa ha ha ha ha!</STRING>
+    </TAUNT>
+    <TAUNT index="159" file=".\sounds\taunts\stormin_castle-1.wav" id="" volume="255">
+      <STRING>Have fun stormin the castle.</STRING>
+    </TAUNT>
+    <TAUNT index="160" file=".\sounds\taunts\randomrandom-2.wav" id="" volume="255">
+      <STRING>Random! Random!</STRING>
+    </TAUNT>
+    <TAUNT index="161" file=".\sounds\taunts\randomrandom-4.wav" id="" volume="255">
+      <STRING>RanDOM! RanDOM!</STRING>
+    </TAUNT>
+    <TAUNT index="162" file=".\sounds\taunts\game_begin-3.wav" id="" volume="255">
+      <STRING>Let the game begin.</STRING>
+    </TAUNT>
+    <TAUNT index="163" file=".\sounds\taunts\dude_pickem-1.wav" id="" volume="255">
+      <STRING>Dude, we know who you're going to take. Just pick 'em and get on with it.</STRING>
+    </TAUNT>
+    <TAUNT index="164" file=".\sounds\taunts\click_understand-2.wav" id="" volume="255">
+      <STRING>Which part of "Click in" didn't you understand?</STRING>
+    </TAUNT>
+    <TAUNT index="165" file=".\sounds\taunts\what_holdup-2.wav" id="" volume="255">
+      <STRING>What's the holdup?</STRING>
+    </TAUNT>
+    <TAUNT index="166" file=".\sounds\taunts\ahh-1.wav" id="" volume="255">
+      <STRING>Ahhh.</STRING>
+    </TAUNT>
+    <TAUNT index="167" file=".\sounds\taunts\uhh_uhh-1.wav" id="" volume="255">
+      <STRING>Unh Unh Unh.</STRING>
+    </TAUNT>
+    <TAUNT index="168" file=".\sounds\taunts\ohhh-4.wav" id="" volume="255">
+      <STRING>Ohhh.</STRING>
+    </TAUNT>
+    <TAUNT index="169" file=".\sounds\taunts\uhhh-2.wav" id="" volume="255">
+      <STRING>Ughhhhhhhh.</STRING>
+    </TAUNT>
+    <TAUNT index="170" file=".\sounds\taunts\unh-3.wav" id="" volume="255">
+      <STRING>Unh!</STRING>
+    </TAUNT>
+    <TAUNT index="171" file=".\sounds\taunts\doomed-1.wav" id="" volume="255">
+      <STRING>We're doomed!</STRING>
+    </TAUNT>
+    <TAUNT index="172" file=".\sounds\taunts\wanngiveup-2.wav" id="" volume="255">
+      <STRING>Wanna give up?</STRING>
+    </TAUNT>
+    <TAUNT index="173" file=".\sounds\taunts\victoryismine-3.wav" id="" volume="255">
+      <STRING>Victory is mine!</STRING>
+    </TAUNT>
+    <TAUNT index="174" file=".\sounds\taunts\owmyeye-1.wav" id="" volume="255">
+      <STRING>Oww! My eye!</STRING>
+    </TAUNT>
+    <TAUNT index="175" file=".\sounds\taunts\notintheface-1.wav" id="" volume="255">
+      <STRING>Not in the face! Not in the face!</STRING>
+    </TAUNT>
+    <TAUNT index="176" file=".\sounds\taunts\coming-4.wav" id="" volume="255">
+      <STRING>Coming.</STRING>
+    </TAUNT>
+    <TAUNT index="177" file=".\sounds\taunts\berightthere-1.wav" id="" volume="255">
+      <STRING>Be right there.</STRING>
+    </TAUNT>
+    <TAUNT index="178" file=".\sounds\taunts\onmyway-1.wav" id="" volume="255">
+      <STRING>On my way.</STRING>
+    </TAUNT>
+    <TAUNT index="179" file=".\sounds\taunts\send_help-1.wav" id="" volume="255">
+      <STRING>I'm trying to send some help.</STRING>
+    </TAUNT>
+    <TAUNT index="180" file=".\sounds\taunts\gotchacovered-3.wav" id="" volume="255">
+      <STRING>Gotcha covered.</STRING>
+    </TAUNT>
+    <TAUNT index="181" file=".\sounds\taunts\check-2.wav" id="" volume="255">
+      <STRING>Check.</STRING>
+    </TAUNT>
+    <TAUNT index="182" file=".\sounds\taunts\itshallbedone-1.wav" id="" volume="255">
+      <STRING>It shall be done.</STRING>
+    </TAUNT>
+    <TAUNT index="183" file=".\sounds\taunts\rightonthat-2.wav" id="" volume="255">
+      <STRING>Let me get right on that.</STRING>
+    </TAUNT>
+    <TAUNT index="184" file=".\sounds\taunts\sweet-3.wav" id="" volume="255">
+      <STRING>Sweet.</STRING>
+    </TAUNT>
+    <TAUNT index="185" file=".\sounds\taunts\youdaman-2.wav" id="" volume="255">
+      <STRING>You da man.</STRING>
+    </TAUNT>
+    <TAUNT index="186" file=".\sounds\taunts\talking_about-1.wav" id="" volume="255">
+      <STRING>That's what I'm talking about.</STRING>
+    </TAUNT>
+    <TAUNT index="187" file=".\sounds\taunts\takencareof-3.wav" id="" volume="255">
+      <STRING>Consider it taken care of.</STRING>
+    </TAUNT>
+    <TAUNT index="188" file=".\sounds\taunts\soundslikeaplan-2.wav" id="" volume="255">
+      <STRING>Sounds like a plan.</STRING>
+    </TAUNT>
+    <TAUNT index="189" file=".\sounds\taunts\groovy-3.wav" id="" volume="255">
+      <STRING>Groovy.</STRING>
+    </TAUNT>
+    <TAUNT index="190" file=".\sounds\taunts\color_red-1.wav" id="" volume="255">
+      <STRING>Red</STRING>
+    </TAUNT>
+    <TAUNT index="191" file=".\sounds\taunts\color_blue-1.wav" id="" volume="255">
+      <STRING>Blue</STRING>
+    </TAUNT>
+    <TAUNT index="192" file=".\sounds\taunts\color_purple-2.wav" id="" volume="255">
+      <STRING>Purple</STRING>
+    </TAUNT>
+    <TAUNT index="193" file=".\sounds\taunts\color_green-1.wav" id="" volume="255">
+      <STRING>Green</STRING>
+    </TAUNT>
+    <TAUNT index="194" file=".\sounds\taunts\color_yellow.wav" id="" volume="255">
+      <STRING>Yellow</STRING>
+    </TAUNT>
+    <TAUNT index="195" file=".\sounds\taunts\color_ltblue-1.wav" id="" volume="255">
+      <STRING>Light Blue</STRING>
+    </TAUNT>
+    <TAUNT index="196" file=".\sounds\taunts\color_white-3.wav" id="" volume="255">
+      <STRING>White</STRING>
+    </TAUNT>
+    <TAUNT index="197" file=".\sounds\taunts\color_orange-2.wav" id="" volume="255">
+      <STRING>Orange</STRING>
+    </TAUNT>
+    <TAUNT index="198" file=".\sounds\taunts\humanity-3.wav" id="" volume="255">
+      <STRING>Aaaaagh! The Humanity!</STRING>
+    </TAUNT>
+    <TAUNT index="199" file=".\sounds\taunts\getthat-3.wav" id="" volume="255">
+      <STRING>Let me get that for you.</STRING>
+    </TAUNT>
+    <TAUNT index="200" file=".\sounds\taunts\keep_risin-1.wav" id="" volume="255">
+      <STRING>They keep on rising!</STRING>
+    </TAUNT>
+  </TAUNTS>
+</ROOT>

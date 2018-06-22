@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by XMLSPY 5 Professional Ed. Release 2 (Big Huge Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Isaac Ellis (Big Huge Games) -->
+<ROOT>
+  <!-- BonusCard data[0] determines if this is a strategic card or not, data[1] is whether or not this card is tactical or not, data[2] is if this card is part of the standard deck, data[3] is if this card can appear on the map, data[4] is if you can play two of these... tactical only, data[5] is the value of the card in tribute-->
+  <CATEGORIES id="conquest_bonus_cards" name="Conquest Bonus Cards" title="Conquest Bonus Cards">
+    <CATEGORY name="$TRIBE0 Oath of Fealty" key="$TRIBE0 Oath of Fealty" desc="Gain this nation's special powers for one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>70</DATA>
+    </CATEGORY>
+    <CATEGORY name="Wonder of the World" key="Wonder of the World" desc="Build a Wonder from this Age or an earlier Age in any occupied territory.">
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>60</DATA>
+    </CATEGORY>
+    <CATEGORY name="Sabotage" key="Sabotage" desc="Reduce the territory strength of an enemy territory by two levels.">
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>50</DATA>
+    </CATEGORY>
+    <CATEGORY name="$TECHCAT0 Eureka" key="$TECHCAT0 Eureka" desc="Start one battle with extra technology.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>50</DATA>
+    </CATEGORY>
+    <CATEGORY name="$RES0 Economic Boom" key="$RES0 Economic Boom" desc="Receive a 5% boost in production for this resource in one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>30</DATA>
+    </CATEGORY>
+    <CATEGORY name="Mercenaries" key="Mercenaries" desc="Begin one battle with extra troops.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>60</DATA>
+    </CATEGORY>
+    <CATEGORY name="Treachery" key="Treachery" desc="Gain any non-capital territory without a fight. Target territory must be adjacent to your nation and have a strength of four or lower.">
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>0</DATA>
+      <DATA>60</DATA>
+    </CATEGORY>
+    <CATEGORY name="Great Thinker" key="Great Thinker" desc="All research in the next battle is 20% faster and 20% cheaper.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>60</DATA>
+    </CATEGORY>
+    <CATEGORY name="Merchant Guild" key="Merchant Guild" desc="Goods at the Market are 20% cheaper to buy and earn 20% more when sold during one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>40</DATA>
+    </CATEGORY>
+    <CATEGORY name="Logistics" key="Logistics" desc="Units heal 100% faster and are immune to attrition damage during one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>40</DATA>
+    </CATEGORY>
+    <CATEGORY name="Partisans" key="Partisans" desc="Invading enemy troops take 50% more attrition damage during one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>40</DATA>
+    </CATEGORY>
+    <CATEGORY name="Cultural Dominance" key="Cultural Dominance" desc="Enemy nations are deprived of their nation powers for one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>50</DATA>
+    </CATEGORY>
+    <CATEGORY name="Trade Embargo" key="Trade Embargo" desc="Enemy nations gain no benefit from their strategic resources in one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>60</DATA>
+    </CATEGORY>
+    <CATEGORY name="Propaganda" key="Propaganda" desc="Gain the use of the enemy nation power for one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>60</DATA>
+    </CATEGORY>
+    <CATEGORY name="Skill Bonus" key="Skill Bonus" desc="Start one battle with bonus +$NUM0 of each resource.  The bonus amount depends on your performance in the battle where it was awarded.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>40</DATA>
+    </CATEGORY>
+    <CATEGORY name="Commandeer Transport" key="Commandeer Transport" desc="Transport one army to any territory that you control that does not have an army.">
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>40</DATA>
+    </CATEGORY>
+    <CATEGORY name="Brigands" key="Brigands" desc="Reduce an enemy's Capital territory strength by half.">
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>60</DATA>
+    </CATEGORY>
+    <CATEGORY name="Spy Network" key="Spy Network" desc="Start a battle with the map explored.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>40</DATA>
+    </CATEGORY>
+    <CATEGORY name="Elephant Army" key="Elephant Brigade" desc="Start a battle with a brigade of War Elephants.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>60</DATA>
+    </CATEGORY>
+    <CATEGORY name="General Parmenio" key="General Parmenio" desc="Start a battle with General Parmenio. Gives extra Cavalry and increases the attack of nearby Cavalry. Ambush lasts longer and costs less craft. He may be played twice.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>50</DATA>
+    </CATEGORY>
+    <CATEGORY name="General Antipater" key="General Antipater" desc="Start a battle with General Antipater. Increases garrison strength. Can Entrench anywhere at 2x speed. While card is held, receive 2x tribute when no attack is made.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>70</DATA>
+    </CATEGORY>
+    <CATEGORY name="General Ptolemy" key="General Ptolemy" desc="Start a battle with General Ptolemy. Units in radius have +1 defense, ranged units shoot further, and siege units have +1 attack. Egyptians will not attack while card is held.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>50</DATA>
+    </CATEGORY>
+    <CATEGORY name="General Memnon" key="General Memnon" desc="Start a battle with General Memnon. Always cloaked. 2x craft regeneration speed. Makes nearby Greek Mercenaries as powerful as Phalanx. Play on the strategic map to upgrade a territory 4 levels.">
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>40</DATA>
+    </CATEGORY>
+    <CATEGORY name="General Spitamenes" key="General Spitamenes" desc="Start a battle with General Spitamenes. Adds extra cavalry. Raises speed and attack of Horse Archers in his radius. On strategic map, turns enemy territory barbarian.">
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>30</DATA>
+    </CATEGORY>
+    <CATEGORY name="General Porus" key="General Porus" desc="Start a battle with General Porus. Speed bonus to nearby War Elephants, creates 2x decoys, and sees cloaked units. While held, you can build War Elephants.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>70</DATA>
+    </CATEGORY>
+    <CATEGORY name="Traitors" key="Traitors" desc="Get Informers at all enemy military buildings for one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>50</DATA>
+    </CATEGORY>
+    <CATEGORY name="Colony Blockade" key="Colony Blockade" desc="Prevent an enemy from receiving colony income and rare resources for two turns.">
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>60</DATA>
+    </CATEGORY>
+    <CATEGORY name="Political Dissidents" key="Political Dissidents" desc="Disable the enemy's ability to implement governments for one battle.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>50</DATA>
+    </CATEGORY>
+    <CATEGORY name="Spy Academy" key="Spy Academy" desc="Start one battle with $NUM0 extra Spies.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>30</DATA>
+    </CATEGORY>
+    <CATEGORY name="Continental System" key="Continental System" desc="Reduce Great Britain's territory strength by two.">
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>5</DATA>
+    </CATEGORY>
+    <CATEGORY name="Letter of Marque" key="Letter of Marque" desc="Take up to $NUM0 tribute from any nation.">
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>15</DATA>
+    </CATEGORY>
+    <CATEGORY name="Warpath" key="Warpath" desc="Start one battle with a Barracks, Stable, Siege Factory, and 2 military technologies.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>50</DATA>
+    </CATEGORY>
+    <CATEGORY name="Missionaries" key="Missionaries" desc="Temple has $NUM0% greater effect on Borders, Taxation, and City hit points.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>50</DATA>
+    </CATEGORY>
+    <CATEGORY name="Population Boom" key="Population Boom" desc="Start one battle with $NUM0 extra Citizens.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>40</DATA>
+    </CATEGORY>
+    <CATEGORY name="Advisor Fouché" key="Advisor Fouche" desc="Can force two nations to go to war if played on the strategic map. In a battle, is a triple craft Spy who reveals the map.">
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>15</DATA>
+    </CATEGORY>
+    <CATEGORY name="Advisor Talleyrand" key="Advisor Talleyrand" desc="Can force a nation to ally with you or go to war with you for one turn and then return to the original diplomatic state.">
+      <DATA>1</DATA>
+      <DATA> 0</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>15</DATA>
+    </CATEGORY>
+    <CATEGORY name="Commander Schwarzenberg" key="Commander Schwarzenberg" desc="Austria will not attack you while held. Appears in battle as an always cloaked Commando. He starts with $NUM0 Commandos, and increases their recharge rate.">
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>20</DATA>
+    </CATEGORY>
+    <CATEGORY name="Commander Paoli" key="Commander Paoli" desc="Appears in battle as a Commando with double hit points and fast snipe and sabotage. On the strategic map, Paoli can liberate another nation's vassal. ">
+      <DATA>1</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>1</DATA>
+      <DATA>0</DATA>
+      <DATA>20</DATA>
+    </CATEGORY>
+  </CATEGORIES>
+  <CATEGORIES id="conquest_stances">
+    <CATEGORY name="War" key="War"/>
+    <CATEGORY name="Peace" key="Peace"/>
+    <CATEGORY name="Ally" key="Ally"/>
+    <CATEGORY name="Vassal" key="Vassal"/>
+  </CATEGORIES>
+  <CATEGORIES id="conquest_attitudes">
+    <CATEGORY name="Benevolent">
+      <DATA>0</DATA>
+      <DATA>2</DATA>
+    </CATEGORY>
+    <CATEGORY name="Enthusiastic">
+      <DATA>2</DATA>
+      <DATA>5</DATA>
+    </CATEGORY>
+    <CATEGORY name="Friendly">
+      <DATA>5</DATA>
+      <DATA>8</DATA>
+    </CATEGORY>
+    <CATEGORY name="Cordial">
+      <DATA>8</DATA>
+      <DATA>11</DATA>
+    </CATEGORY>
+    <CATEGORY name="Suspicious">
+      <DATA>11</DATA>
+      <DATA>14</DATA>
+    </CATEGORY>
+    <CATEGORY name="Hostile">
+      <DATA>14</DATA>
+      <DATA>18</DATA>
+    </CATEGORY>
+    <CATEGORY name="Hateful">
+      <DATA>18</DATA>
+      <DATA>21</DATA>
+    </CATEGORY>
+  </CATEGORIES>
+  <CATEGORIES id="conquest_map_styles">
+    <CATEGORY name="Standard" key="Standard"/>
+    <CATEGORY name="Standard No City" key="Standard No City"/>
+    <CATEGORY name="Standard Player City" key="Standard Player City"/>
+    <CATEGORY name="Standard Enemy City" key="Standard Enemy City"/>
+    <CATEGORY name="Defender" key="Defender"/>
+    <CATEGORY name="Attacker" key="Attacker"/>
+    <CATEGORY name="Attacker Defense" key="Attacker Defense"/>
+    <CATEGORY name="Defender Attack" key="Defender Attack"/>
+    <CATEGORY name="Custom" key="Custom"/>
+  </CATEGORIES>
+  <CATEGORIES id="conquest_game_cats">
+    <CATEGORY name="Offensive" key="Offensive"/>
+    <CATEGORY name="Defensive" key="Defensive"/>
+    <CATEGORY name="Barbarian" key="Barbarian"/>
+    <CATEGORY name="Custom" key="Custom"/>
+    <CATEGORY name="Espionage USA" key="EspionageUSA"/>
+    <CATEGORY name="Espionage USSR" key="EspionageUSSR"/>
+  </CATEGORIES>
+  <CATEGORIES id="conquest_rankings">
+    <CATEGORY name="Primordial Ooze"/>
+    <CATEGORY name="Intern"/>
+    <CATEGORY name="Programmer"/>
+    <CATEGORY name="Cro-Mag"/>
+    <CATEGORY name="Human"/>
+    <CATEGORY name="Dolphin"/>
+    <CATEGORY name="Aquaman"/>
+    <CATEGORY name="Stephen Hawking"/>
+    <CATEGORY name="Spiritual Machine"/>
+    <CATEGORY name="Jason Coleman"/>
+  </CATEGORIES>
+  <CONQUESTSTYLES>
+    <DEFENSIVE>
+      <STYLE title="Surprise Attack!" eliminations="Sudden Death Capital" victories="Time Limit" min_victory="15" max_victory="15" revealmaps="Explored" map_style="Defender" setup=".\conquest\scripts\defsetup0.bhs" runtime=".\conquest\scripts\defruntime1.bhs" objective="Defend your capital for 15 minutes." description="Your enemy has launched a surprise attack on this territory.  Hold off the attackers and defend your capital to achieve victory." victory_text="You have won the battle." defeat_text="You have lost the battle." land_only="1"/>
+      <STYLE title="Guerrilla Warfare" eliminations="Conquest" victories="Time Limit" min_victory="15" max_victory="15" mapsizes="Arena" map_style="Defender Attack" setup=".\conquest\Alexander\guerillasetup.bhs" runtime=".\conquest\Alexander\guerillaruntime.bhs" objective="Destroy 25 enemy units." description="The enemy has taken several of your cities. Their morale is not very high, however if enough of their men are eliminated they will likely retreat." victory_text="You have won the battle." defeat_text="You have lost the battle." land_only="1"/>
+      <STYLE title="Conquest" eliminations="Capital" victories="Time Limit" min_victory="90" max_victory="90" runtime=".\conquest\scripts\conquestruntime.bhs" objective="Capture the enemy capital(s) or hold out for $NUM0 minutes." description="You are being invaded by a treacherous neighbor. Take the enemy capital(s) or hold off their assault for $NUM0 minutes to force them to withdraw." victory_text="You have won the battle." defeat_text="You have lost the battle." default="1"/>
+    </DEFENSIVE>
+    <OFFENSIVE>
+      <STYLE title="Conquest" eliminations="Capital" victories="Time Limit" min_victory="90" max_victory="90" runtime=".\conquest\scripts\conquestruntime.bhs" objective="Capture the enemy capital(s) in $NUM0 minutes." description="The enemy is resisting your invasion. Take their capital(s) in $NUM0 minutes or less to win." victory_text="You have won the battle." defeat_text="You have lost the battle." default="1"/>
+      <STYLE title="Field Battle" eliminations="Conquest" victories="Time Limit" min_victory="15" max_victory="15" no_rare="1" revealmaps="Explored" map_sizes="Tiny" map_style="Standard No City" setup=".\conquest\scripts\battlesetup.bhs" runtime=".\conquest\scripts\battleruntime.bhs" bonus=".\conquest\scripts\battlebonus.bhs" objective="Destroy the enemy's encampment." description="Your army is approaching the enemy's army.  Attack their encampment and destroy all their buildings in order to win." victory_text="You have won the battle." defeat_text="You have lost the battle." land_only="1"/>
+      <STYLE title="Tactics" eliminations="Conquest" victories="Time Limit" min_victory="15" max_victory="15" map_style="Defender" setup=".\conquest\scripts\offsetup0.bhs" runtime=".\conquest\scripts\offruntime0.bhs" bonus=".\conquest\scripts\battlebonus.bhs" objective="Find and capture the enemy's capital." description="Expecting no resistance to your invasion, no support troops were included in your expeditionary force.  A fortified city has been encountered, however, and must be eliminated." victory_text="You have won the battle." defeat_text="You have lost the battle."/>
+      <STYLE title="Supply Train" eliminations="Conquest" victories="Time Limit" min_victory="15" max_victory="15" no_rare="1" mapsizes="Arena" map_style="Standard No City" setup=".\conquest\Alexander\supplytrainsetup.bhs" runtime=".\conquest\Alexander\supplytrainruntime.bhs" bonus=".\conquest\Alexander\supplybonus.bhs" description="The enemy army has decided that they cannot win this battle and are fleeing with all of their supplies. Destroy their Supply Wagons to gain these supplies for yourself, but be careful; the enemy is not totally helpless. Keep at least one of your units alive until the timer runs out to achieve victory." victory_text="You have won the battle." defeat_text="You have lost the battle" land_only="1"/>
+      <STYLE title="Hideaway" eliminations="Conquest" victories="Time Limit" min_victory="30" max_victory="30" mapsizes="Arena" map_style="Standard Player City" setup=".\conquest\Alexander\hideawaysetup.bhs" runtime=".\conquest\Alexander\hideawayruntime.bhs" objective="Eliminate all enemy Generals or control 70% of the territory." description="The enemy's army is tied up elsewhere, so they have hired mercenaries. These mercenaries can survive without a City and they suffer no attrition. To find them will require some careful scouting; they are aware of your presence and will certainly set up ambushes. And beware--they will raid your homeland relentlessly." victory_text="You have rooted out the mercenaries." defeat_text="The mercenaries have overwhelmed you." land_only="1"/>
+      <STYLE title="Ambush" eliminations="Conquest" victories="Time Limit" min_victory="90" max_victory="90" min_age="1" setup=".\conquest\scripts\offsetup1.bhs" runtime=".\conquest\scripts\offruntime1.bhs" objective="Find and capture the enemy's capital in 90 minutes." description="Your army has reached the largest enemy settlement in this territory. Capture the capital in 90 minutes and the territory will fall. The enemy leader is crafty, so beware of ambush by the enemy troops. " victory_text="You have won the battle." defeat_text="You have lost the battle." land_only="1"/>
+    </OFFENSIVE>
+    <BARBARIAN>
+      <STYLE title="Melee" eliminations="Capital" victories="Time Limit" not_first_time="1" add_opponents_diff0="1" add_opponents_diff1="1" add_opponents_diff2="1" add_opponents_diff3="1" add_opponents_diff4="1" add_opponents_diff5="2" min_victory="90" max_victory="90" setup=".\conquest\scripts\meleesetup.bhs" runtime=".\conquest\scripts\meleeruntime.bhs" objective="Capture the enemy capital or defeat them by capturing territory in $NUM0 minutes." description="The barbarians in this territory are hostile and must be eliminated. Defeat them by capturing their capitals or capturing most of their territory in $NUM0 minutes." victory_text="You have won the battle." defeat_text="You have lost the battle." land_only="1"/>
+      <STYLE title="Tactics" eliminations="Conquest" victories="Time Limit" not_first_time="1" min_victory="15" max_victory="15" map_style="Defender" setup=".\conquest\scripts\offsetup0.bhs" runtime=".\conquest\scripts\offruntime0.bhs" bonus=".\conquest\scripts\battlebonus.bhs" objective="Find and capture the enemy's capital." description="Expecting no resistance to your invasion, no support troops were included in your expeditionary force.  A fortified city has been encountered, however, and must be eliminated." victory_text="You have won the battle." defeat_text="You have lost the battle." water_only="1"/>
+      <STYLE title="Barbarian Rally" eliminations="Sudden Death Capital" victories="Time Limit" min_victory="15" max_victory="15" map_style="Attacker Defense" setup=".\conquest\scripts\defsetup0.bhs" runtime=".\conquest\scripts\defruntime0.bhs" objective="Defend your capital for 15 minutes." description="Your armies encountered no resistance in taking the territory.  However, the natives have rallied and are assaulting your new outpost.  Defend your capital until the timer expires to win." victory_text="You have won the battle." defeat_text="You have lost the battle." default="1"/>
+      <STYLE title="Field Battle" eliminations="Conquest" victories="Time Limit" min_victory="15" max_victory="15" no_rare="1" revealmaps="Explored" mapsizes="Tiny" map_style="Standard No City" setup=".\conquest\scripts\battlesetup.bhs" runtime=".\conquest\scripts\battleruntime.bhs" bonus=".\conquest\scripts\battlebonus.bhs" objective="Destroy the enemy's encampment." description="Your army is approaching a barbarian army.  Attack their encampment and destroy all their buildings in order to win." victory_text="You have won the battle." defeat_text="You have lost the battle." default="1" land_only="1"/>
+      <STYLE title="Nomad" eliminations="Conquest" victories="Time Limit" not_first_time="1" add_opponents_diff0="2" add_opponents_diff1="2" add_opponents_diff2="2" add_opponents_diff3="2" add_opponents_diff4="2" add_opponents_diff5="2" min_victory="60" max_victory="60" mapsizes="Arena" map_style="Standard Player City" setup=".\conquest\scripts\nomadsetup.bhs" runtime=".\conquest\scripts\nomadruntime.bhs" description="You have successfully established a new settlement, but several nomadic tribes also claim this territory. Eliminate them in order to protect your people." victory_text="You have defeated all of the nomad tribes." defeat_text="You were unable to defeat all of the nomad tribes." land_only="1"/>
+      <STYLE title="Sudden Death" eliminations="Conquest" victories="Time Limit" opp_team_together="1" not_first_time="1" add_opponents_diff0="1" add_opponents_diff1="1" add_opponents_diff2="1" add_opponents_diff3="1" add_opponents_diff4="1" add_opponents_diff5="2" min_victory="90" max_victory="90" runtime=".\conquest\scripts\offruntime5.bhs" objective="Capture one city from each nation to defeat them in $NUM0 minutes." description="The barbarian nations in this region are weak and sure to kneel to your nation if you are able to prove your superiority by capturing one of their cities in $NUM0 minutes. They must capture your capital to defeat you." victory_text="You have won the battle." defeat_text="You have lost the battle." land_only="1"/>
+      <STYLE title="Wheel and Deal" eliminations="Conquest" victories="Time Limit" opp_team_together="" not_first_time="1" gamestyles="Diplomacy" min_age="0" add_opponents_diff0="1" add_opponents_diff1="1" add_opponents_diff2="2" add_opponents_diff3="2" add_opponents_diff4="2" add_opponents_diff5="2" min_victory="120" max_victory="120" runtime=".\conquest\scripts\dipruntime.bhs" objective="Defeat the barbarian tribes in 120 minutes." description="There are several native tribes in this territory vying for power. Use your diplomatic skills to play them off of each other and ensure your own dominance in the area.  Defeat the barbarian tribes in 120 minutes." victory_text="You have won the battle." defeat_text="You have lost the battle." land_only="1"/>
+      <STYLE title="War Party" id="War Party" eliminations="Conquest" victories="Time Limit" min_victory="15" max_victory="15" map_style="Defender" mapsizes="Arena" setup=".\conquest\NewWorld\warpartysetup.bhs" runtime=".\conquest\NewWorld\warpartyruntime.bhs" description="Settlers from far away are encroaching onto your lands. Lead your war party in an effort to drive them off. Destroy 25 enemy units." victory_text="You have won the battle." defeat_text="You have lost the battle." land_only="1"/>
+      <STYLE title="Barbarians at the Gates!" eliminations="Conquest" victories="Time Limit" opp_team_together="1" not_first_time="1" min_age="1" add_opponents_diff0="1" add_opponents_diff1="1" add_opponents_diff2="1" add_opponents_diff3="1" add_opponents_diff4="2" add_opponents_diff5="2" min_victory="25" max_victory="25" setup=".\conquest\scripts\offsetup5.bhs" runtime=".\conquest\scripts\offruntime7.bhs" objective="Hold off the enemy until the timer expires." description="A group of barbarian tribes in this region have united together to destroy you.  Fortunately you brought extra supplies and the barbarians are an Age behind you.  Survive until the timer expires to win." victory_text="You have won the battle." defeat_text="You have lost the battle." land_only="1"/>
+    </BARBARIAN>
+    <CUSTOM/>
+  </CONQUESTSTYLES>
+  <ARMIES min_arrival_time="2" max_arrival_time="4">
+    <UNIT type="slingers" num="1"/>
+    <UNIT type="bowmen" num="1"/>
+    <UNIT type="slingers" num="1" min_diff="2"/>
+    <UNIT type="bowmen" num="1" min_diff="2"/>
+    <UNIT type="slingers" num="1" min_diff="3"/>
+    <UNIT type="bowmen" num="1" min_diff="3"/>
+    <UNIT type="hoplites" num="1" min_diff="4"/>
+    <UNIT type="hoplites" num="1" min_diff="2"/>
+    <UNIT type="horse archer" num="1" min_diff="3"/>
+    <UNIT type="light horse" num="1" min_diff="2"/>
+    <UNIT type="supply wagon" num="1" min_diff="2"/>
+  </ARMIES>
+  <!-- The first city specified handles additional buildings for the standard first city -->
+  <DEFAULT_BUILD_DIFF>Tough</DEFAULT_BUILD_DIFF>
+  <BUILDINGS_EASIEST>
+    <LEVEL>
+      <CITY>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="temple" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="temple" alt="lookout" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" alt="" num="1"/>
+        <BUILD type="temple" alt="lookout" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="temple" alt="lookout" num="1"/>
+        <BUILD type="mine" alt="university" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="4"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="farm" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" num="1"/>
+      </CITY>
+    </LEVEL>
+  </BUILDINGS_EASIEST>
+  <BUILDINGS_EASY>
+    <LEVEL>
+      <CITY>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="temple" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="temple" alt="lookout" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" alt="" num="1"/>
+        <BUILD type="temple" alt="lookout" num="1"/>
+        <BUILD type="mine" alt="farm" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="farm" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="4"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="farm" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+  </BUILDINGS_EASY>
+  <BUILDINGS_MODERATE>
+    <LEVEL>
+      <CITY>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" alt="" num="1"/>
+        <BUILD type="temple" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" alt="" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="lookout" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" alt="" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="university" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="lookout" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="tower" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="temple" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="4"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="tower" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="oil well" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+  </BUILDINGS_MODERATE>
+  <BUILDINGS_TOUGH>
+    <LEVEL>
+      <CITY>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="temple" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" alt="" num="1"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="university" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" alt="" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="dock" alt="farm" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="university" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" alt="" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable " num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="university" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="mine" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="airbase" alt="" num="1"/>
+        <BUILD type="dock" alt="farm" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="farm" num="1"/>
+        <BUILD type="oil well" alt="farm" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="tower" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="4"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="airbase" alt="lookout" num="1"/>
+        <BUILD type="dock" alt="" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="2"/>
+        <BUILD type="mine" alt="tower" num="1"/>
+        <BUILD type="oil well" alt="" num="2"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="woodcutter's camp" num="1"/>
+        <BUILD type="granary" alt="smelter" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="temple" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="granary" num="1"/>
+        <BUILD type="oil well" alt="farm" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="lumber mill" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="oil well" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+  </BUILDINGS_TOUGH>
+  <BUILDINGS_TOUGHER>
+    <LEVEL>
+      <CITY>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="farm" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" alt="" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="university" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="granary" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="farm" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" alt="" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="granary" num="1"/>
+        <BUILD type="oil well" alt="" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" alt="" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="airbase" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="farm" num="1"/>
+        <BUILD type="oil well" alt="farm" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="tower" num="1"/>
+        <BUILD type="granary" alt="lumber mill" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" num="1"/>
+        <BUILD type="mine" alt="granary" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="airbase" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="2"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="oil well" num="2"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="smelter" num="1"/>
+        <BUILD type="lumber mill" alt="" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="lumber mill" num="1"/>
+        <BUILD type="oil well" num="1"/>
+        <BUILD type="market" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="smelter" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="4"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="airbase" alt="stable" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="2"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="2"/>
+        <BUILD type="mine" alt="refinery" num="1"/>
+        <BUILD type="oil well" num="2"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="refinery" num="1"/>
+        <BUILD type="lumber mill" alt="tower" num="1"/>
+        <BUILD type="smelter" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="oil well" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="smelter" num="1"/>
+        <BUILD type="lumber mill" alt="" num="1"/>
+        <BUILD type="refinery" alt="smelter" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+  </BUILDINGS_TOUGHER>
+  <BUILDINGS_TOUGHEST>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="1"/>
+        <BUILD type="tower" alt="" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="farm" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+        <BUILD type="university" alt="tower" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" alt="" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="airbase" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="siege factory" num="1"/>
+        <BUILD type="oil well" alt="" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="market" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" alt="" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="airbase" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="2"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="stable" num="1"/>
+        <BUILD type="oil well" alt="refinery" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="lumber mill" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" alt="tower" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="granary" num="1"/>
+        <BUILD type="oil well" alt="" num="1"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="airbase" alt="stable" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="2"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="mine" alt="stable" num="1"/>
+        <BUILD type="oil well" alt="refinery" num="2"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="smelter" num="1"/>
+        <BUILD type="lumber mill" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="oil well" alt="farm" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="lumber mill" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="2"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+      </CITY>
+    </LEVEL>
+    <LEVEL>
+      <CITY>
+        <BUILD type="lookout" num="4"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="stable" num="2"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="airbase" alt="stable" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="2"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="2"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="oil well" num="2"/>
+        <BUILD type="market" alt="tower" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="tower" num="1"/>
+        <BUILD type="lumber mill" alt="tower" num="1"/>
+        <BUILD type="smelter" alt="" num="1"/>
+        <BUILD type="refinery" num="1"/>
+        <BUILD type="senate" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="4"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="2"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="siege factory" num="1"/>
+        <BUILD type="airbase" num="1"/>
+        <BUILD type="dock" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="4"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="oil well" alt="refinery" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="refinery" num="1"/>
+        <BUILD type="lumber mill" num="1"/>
+        <BUILD type="smelter" num="1"/>
+        <BUILD type="refinery" num="1"/>
+      </CITY>
+      <CITY>
+        <BUILD type="lookout" num="3"/>
+        <BUILD type="tower" num="2"/>
+        <BUILD type="barracks" num="1"/>
+        <BUILD type="stable" num="1"/>
+        <BUILD type="fort" num="1"/>
+        <BUILD type="temple" alt="tower" num="1"/>
+        <BUILD type="farm" num="3"/>
+        <BUILD type="woodcutter's camp" alt="farm" num="1"/>
+        <BUILD type="mine" alt="oil well" num="1"/>
+        <BUILD type="market" alt="farm" num="1"/>
+        <BUILD type="university" alt="lookout" num="1"/>
+        <BUILD type="granary" alt="smelter" num="1"/>
+        <BUILD type="lumber mill" num="1"/>
+      </CITY>
+    </LEVEL>
+  </BUILDINGS_TOUGHEST>
+  <RESOURCEBONUS_EASIEST>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+  </RESOURCEBONUS_EASIEST>
+  <RESOURCEBONUS_EASY>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+  </RESOURCEBONUS_EASY>
+  <RESOURCEBONUS_MODERATE>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="2"/>
+  </RESOURCEBONUS_MODERATE>
+  <RESOURCEBONUS_TOUGH>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+  </RESOURCEBONUS_TOUGH>
+  <RESOURCEBONUS_TOUGHER>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+  </RESOURCEBONUS_TOUGHER>
+  <RESOURCEBONUS_TOUGHEST>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="1"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+    <LEVEL bonus="2"/>
+  </RESOURCEBONUS_TOUGHEST>
+  <MIN_NO_ATTACK>
+    <DIFFICULTY0 type="easiest" val="4"/>
+    <DIFFICULTY1 type="easy" val="4"/>
+    <DIFFICULTY2 type="moderate" val="3"/>
+    <DIFFICULTY3 type="tough" val="3"/>
+    <DIFFICULTY4 type="tougher" val="2"/>
+    <DIFFICULTY5 type="toughest" val="2"/>
+  </MIN_NO_ATTACK>
+</ROOT>

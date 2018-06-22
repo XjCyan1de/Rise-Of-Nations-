@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<!-- edited with XMLSPY v5 U (http://www.xmlspy.com) by Jason Coleman (private) -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION LEGAL element (only one)-->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<ROOT>
+  <PATCH>
+    <VERSION>01.14.05.0902</VERSION>
+    <LINE>- GAMESPY: Settings no longer locked in during final game setup.</LINE>    
+    <LINE>- GAMESPY: Auto-kick ignored players, display host in green</LINE>    
+    <LINE>- GAMESPY: Using player name passed from GameSpy Arcade.</LINE>    
+    <LINE>- GAMESPY: Check for player ready relative to GameSpy Arcade.</LINE>    
+    <LINE>- GAMESPY: Removed ping beside player's name (now found in mouseover text).</LINE>    
+    <LINE>- GAMESPY: Fix to "Add to buddy list" popup keeping modality when launching.</LINE>    
+    <LINE>- GAMESPY: Profiles that are ignored are removed from your buddy list.</LINE>    
+    <LINE>- GAMESPY: Fix to switching lobbies not clearing chat buffers.</LINE>        
+    <LINE>- GAMESPY: Buddy list requests now in the language of the player receiving the request, rather than the one sending it.</LINE>   
+    <LINE>- GAMESPY: Improved sorting.</LINE>
+    <LINE>- ScenarioEditor: Fix to pack state persisting in scenarios.</LINE>    
+    <LINE>- ScenarioEditor: Fix for fighter bomber queue crash</LINE>
+    <LINE>- ScenarioEditor: Fix to unqueuing units trashing resources.</LINE>
+    <LINE>- ScenarioEditor: Disabled the "create unit" buttons when the leader does not have enough tech to create the unit.</LINE>
+    <LINE>- ScenarioEditor: Allowing some type editor values to be reset to zero.</LINE>
+    <LINE>- ScenarioEditor: Line of Sight max limit added.</LINE>
+    <LINE>- ScenarioEditor: Added limits for max_range and armor.</LINE>
+    <LINE>- ScenarioEditor: Rush rules now work in scenarios.</LINE>
+    <LINE>- ScenarioEditor: Fix for crashes when re-initing or clearing all while a mine is placed on a mountain.</LINE>
+    <LINE>- SCRIPTING: Increased the # of script timers.</LINE>
+    <LINE>- SCRIPTING: Added sniper ability to script functions.</LINE>
+    <LINE>- SCRIPTING: Gaining non-unit techs now also gains all prerequisites.</LINE>
+    <LINE>- CTW: Overrun and card bug fixes.</LINE>
+    <LINE>- CTW: Purchasing territories fix, cheat key fix.</LINE>
+    <LINE>- CTW: Replay bug fixed.</LINE>    
+    <LINE>- fix script function has_cast_order to get sniping for scenarios working</LINE>
+    <LINE>- fix AI taunts directed toward other teams</LINE>
+    <LINE>- fix AI taunts when sound is disabled</LINE>
+    <LINE>- fix unpacking siege in scen editor</LINE>
+    <LINE>- fix to packet padding in MP (chat).</LINE>
+    <LINE>- fix crash bug in scenario loading</LINE>
+    <LINE>- fix for turkish merchants</LINE>
+    <LINE>- fix for save/load of units that were available but didn't actually exist in the world.</LINE>    
+    <LINE>- MP: Fixed OOS for alt+tab on Win98.</LINE>    
+    <LINE>- SCRIPTING: Fix for find_capital</LINE>
+    <LINE>- ANTI-CHEAT: Additional measures.</LINE>
+    <LINE>- Removed unreferenced anims, added some siege mortar crew default animations</LINE>
+    <LINE>- Fix to possible infinite loop in UI rendering.</LINE>
+  </PATCH>
+  <PATCH>
+    <VERSION>01.14.06.0500</VERSION>
+    <LINE>GAMEPLAY: Fix for Nubian market hack.</LINE>
+    <LINE>SCRIPTING: Fix to scroll trigger.</LINE>
+    <LINE>SCRIPTING: Unnamed script fix.</LINE>
+    <LINE>SCRIPTING: Unnamed script fix.</LINE>
+    <LINE>SCRIPTING: Added pause/unpause functions and access to the real time clock.</LINE>
+    <LINE>GRAPHICS: Rivers now try to connect out to edge of world if possible, so they don't just hang 1/2 wcoord inland, esp for scen editor,</LINE>
+    <LINE>GRAPHICS: Fixed building rescale on resolution change.</LINE>
+    <LINE>GAMESPY: Copy/paste functionality removed from passworded editboxes.</LINE>     
+    <LINE>SAVES: System for preserving saves across versions.</LINE>         
+    <LINE>ANTI-CHEAT: Additional measures.</LINE>         
+    <LINE>PATCHING: Support for different distributions.</LINE>       
+    <LINE>FEATURE: Armageddon removed from Sandbox mode (1-player).</LINE>    
+    <LINE>FIX: Ping sorting in Gamespy interface.</LINE>          
+  </PATCH>
+  <PATCH>
+    <VERSION>01.14.??.????</VERSION>
+    <LINE>GAMESPY: Added the ability to specify an alternate IP address for hosting via matchmaking.</LINE>    
+  </PATCH>
+</ROOT>

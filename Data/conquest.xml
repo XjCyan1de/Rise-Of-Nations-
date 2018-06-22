@@ -1,0 +1,2176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Warroom (Big Huge Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<ROOT>
+  <CONQUESTWIN title="Conquest Game" name="conquestwin" left="0" bottom_inverse="0" percent_width="1000" percent_height="1000" error_persist_time="5" camera_tilt_angle="35" camera_min_zoom="320" camera_max_zoom="320" camera_default_zoom="320" camera_scroll_increment="120" player_alpha="70" vassal_alpha="40" opp_alpha="40">
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_ARROWS" file=".\art\ctw_arrows_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_ARROWS2" file=".\art\CTW_Arrows_Enemy_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_THINK" file=".\art\CTW_globe_anim.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_RSRC" file=".\art\CTW_Spec_Res.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_NUKE" file=".\art\CTW_coldwar_iface.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_WRAPPER_5" file=".\art\wrapper_pieces_06.tga"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACETEX name="icon_army" texture="TEX_CONQ_IFACE_2" left="452" top="191" width="60" height="32"/>
+    <IFACETEX name="icon_strength" texture="TEX_CONQ_IFACE_2" left="404" top="150" width="21" height="21"/>
+    <IFACETEX name="icon_supply" texture="TEX_CONQ_IFACE_2" left="396" top="172" width="22" height="21"/>
+    <IFACETEX name="icon_wonder" texture="TEX_CONQ_IFACE_2" left="382" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_bonus" texture="TEX_CONQ_IFACE_2" left="426" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_rare" texture="TEX_CONQ_IFACE_2" left="404" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_tribute" texture="TEX_CONQ_IFACE_2" left="359" top="106" width="22" height="21"/>
+    <IFACETEX name="icon_nuke" texture="TEX_CONQ_NUKE" left="187" top="159" width="22" height="19"/>
+    <IFACETEX name="icon_bg0" texture="TEX_CONQ_IFACE_2" left="426" top="150" width="2" height="21"/>
+    <IFACETEX name="icon_bg1" texture="TEX_CONQ_IFACE_2" left="429" top="150" width="15" height="21"/>
+    <IFACETEX name="icon_bg2" texture="TEX_CONQ_IFACE_2" left="445" top="150" width="2" height="21"/>
+    <IFACETEX name="icon_highlight" texture="TEX_CONQ_IFACE_2" left="419" top="172" width="28" height="28"/>
+    <IFACETEX name="arrow_attack" texture="TEX_CONQ_ARROWS" left="1" top="0" width="82" height="256"/>
+    <IFACETEX name="arrow_move" texture="TEX_CONQ_ARROWS" left="86" top="0" width="82" height="256"/>
+    <IFACETEX name="arrow_support" texture="TEX_CONQ_ARROWS" left="171" top="0" width="82" height="256"/>
+    <IFACETEX name="arrow_enemy_support" texture="TEX_CONQ_ARROWS2" left="1" top="0" width="82" height="256"/>
+    <IFACETEX name="tactic_sm_white" texture="TEX_CONQ_IFACE_3" left="286" top="294" width="42" height="64"/>
+    <IFACETEX name="strat_sm_white" texture="TEX_CONQ_IFACE_3" left="329" top="294" width="42" height="64"/>
+    <IFACETEX name="strat_sm_gray" texture="TEX_CONQ_IFACE_3" left="329" top="424" width="42" height="64"/>
+    <IFACETEX name="tactic_card" texture="TEX_CONQ_IFACE_3" left="0" top="0" width="192" height="290"/>
+    <IFACETEX name="pull_back" texture="TEX_CONQ_IFACE_2" left="0" top="308" width="204" height="204"/>
+    <IFACETEX name="strat_card" texture="TEX_CONQ_IFACE_3" left="193" top="0" width="192" height="290"/>
+    <IFACETEX name="mini_map_overlay" texture="TEX_MINIMAP_OVERLAY" left="0" top="0" width="248" height="130"/>
+    <IFACETEX name="globe_anim" texture="TEX_CONQ_THINK" left="0" top="0" width="95" height="88"/>
+    <IFACETEX name="globe_border" texture="TEX_CONQ_THINK" left="385" top="1" width="119" height="112"/>
+    <IFACETEX name="nuke_panel" texture="TEX_CONQ_NUKE" left="0" top="180" width="252" height="67"/>
+    <IFACETEX name="buy_nuke_but" texture="TEX_CONQ_NUKE" left="248" top="0" width="61" height="39"/>
+    <IFACETEX name="espionage_but" texture="TEX_CONQ_NUKE" left="310" top="0" width="61" height="39"/>
+    <IFACETEX name="defcon0" texture="TEX_CONQ_NUKE" left="0" top="0" width="20" height="138"/>
+    <IFACETEX name="defcon1" texture="TEX_CONQ_NUKE" left="21" top="0" width="20" height="138"/>
+    <IFACETEX name="defcon2" texture="TEX_CONQ_NUKE" left="42" top="0" width="20" height="138"/>
+    <IFACETEX name="defcon3" texture="TEX_CONQ_NUKE" left="63" top="0" width="20" height="138"/>
+    <IFACETEX name="defcon4" texture="TEX_CONQ_NUKE" left="84" top="0" width="20" height="138"/>
+    <IFACETEX name="defcon5" texture="TEX_CONQ_NUKE" left="105" top="0" width="20" height="138"/>
+    <IFACETEX name="key_off" texture="TEX_CONQ_NUKE" left="187" top="0" width="60" height="75"/>
+    <IFACETEX name="key_on" texture="TEX_CONQ_NUKE" left="187" top="76" width="60" height="75"/>
+    <IFACETEX name="nuke_launch_up" texture="TEX_CONQ_NUKE" left="126" top="0" width="60" height="59"/>
+    <IFACETEX name="nuke_launch_over" texture="TEX_CONQ_NUKE" left="126" top="60" width="60" height="59"/>
+    <IFACETEX name="nuke_launch_down" texture="TEX_CONQ_NUKE" left="126" top="120" width="60" height="59"/>
+    <IFACETEX name="ctw_objectives" texture="TEX_WRAPPER_5" left="0" top="0" width="63" height="66"/>
+    <IFACETEX name="ctw_advisor" texture="TEX_WRAPPER_5" left="192" top="0" width="63" height="66"/>
+    <IFACETEX name="objectives_close" texture="TEX_CONQ_IFACE_4" left="31" top="292" width="18" height="18"/>
+    <WINDOW name="overlay" left="0" top="0" percent_width="1000" percent_height="1000">
+      <STYLE MOUSE_THRU="1" PASS_CONTROLS="1" CHILD="0"/>
+    </WINDOW>
+    <WINDOW name="mini_map" left="10" top="10" width="256" height="138">
+      <STYLE MOUSE_THRU="0" PASS_CONTROLS="1" CHILD="1"/>
+    </WINDOW>
+    <WINDOW name="objectives" left="10" top="230" width="256" height="150">
+      <STYLE MOUSE_THRU="1" PASS_CONTROLS="1" CHILD="1" BOTTOM="1"/>
+    </WINDOW>
+    <WINDOW name="defcon" left="266" top="10" width="20" height="138">
+      <STYLE MOUSE_THRU="0" PASS_CONTROLS="1" CHILD="1"/>
+      <SPOT name="defcon" id="defcon" left="0" top="0" width="20" height="138"/>
+    </WINDOW>
+    <WINDOW name="nuclear" left="10" top="147" width="252" height="67">
+      <STYLE MOUSE_THRU="0" PASS_CONTROLS="1" CHILD="1"/>
+      <SPOT name="num_nukes" left="132" top="40" width="31" height="24"/>
+      <SPOT name="opp_num_nukes" left="160" top="40" width="31" height="24"/>
+      <BUTTON name="nuke_key" left="4" top="4" width="60" height="59"/>
+      <BUTTON name="nuke_launch" left="68" top="4" width="60" height="59"/>
+      <BUTTON name="buy_nuke" left="132" top="4" width="56" height="34"/>
+      <BUTTON name="espionage" left="192" top="4" width="56" height="34"/>
+      <IFACERECT name="num_nukes" left="132" top="42" width="31" height="20"/>
+      <IFACERECT name="opp_num_nukes" left="160" top="42" width="31" height="20"/>
+    </WINDOW>
+    <!--<WINDOW name="error" top="120" center_off_x="0" width="450" height="40">
+      <STYLE MOUSE_THRU="1" PASS_CONTROLS="1" CHILD="1" TOP="1"/>
+    </WINDOW>-->
+    <WINDOW name="help" left="0" top="0" width="400" height="300">
+      <STYLE MOUSE_THRU="1" PASS_CONTROLS="1" CHILD="1" TOP="1"/>
+    </WINDOW>
+    <IFACEBORDER name="main_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACERECT name="error_rect" center_off_x="0" top="120" width="450" height="0"/>
+    <IFACERECT name="card_rect" left="10" bottom_inverse="267" width="192" height="-290"/>
+    <IFACERECT name="card_text_rect" left="16" top="45" width="155" height="185"/>
+    <IFACERECT name="icon_rect" left="0" top="0" width="129" height="101"/>
+    <IFACERECT name="icon_army_rect" left="34" top="0" width="58" height="32"/>
+    <IFACERECT name="icon_bar_rect" left="0" top="15" width="129" height="21"/>
+    <IFACERECT name="icon_mouseover_rect" left="0" top="56" width="0" height="0"/>
+    <IFACERECT name="instruction_rect" top="18" center_off_x="0" width="450" height="10"/>
+    <IFACERECT name="attack_info_rect" right_inverse="10" bottom_inverse="300" width="-400" height="-250"/>
+    <IFACERECT name="globe_border_rect" right_inverse="20" top="20" width="-119" height="112"/>
+    <IFACERECT name="globe_anim_rect" right_inverse="32" top="32" width="-95" height="88"/>
+    <IFACERECT name="obj_text_rect" top="10" left="68" right_inverse="" width="176" height="88"/>
+    <IFACERECT name="objectives_close_rect" top="8" left="244" width="18" height="18"/>
+    <ARROWS arrow_height_ratio=".25" arrow_subdiv_ratio="12.0" arrow_width="4.8"/>
+    <CONQUESTHELPPOINTER name="HELP_ARMY" round="0" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_START" round="-1" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_SUPPLY" round="1" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_CAPITAL" round="2" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_DIPLO" round="3" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_CARD" round="4" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_INFRA" round="5" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_BUY_INFRA" round="6" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_TACTIC_CARD" round="-1" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_STRATEGIC_CARD" round="-1" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_BARBARIAN" round="-1" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_TRIBUTE" round="-1" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_SUPPORT" round="-1" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_MOVE" round="-1" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_RARE_RES" round="7" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_WONDER_CARD" round="-1" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_SPECIAL_GENERAL" round="-1" lock="0"/>
+    <CONQUESTHELPPOINTER name="HELP_STARTING_ALLY" round="0" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_COMMANDER" round="-1" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_STARTING_VASSAL" round="0" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_STARTING_VASSAL_PLURAL" round="0" lock="1"/>
+    <CONQUESTHELPPOINTER name="HELP_ESPIONAGE" round="1" lock="0"/>
+  </CONQUESTWIN>
+  <CONQUESTIFACE title="Conquest Interface" name="conquestiface" left="0" top_inverse="296" percent_width="1000" height="296">
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEX name="main_back" texture="TEX_CONQ_IFACE_1" left="0" top="311" width="512" height="201"/>
+    <IFACETEX name="start_button" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="215" height="32"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_4" left="450" top="471" width="62" height="40"/>
+    <IFACETEX name="diplo_button" texture="TEX_CONQ_IFACE_4" left="471" top="42" width="41" height="41"/>
+    <IFACETEX name="rules_button" texture="TEX_CONQ_IFACE_4" left="429" top="42" width="41" height="41"/>
+    <IFACETEX name="news_button" texture="TEX_CONQ_IFACE_4" left="387" top="42" width="41" height="41"/>
+    <IFACETEX name="status_button" texture="TEX_CONQ_IFACE_4" left="345" top="42" width="41" height="41"/>
+    <IFACETEX name="build_button" texture="TEX_CONQ_IFACE_4" left="303" top="42" width="41" height="41"/>
+    <IFACETEX name="random_card" texture="TEX_CONQ_IFACE_4" left="177" top="42" width="41" height="41"/>
+    <IFACETEX name="sm_button0" texture="TEX_CONQ_IFACE_1" left="447" top="157" width="14" height="24"/>
+    <IFACETEX name="sm_button1" texture="TEX_CONQ_IFACE_1" left="462" top="157" width="35" height="24"/>
+    <IFACETEX name="sm_button2" texture="TEX_CONQ_IFACE_1" left="498" top="157" width="14" height="24"/>
+    <IFACETEX name="tactic_sm_white" texture="TEX_CONQ_IFACE_3" left="286" top="294" width="42" height="64"/>
+    <IFACETEX name="tactic_sm_gray" texture="TEX_CONQ_IFACE_3" left="286" top="424" width="42" height="64"/>
+    <IFACETEX name="strat_sm_white" texture="TEX_CONQ_IFACE_3" left="329" top="294" width="42" height="64"/>
+    <IFACETEX name="strat_sm_gray" texture="TEX_CONQ_IFACE_3" left="329" top="424" width="42" height="64"/>
+    <IFACETEX name="tactic_lg" texture="TEX_CONQ_IFACE_3" left="0" top="0" width="193" height="292"/>
+    <IFACETEX name="strat_lg" texture="TEX_CONQ_IFACE_3" left="194" top="0" width="193" height="292"/>
+    <IFACETEX name="arrow_left" texture="TEX_CONQ_IFACE_2" left="448" top="50" width="30" height="46"/>
+    <IFACETEX name="arrow_right" texture="TEX_CONQ_IFACE_2" left="482" top="50" width="30" height="46"/>
+    <IFACETEX name="item_scroll" texture="TEX_CONQ_IFACE_2" left="314" top="0" width="21" height="79"/>
+    <IFACETEX name="scroll_up" texture="TEX_CONQ_IFACE_2" left="370" top="19" width="13" height="13"/>
+    <IFACETEX name="scroll_down" texture="TEX_CONQ_IFACE_2" left="384" top="19" width="13" height="13"/>
+    <IFACETEX name="caret" texture="TEX_CONQ_IFACE_2" left="398" top="20" width="13" height="14"/>
+    <IFACETEX name="options_button" texture="TEX_CONQ_IFACE_1" left="405" top="174" width="41" height="41"/>
+    <IFACETEX name="center_button" texture="TEX_CONQ_IFACE_1" left="363" top="174" width="41" height="41"/>
+    <IFACETEX name="res_icon" texture="TEX_COMMON" left="106" top="169" width="21" height="19"/>
+    <IFACETEX name="icon_supply" texture="TEX_CONQ_IFACE_2" left="396" top="172" width="22" height="21"/>
+    <IFACETEX name="icon_wonder" texture="TEX_CONQ_IFACE_2" left="382" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_bonus" texture="TEX_CONQ_IFACE_2" left="426" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_rare" texture="TEX_CONQ_IFACE_2" left="404" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_tribute" texture="TEX_CONQ_IFACE_2" left="359" top="106" width="22" height="21"/>
+    <IFACETEX name="icon_nuke" texture="TEX_CONQ_NUKE" left="187" top="159" width="22" height="19"/>
+    <WINDOW name="info" center_off_x="-368" bottom_inverse="-1" width="274" height="-257">
+      <IFACETEX name="back" texture="TEX_CONQ_IFACE_2" left="236" top="253" width="274" height="257"/>
+      <STYLE MOUSE_THRU="1" PASS_CONTROLS="1" CHILD="1"/>
+      <IFACERECT name="text_rect" left="19" top="16" width="222" height="161"/>
+      <POSITIONING x="50" y="207" inc_x="45">
+        <BUTTON name="options_button" left="0" top="0" width="41" height="41"/>
+        <BUTTON name="rules_button" left="0" top="0" width="41" height="41"/>
+        <BUTTON name="news_button" left="0" top="0" width="41" height="41"/>
+        <BUTTON name="status_button" left="0" top="0" width="41" height="41"/>
+      </POSITIONING>
+    </WINDOW>
+    <WINDOW name="player_info" center_off_x="363" bottom_inverse="3" width="288" height="-266">
+      <STYLE MOUSE_THRU="1" PASS_CONTROLS="1" CHILD="1"/>
+      <IFACETEX name="banner" texture="TEX_CONQ_IFACE_1" left="0" top="0" width="288" height="266"/>
+      <IFACERECT name="text_rect" left="38" top="25" width="209" height="415"/>
+      <IFACERECT name="income_rect" left="38" top="141" width="209" height="20"/>
+      <IFACERECT name="opp_income_rect" left="38" top="161" width="209" height="20"/>
+      <BUTTON name="tribute_button" center_off_x="0" top="100" width="150" height="40"/>
+      <BUTTON name="opp_income" left="38" top="161" width="209" height="20"/>
+      <BUTTON name="income" left="38" top="141" width="209" height="20"/>
+      <POSITIONING x="40" y="161" inc_x="36">
+        <BUTTON name="food" left="0" top="0" width="28" height="45"/>
+        <BUTTON name="timber" left="0" top="0" width="28" height="45"/>
+        <BUTTON name="wealth" left="0" top="0" width="28" height="45"/>
+        <BUTTON name="metal" left="0" top="0" width="28" height="45"/>
+        <BUTTON name="knowledge" left="0" top="0" width="28" height="45"/>
+        <BUTTON name="oil" left="0" top="0" width="28" height="45"/>
+      </POSITIONING>
+    </WINDOW>
+    <WINDOW name="main" center_off_x="0" bottom_inverse="0" width="439" height="-293">
+      <STYLE MOUSE_THRU="1" PASS_CONTROLS="1" CHILD="1"/>
+      <IFACETEX name="start_banner" texture="TEX_CONQ_IFACE_2" left="0" top="150" width="344" height="78"/>
+      <IFACETEX name="back" texture="TEX_CONQ_IFACE_2" left="0" top="308" width="204" height="204"/>
+      <IFACETEX name="back_trim0" texture="TEX_CONQ_IFACE_2" left="241" top="240" width="10" height="12"/>
+      <IFACETEX name="back_trim1" texture="TEX_CONQ_IFACE_2" left="252" top="240" width="160" height="12"/>
+      <IFACETEX name="back_trim2" texture="TEX_CONQ_IFACE_2" left="413" top="240" width="10" height="12"/>
+      <IFACETEX name="vert_shadow" texture="TEX_CONQ_IFACE_2" left="336" top="5" width="5" height="95"/>
+      <IFACETEX name="card_socket0" texture="TEX_CONQ_IFACE_2" left="0" top="229" width="48" height="72"/>
+      <IFACETEX name="card_socket1" texture="TEX_CONQ_IFACE_2" left="49" top="229" width="46" height="72"/>
+      <IFACETEX name="card_socket2" texture="TEX_CONQ_IFACE_2" left="96" top="229" width="48" height="72"/>
+      <IFACETEX name="item_socket" texture="TEX_CONQ_IFACE_2" left="133" top="0" width="182" height="79"/>
+      <IFACEBORDER name="main_border">
+        <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+        <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+        <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+        <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+        <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+        <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+        <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+        <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+      </IFACEBORDER>
+      <IFACERECT name="back_border_rect" left="0" top="71" width="434" height="222"/>
+      <IFACERECT name="back_rect" left="4" top="75" width="426" height="214"/>
+      <IFACERECT name="back_trim_rect" left="6" top="63" width="424" height="12"/>
+      <IFACERECT name="start_banner_rect" center_off_x="-6" top="0" width="344" height="78"/>
+      <IFACERECT name="card_socket_rect" center_off_x="-6" top="104" width="234" height="72"/>
+      <IFACERECT name="resource_socket_rect" left="8" top="206" width="182" height="79"/>
+      <IFACERECT name="wonder_socket_rect" left="223" top="206" width="182" height="79"/>
+      <IFACERECT name="item_offset" left="0" top="0" width="4" height="4"/>
+      <IFACERECT name="item_space" left="0" top="0" width="4" height="4"/>
+      <BUTTON title="Start" name="start_button" center_off_x="-6" top="21" width="215" height="32"/>
+      <BUTTON title="Bonus Cards" name="bonus_cards" id="1" center_off_x="-6" top="78" width="127" height="24"/>
+      <BUTTON title="Rare Resources" name="resources" id="1" left="32" top="179" width="155" height="24"/>
+      <BUTTON title="Wonders" name="wonders" id="1" left="247" top="179" width="155" height="24"/>
+      <BUTTON name="arrow_left" left="64" top="118" width="30" height="46"/>
+      <BUTTON name="arrow_right" right_inverse="78" top="118" width="-30" height="46"/>
+      <BUTTON name="center_button" right_inverse="22" top="129" width="-41" height="41"/>
+      <BUTTON name="diplo_button" right_inverse="22" top="84" width="-41" height="41"/>
+      <BUTTON name="build_button" left="15" right_inverse="" top="129" width="41" height="41"/>
+      <BUTTON name="random_card" left="15" top="84" width="41" height="41"/>
+      <SCROLL name="resource_scroll" left="189" top="206" width="21" height="79" min="0" max="4">
+        <STYLE PASS_CONTROLS="1" CHILD="1"/>
+      </SCROLL>
+      <SCROLL name="wonder_scroll" left="404" top="206" width="21" height="79" min="0" max="4">
+        <STYLE PASS_CONTROLS="1" CHILD="1"/>
+      </SCROLL>
+      <POSITIONING x="12" y="210" inc_x="60">
+        <IFACERECT name="res0" left="0" top="0" width="56" height="34"/>
+        <IFACERECT name="res1" left="0" top="0" width="56" height="34"/>
+        <IFACERECT name="res2" left="0" top="0" width="56" height="34"/>
+      </POSITIONING>
+      <POSITIONING x="12" y="247" inc_x="60">
+        <IFACERECT name="res3" left="0" top="0" width="56" height="34"/>
+        <IFACERECT name="res4" left="0" top="0" width="56" height="34"/>
+        <IFACERECT name="res5" left="0" top="0" width="56" height="34"/>
+      </POSITIONING>
+      <POSITIONING x="227" y="210" inc_x="60">
+        <IFACERECT name="won0" left="0" top="0" width="56" height="34"/>
+        <IFACERECT name="won1" left="0" top="0" width="56" height="34"/>
+        <IFACERECT name="won2" left="0" top="0" width="56" height="34"/>
+      </POSITIONING>
+      <POSITIONING x="227" y="247" inc_x="60">
+        <IFACERECT name="won3" left="0" top="0" width="56" height="34"/>
+        <IFACERECT name="won4" left="0" top="0" width="56" height="34"/>
+        <IFACERECT name="won5" left="0" top="0" width="56" height="34"/>
+      </POSITIONING>
+    </WINDOW>
+  </CONQUESTIFACE>
+  <CONQUESTCARDWIN title="Bonus Cards" name="ConquestCardWin" center_off_x="0" center_off_y="0" width="1024" height="768">
+    <STYLE TOP="1" CHILD="1"/>
+    <WINDOW name="overlay" left="0" top="0" percent_width="1000" percent_height="1000">
+      <STYLE MOUSE_THRU="1" PASS_CONTROLS="1" CHILD="1" TOP="1"/>
+    </WINDOW>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_6" file=".\art\ctw_interface_pieces_05.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEX name="card" texture="TEX_CONQ_IFACE_3" left="0" top="0" width="192" height="290"/>
+    <IFACETEX name="slot" texture="TEX_CONQ_IFACE_6" left="192" top="0" width="191" height="290"/>
+    <IFACETEX name="back" texture="TEX_CONQ_IFACE_2" left="0" top="308" width="204" height="204"/>
+    <IFACETEX name="horiz_bar" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+    <IFACETEX name="arrow_left" texture="TEX_CONQ_IFACE_2" left="448" top="50" width="30" height="46"/>
+    <IFACETEX name="arrow_right" texture="TEX_CONQ_IFACE_2" left="482" top="50" width="30" height="46"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="button" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="215" height="32"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACERECT name="main_rect" left="0" top="5" percent_width="1000" height="763"/>
+    <IFACERECT name="upper_text_rect" center_off_x="0" top="52" width="250" height="16"/>
+    <IFACERECT name="lower_text_rect" center_off_x="0" top="380" width="250" height="18"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="400" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="200" height="18"/>
+    <IFACERECT name="back_rect" left="19" left_inverse="" top="27" width="990" height="720"/>
+    <IFACERECT name="card_text_rect" left="16" top="45" width="155" height="185"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <BUTTON name="ok" title="OK" center_off_x="-117" bottom_inverse="37" width="215" height="-32"/>
+    <BUTTON name="cancel" title="Cancel" center_off_x="117" bottom_inverse="37" width="-215" height="-32"/>
+    <BUTTON name="avail_left" title="" left="48" top="199" width="30" height="46"/>
+    <BUTTON name="avail_right" right_inverse="48" top="199" width="-30" height="46"/>
+    <BUTTON name="select_left" left="48" top="522" width="30" height="46"/>
+    <BUTTON name="select_right" right_inverse="48" top="522" width="-30" height="46"/>
+    <IFACEPOINT name="divider_point" left="17" top="373"/>
+    <POSITIONING x="88" y="72" inc_x="218">
+      <IFACERECT name="avail" left="0" top="0" width="192" height="290"/>
+      <IFACERECT name="avail" left="0" top="0" width="192" height="290"/>
+      <IFACERECT name="avail" left="0" top="0" width="192" height="290"/>
+      <IFACERECT name="avail" left="0" top="0" width="192" height="290"/>
+    </POSITIONING>
+    <POSITIONING x="88" y="400" inc_x="218">
+      <IFACERECT name="select" left="0" top="0" width="192" height="290"/>
+      <IFACERECT name="select" left="0" top="0" width="192" height="290"/>
+      <IFACERECT name="select" left="0" top="0" width="192" height="290"/>
+      <IFACERECT name="select" left="0" top="0" width="192" height="290"/>
+    </POSITIONING>
+  </CONQUESTCARDWIN>
+  <CONQUESTVICTORYWIN name="victory_win" title="VICTORY!" center_off_x="0" center_off_y="0" width="696" height="629">
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_6" file=".\art\ctw_interface_pieces_05.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_7" file=".\art\ctw_interface_pieces_06.tga" pixformat="PF_32"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_5" left="0" top="398" width="154" height="114"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_5" left="155" top="398" width="203" height="114"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_5" left="359" top="398" width="153" height="114"/>
+    <IFACETEX name="sm_button0" texture="TEX_CONQ_IFACE_1" left="447" top="157" width="14" height="24"/>
+    <IFACETEX name="sm_button1" texture="TEX_CONQ_IFACE_1" left="462" top="157" width="35" height="24"/>
+    <IFACETEX name="sm_button2" texture="TEX_CONQ_IFACE_1" left="498" top="157" width="14" height="24"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_4" left="450" top="471" width="62" height="40"/>
+    <IFACETEX name="status_button" texture="TEX_CONQ_IFACE_4" left="345" top="42" width="41" height="41"/>
+    <IFACETEX name="medal" texture="TEX_CONQ_IFACE_5" left="370" top="0" width="142" height="146"/>
+    <IFACETEX name="tribute_pic" texture="TEX_CONQ_IFACE_6" left="192" top="291" width="191" height="122"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_6" left="449" top="42" width="63" height="41"/>
+    <IFACETEX name="tribute_slot" texture="TEX_CONQ_IFACE_7" left="0" top="291" width="191" height="122"/>
+    <IFACETEX name="resource_pic" texture="TEX_CONQ_IFACE_6" left="0" top="291" width="191" height="122"/>
+    <IFACETEX name="supply_pic" texture="TEX_CONQ_IFACE_6" left="0" top="0" width="191" height="290"/>
+    <IFACETEX name="supply_slot" texture="TEX_CONQ_IFACE_6" left="192" top="0" width="191" height="290"/>
+    <IFACETEX name="supply_icon" texture="TEX_CONQ_IFACE_6" left="449" top="0" width="63" height="41"/>
+    <IFACETEX name="bonus_slot" texture="TEX_CONQ_IFACE_7" left="0" top="0" width="191" height="290"/>
+    <IFACETEX name="text_bar0" texture="TEX_CONQ_IFACE_5" left="0" top="359" width="8" height="31"/>
+    <IFACETEX name="text_bar1" texture="TEX_CONQ_IFACE_5" left="9" top="359" width="174" height="31"/>
+    <IFACETEX name="text_bar2" texture="TEX_CONQ_IFACE_5" left="184" top="359" width="8" height="31"/>
+    <IFACETEX name="tactic_card" texture="TEX_CONQ_IFACE_3" left="0" top="0" width="192" height="290"/>
+    <IFACETEX name="strat_card" texture="TEX_CONQ_IFACE_3" left="193" top="0" width="192" height="290"/>
+    <IFACETEX name="icon_supply" texture="TEX_CONQ_IFACE_2" left="396" top="172" width="22" height="21"/>
+    <IFACETEX name="icon_wonder" texture="TEX_CONQ_IFACE_2" left="382" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_bonus" texture="TEX_CONQ_IFACE_2" left="426" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_rare" texture="TEX_CONQ_IFACE_2" left="404" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_tribute" texture="TEX_CONQ_IFACE_2" left="359" top="106" width="22" height="21"/>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="back_rect" left="19" left_inverse="" top="80" width="664" height="535"/>
+    <IFACERECT name="border_rect" left="0" left_inverse="" top="67" width="696" height="562"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="26" width="650" height="114"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="40" top="59" width="260" height="40"/>
+    <IFACERECT name="medal_rect" center_off_x="-150" top="0" width="142" height="146"/>
+    <IFACERECT name="text_rect" center_off_x="0" top="151" width="657" height="23"/>
+    <IFACERECT name="card_text_rect" left="16" top="45" width="155" height="185"/>
+    <!-- <BUTTON name="examine_map" title="Examine Map" center_off_x="-215" bottom_inverse="40" width="210" height="-32"/>-->
+    <!--<BUTTON name="achievements" title="Achievements" center_off_x="-110" bottom_inverse="40" width="210" height="-32"/>-->
+    <BUTTON name="quit" title="Continue to Strategic Map" center_off_x="0" bottom_inverse="40" width="300" height="-32"/>
+    <POSITIONING x="31" y="192">
+      <IFACERECT name="bonus_text_rect" left="0" top="0" width="191" height="31"/>
+      <IFACERECT name="bonus_card_rect" left="0" top="38" width="191" height="290"/>
+    </POSITIONING>
+    <POSITIONING x="252" y="192">
+      <IFACERECT name="rare_text_rect" left="0" top="0" width="191" height="31"/>
+      <IFACERECT name="rare_rect" left="0" top="38" width="191" height="122"/>
+    </POSITIONING>
+    <POSITIONING x="252" y="359">
+      <IFACERECT name="tribute_text_rect" left="0" top="0" width="191" height="31"/>
+      <IFACERECT name="tribute_rect" left="0" top="38" width="191" height="122"/>
+    </POSITIONING>
+    <POSITIONING x="474" y="192">
+      <IFACERECT name="supply_text_rect" left="0" top="0" width="191" height="31"/>
+      <IFACERECT name="supply_rect" left="0" top="38" width="189" height="290"/>
+    </POSITIONING>
+    <SPOT name="bonus_card" type="0" left="31" top="230" width="191" height="290"/>
+    <SPOT name="rare_resource" type="0" left="252" top="230" width="191" height="122"/>
+    <SPOT name="tribute" type="0" left="252" top="397" width="191" height="122"/>
+    <SPOT name="supply_depot" type="0" left="474" top="230" width="191" height="290"/>
+  </CONQUESTVICTORYWIN>
+  <CONQUESTSPECIALCARDWIN name="special_card_win" title="BONUS!" center_off_x="0" center_off_y="0" width="737" height="629">
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_6" file=".\art\ctw_interface_pieces_05.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_7" file=".\art\ctw_interface_pieces_06.tga" pixformat="PF_32"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_5" left="0" top="398" width="154" height="114"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_5" left="155" top="398" width="203" height="114"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_5" left="359" top="398" width="153" height="114"/>
+    <IFACETEX name="sm_button0" texture="TEX_CONQ_IFACE_1" left="447" top="157" width="14" height="24"/>
+    <IFACETEX name="sm_button1" texture="TEX_CONQ_IFACE_1" left="462" top="157" width="35" height="24"/>
+    <IFACETEX name="sm_button2" texture="TEX_CONQ_IFACE_1" left="498" top="157" width="14" height="24"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_4" left="450" top="471" width="62" height="40"/>
+    <IFACETEX name="status_button" texture="TEX_CONQ_IFACE_4" left="345" top="42" width="41" height="41"/>
+    <IFACETEX name="medal" texture="TEX_CONQ_IFACE_5" left="370" top="0" width="142" height="146"/>
+    <IFACETEX name="tribute_pic" texture="TEX_CONQ_IFACE_6" left="192" top="291" width="191" height="122"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_6" left="449" top="42" width="63" height="41"/>
+    <IFACETEX name="tribute_slot" texture="TEX_CONQ_IFACE_7" left="0" top="291" width="191" height="122"/>
+    <IFACETEX name="resource_pic" texture="TEX_CONQ_IFACE_6" left="0" top="291" width="191" height="122"/>
+    <IFACETEX name="bonus_slot" texture="TEX_CONQ_IFACE_7" left="0" top="0" width="191" height="290"/>
+    <IFACETEX name="text_bar0" texture="TEX_CONQ_IFACE_5" left="0" top="359" width="8" height="31"/>
+    <IFACETEX name="text_bar1" texture="TEX_CONQ_IFACE_5" left="9" top="359" width="174" height="31"/>
+    <IFACETEX name="text_bar2" texture="TEX_CONQ_IFACE_5" left="184" top="359" width="8" height="31"/>
+    <IFACETEX name="tactic_card" texture="TEX_CONQ_IFACE_3" left="0" top="0" width="192" height="290"/>
+    <IFACETEX name="strat_card" texture="TEX_CONQ_IFACE_3" left="193" top="0" width="192" height="290"/>
+    <IFACETEX name="icon_bonus" texture="TEX_CONQ_IFACE_2" left="426" top="106" width="21" height="21"/>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="back_rect" left_inverse="" center_off_x="2" top="80" width="492" height="535"/>
+    <IFACERECT name="border_rect" left_inverse="" center_off_x="0" top="67" width="524" height="562"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="26" width="737" height="114"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="40" top="59" width="260" height="40"/>
+    <IFACERECT name="medal_rect" center_off_x="-150" top="0" width="142" height="146"/>
+    <IFACERECT name="text_rect" center_off_x="0" top="153" width="480" height="23"/>
+    <IFACERECT name="card_text_rect" left="16" top="45" width="155" height="185"/>
+    <BUTTON name="quit" title="Continue" center_off_x="0" bottom_inverse="40" width="210" height="-32"/>
+    <SPOT name="bonus_card" type="0" center_off_x="0" top="253" width="191" height="290"/>
+    <IFACERECT name="bonus_text_rect" center_off_x="0" top="213" width="392" height="31"/>
+    <IFACERECT name="bonus_card_rect" center_off_x="0" top="253" width="191" height="290"/>
+  </CONQUESTSPECIALCARDWIN>
+  <CONQUESTDIPLOWIN name="diplo_win" title="Diplomacy" center_off_x="0" bottom_inverse="2" width="579" height="-365">
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_4" left="450" top="471" width="62" height="40"/>
+    <IFACETEX name="status_button" texture="TEX_CONQ_IFACE_4" left="345" top="42" width="41" height="41"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="back_rect" left="19" left_inverse="" top="47" width="545" height="310"/>
+    <IFACERECT name="border_rect" left="0" left_inverse="" top="28" width="579" height="337"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="278" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="200" height="18"/>
+    <IFACERECT name="info_rect" left="19" top="0" width="990" height="64"/>
+    <IFACERECT name="help_text_rect" left="22" top="64" width="534" height="36"/>
+    <IFACERECT name="text_rect" left="31" top="80" width="222" height="161"/>
+    <IFACERECT name="help_rect" left="24" top="69" width="237" height="252"/>
+    <IFACERECT name="name_rect" center_off_x="120" top="69" width="288" height="22"/>
+    <!--<BUTTON name="territory" title="Buy Territory" center_off_x="-120" bottom_inverse="73" width="215" height="-32"/>
+    <BUTTON name="peace" title="Propose Peace/Alliance" center_off_x="120" bottom_inverse="73" width="215" height="-32"/>-->
+    <BUTTON name="war" title="Declare War!" center_off_x="120" bottom_inverse="140" width="288" height="-32"/>
+    <BUTTON name="negotiate" title="Negotiate" center_off_x="120" bottom_inverse="100" width="288" height="-32"/>
+    <BUTTON name="close" title="Close" center_off_x="120" bottom_inverse="45" width="96" height="-32"/>
+    <BUTTON name="world_status" title="World Status" center_off_x="120" bottom_inverse="190" width="41" height="-41"/>
+    <!--<BUTTON name="vassal" title="Enlist Vassal State" center_off_x="-362" bottom_inverse="73" width="215" height="-32"/>-->
+  </CONQUESTDIPLOWIN>
+  <CONQUESTNEGOTIATEWIN name="diplo_win" title="Negotiate" center_off_x="0" bottom_inverse="30" width="1024" height="-738">
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_7" file=".\art\ctw_interface_pieces_06.tga" pixformat="PF_32"/>
+    <IFACETEX name="card_socket0" texture="TEX_CONQ_IFACE_2" left="0" top="229" width="48" height="72"/>
+    <IFACETEX name="card_socket1" texture="TEX_CONQ_IFACE_2" left="49" top="229" width="46" height="72"/>
+    <IFACETEX name="card_socket2" texture="TEX_CONQ_IFACE_2" left="96" top="229" width="48" height="72"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_4" left="450" top="471" width="62" height="40"/>
+    <IFACETEX name="status_button" texture="TEX_CONQ_IFACE_4" left="345" top="42" width="41" height="41"/>
+    <IFACETEX name="right_arrow" texture="TEX_CONQ_IFACE_7" left="192" top="151" width="34" height="30"/>
+    <IFACETEX name="left_arrow" texture="TEX_CONQ_IFACE_7" left="227" top="151" width="34" height="30"/>
+    <IFACETEX name="plus" texture="TEX_CONQ_IFACE_7" left="192" top="230" width="16" height="16"/>
+    <IFACETEX name="minus" texture="TEX_CONQ_IFACE_7" left="209" top="230" width="16" height="16"/>
+    <IFACETEX name="arrow_left" texture="TEX_CONQ_IFACE_2" left="448" top="50" width="30" height="46"/>
+    <IFACETEX name="arrow_right" texture="TEX_CONQ_IFACE_2" left="482" top="50" width="30" height="46"/>
+    <IFACETEX name="tactic_sm_white" texture="TEX_CONQ_IFACE_3" left="286" top="294" width="42" height="64"/>
+    <IFACETEX name="strat_sm_white" texture="TEX_CONQ_IFACE_3" left="329" top="294" width="42" height="64"/>
+    <IFACETEX name="horiz_divider" texture="TEX_CONQ_IFACE_7" left="197" top="116" width="170" height="2"/>
+    <IFACETEX name="icon_strength" texture="TEX_CONQ_IFACE_2" left="404" top="150" width="21" height="21"/>
+    <IFACETEX name="icon_supply" texture="TEX_CONQ_IFACE_2" left="396" top="172" width="22" height="21"/>
+    <IFACETEX name="icon_wonder" texture="TEX_CONQ_IFACE_2" left="382" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_bonus" texture="TEX_CONQ_IFACE_2" left="426" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_rare" texture="TEX_CONQ_IFACE_2" left="404" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_tribute" texture="TEX_CONQ_IFACE_2" left="359" top="106" width="22" height="21"/>
+    <IFACETEX name="icon_nuke" texture="TEX_CONQ_NUKE" left="187" top="159" width="22" height="19"/>
+    <IFACETEX name="combo_left" texture="TEX_WRAPPER_1" left="193" top="1" width="4" height="21"/>
+    <IFACETEX name="combo_mid" texture="TEX_WRAPPER_1" left="198" top="1" width="130" height="21"/>
+    <IFACETEX name="combo_right" texture="TEX_WRAPPER_1" left="329" top="1" width="3" height="21"/>
+    <IFACETEX name="combo_arrow" texture="TEX_WRAPPER_1" left="123" top="1" width="23" height="21"/>
+    <IFACETEX name="combo_left_d" texture="TEX_WRAPPER_1" left="193" top="24" width="4" height="21"/>
+    <IFACETEX name="combo_mid_d" texture="TEX_WRAPPER_1" left="198" top="24" width="130" height="21"/>
+    <IFACETEX name="combo_right_d" texture="TEX_WRAPPER_1" left="329" top="24" width="3" height="21"/>
+    <IFACETEX name="combo_arrow_d" texture="TEX_WRAPPER_1" left="123" top="24" width="23" height="21"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="back_rect" left="19" right_inverse="" top="47" width="990" height="711"/>
+    <IFACERECT name="border_rect" left="0" right_inverse="" top="28" width="1024" height="738"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="278" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="200" height="18"/>
+    <IFACERECT name="info_rect" left="19" center_off_x="0" top="0" width="990" height="64"/>
+    <IFACERECT name="deal_rect" center_off_x="0" top="68" width="404" height="494"/>
+    <IFACERECT name="chat_rect" center_off_x="0" top="565" width="404" height="94"/>
+    <IFACERECT name="player_name_rect" left="31" top="62" width="241" height="22"/>
+    <IFACERECT name="opp_name_rect" right_inverse="31" top="62" width="-241" height="22"/>
+    <IFACERECT name="player_trib_rect" left="31" top="147" width="241" height="38"/>
+    <IFACERECT name="opp_trib_rect" right_inverse="31" top="147" width="-241" height="38"/>
+    <IFACERECT name="card_socket_rect" left="81" center_off_x="" top="483" width="142" height="72"/>
+    <IFACERECT name="card_socket_rect" left="319" center_off_x="" top="483" width="142" height="72"/>
+    <IFACERECT name="card_socket_rect" right_inverse="81" center_off_x="" top="483" width="-142" height="72"/>
+    <IFACERECT name="card_socket_rect" right_inverse="319" center_off_x="" top="483" width="-142" height="72"/>
+    <IFACERECT name="player_trib_text_rect" left="31" top="147" width="241" height="38"/>
+    <IFACERECT name="opp_trib_text_rect" right_inverse="31" top="147" width="-241" height="38"/>
+    <IFACERECT name="player_trib_off_text_rect" left="31" top="147" width="241" height="38"/>
+    <IFACERECT name="opp_trib_off_text_rect" right_inverse="31" top="147" width="-241" height="38"/>
+    <IFACERECT name="item_offset" left="0" top="0" width="4" height="4"/>
+    <IFACERECT name="item_space" left="0" top="0" width="4" height="4"/>
+    <IFACERECT name="player_card_label" left="81" top="463" width="142" height="20"/>
+    <IFACERECT name="player_card_off_label" center_off_x="-120" top="463" width="142" height="20"/>
+    <IFACERECT name="opp_card_label" right_inverse="81" top="463" width="-142" height="20"/>
+    <IFACERECT name="opp_card_off_label" center_off_x="120" top="463" width="142" height="20"/>
+    <LISTBOX2 name="territory_player" title="Territories" top="209" left="37" width="233" height="111"/>
+    <LISTBOX2 name="territory_opp" title="Territories" top="209" right_inverse="37" width="-233" height="111"/>
+    <LISTBOX2 name="colony_player" title="Colonies" top="349" left="37" width="233" height="111"/>
+    <LISTBOX2 name="colony_opp" title="Colonies" top="349" right_inverse="37" width="-233" height="111"/>
+    <LISTBOX2 name="territory_player_off" title="Territories" top="209" center_off_x="-97" width="185" height="111"/>
+    <LISTBOX2 name="territory_opp_off" title="Territories" top="209" center_off_x="97" width="185" height="111"/>
+    <LISTBOX2 name="colony_player_off" title="Colonies" top="349" center_off_x="-97" width="185" height="111"/>
+    <LISTBOX2 name="colony_opp_off" title="Colonies" top="349" center_off_x="97" width="185" height="111"/>
+    <BUTTON name="close" title="Close" center_off_x="0" bottom_inverse="6" width="96" height="-32"/>
+    <!--<BUTTON name="vassal" title="Propose Vassal" center_off_x="91" bottom_inverse="74" width="176" height="-32"/>
+    <BUTTON name="exchange" title="Propose Exchange" center_off_x="91" bottom_inverse="40" width="176" height="-32"/>
+    <BUTTON name="peace" title="Propose Peace" center_off_x="-91" bottom_inverse="74" width="176" height="-32"/>
+    <BUTTON name="ally" title="Propose Alliance" center_off_x="-91" bottom_inverse="40" width="176" height="-32"/>-->
+    <BUTTON name="propose" title="Propose" center_off_x="0" bottom_inverse="40" width="176" height="-32"/>
+    <BUTTON name="accept" title="Accept" center_off_x="-91" bottom_inverse="40" width="176" height="-32"/>
+    <BUTTON name="counter" title="Counteroffer" center_off_x="91" bottom_inverse="40" width="176" height="-32"/>
+    <BUTTON name="territories_player_in" id="1" left="275" top="233" width="34" height="30"/>
+    <BUTTON name="territories_player_out" id="2" left="275" top="266" width="34" height="30"/>
+    <BUTTON name="colonies_player_in" id="1" left="275" top="373" width="34" height="30"/>
+    <BUTTON name="colonies_player_out" id="2" left="275" top="406" width="34" height="30"/>
+    <BUTTON name="cards_player_in" id="1" left="275" top="489" width="34" height="30"/>
+    <BUTTON name="cards_player_out" id="2" left="275" top="522" width="34" height="30"/>
+    <BUTTON name="territories_opp_in" id="2" right_inverse="275" top="233" width="-34" height="30"/>
+    <BUTTON name="territories_opp_out" id="1" right_inverse="275" top="266" width="-34" height="30"/>
+    <BUTTON name="colonies_opp_in" id="2" right_inverse="275" top="373" width="-34" height="30"/>
+    <BUTTON name="colonies_opp_out" id="1" right_inverse="275" top="406" width="-34" height="30"/>
+    <BUTTON name="cards_opp_in" id="2" right_inverse="275" top="489" width="-34" height="30"/>
+    <BUTTON name="cards_opp_out" id="1" right_inverse="275" top="522" width="-34" height="30"/>
+    <BUTTON name="player_trib_plus" id="3" left="200" top="157" width="16" height="16"/>
+    <BUTTON name="player_trib_minus" id="4" left="78" top="157" width="16" height="16"/>
+    <BUTTON name="opp_trib_plus" id="3" left="920" top="157" width="16" height="16"/>
+    <BUTTON name="opp_trib_minus" id="4" left="806" top="157" width="16" height="16"/>
+    <BUTTON name="player_card_left" id="5" left="50" top="498" width="30" height="46"/>
+    <BUTTON name="player_card_right" id="6" left="225" top="498" width="30" height="46"/>
+    <BUTTON name="opp_card_left" id="5" right_inverse="225" top="498" width="-30" height="46"/>
+    <BUTTON name="opp_card_right" id="6" right_inverse="50" top="498" width="-30" height="46"/>
+    <BUTTON name="set_player_trib" title="..." bottom_inverse="40" left="224" top="157" width="40" height="18"/>
+    <BUTTON name="set_opp_trib" title="..." bottom_inverse="40" left="945" top="157" width="40" height="18"/>
+    <BUTTON name="reset" title="Reset" bottom_inverse="30" left="98" width="116" height="-18"/>
+    <!-- <BUTTON name="tribute_button" center_off_x="0" top="95" width="150          " height="50"/>-->
+    <!--<BUTTON name="world_status" title="World Status" center_off_x="0" bottom_inverse="129" width="41" height="-41"/>-->
+    <SPOT name="player_cards" id="0" type="0" left="81" top="483" width="47" height="72"/>
+    <SPOT name="player_cards" id="1" type="0" left="128" top="483" width="47" height="72"/>
+    <SPOT name="player_cards" id="2" type="0" left="175" top="483" width="47" height="72"/>
+    <SPOT name="player_off_cards" id="0" type="1" left="319" top="483" width="47" height="72"/>
+    <SPOT name="player_off_cards" id="1" type="1" left="366" top="483" width="47" height="72"/>
+    <SPOT name="player_off_cards" id="2" type="1" left="413" top="483" width="47" height="72"/>
+    <SPOT name="opp_cards" id="2" type="2" right_inverse="81" top="483" width="-47" height="72"/>
+    <SPOT name="opp_cards" id="1" type="2" right_inverse="128" top="483" width="-47" height="72"/>
+    <SPOT name="opp_cards" id="0" type="2" right_inverse="175" top="483" width="-47" height="72"/>
+    <SPOT name="opp_off_cards" id="2" type="3" right_inverse="319" top="483" width="-47" height="72"/>
+    <SPOT name="opp_off_cards" id="1" type="3" right_inverse="366" top="483" width="-47" height="72"/>
+    <SPOT name="opp_off_cards" id="0" type="3" right_inverse="413" top="483" width="-47" height="72"/>
+    <IFACEPOINT name="offer_text" left="320" top="118"/>
+    <IFACEPOINT name="request_text" left="520" top="118"/>
+    <IFACEPOINT name="terms_text" center_off_x="0" top="73"/>
+    <IFACEPOINT name="offer_type_text" center_off_x="0" top="95"/>
+    <IFACEPOINT name="player_trib_off_text_rect" left="320" top="155"/>
+    <IFACEPOINT name="opp_trib_off_text_rect" left="520" top="155"/>
+    <IFACERECT name="divider" top="140" center_off_x="0" width="400" height="2"/>
+    <LISTBOX2 name="stance" title="Offer Type" left="37" top="590" width="233" height="75"/><![CDATA[]]></CONQUESTNEGOTIATEWIN>
+  <CONQUESTNEGOTIATEWINSM name="diplo_win" title="Negotiate" center_off_x="0" bottom_inverse="30" width="1024" height="-627">
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_7" file=".\art\ctw_interface_pieces_06.tga" pixformat="PF_32"/>
+    <IFACETEX name="card_socket0" texture="TEX_CONQ_IFACE_2" left="0" top="229" width="48" height="72"/>
+    <IFACETEX name="card_socket1" texture="TEX_CONQ_IFACE_2" left="49" top="229" width="46" height="72"/>
+    <IFACETEX name="card_socket2" texture="TEX_CONQ_IFACE_2" left="96" top="229" width="48" height="72"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_4" left="450" top="471" width="62" height="40"/>
+    <IFACETEX name="status_button" texture="TEX_CONQ_IFACE_4" left="345" top="42" width="41" height="41"/>
+    <IFACETEX name="right_arrow" texture="TEX_CONQ_IFACE_7" left="192" top="151" width="34" height="30"/>
+    <IFACETEX name="left_arrow" texture="TEX_CONQ_IFACE_7" left="227" top="151" width="34" height="30"/>
+    <IFACETEX name="plus" texture="TEX_CONQ_IFACE_7" left="192" top="230" width="16" height="16"/>
+    <IFACETEX name="minus" texture="TEX_CONQ_IFACE_7" left="209" top="230" width="16" height="16"/>
+    <IFACETEX name="arrow_left" texture="TEX_CONQ_IFACE_2" left="448" top="50" width="30" height="46"/>
+    <IFACETEX name="arrow_right" texture="TEX_CONQ_IFACE_2" left="482" top="50" width="30" height="46"/>
+    <IFACETEX name="tactic_sm_white" texture="TEX_CONQ_IFACE_3" left="286" top="294" width="42" height="64"/>
+    <IFACETEX name="strat_sm_white" texture="TEX_CONQ_IFACE_3" left="329" top="294" width="42" height="64"/>
+    <IFACETEX name="horiz_divider" texture="TEX_CONQ_IFACE_7" left="197" top="116" width="170" height="2"/>
+    <IFACETEX name="icon_strength" texture="TEX_CONQ_IFACE_2" left="404" top="150" width="21" height="21"/>
+    <IFACETEX name="icon_supply" texture="TEX_CONQ_IFACE_2" left="396" top="172" width="22" height="21"/>
+    <IFACETEX name="icon_wonder" texture="TEX_CONQ_IFACE_2" left="382" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_bonus" texture="TEX_CONQ_IFACE_2" left="426" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_rare" texture="TEX_CONQ_IFACE_2" left="404" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_tribute" texture="TEX_CONQ_IFACE_2" left="359" top="106" width="22" height="21"/>
+    <IFACETEX name="icon_nuke" texture="TEX_CONQ_NUKE" left="187" top="159" width="22" height="19"/>
+    <IFACETEX name="combo_left" texture="TEX_WRAPPER_1" left="193" top="1" width="4" height="21"/>
+    <IFACETEX name="combo_mid" texture="TEX_WRAPPER_1" left="198" top="1" width="130" height="21"/>
+    <IFACETEX name="combo_right" texture="TEX_WRAPPER_1" left="329" top="1" width="3" height="21"/>
+    <IFACETEX name="combo_arrow" texture="TEX_WRAPPER_1" left="123" top="1" width="23" height="21"/>
+    <IFACETEX name="combo_left_d" texture="TEX_WRAPPER_1" left="193" top="24" width="4" height="21"/>
+    <IFACETEX name="combo_mid_d" texture="TEX_WRAPPER_1" left="198" top="24" width="130" height="21"/>
+    <IFACETEX name="combo_right_d" texture="TEX_WRAPPER_1" left="329" top="24" width="3" height="21"/>
+    <IFACETEX name="combo_arrow_d" texture="TEX_WRAPPER_1" left="123" top="24" width="23" height="21"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="back_rect" left="19" right_inverse="" top="47" width="990" height="600"/>
+    <IFACERECT name="border_rect" left="0" right_inverse="" top="28" width="1024" height="627"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="278" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="200" height="18"/>
+    <IFACERECT name="info_rect" left="19" center_off_x="0" top="0" width="990" height="64"/>
+    <IFACERECT name="deal_rect" center_off_x="0" top="68" width="404" height="383"/>
+    <IFACERECT name="chat_rect" center_off_x="0" top="454" width="404" height="94"/>
+    <IFACERECT name="player_name_rect" left="31" top="62" width="241" height="22"/>
+    <IFACERECT name="opp_name_rect" right_inverse="31" top="62" width="-241" height="22"/>
+    <IFACERECT name="player_trib_rect" left="31" top="147" width="241" height="38"/>
+    <IFACERECT name="opp_trib_rect" right_inverse="31" top="147" width="-241" height="38"/>
+    <IFACERECT name="card_socket_rect" left="81" center_off_x="" top="372" width="142" height="72"/>
+    <IFACERECT name="card_socket_rect" left="319" center_off_x="" top="372" width="142" height="72"/>
+    <IFACERECT name="card_socket_rect" right_inverse="81" center_off_x="" top="372" width="-142" height="72"/>
+    <IFACERECT name="card_socket_rect" right_inverse="319" center_off_x="" top="372" width="-142" height="72"/>
+    <IFACERECT name="player_trib_text_rect" left="31" top="147" width="241" height="38"/>
+    <IFACERECT name="opp_trib_text_rect" right_inverse="31" top="147" width="-241" height="38"/>
+    <IFACERECT name="player_trib_off_text_rect" left="31" top="147" width="241" height="38"/>
+    <IFACERECT name="opp_trib_off_text_rect" right_inverse="31" top="147" width="-241" height="38"/>
+    <IFACERECT name="item_offset" left="0" top="0" width="4" height="4"/>
+    <IFACERECT name="item_space" left="0" top="0" width="4" height="4"/>
+    <LISTBOX2 name="territory_player" title="Territories" top="209" left="37" width="233" height="111"/>
+    <LISTBOX2 name="territory_opp" title="Territories" top="209" right_inverse="37" width="-233" height="111"/>
+    <LISTBOX2 name="territory_player_off" title="Territories" top="209" center_off_x="-97" width="185" height="111"/>
+    <LISTBOX2 name="territory_opp_off" title="Territories" top="209" center_off_x="97" width="185" height="111"/>
+    <BUTTON name="close" title="Close" center_off_x="0" bottom_inverse="6" width="96" height="-32"/>
+    <!--<BUTTON name="vassal" title="Propose Vassal" center_off_x="91" bottom_inverse="74" width="176" height="-32"/>
+    <BUTTON name="exchange" title="Propose Exchange" center_off_x="91" bottom_inverse="40" width="176" height="-32"/>
+    <BUTTON name="peace" title="Propose Peace" center_off_x="-91" bottom_inverse="74" width="176" height="-32"/>
+    <BUTTON name="ally" title="Propose Alliance" center_off_x="-91" bottom_inverse="40" width="176" height="-32"/>-->
+    <BUTTON name="reset" title="Reset" bottom_inverse="30" left="98" width="116" height="-18"/>
+    <BUTTON name="accept" title="Accept" center_off_x="-91" bottom_inverse="40" width="176" height="-32"/>
+    <BUTTON name="counter" title="Counteroffer" center_off_x="91" bottom_inverse="40" width="176" height="-32"/>
+    <BUTTON name="propose" title="Propose" center_off_x="0" bottom_inverse="40" width="176" height="-32"/>
+    <BUTTON name="territories_player_in" id="1" left="275" top="233" width="34" height="30"/>
+    <BUTTON name="territories_player_out" id="2" left="275" top="266" width="34" height="30"/>
+    <BUTTON name="cards_player_in" id="1" left="275" top="378" width="34" height="30"/>
+    <BUTTON name="cards_player_out" id="2" left="275" top="411" width="34" height="30"/>
+    <BUTTON name="territories_opp_in" id="2" right_inverse="275" top="233" width="-34" height="30"/>
+    <BUTTON name="territories_opp_out" id="1" right_inverse="275" top="266" width="-34" height="30"/>
+    <BUTTON name="cards_opp_in" id="2" right_inverse="275" top="378" width="-34" height="30"/>
+    <BUTTON name="cards_opp_out" id="1" right_inverse="275" top="411" width="-34" height="30"/>
+    <BUTTON name="player_trib_plus" id="3" left="200" top="157" width="16" height="16"/>
+    <BUTTON name="player_trib_minus" id="4" left="78" top="157" width="16" height="16"/>
+    <BUTTON name="opp_trib_plus" id="3" left="920" top="157" width="16" height="16"/>
+    <BUTTON name="opp_trib_minus" id="4" left="806" top="157" width="16" height="16"/>
+    <BUTTON name="player_card_left" id="5" left="50" top="387" width="30" height="46"/>
+    <BUTTON name="player_card_right" id="6" left="225" top="387" width="30" height="46"/>
+    <BUTTON name="opp_card_left" id="5" right_inverse="225" top="387" width="-30" height="46"/>
+    <BUTTON name="opp_card_right" id="6" right_inverse="50" top="387" width="-30" height="46"/>
+    <BUTTON name="set_player_trib" title="..." bottom_inverse="40" left="224" top="157" width="40" height="18"/>
+    <BUTTON name="set_opp_trib" title="..." bottom_inverse="40" left="945" top="157" width="40" height="18"/>
+    <!-- <BUTTON name="tribute_button" center_off_x="0" top="95" width="150          " height="50"/>-->
+    <!--<BUTTON name="world_status" title="World Status" center_off_x="0" bottom_inverse="129" width="41" height="-41"/>-->
+    <SPOT name="player_cards" id="0" type="0" left="81" top="372" width="47" height="72"/>
+    <SPOT name="player_cards" id="1" type="0" left="128" top="372" width="47" height="72"/>
+    <SPOT name="player_cards" id="2" type="0" left="175" top="372" width="47" height="72"/>
+    <SPOT name="player_off_cards" id="0" type="1" left="319" top="372" width="47" height="72"/>
+    <SPOT name="player_off_cards" id="1" type="1" left="366" top="372" width="47" height="72"/>
+    <SPOT name="player_off_cards" id="2" type="1" left="413" top="372" width="47" height="72"/>
+    <SPOT name="opp_cards" id="2" type="2" right_inverse="81" top="372" width="-47" height="72"/>
+    <SPOT name="opp_cards" id="1" type="2" right_inverse="128" top="372" width="-47" height="72"/>
+    <SPOT name="opp_cards" id="0" type="2" right_inverse="175" top="372" width="-47" height="72"/>
+    <SPOT name="opp_off_cards" id="2" type="3" right_inverse="319" top="372" width="-47" height="72"/>
+    <SPOT name="opp_off_cards" id="1" type="3" right_inverse="366" top="372" width="-47" height="72"/>
+    <SPOT name="opp_off_cards" id="0" type="3" right_inverse="413" top="372" width="-47" height="72"/>
+    <IFACEPOINT name="offer_text" left="320" top="120"/>
+    <IFACEPOINT name="request_text" left="520" top="120"/>
+    <IFACEPOINT name="terms_text" center_off_x="0" top="73"/>
+    <IFACEPOINT name="offer_type_text" center_off_x="0" top="100"/>
+    <IFACEPOINT name="player_trib_off_text_rect" left="320" top="155"/>
+    <IFACEPOINT name="opp_trib_off_text_rect" left="520" top="155"/>
+    <IFACERECT name="player_card_label" left="81" center_off_x="" top="350" width="142" height="20"/>
+    <IFACERECT name="opp_card_label" right_inverse="81" center_off_x="" top="350" width="-142" height="20"/>
+    <IFACERECT name="player_card_off_label" center_off_x="-120" top="350" width="142" height="20"/>
+    <IFACERECT name="opp_card_off_label" center_off_x="120" top="350" width="142" height="20"/>
+    <IFACERECT name="divider" top="140" center_off_x="0" width="400" height="2"/>
+    <LISTBOX2 name="stance" title="Offer Type" left="37" top="496" width="233" height="64"/>
+  </CONQUESTNEGOTIATEWINSM>
+  <CONQUESTNEGRESULTS name="diplo_win" title="Negotiation Results" center_off_x="0" bottom_inverse="30" width="723" height="-725">
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_7" file=".\art\ctw_interface_pieces_06.tga" pixformat="PF_32"/>
+    <IFACETEX name="card_socket0" texture="TEX_CONQ_IFACE_2" left="0" top="229" width="48" height="72"/>
+    <IFACETEX name="card_socket1" texture="TEX_CONQ_IFACE_2" left="49" top="229" width="46" height="72"/>
+    <IFACETEX name="card_socket2" texture="TEX_CONQ_IFACE_2" left="96" top="229" width="48" height="72"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_4" left="450" top="471" width="62" height="40"/>
+    <IFACETEX name="status_button" texture="TEX_CONQ_IFACE_4" left="345" top="42" width="41" height="41"/>
+    <IFACETEX name="right_arrow" texture="TEX_CONQ_IFACE_7" left="192" top="151" width="34" height="30"/>
+    <IFACETEX name="left_arrow" texture="TEX_CONQ_IFACE_7" left="227" top="151" width="34" height="30"/>
+    <IFACETEX name="plus" texture="TEX_CONQ_IFACE_7" left="192" top="213" width="16" height="16"/>
+    <IFACETEX name="minus" texture="TEX_CONQ_IFACE_7" left="209" top="213" width="16" height="16"/>
+    <IFACETEX name="arrow_left" texture="TEX_CONQ_IFACE_2" left="448" top="50" width="30" height="46"/>
+    <IFACETEX name="arrow_right" texture="TEX_CONQ_IFACE_2" left="482" top="50" width="30" height="46"/>
+    <IFACETEX name="tactic_sm_white" texture="TEX_CONQ_IFACE_3" left="286" top="294" width="42" height="64"/>
+    <IFACETEX name="strat_sm_white" texture="TEX_CONQ_IFACE_3" left="329" top="294" width="42" height="64"/>
+    <IFACETEX name="horiz_divider" texture="TEX_CONQ_IFACE_7" left="197" top="116" width="170" height="2"/>
+    <IFACETEX name="icon_strength" texture="TEX_CONQ_IFACE_2" left="404" top="150" width="21" height="21"/>
+    <IFACETEX name="icon_supply" texture="TEX_CONQ_IFACE_2" left="396" top="172" width="22" height="21"/>
+    <IFACETEX name="icon_wonder" texture="TEX_CONQ_IFACE_2" left="382" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_bonus" texture="TEX_CONQ_IFACE_2" left="426" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_rare" texture="TEX_CONQ_IFACE_2" left="404" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_tribute" texture="TEX_CONQ_IFACE_2" left="359" top="106" width="22" height="21"/>
+    <IFACETEX name="icon_nuke" texture="TEX_CONQ_NUKE" left="187" top="159" width="22" height="19"/>
+    <IFACETEX name="combo_left" texture="TEX_WRAPPER_1" left="193" top="1" width="4" height="21"/>
+    <IFACETEX name="combo_mid" texture="TEX_WRAPPER_1" left="198" top="1" width="130" height="21"/>
+    <IFACETEX name="combo_right" texture="TEX_WRAPPER_1" left="329" top="1" width="3" height="21"/>
+    <IFACETEX name="combo_arrow" texture="TEX_WRAPPER_1" left="123" top="1" width="23" height="21"/>
+    <IFACETEX name="combo_left_d" texture="TEX_WRAPPER_1" left="193" top="24" width="4" height="21"/>
+    <IFACETEX name="combo_mid_d" texture="TEX_WRAPPER_1" left="198" top="24" width="130" height="21"/>
+    <IFACETEX name="combo_right_d" texture="TEX_WRAPPER_1" left="329" top="24" width="3" height="21"/>
+    <IFACETEX name="combo_arrow_d" texture="TEX_WRAPPER_1" left="123" top="24" width="23" height="21"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="back_rect" left="19" right_inverse="" top="47" width="686" height="709"/>
+    <IFACERECT name="border_rect" left="0" right_inverse="" top="28" width="723" height="745"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="450" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="350" height="18"/>
+    <IFACERECT name="info_rect" left="19" center_off_x="0" top="0" width="990" height="64"/>
+    <IFACERECT name="tribe_deal_rect" center_off_x="0" top="123" width="675" height="192"/>
+    <IFACERECT name="tribe2_deal_rect" center_off_x="0" top="370" width="675" height="192"/>
+    <IFACERECT name="chat_rect" center_off_x="0" top="565" width="404" height="94"/>
+    <IFACERECT name="player_name_rect" left="31" top="62" width="241" height="22"/>
+    <IFACERECT name="opp_name_rect" right_inverse="31" top="62" width="-241" height="22"/>
+    <IFACERECT name="card_socket_rect" center_off_x="0" top="480" width="142" height="72"/>
+    <IFACERECT name="card_socket_rect" center_off_x="0" top="230" width="142" height="72"/>
+    <IFACERECT name="opp_trib_off_text_rect" center_off_x="0" top="153" width="241" height="38"/>
+    <IFACERECT name="player_trib_off_text_rect" center_off_x="0" top="403" width="241" height="38"/>
+    <IFACERECT name="item_offset" left="0" top="0" width="4" height="4"/>
+    <IFACERECT name="item_space" left="0" top="0" width="4" height="4"/>
+    <IFACERECT name="player_card_label" center_off_x="0" top="215" width="142" height="20"/>
+    <IFACERECT name="opp_card_label" center_off_x="0" top="465" width="142" height="20"/>
+    <LISTBOX2 name="territory_opp" title="Territories" top="180" left="37" width="233" height="111"/>
+    <LISTBOX2 name="colony_opp" title="Colonies" top="180" right_inverse="37" width="-233" height="111"/>
+    <LISTBOX2 name="territory_player" title="Territories" top="425" left="37" width="233" height="111"/>
+    <LISTBOX2 name="colony_player" title="Colonies" top="425" right_inverse="37" width="-233" height="111"/>
+    <BUTTON name="close" title="Close" center_off_x="0" bottom_inverse="6" width="96" height="-32"/>
+    <SPOT name="player_cards" id="0" type="0" left="294" top="471" width="47" height="72"/>
+    <SPOT name="player_cards" id="1" type="0" left="341" top="471" width="47" height="72"/>
+    <SPOT name="player_cards" id="2" type="0" left="388" top="471" width="47" height="72"/>
+    <SPOT name="opp_cards" id="2" type="2" right_inverse="294" top="221" width="-47" height="72"/>
+    <SPOT name="opp_cards" id="1" type="2" right_inverse="341" top="221" width="-47" height="72"/>
+    <SPOT name="opp_cards" id="0" type="2" right_inverse="388" top="221" width="-47" height="72"/>
+    <IFACEPOINT name="offer_text" left="320" top="118"/>
+    <IFACEPOINT name="request_text" left="520" top="118"/>
+    <IFACEPOINT name="terms_text" center_off_x="0" top="73"/>
+    <IFACEPOINT name="offer_type_text" center_off_x="0" top="65"/>
+    <IFACEPOINT name="gained_text" left="33" top="95"/>
+    <IFACEPOINT name="lost_text" left="33" top="342"/><![CDATA[]]></CONQUESTNEGRESULTS>
+  <CONQUESTNEGRESULTSSM name="diplo_win" title="Negotiation Results" center_off_x="0" bottom_inverse="30" width="500" height="-725">
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_7" file=".\art\ctw_interface_pieces_06.tga" pixformat="PF_32"/>
+    <IFACETEX name="card_socket0" texture="TEX_CONQ_IFACE_2" left="0" top="229" width="48" height="72"/>
+    <IFACETEX name="card_socket1" texture="TEX_CONQ_IFACE_2" left="49" top="229" width="46" height="72"/>
+    <IFACETEX name="card_socket2" texture="TEX_CONQ_IFACE_2" left="96" top="229" width="48" height="72"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="tribute_icon" texture="TEX_CONQ_IFACE_4" left="450" top="471" width="62" height="40"/>
+    <IFACETEX name="status_button" texture="TEX_CONQ_IFACE_4" left="345" top="42" width="41" height="41"/>
+    <IFACETEX name="right_arrow" texture="TEX_CONQ_IFACE_7" left="192" top="151" width="34" height="30"/>
+    <IFACETEX name="left_arrow" texture="TEX_CONQ_IFACE_7" left="227" top="151" width="34" height="30"/>
+    <IFACETEX name="plus" texture="TEX_CONQ_IFACE_7" left="192" top="213" width="16" height="16"/>
+    <IFACETEX name="minus" texture="TEX_CONQ_IFACE_7" left="209" top="213" width="16" height="16"/>
+    <IFACETEX name="arrow_left" texture="TEX_CONQ_IFACE_2" left="448" top="50" width="30" height="46"/>
+    <IFACETEX name="arrow_right" texture="TEX_CONQ_IFACE_2" left="482" top="50" width="30" height="46"/>
+    <IFACETEX name="tactic_sm_white" texture="TEX_CONQ_IFACE_3" left="286" top="294" width="42" height="64"/>
+    <IFACETEX name="strat_sm_white" texture="TEX_CONQ_IFACE_3" left="329" top="294" width="42" height="64"/>
+    <IFACETEX name="horiz_divider" texture="TEX_CONQ_IFACE_7" left="197" top="116" width="170" height="2"/>
+    <IFACETEX name="icon_strength" texture="TEX_CONQ_IFACE_2" left="404" top="150" width="21" height="21"/>
+    <IFACETEX name="icon_supply" texture="TEX_CONQ_IFACE_2" left="396" top="172" width="22" height="21"/>
+    <IFACETEX name="icon_wonder" texture="TEX_CONQ_IFACE_2" left="382" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_bonus" texture="TEX_CONQ_IFACE_2" left="426" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_rare" texture="TEX_CONQ_IFACE_2" left="404" top="106" width="21" height="21"/>
+    <IFACETEX name="icon_tribute" texture="TEX_CONQ_IFACE_2" left="359" top="106" width="22" height="21"/>
+    <IFACETEX name="icon_nuke" texture="TEX_CONQ_NUKE" left="187" top="159" width="22" height="19"/>
+    <IFACETEX name="combo_left" texture="TEX_WRAPPER_1" left="193" top="1" width="4" height="21"/>
+    <IFACETEX name="combo_mid" texture="TEX_WRAPPER_1" left="198" top="1" width="130" height="21"/>
+    <IFACETEX name="combo_right" texture="TEX_WRAPPER_1" left="329" top="1" width="3" height="21"/>
+    <IFACETEX name="combo_arrow" texture="TEX_WRAPPER_1" left="123" top="1" width="23" height="21"/>
+    <IFACETEX name="combo_left_d" texture="TEX_WRAPPER_1" left="193" top="24" width="4" height="21"/>
+    <IFACETEX name="combo_mid_d" texture="TEX_WRAPPER_1" left="198" top="24" width="130" height="21"/>
+    <IFACETEX name="combo_right_d" texture="TEX_WRAPPER_1" left="329" top="24" width="3" height="21"/>
+    <IFACETEX name="combo_arrow_d" texture="TEX_WRAPPER_1" left="123" top="24" width="23" height="21"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="back_rect" left="19" right_inverse="" top="47" width="470" height="709"/>
+    <IFACERECT name="border_rect" left="0" right_inverse="" top="28" width="500" height="745"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="450" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="350" height="18"/>
+    <IFACERECT name="info_rect" left="19" center_off_x="0" top="0" width="990" height="64"/>
+    <IFACERECT name="tribe_deal_rect" center_off_x="0" top="143" width="440" height="192"/>
+    <IFACERECT name="tribe2_deal_rect" center_off_x="0" top="390" width="440" height="192"/>
+    <IFACERECT name="chat_rect" center_off_x="0" top="585" width="440" height="94"/>
+    <IFACERECT name="player_name_rect" left="31" top="62" width="241" height="22"/>
+    <IFACERECT name="opp_name_rect" right_inverse="31" top="62" width="-241" height="22"/>
+    <IFACERECT name="card_socket_rect" left="290" top="494" width="142" height="72"/>
+    <IFACERECT name="card_socket_rect" left="290" top="236" width="142" height="72"/>
+    <IFACERECT name="opp_trib_off_text_rect" center_off_x="110" top="173" width="241" height="38"/>
+    <IFACERECT name="player_trib_off_text_rect" center_off_x="110" top="423" width="241" height="38"/>
+    <IFACERECT name="item_offset" left="0" top="0" width="4" height="4"/>
+    <IFACERECT name="item_space" left="0" top="0" width="4" height="4"/>
+    <IFACERECT name="player_card_label" center_off_x="110" top="215" width="142" height="20"/>
+    <IFACERECT name="opp_card_label" center_off_x="110" top="465" width="142" height="20"/>
+    <LISTBOX2 name="territory_opp" title="Territories" top="200" left="42" width="233" height="111"/>
+    <LISTBOX2 name="territory_player" title="Territories" top="445" left="42" width="233" height="111"/>
+    <BUTTON name="close" title="Close" center_off_x="0" bottom_inverse="6" width="96" height="-32"/>
+    <SPOT name="player_cards" id="0" type="0" left="294" top="498" width="47" height="72"/>
+    <SPOT name="player_cards" id="1" type="0" left="341" top="498" width="47" height="72"/>
+    <SPOT name="player_cards" id="2" type="0" left="388" top="498" width="47" height="72"/>
+    <SPOT name="opp_cards" id="2" type="2" left="294" top="240" width="47" height="72"/>
+    <SPOT name="opp_cards" id="1" type="2" left="341" top="240" width="47" height="72"/>
+    <SPOT name="opp_cards" id="0" type="2" left="388" top="240" width="47" height="72"/>
+    <IFACEPOINT name="offer_text" left="320" top="118"/>
+    <IFACEPOINT name="request_text" left="520" top="118"/>
+    <IFACEPOINT name="terms_text" center_off_x="0" top="73"/>
+    <IFACEPOINT name="offer_type_text" center_off_x="0" top="85"/>
+    <IFACEPOINT name="gained_text" left="33" top="115"/>
+    <IFACEPOINT name="lost_text" left="33" top="362"/><![CDATA[]]></CONQUESTNEGRESULTSSM>
+  <CONQUESTINVADEWIN name="invade_win" center_off_x="0" bottom_inverse="2" width="1024" height="-320">
+    <STYLE TOP="1" CHILD="1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_4" left="0" top="429" width="82" height="83"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_4" left="83" top="429" width="269" height="83"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_4" left="353" top="429" width="82" height="83"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="swords" texture="TEX_CONQ_IFACE_4" left="0" top="0" width="172" height="81"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="back_rect" left="19" left_inverse="" top="47" width="990" height="300"/>
+    <IFACERECT name="border_rect" left="0" left_inverse="" top="21" width="1024" height="320"/>
+    <IFACERECT name="sword_rect" left="" left_inverse="" center_off_x="0" top="0" width="172" height="81"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="66" width="825" height="83"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="83" width="278" height="18"/>
+    <BUTTON name="start" title="Begin Defense" center_off_x="0" bottom_inverse="135" width="215" height="-32"/>
+    <BUTTON name="bribe" title="Offer Bribe" center_off_x="0" bottom_inverse="85" width="215" height="-32"/>
+    <BUTTON name="center" title="Center Map" center_off_x="0" bottom_inverse="35" width="150" height="-32"/>
+    <BUTTON name="quit" title="Quit Campaign" right_inverse="35" bottom_inverse="35" width="-150" height="-32"/>
+  </CONQUESTINVADEWIN>
+  <CONQUESTREWARDWIN name="reward_win" center_off_x="0" bottom_inverse="2" width="1024" height="-350">
+    <STYLE TOP="1" CHILD="1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_ELIM_BG" file=".\art\ctw_capital_victory_base.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_ELIM_BG_OVERLAY" file=".\art\ctw_capital_victory_team_color.tga" pixformat="PF_32"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_4" left="0" top="429" width="82" height="83"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_4" left="83" top="429" width="269" height="83"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_4" left="353" top="429" width="82" height="83"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="continent_bg" texture="TEX_CONTINENT_BG" left="0" top="0" width="441" height="239"/>
+    <IFACETEX name="elim_bg" texture="TEX_ELIM_BG" left="0" top="0" width="441" height="239"/>
+    <IFACETEX name="elim_bg_overlay" texture="TEX_ELIM_BG_OVERLAY" left="0" top="0" width="441" height="239"/>
+    <IFACEBORDER name="misc">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="back_rect" left="19" top="57" width="990" height="270"/>
+    <IFACERECT name="border_rect" left="0" top="21" width="1024" height="320"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="15" width="278" height="18"/>
+    <IFACERECT name="text_rect" left="495" top="70" width="490" height="190"/>
+    <IFACERECT name="misc_border" center_off_x="0" top="30" width="1024" height="320"/>
+    <BUTTON name="close" title="Close" right_inverse="163" bottom_inverse="40" width="-215" height="-32"/>
+    <IFACESPRITE name="continent_bg" x="25" y="70">
+      <IFACETEX ref="continent_bg"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="elim_bg" x="25" y="70">
+      <IFACETEX ref="elim_bg"/>
+    </IFACESPRITE>
+    <STRETCHSPRITE name="ribbon">
+      <IFACERECT center_off_x="0" top="0" width="995" height="75"/>
+      <IFACETEX ref="banner0"/>
+      <IFACETEX ref="banner1"/>
+      <IFACETEX ref="banner2"/>
+    </STRETCHSPRITE>
+    <IFACEPOINT name="image_pos" left="25" top="70"/>
+  </CONQUESTREWARDWIN>
+  <CONQUESTSETUPWIN name="setupwin" title="Conquer the World" left="0" top="0" width="1024" height="768" logo_x="492" logo_y="200">
+    <IFACETEXLOAD id="TEX_WRAPPER_2" file=".\art\wrapper_pieces_03.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_SETUPWIN1" file=".\art\ctw_mapselect.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_WRAPPER_4" file=".\art\wrapper_pieces_05.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_SETUPWIN2" file=".\art\ctw_mapselect_02.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_SETUPWIN3" file=".\art\ctw_mapselect_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_END" file=".\art\ctw_end_game_02.tga" pixformat="PF_32"/>
+    <IFACETEX name="light_back" texture="TEX_SETUP_BUTTONS" left="256" top="0" width="256" height="256"/>
+    <IFACETEX name="medium_back" texture="TEX_SETUP_BUTTONS" left="0" top="0" width="256" height="256"/>
+    <IFACETEX name="dark_back" texture="TEX_SETUP_BUTTONS" left="257" top="257" width="255" height="255"/>
+    <IFACETEX name="check_off" texture="TEX_WRAPPER_1" left="1" top="1" width="25" height="22"/>
+    <IFACETEX name="check_on" texture="TEX_WRAPPER_1" left="1" top="70" width="25" height="22"/>
+    <IFACETEX name="team_color" texture="TEX_SETUP_BUTTONS" left="0" top="284" width="21" height="20"/>
+    <IFACETEX name="large_button_0" texture="TEX_WRAPPER_1" left="193" top="47" width="17" height="30"/>
+    <IFACETEX name="large_button_1" texture="TEX_WRAPPER_1" left="211" top="47" width="142" height="30"/>
+    <IFACETEX name="large_button_2" texture="TEX_WRAPPER_1" left="354" top="47" width="17" height="30"/>
+    <IFACETEX name="small_button_0" texture="TEX_CONQ_SETUPWIN1" left="314" top="0" width="4" height="18"/>
+    <IFACETEX name="small_button_1" texture="TEX_CONQ_SETUPWIN1" left="319" top="0" width="112" height="18"/>
+    <IFACETEX name="small_button_2" texture="TEX_CONQ_SETUPWIN1" left="432" top="0" width="4" height="18"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_5" left="0" top="398" width="154" height="114"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_5" left="155" top="398" width="203" height="114"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_5" left="359" top="398" width="153" height="114"/>
+    <IFACETEX name="send_button" texture="TEX_WRAPPER_1" left="442" top="67" width="69" height="73"/>
+    <IFACETEX name="but0" texture="TEX_WRAPPER_0" left="229" top="436" width="36" height="75"/>
+    <IFACETEX name="but1" texture="TEX_WRAPPER_0" left="266" top="436" width="201" height="75"/>
+    <IFACETEX name="but2" texture="TEX_WRAPPER_0" left="468" top="436" width="43" height="75"/>
+    <IFACETEX name="combo_left" texture="TEX_WRAPPER_1" left="193" top="1" width="4" height="21"/>
+    <IFACETEX name="combo_mid" texture="TEX_WRAPPER_1" left="198" top="1" width="130" height="21"/>
+    <IFACETEX name="combo_right" texture="TEX_WRAPPER_1" left="329" top="1" width="3" height="21"/>
+    <IFACETEX name="combo_arrow" texture="TEX_WRAPPER_1" left="123" top="1" width="23" height="21"/>
+    <IFACETEX name="combo_left_d" texture="TEX_WRAPPER_1" left="193" top="24" width="4" height="21"/>
+    <IFACETEX name="combo_mid_d" texture="TEX_WRAPPER_1" left="198" top="24" width="130" height="21"/>
+    <IFACETEX name="combo_right_d" texture="TEX_WRAPPER_1" left="329" top="24" width="3" height="21"/>
+    <IFACETEX name="combo_arrow_d" texture="TEX_WRAPPER_1" left="123" top="24" width="23" height="21"/>
+    <IFACETEX name="world_map" texture="TEX_CONQ_SETUPWIN3" left="0" top="165" width="305" height="164"/>
+    <IFACETEX name="alexander_map" texture="TEX_CONQ_SETUPWIN2" left="0" top="0" width="305" height="164"/>
+    <IFACETEX name="napoleon_map" texture="TEX_CONQ_SETUPWIN2" left="0" top="165" width="305" height="164"/>
+    <IFACETEX name="cold_war_map" texture="TEX_CONQ_SETUPWIN3" left="0" top="0" width="305" height="164"/>
+    <IFACETEX name="new_world_map" texture="TEX_CONQ_SETUPWIN2" left="0" top="330" width="305" height="164"/>
+    <IFACETEX name="campaign_select" texture="TEX_CONQ_SETUPWIN1" left="0" top="204" width="305" height="164"/>
+    <IFACETEX name="campaign_ribbon" texture="TEX_CONQ_SETUPWIN1" left="0" top="0" width="313" height="203"/>
+    <IFACETEX name="logo" texture="TEX_CONQ_END" left="131" top="0" width="381" height="195"/>
+    <IFACEBORDER name="thin_brown">
+      <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="329" top="292" width="4" height="4"/>
+      <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="346" top="292" width="4" height="4"/>
+      <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="346" top="297" width="4" height="4"/>
+      <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="329" top="297" width="4" height="4"/>
+      <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="334" top="292" width="11" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="356" top="292" width="4" height="6"/>
+      <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="334" top="297" width="11" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="351" top="292" width="4" height="6"/>
+    </IFACEBORDER>
+    <IFACERECT name="start_age" center_off_x="88" top="130" width="175" height="14"/>
+    <IFACERECT name="end_age" center_off_x="353" top="130" width="175" height="14"/>
+    <IFACERECT name="desc_rect" center_off_x="223" top="40" width="511" height="108"/>
+    <IFACERECT name="misce_border" center_off_x="223" top="35" right_inverse="" bottom_inverse="" width="521" height="118"/>
+    <!--<IFACERECT name="victory_rect" center_off_x="0" top="240" width="511" height="70"/>-->
+    <!--<IFACERECT name="misce_border" center_off_x="0" top="222" right_inverse="" bottom_inverse="" width="521" height="80"/>-->
+    <!--<IFACERECT name="misce_border" left="78" top="133" width="396" height="601"/>-->
+    <!--<IFACERECT name="misce_border" left="101" top="266" right_inverse="" bottom_inverse="" width="351" height="457"/>-->
+    <STRETCHSPRITE name="misc">
+      <IFACERECT center_off_x="0" top="633" width="508" height="75"/>
+      <IFACETEX ref="but0"/>
+      <IFACETEX ref="but1"/>
+      <IFACETEX ref="but2"/>
+    </STRETCHSPRITE>
+    <IFACECOLOR name="select_color" red="254" green="176" blue="5"/>
+    <IFACECOLOR name="over_color" red="167" green="137" blue="0"/>
+    <IFACEBORDER name="misce" ref="thin_brown"/>
+    <IFACEBORDER name="misce" ref="thin_brown"/>
+    <IFACEBORDER name="misce" ref="thin_brown"/>
+    <IFACEBORDER name="misce" ref="thin_brown"/>
+    <IFACESPRITE name="misc" center_off_x="-482" y="212">
+      <IFACETEX ref="alexander_map"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc" center_off_x="177" y="212">
+      <IFACETEX ref="new_world_map"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc" center_off_x="-152" y="212">
+      <IFACETEX ref="napoleon_map"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc" center_off_x="-310" y="420">
+      <IFACETEX ref="cold_war_map"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc" center_off_x="15" y="420">
+      <IFACETEX ref="world_map"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc" center_off_x="-480" y="0">
+      <IFACETEX ref="logo"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc_b" center_off_x="-487" y="207">
+      <IFACETEX ref="campaign_ribbon"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc_b" center_off_x="172" y="207">
+      <IFACETEX ref="campaign_ribbon"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc_b" center_off_x="-157" y="207">
+      <IFACETEX ref="campaign_ribbon"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc_b" center_off_x="-315" y="415">
+      <IFACETEX ref="campaign_ribbon"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="misc_b" center_off_x="10" y="415">
+      <IFACETEX ref="campaign_ribbon"/>
+    </IFACESPRITE>
+    <SPOT name="Alexander the Great" id="0" center_off_x="-332" top="212" width="305" height="164"/>
+    <SPOT name="The New World" id="3" center_off_x="329" top="212" width="305" height="164"/>
+    <SPOT name="Napoleon" id="2" center_off_x="0" top="212" width="305" height="164"/>
+    <SPOT name="The Cold War" id="1" center_off_x="-159" top="420" width="305" height="164"/>
+    <SPOT name="The Entire World" id="4" center_off_x="166" top="420" width="305" height="164"/>
+    <BUTTON name="continue" id="0" title="Continue" center_off_x="-332" top="392" width="120" height="18"/>
+    <BUTTON name="continue" id="3" title="Continue" center_off_x="329" top="392" width="120" height="18"/>
+    <BUTTON name="continue" id="2" title="Continue" center_off_x="0" top="392" width="120" height="18"/>
+    <BUTTON name="continue" id="1" title="Continue" center_off_x="-157" top="600" width="120" height="18"/>
+    <BUTTON name="continue" id="4" title="Continue" center_off_x="165" top="600" width="120" height="18"/>
+    <POSITIONING center_off_x="-115" y="650" inc_x="231">
+      <BUTTON name="start" title="New Campaign" left="0" top="0" width="225" height="30"/>
+    </POSITIONING>
+    <POSITIONING center_off_x="-230" y="710" inc_x="231">
+      <BUTTON name="load" title="Load Campaign" left="0" top="0" width="225" height="30"/>
+      <BUTTON name="cancel" title="Back" left="0" top="0" width="225" height="30"/>
+    </POSITIONING>
+    <COMBOBOX name="map" title="Custom Map" center_off_x="89" top="177" width="250" height="21"/>
+    <COMBOBOX name="difficulty" title="Difficulty" center_off_x="360" top="177" width="250" height="21" default="Moderate"/>
+    <WINDOW name="nation_select" center_off_x="0" center_off_y="0" width="575" height="600">
+      <IFACETEXLOAD id="TEX_TOPMENU_0" file=".\art\iface_wrapper1.tga" pixformat="PF_32" sort="0"/>
+      <IFACETEXLOAD id="TEX_WRAPPER_2" file=".\art\wrapper_pieces_03.tga" pixformat="PF_32" sort=""/>
+      <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+      <IFACETEXLOAD id="TEX_WRAPPER_0" file=".\art\wrapper_pieces_01.tga" pixformat="PF_32" sort=""/>
+      <IFACETEX name="light_back" texture="TEX_SETUP_BUTTONS" left="256" top="0" width="256" height="256"/>
+      <IFACETEX name="medium_back" texture="TEX_SETUP_BUTTONS" left="0" top="0" width="256" height="256"/>
+      <IFACETEX name="dark_back" texture="TEX_SETUP_BUTTONS" left="257" top="257" width="255" height="255"/>
+      <IFACETEX name="check_off" texture="TEX_WRAPPER_1" left="1" top="1" width="25" height="22"/>
+      <IFACETEX name="check_on" texture="TEX_WRAPPER_1" left="1" top="70" width="25" height="22"/>
+      <IFACETEX name="team_color" texture="TEX_SETUP_BUTTONS" left="0" top="284" width="21" height="20"/>
+      <IFACETEX name="large_button_0" texture="TEX_WRAPPER_1" left="193" top="47" width="17" height="30"/>
+      <IFACETEX name="large_button_1" texture="TEX_WRAPPER_1" left="211" top="47" width="142" height="30"/>
+      <IFACETEX name="large_button_2" texture="TEX_WRAPPER_1" left="354" top="47" width="17" height="30"/>
+      <IFACETEX name="small_button_0" texture="TEX_WRAPPER_1" left="400" top="0" width="4" height="19"/>
+      <IFACETEX name="small_button_1" texture="TEX_WRAPPER_1" left="405" top="0" width="102" height="19"/>
+      <IFACETEX name="small_button_2" texture="TEX_WRAPPER_1" left="508" top="0" width="4" height="19"/>
+      <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_5" left="0" top="398" width="154" height="114"/>
+      <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_5" left="155" top="398" width="203" height="114"/>
+      <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_5" left="359" top="398" width="153" height="114"/>
+      <IFACETEX name="but0" texture="TEX_WRAPPER_0" left="229" top="436" width="36" height="75"/>
+      <IFACETEX name="but1" texture="TEX_WRAPPER_0" left="266" top="436" width="201" height="75"/>
+      <IFACETEX name="but2" texture="TEX_WRAPPER_0" left="468" top="436" width="43" height="75"/>
+      <IFACETEX name="combo_left" texture="TEX_WRAPPER_1" left="193" top="1" width="4" height="21"/>
+      <IFACETEX name="combo_mid" texture="TEX_WRAPPER_1" left="198" top="1" width="130" height="21"/>
+      <IFACETEX name="combo_right" texture="TEX_WRAPPER_1" left="329" top="1" width="3" height="21"/>
+      <IFACETEX name="combo_arrow" texture="TEX_WRAPPER_1" left="123" top="1" width="23" height="21"/>
+      <IFACETEX name="combo_left_d" texture="TEX_WRAPPER_1" left="193" top="24" width="4" height="21"/>
+      <IFACETEX name="combo_mid_d" texture="TEX_WRAPPER_1" left="198" top="24" width="130" height="21"/>
+      <IFACETEX name="combo_right_d" texture="TEX_WRAPPER_1" left="329" top="24" width="3" height="21"/>
+      <IFACETEX name="combo_arrow_d" texture="TEX_WRAPPER_1" left="123" top="24" width="23" height="21"/>
+      <IFACETEX name="ribbon0" texture="TEX_WRAPPER_4" left="198" top="0" width="59" height="74"/>
+      <IFACETEX name="ribbon1" texture="TEX_WRAPPER_4" left="258" top="0" width="194" height="74"/>
+      <IFACETEX name="ribbon2" texture="TEX_WRAPPER_4" left="453" top="0" width="59" height="74"/>
+      <IFACETEX name="globe_left" texture="TEX_CONQ_SETUPWIN1" left="314" top="57" width="159" height="160"/>
+      <IFACETEX name="globe_right" texture="TEX_CONQ_SETUPWIN1" left="314" top="218" width="159" height="160"/>
+      <IFACEBORDER name="main">
+        <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="1" top="1" width="42" height="42"/>
+        <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="252" top="1" width="42" height="42"/>
+        <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="252" top="252" width="42" height="42"/>
+        <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="1" top="252" width="42" height="42"/>
+        <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="1" top="338" width="295" height="42"/>
+        <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="295" top="1" width="41" height="262"/>
+        <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="1" top="295" width="295" height="42"/>
+        <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="339" top="1" width="41" height="262"/>
+        <IFACETEX name="extra0" texture="TEX_WRAPPER_0" left="44" top="1" width="103" height="42"/>
+        <IFACETEX name="extra1" texture="TEX_WRAPPER_0" left="148" top="1" width="103" height="42"/>
+        <IFACETEX name="extra2" texture="TEX_WRAPPER_0" left="252" top="44" width="42" height="103"/>
+        <IFACETEX name="extra3" texture="TEX_WRAPPER_0" left="252" top="148" width="42" height="103"/>
+        <IFACETEX name="extra4" texture="TEX_WRAPPER_0" left="148" top="252" width="103" height="42"/>
+        <IFACETEX name="extra5" texture="TEX_WRAPPER_0" left="44" top="252" width="103" height="42"/>
+        <IFACETEX name="extra6" texture="TEX_WRAPPER_0" left="1" top="148" width="42" height="103"/>
+        <IFACETEX name="extra7" texture="TEX_WRAPPER_0" left="1" top="44" width="42" height="103"/>
+      </IFACEBORDER>
+      <IFACEBORDER name="thin_brown">
+        <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="329" top="292" width="4" height="4"/>
+        <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="346" top="292" width="4" height="4"/>
+        <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="346" top="297" width="4" height="4"/>
+        <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="329" top="297" width="4" height="4"/>
+        <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="334" top="292" width="11" height="4"/>
+        <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="356" top="292" width="4" height="6"/>
+        <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="334" top="297" width="11" height="4"/>
+        <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="351" top="292" width="4" height="6"/>
+      </IFACEBORDER>
+      <STYLE CHILD="1" PASS_CONTROLS="1"/>
+      <IFACERECT name="back" left="20" top="20" width="535" height="560"/>
+      <IFACECOLOR red="0" green="0" blue="0" alpha="255" name="back"/>
+      <LISTBOX2 name="tribes" title="Select a Nation" top="212" center_off_x="0" width="441" height="204"/>
+      <IFACEBORDER name="miscb" ref="thin_brown"/>
+      <STRETCHSPRITE name="miscb">
+        <IFACERECT center_off_x="0" top="0" width="470" height="74"/>
+        <IFACETEX ref="ribbon0"/>
+        <IFACETEX ref="ribbon1"/>
+        <IFACETEX ref="ribbon2"/>
+      </STRETCHSPRITE>
+      <CHECKBOX center_off_x="-105" top="440" width="200" height="20" name="random_nations" title="Randomize Nation Positions"/>
+      <CHECKBOX center_off_x="105" top="440" width="200" height="20" name="random_bonuses" title="Randomize Bonuses"/>
+      <IFACERECT name="miscb_border" center_off_x="0" top="207" width="451" height="214"/>
+      <IFACERECT name="list_back" center_off_x="0" top="212" width="441" height="204"/>
+      <IFACERECT name="victory_rect" center_off_x="0" top="70" width="441" height="200"/>
+      <IFACERECT name="ribbon_text_rect" center_off_x="0" top="23" width="400" height="16"/>
+      <IFACERECT name="list_title" center_off_x="0" top="185" width="200" height="16"/>
+      <BUTTON name="nation_cancel" title="Back" center_off_x="110" top="515" width="206" height="30"/>
+      <BUTTON name="nation_start" title="Start Campaign" center_off_x="-110" top="515" width="225" height="30"/>
+      <IFACESPRITE name="misc" center_off_x="-159" y="49">
+        <IFACETEX ref="globe_left"/>
+      </IFACESPRITE>
+      <IFACESPRITE name="misc" center_off_x="0" y="49">
+        <IFACETEX ref="globe_right"/>
+      </IFACESPRITE>
+    </WINDOW>
+  </CONQUESTSETUPWIN>
+  <CONQUESTNEWSWIN name="ConquestNews" title="World Events" center_off_x="140" bottom_inverse="2" width="751" height="-384" def_tab="tab_conquest" def_tab_index="0">
+    <STYLE TOP="1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACEBORDER name="thin_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEX name="left_tab_end" texture="TEX_CONQ_IFACE_4" left="34" top="396" width="7" height="32"/>
+    <IFACETEX name="right_tab_end" texture="TEX_CONQ_IFACE_4" left="316" top="396" width="7" height="32"/>
+    <IFACETEX name="tab" texture="TEX_CONQ_IFACE_4" left="42" top="396" width="136" height="32"/>
+    <IFACETEX name="tab_active" texture="TEX_CONQ_IFACE_4" left="179" top="396" width="136" height="32"/>
+    <IFACETEX name="item_tex" texture="TEX_CONQ_IFACE_4" left="0" top="410" width="18" height="18"/>
+    <IFACETEX name="arrow_up" texture="TEX_CONQ_IFACE_4" left="466" top="199" width="46" height="30"/>
+    <IFACETEX name="arrow_down" texture="TEX_CONQ_IFACE_4" left="419" top="199" width="46" height="30"/>
+    <IFACETEX name="sm_button0" texture="TEX_CONQ_IFACE_1" left="447" top="157" width="14" height="24"/>
+    <IFACETEX name="sm_button1" texture="TEX_CONQ_IFACE_1" left="462" top="157" width="35" height="24"/>
+    <IFACETEX name="check_off" texture="TEX_WRAPPER_1" left="1" top="1" width="25" height="22"/>
+    <IFACETEX name="check_on" texture="TEX_WRAPPER_1" left="1" top="70" width="25" height="22"/>
+    <IFACETEX name="sm_button2" texture="TEX_CONQ_IFACE_1" left="498" top="157" width="14" height="24"/>
+    <BUTTON name="close" title="Close" right_inverse="40" bottom_inverse="50" width="-99" height="-24"/>
+    <BUTTON name="arrow_down" right_inverse="40" bottom_inverse="86" width="-46" height="-30"/>
+    <BUTTON name="arrow_up" right_inverse="40" top="117" width="-46" height="30"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="600" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="350" height="18"/>
+    <IFACERECT name="text_rect" center_off_x="0" top="88" width="693" height="254"/>
+    <IFACERECT name="back_rect" left="19" left_inverse="" top="47" width="715" height="320"/>
+    <IFACERECT name="border_rect" left="0" left_inverse="" top="14" width="751" height="369"/>
+    <POSITIONING x="36" y="60" inc_x="136">
+      <BUTTON name="tab_conquest" id="0" title="Conquests" width="136" height="32"/>
+      <BUTTON name="tab_defense" id="1" title="Defeats" width="136" height="32"/>
+      <BUTTON name="tab_diplomacy" id="2" title="Diplomacy" width="136" height="32"/>
+      <BUTTON name="tab_purchase" id="3" title="Purchase" width="136" height="32"/>
+      <BUTTON name="tab_card" id="4" title="Cards" width="136" height="32"/>
+    </POSITIONING>
+    <IFACEPOINT left="0" top="-5" name="tab_text_off"/>
+    <POSITIONING x="37" y="117" inc_y="23">
+      <BUTTON name="item_but" id="0" width="18" height="18"/>
+      <BUTTON name="item_but" id="1" width="18" height="18"/>
+      <BUTTON name="item_but" id="2" width="18" height="18"/>
+      <BUTTON name="item_but" id="3" width="18" height="18"/>
+      <BUTTON name="item_but" id="4" width="18" height="18"/>
+      <BUTTON name="item_but" id="5" width="18" height="18"/>
+      <BUTTON name="item_but" id="6" width="18" height="18"/>
+      <BUTTON name="item_but" id="7" width="18" height="18"/>
+    </POSITIONING>
+    <CHECKBOX name="auto_show" title="Show Events Every Turn" left="40" bottom_inverse="50" width="300" height="-25">
+      <FONT size="14"/>
+    </CHECKBOX>
+  </CONQUESTNEWSWIN>
+  <CONQUESTSTARTWIN name="ConquestStartWin" title="Battle Objectives" left="0" top="0" width="945" height="678">
+    <BUTTON name="close" title="Begin" center_off_x="0" bottom_inverse="50" width="215" height="-32"/>
+    <BUTTON name="player_card_left" left="60" bottom_inverse="140" width="30" height="-46"/>
+    <BUTTON name="player_card_right" left="410" bottom_inverse="140" width="30" height="-46"/>
+    <BUTTON name="opp_card_left" right_inverse="410" bottom_inverse="140" width="-30" height="-46"/>
+    <BUTTON name="opp_card_right" right_inverse="60" bottom_inverse="140" width="-30" height="-46"/>
+    <IFACETEXLOAD id="TEX_WRAPPER_1M" file=".\art\wrapper_pieces_02-M.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_WRAPPER_0M" file=".\art\wrapper_pieces_01-M.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32" sort="1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32" sort="-2"/>
+    <IFACETEX name="large_button_0" texture="TEX_WRAPPER_1M" left="193" top="47" width="17" height="30"/>
+    <IFACETEX name="large_button_1" texture="TEX_WRAPPER_1M" left="211" top="47" width="142" height="30"/>
+    <IFACETEX name="large_button_2" texture="TEX_WRAPPER_1M" left="354" top="47" width="17" height="30"/>
+    <IFACETEX name="back" texture="TEX_CONQ_IFACE_2" left="0" top="308" width="204" height="204"/>
+    <IFACETEX name="arrow_left" texture="TEX_CONQ_IFACE_2" left="448" top="50" width="30" height="46"/>
+    <IFACETEX name="arrow_right" texture="TEX_CONQ_IFACE_2" left="482" top="50" width="30" height="46"/>
+    <IFACETEX name="lg_button" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="215" height="32"/>
+    <IFACETEX name="card" texture="TEX_CONQ_IFACE_3" left="386" top="151" width="100" height="150"/>
+    <IFACETEX name="slot" texture="TEX_CONQ_IFACE_3" left="386" top="0" width="100" height="150"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEX name="sm_button0" texture="TEX_CONQ_IFACE_1" left="447" top="157" width="14" height="24"/>
+    <IFACETEX name="sm_button1" texture="TEX_CONQ_IFACE_1" left="462" top="157" width="35" height="24"/>
+    <IFACETEX name="sm_button2" texture="TEX_CONQ_IFACE_1" left="498" top="157" width="14" height="24"/>
+    <IFACETEX name="army_image" texture="TEX_CONQ_IFACE_4" left="465" top="404" width="47" height="66"/>
+    <IFACERECT name="back" left="42" top="56" width="858" height="580"/>
+    <IFACERECT name="player_card_text" left="95" top="415" width="100" height="18"/>
+    <IFACERECT name="opp_card_text" left="542" top="415" width="100" height="18"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="475" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="200" height="18"/>
+    <IFACERECT name="reinforce_text" left="55" top="22" width="156" height="55"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="desc_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main_border">
+      <IFACETEX name="corner0" texture="TEX_WRAPPER_0M" left="1" top="1" width="42" height="42"/>
+      <IFACETEX name="corner1" texture="TEX_WRAPPER_0M" left="252" top="1" width="42" height="42"/>
+      <IFACETEX name="corner2" texture="TEX_WRAPPER_0M" left="252" top="252" width="42" height="42"/>
+      <IFACETEX name="corner3" texture="TEX_WRAPPER_0M" left="1" top="252" width="42" height="42"/>
+      <IFACETEX name="edge0" texture="TEX_WRAPPER_0M" left="1" top="338" width="295" height="42"/>
+      <IFACETEX name="edge1" texture="TEX_WRAPPER_0M" left="295" top="1" width="42" height="262"/>
+      <IFACETEX name="edge2" texture="TEX_WRAPPER_0M" left="1" top="295" width="295" height="42"/>
+      <IFACETEX name="edge3" texture="TEX_WRAPPER_0M" left="338" top="1" width="42" height="262"/>
+      <IFACETEX name="extra0" texture="TEX_WRAPPER_0M" left="44" top="1" width="103" height="42"/>
+      <IFACETEX name="extra1" texture="TEX_WRAPPER_0M" left="148" top="1" width="103" height="42"/>
+      <IFACETEX name="extra2" texture="TEX_WRAPPER_0M" left="252" top="44" width="42" height="103"/>
+      <IFACETEX name="extra3" texture="TEX_WRAPPER_0M" left="252" top="148" width="42" height="103"/>
+      <IFACETEX name="extra4" texture="TEX_WRAPPER_0M" left="148" top="252" width="103" height="42"/>
+      <IFACETEX name="extra5" texture="TEX_WRAPPER_0M" left="44" top="252" width="103" height="42"/>
+      <IFACETEX name="extra6" texture="TEX_WRAPPER_0M" left="1" top="148" width="42" height="103"/>
+      <IFACETEX name="extra7" texture="TEX_WRAPPER_0M" left="1" top="44" width="42" height="103"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="desc_border"/>
+    <IFACERECT name="bg_border" center_off_x="0" top="14" width="940" height="664"/>
+    <IFACERECT name="misc_border" left="53" top="79" width="237" height="47"/>
+    <IFACERECT name="misc_border" left="53" top="128" width="237" height="105"/>
+    <IFACERECT name="misc_border" left="53" top="248" width="237" height="105"/>
+    <IFACERECT name="misc_border" right_inverse="53" top="79" width="-237" height="47"/>
+    <IFACERECT name="misc_border" right_inverse="53" top="128" width="-237" height="105"/>
+    <IFACERECT name="misc_border" right_inverse="53" top="248" width="-237" height="105"/>
+    <IFACERECT name="misc_border" center_off_x="0" top="22" width="341" height="351"/>
+    <SPOT name="player_name" center_off_x="53" left="53" top="79" width="237" height="47"/>
+    <SPOT name="player_reinforce" center_off_x="53" left="53" top="128" width="237" height="105"/>
+    <SPOT name="player_ally" center_off_x="53" left="53" top="248" width="237" height="105"/>
+    <SPOT name="opp_name" right_inverse="53" top="79" width="-237" height="47"/>
+    <SPOT name="opp_reinforce" right_inverse="53" top="128" width="-237" height="105"/>
+    <SPOT name="opp_ally" right_inverse="53" top="248" width="-237" height="105"/>
+    <SPOT name="desc" center_off_x="0" top="55" width="341" height="351"/>
+    <IFACEPOINT name="desc_bg_inset" left="19" top="33"/>
+    <IFACEPOINT name="desc_text_inset" left="8" top="8"/>
+    <IFACEPOINT name="text_inset" left="3" top="3"/>
+    <POSITIONING x="98" y="435" inc_x="103">
+      <IFACERECT name="player_card" width="100" height="150"/>
+      <IFACERECT name="player_card" width="100" height="150"/>
+      <IFACERECT name="player_card" width="100" height="150"/>
+    </POSITIONING>
+    <POSITIONING x="98" y="435" inc_x="103">
+      <SPOT name="player_card" id="0" width="100" height="150"/>
+      <SPOT name="player_card" id="1" width="100" height="150"/>
+      <SPOT name="player_card" id="2" width="100" height="150"/>
+    </POSITIONING>
+    <POSITIONING x="542" y="435" inc_x="103">
+      <IFACERECT name="opp_card" width="100" height="150"/>
+      <IFACERECT name="opp_card" width="100" height="150"/>
+      <IFACERECT name="opp_card" width="100" height="150"/>
+    </POSITIONING>
+    <POSITIONING x="542" y="435" inc_x="103">
+      <SPOT name="opp_card" id="0" width="100" height="150"/>
+      <SPOT name="opp_card" id="1" width="100" height="150"/>
+      <SPOT name="opp_card" id="2" width="100" height="150"/>
+    </POSITIONING>
+    <BUTTON title="More Info" name="info" center_off_x="0" top="365" width="155" height="24"/>
+    <BUTTON title="Introduction" name="intro" center_off_x="0" top="365" width="155" height="24"/>
+    <STRINGBOX name="desc_text" center_off_x="0" stick_to_bottom="0" top="90" width="280" height="240"/>
+    <IFACEPOINT name="army_point" left="60" top="155"/>
+    <IFACEPOINT name="army_point" left="60" top="276"/>
+    <IFACEPOINT name="army_point" left="661" top="155"/>
+    <IFACEPOINT name="army_point" left="661" top="276"/>
+  </CONQUESTSTARTWIN>
+  <CONQUESTSTARTWINSM name="ConquestStartWinSM" title="Battle Objectives" center_off_x="0" center_off_y="0" width="500" height="500">
+    <BUTTON name="close" title="Begin" center_off_x="0" bottom_inverse="50" width="215" height="-32"/>
+    <IFACETEXLOAD id="TEX_WRAPPER_1M" file=".\art\wrapper_pieces_02-M.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_WRAPPER_0M" file=".\art\wrapper_pieces_01-M.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEX name="large_button_0" texture="TEX_WRAPPER_1M" left="193" top="47" width="17" height="30"/>
+    <IFACETEX name="large_button_1" texture="TEX_WRAPPER_1M" left="211" top="47" width="142" height="30"/>
+    <IFACETEX name="large_button_2" texture="TEX_WRAPPER_1M" left="354" top="47" width="17" height="30"/>
+    <IFACETEX name="back" texture="TEX_CONQ_IFACE_2" left="0" top="308" width="204" height="204"/>
+    <IFACETEX name="lg_button" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="215" height="32"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEX name="sm_button0" texture="TEX_CONQ_IFACE_1" left="447" top="157" width="14" height="24"/>
+    <IFACETEX name="sm_button1" texture="TEX_CONQ_IFACE_1" left="462" top="157" width="35" height="24"/>
+    <IFACETEX name="sm_button2" texture="TEX_CONQ_IFACE_1" left="498" top="157" width="14" height="24"/>
+    <IFACERECT name="back" left="42" top="56" width="420" height="420"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="475" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="200" height="18"/>
+    <IFACEBORDER name="desc_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="main_border">
+      <IFACETEX name="corner0" texture="TEX_WRAPPER_0M" left="1" top="1" width="42" height="42"/>
+      <IFACETEX name="corner1" texture="TEX_WRAPPER_0M" left="252" top="1" width="42" height="42"/>
+      <IFACETEX name="corner2" texture="TEX_WRAPPER_0M" left="252" top="252" width="42" height="42"/>
+      <IFACETEX name="corner3" texture="TEX_WRAPPER_0M" left="1" top="252" width="42" height="42"/>
+      <IFACETEX name="edge0" texture="TEX_WRAPPER_0M" left="1" top="338" width="295" height="42"/>
+      <IFACETEX name="edge1" texture="TEX_WRAPPER_0M" left="295" top="1" width="42" height="262"/>
+      <IFACETEX name="edge2" texture="TEX_WRAPPER_0M" left="1" top="295" width="295" height="42"/>
+      <IFACETEX name="edge3" texture="TEX_WRAPPER_0M" left="338" top="1" width="42" height="262"/>
+      <IFACETEX name="extra0" texture="TEX_WRAPPER_0M" left="44" top="1" width="103" height="42"/>
+      <IFACETEX name="extra1" texture="TEX_WRAPPER_0M" left="148" top="1" width="103" height="42"/>
+      <IFACETEX name="extra2" texture="TEX_WRAPPER_0M" left="252" top="44" width="42" height="103"/>
+      <IFACETEX name="extra3" texture="TEX_WRAPPER_0M" left="252" top="148" width="42" height="103"/>
+      <IFACETEX name="extra4" texture="TEX_WRAPPER_0M" left="148" top="252" width="103" height="42"/>
+      <IFACETEX name="extra5" texture="TEX_WRAPPER_0M" left="44" top="252" width="103" height="42"/>
+      <IFACETEX name="extra6" texture="TEX_WRAPPER_0M" left="1" top="148" width="42" height="103"/>
+      <IFACETEX name="extra7" texture="TEX_WRAPPER_0M" left="1" top="44" width="42" height="103"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="misc" ref="desc_border"/>
+    <IFACERECT name="bg_border" center_off_x="0" top="14" width="500" height="500"/>
+    <IFACERECT name="misc_border" center_off_x="0" top="22" width="341" height="351"/>
+    <SPOT name="desc" center_off_x="0" top="55" width="341" height="351"/>
+    <BUTTON title="More Info" name="info" center_off_x="0" top="365" width="155" height="24"/>
+    <BUTTON title="Introduction" name="intro" center_off_x="0" top="365" width="155" height="24"/>
+    <STRINGBOX name="desc_text" center_off_x="0" top="90" width="280" height="240" stick_to_bottom="0"/>
+    <IFACEPOINT name="desc_bg_inset" left="19" top="33"/>
+    <IFACEPOINT name="desc_text_inset" left="8" top="8"/>
+    <IFACEPOINT name="text_inset" left="3" top="3"/>
+  </CONQUESTSTARTWINSM>
+  <CONQUESTRULESWIN name="rules_win" title="Conquer the World Rules" left="0" top="0" width="500" height="690">
+    <BUTTON name="close" title="Close" center_off_x="0" bottom_inverse="50" width="210" height="-30"/>
+    <BUTTON name="more" title="Territory Strengths" center_off_x="0" bottom_inverse="90" width="210" height="-30"/>
+    <STYLE TOP="1"/>
+    <IFACETEX name="large_button_0" texture="TEX_WRAPPER_1" left="193" top="78" width="17" height="30"/>
+    <IFACETEX name="large_button_1" texture="TEX_WRAPPER_1" left="211" top="78" width="142" height="30"/>
+    <IFACETEX name="large_button_2" texture="TEX_WRAPPER_1" left="354" top="78" width="17" height="30"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <STRINGBOX name="rules_text" center_off_x="0" top="60" width="450" stick_to_bottom="0" height="480"/>
+    <STRINGBOX name="build_text" center_off_x="0" top="60" width="450" stick_to_bottom="0" height="480"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="-9" width="500" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="3" width="200" height="22"/>
+    <IFACERECT name="bg_rect" center_off_x="0" top="30" width="465" height="640"/>
+    <IFACERECT name="text_rect" center_off_x="0" top="60" width="450" height="740"/>
+  </CONQUESTRULESWIN>
+  <CONQUESTWONDERWIN name="wonder_win" title="Conquer the World Rules" left="0" top="0" width="570" height="578">
+    <BUTTON name="cancel" title="Cancel" right_inverse="50" bottom_inverse="50" width="-110" height="-30"/>
+    <BUTTON name="okay" title="OK" right_inverse="170" bottom_inverse="50" width="-110" height="-30"/>
+    <IFACETEX name="large_button_0" texture="TEX_WRAPPER_1" left="193" top="47" width="17" height="30"/>
+    <IFACETEX name="large_button_1" texture="TEX_WRAPPER_1" left="211" top="47" width="142" height="30"/>
+    <IFACETEX name="large_button_2" texture="TEX_WRAPPER_1" left="354" top="47" width="17" height="30"/>
+    <IFACETEX name="back" texture="TEX_CONQ_IFACE_2" left="0" top="308" width="204" height="282"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACERECT name="bg_rect" center_off_x="0" top="30" width="535" height="528"/>
+    <IFACEBORDER name="thin_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="thick_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="-12" width="400" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="0" width="200" height="18"/>
+    <IFACERECT name="help_rect" right_inverse="50" top="55" width="-293" height="350"/>
+    <POSITIONING x="40" y="55" inc_y="49">
+      <IFACERECT name="icon" id="0" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="1" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="2" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="3" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="4" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="5" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="6" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="7" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="8" left="0" top="0" width="61" height="39"/>
+    </POSITIONING>
+    <POSITIONING x="120" y="55" inc_y="49">
+      <IFACERECT name="icon" id="9" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="10" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="11" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="12" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="13" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="14" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="15" left="0" top="0" width="61" height="39"/>
+      <IFACERECT name="icon" id="16" left="0" top="0" width="61" height="39"/>
+    </POSITIONING>
+    <IFACEPOINT name="select_text" left="40" top_inverse="80"/>
+  </CONQUESTWONDERWIN>
+  <CONQUESTPICKCARDWIN name="pick_card_win" title="Choose a Bonus Card" center_off_x="0" center_off_y="0" width="725" height="480">
+    <BUTTON name="cancel" title="Cancel" center_off_x="80" bottom_inverse="50" width="150" height="-30"/>
+    <BUTTON name="okay" title="OK" center_off_x="-80" bottom_inverse="50" width="150" height="-30"/>
+    <IFACERECT name="bg_rect" center_off_x="0" top="30" width="695" height="435"/>
+    <IFACETEX name="large_button_0" texture="TEX_WRAPPER_1" left="193" top="47" width="17" height="30"/>
+    <IFACETEX name="large_button_1" texture="TEX_WRAPPER_1" left="211" top="47" width="142" height="30"/>
+    <IFACETEX name="large_button_2" texture="TEX_WRAPPER_1" left="354" top="47" width="17" height="30"/>
+    <IFACETEX name="tactic_card" texture="TEX_CONQ_IFACE_3" left="0" top="0" width="192" height="290"/>
+    <IFACETEX name="strat_card" texture="TEX_CONQ_IFACE_3" left="193" top="0" width="192" height="290"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_WRAPPER_0M" file=".\art\wrapper_pieces_01-M.tga" pixformat="PF_32" sort=""/>
+    <IFACERECT name="card_text_rect" left="16" top="45" width="155" height="185"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="200" height="18"/>
+    <IFACERECT name="ribbon_rect" left="" center_off_x="0" top="0" width="450" height="69"/>
+    <IFACEBORDER name="thin_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="thick_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <POSITIONING x="55" y="80" inc_x="210">
+      <IFACERECT name="card" left="0" top="0" width="192" height="290"/>
+      <IFACERECT name="card" left="0" top="0" width="192" height="290"/>
+      <IFACERECT name="card" left="0" top="0" width="192" height="290"/>
+    </POSITIONING>
+    <SPOT name="card" left="60" top="80" width="192" height="290"/>
+    <SPOT name="card" left="270" top="80" width="192" height="290"/>
+    <SPOT name="card" left="480" top="80" width="192" height="290"/>
+  </CONQUESTPICKCARDWIN>
+  <CONQUESTDIRECTIONWIN name="ctw_direction_win" title="Your Advisor's Intelligence:" center_off_x="0" center_off_y="0" width="725" height="480">
+    <BUTTON name="okay" title="OK" center_off_x="0" bottom_inverse="50" width="150" height="-30"/>
+    <IFACERECT name="bg_rect" center_off_x="0" top="30" width="695" height="435"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEX name="back" texture="TEX_CONQ_IFACE_2" left="0" top="308" width="204" height="204"/>
+    <IFACETEX name="large_button_0" texture="TEX_WRAPPER_1" left="193" top="47" width="17" height="30"/>
+    <IFACETEX name="large_button_1" texture="TEX_WRAPPER_1" left="211" top="47" width="142" height="30"/>
+    <IFACETEX name="large_button_2" texture="TEX_WRAPPER_1" left="354" top="47" width="17" height="30"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACERECT name="card_text_rect" left="16" top="45" width="155" height="185"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="200" height="18"/>
+    <IFACERECT name="ribbon_rect" left="" center_off_x="0" top="0" width="650" height="69"/>
+    <IFACERECT name="text_rect" left="" center_off_x="0" top="60" width="575" height="69"/>
+    <IFACEBORDER name="thin_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="thick_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <STRINGBOX name="text" center_off_x="0" top="60" width="575" stick_to_bottom="0" height="330"/>
+    <STYLE TOP="1" DIALOG="1"/>
+  </CONQUESTDIRECTIONWIN>
+  <CONQUESTINFOWIN name="info_win" title="World Status" left="0" top="0" width="1024" height="768">
+    <STYLE TOP="1" CHILD="1"/>
+    <IFACETEXLOAD id="TEX_WRAPPER_1M" file=".\art\wrapper_pieces_02-M.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_WRAPPER_0M" file=".\art\wrapper_pieces_01-M.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32" sort=""/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_3" file=".\art\ctw_bonus_cards_01.tga" pixformat="PF_32" sort="-1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_4" file=".\art\ctw_interface_pieces_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga" pixformat="PF_32"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_2" left="0" top="80" width="78" height="69"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_2" left="78" top="80" width="125" height="69"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_2" left="203" top="80" width="74" height="69"/>
+    <IFACETEX name="sm_button0" texture="TEX_CONQ_IFACE_1" left="447" top="157" width="14" height="24"/>
+    <IFACETEX name="sm_button1" texture="TEX_CONQ_IFACE_1" left="462" top="157" width="35" height="24"/>
+    <IFACETEX name="sm_button2" texture="TEX_CONQ_IFACE_1" left="498" top="157" width="14" height="24"/>
+    <IFACETEX name="horiz_bar" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+    <IFACETEX name="lg_button" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="215" height="32"/>
+    <IFACETEX name="bracket_left" texture="TEX_CONQ_IFACE_2" left="347" top="12" width="6" height="8"/>
+    <IFACETEX name="bracket_right" texture="TEX_CONQ_IFACE_2" left="363" top="12" width="6" height="8"/>
+    <IFACEBORDER name="main">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACERECT name="text_rect" left="30" top="30" width="200" height="400"/>
+    <IFACERECT name="back_rect" left="19" left_inverse="" top="47" width="990" height="700"/>
+    <IFACERECT name="border_rect" left="0" left_inverse="" top="28" width="1024" height="740"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="0" width="600" height="69"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="12" width="350" height="18"/>
+    <IFACERECT name="info_rect" left="19" center_off_x="0" top="80" width="940" height="550"/>
+    <BUTTON name="close" id="-1" title="Close" center_off_x="117" bottom_inverse="38" width="214" height="-31"/>
+    <BUTTON name="colonies" id="-1" title="Colonies" center_off_x="-117" bottom_inverse="38" width="214" height="-31"/>
+    <BUTTON name="stats" id="-1" title="Stats" center_off_x="-117" bottom_inverse="38" width="214" height="-31"/>
+    <BUTTON name="column0" id="0" title="Rank" left="24" top="78" width="62" height="23"/>
+    <BUTTON name="column1" id="1" title="Name" left="170" top="78" width="86" height="23"/>
+    <BUTTON name="colony_column0" id="0" title="Name" left="70" top="78" width="106" height="23"/>
+    <BUTTON name="colony_column1" id="1" title="Owner" left="190" top="78" width="106" height="23"/>
+    <BUTTON name="colony_column2" id="2" title="Tribute" left="310" top="78" width="106" height="23"/>
+    <BUTTON name="colony_column3" id="3" title="Wonder" left="430" top="78" width="106" height="23"/>
+    <BUTTON name="colony_column4" id="4" title="Rare" left="570" top="78" width="106" height="23"/>
+    <POSITIONING x="342" y="78" inc_x="95">
+      <BUTTON name="column2" title="Nation" id="2" left="0" top="0" width="86" height="23"/>
+      <BUTTON name="column3" title="World %" id="3" left="0" top="0" width="86" height="23"/>
+      <BUTTON name="column4" title="Territory" id="4" left="0" top="0" width="86" height="23"/>
+      <BUTTON name="column5" title="Armies" id="5" left="0" top="0" width="86" height="23"/>
+      <BUTTON name="column6" title="Tribute" id="6" left="0" top="0" width="86" height="23"/>
+      <BUTTON name="column7" title="Stance" id="7" left="0" top="0" width="86" height="23"/>
+      <!--<BUTTON name="column8" title="Attitude" id="8" left="0" top="0" width="86" height="23"/>-->
+    </POSITIONING>
+    <POSITIONING x="0" y="110" inc_y="62">
+      <IFACEPOINT name="divider" left="0" top="0"/>
+      <IFACEPOINT name="divider" left="0" top="0"/>
+      <IFACEPOINT name="divider" left="0" top="0"/>
+      <IFACEPOINT name="divider" left="0" top="0"/>
+      <IFACEPOINT name="divider" left="0" top="0"/>
+      <IFACEPOINT name="divider" left="0" top="0"/>
+      <IFACEPOINT name="divider" left="0" top="0"/>
+      <IFACEPOINT name="divider" left="0" top="0"/>
+      <IFACEPOINT name="divider" left="0" top="0"/>
+      <IFACEPOINT name="divider" left="0" top="0"/>
+    </POSITIONING>
+    <SCROLL name="scroll" right_inverse="19" top="114" width="-24" height="572" min="0" max="23" vertical="1"/>
+  </CONQUESTINFOWIN>
+  <CONQUESTFINALWIN name="ConquestFinalWin" title="Conquest Campaign Results" left="0" top="0" percent_width="1000" percent_height="1000" victory=".\art\CTW_Victory_Back.tga" ancient_defeat=".\art\CTW_Anc_Defeat_Back.tga" modern_defeat=".\art\CTW_Mod_Defeat_Back.tga" marginal_victory=".\art\CTW_Mid_Victory_Back.tga" marginal_defeat=".\art\CTW_Mid_Victory_Back.tga" armageddon=".\art\CTW_Armageddon_Defeat_Back.tga" allied=".\art\CTW_Mid_Victory_Back.tga" allied_nuke=".\art\CTW_Mid_Victory_Back.tga" hero_defeat=".\art\CTW_Alex_Herodeath_Back.tga">
+    <STYLE TOP="1" CHILD="1"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_END_3" file=".\art\ctw_end_game_03.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_END_2" file=".\art\ctw_end_game_02.tga" pixformat="PF_32"/>
+    <IFACETEXLOAD id="TEX_CONQ_GLOBE" file=".\art\ctw_endgame_globe_01.tga" pixformat="PF_32"/>
+    <IFACETEX name="lg_button0" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="21" height="32"/>
+    <IFACETEX name="lg_button1" texture="TEX_CONQ_IFACE_1" left="318" top="33" width="173" height="32"/>
+    <IFACETEX name="lg_button2" texture="TEX_CONQ_IFACE_1" left="491" top="33" width="21" height="32"/>
+    <IFACETEX name="background" texture="TEX_FINALWIN_BG" left="0" top="0" width="1024" height="768"/>
+    <IFACETEX name="globe" texture="TEX_CONQ_GLOBE" left="0" top="0" width="317" height="321"/>
+    <IFACETEX name="logo" texture="TEX_CONQ_END_2" left="131" top="0" width="381" height="195"/>
+    <IFACETEX name="button_socket" texture="TEX_CONQ_END_2" left="131" top="196" width="381" height="108"/>
+    <IFACETEX name="ribbon_victory" texture="TEX_CONQ_END_3" left="49" top="131" width="428" height="104"/>
+    <IFACETEX name="ribbon_finished" texture="TEX_CONQ_END_3" left="49" top="236" width="428" height="104"/>
+    <IFACETEX name="ribbon_defeat" texture="TEX_CONQ_END_3" left="49" top="341" width="428" height="104"/>
+    <IFACETEX name="bar_green" texture="TEX_CONQ_END_3" left="0" top="447" width="319" height="18"/>
+    <IFACETEX name="bar_blue" texture="TEX_CONQ_END_3" left="0" top="465" width="319" height="18"/>
+    <IFACETEX name="bar_red" texture="TEX_CONQ_END_3" left="0" top="484" width="319" height="18"/>
+    <IFACETEX name="icon_victory" texture="TEX_CONQ_END_2" left="131" top="420" width="76" height="82"/>
+    <IFACETEX name="icon_defeat" texture="TEX_CONQ_END_2" left="208" top="420" width="85" height="89"/>
+    <IFACEBORDER name="thick">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <BUTTON name="menu" title="Exit to Main Menu" left="103" top="671" width="216" height="32"/>
+    <BUTTON name="close" title="Return to Map" left="103" top="707" width="216" height="32"/>
+    <IFACERECT name="desc_bg" left="42" top="140" width="350" height="471"/>
+    <IFACERECT name="ribbon_text_rect" left="220" top="80" width="1" height="30"/>
+    <IFACERECT name="defeat_text_rect" left="220" top="80" width="1" height="30"/>
+    <IFACERECT name="victory_text_rect" left="240" top="90" width="1" height="30"/>
+    <IFACERECT name="desc_text_rect" left="48" top="148" width="322" height="183"/>
+    <IFACERECT name="misc_border" left="25" top="109" width="375" height="535"/>
+    <IFACERECT name="misc_border" left="48" top="382" width="67" height="26"/>
+    <IFACERECT name="misc_border" left="48" top="412" width="67" height="26"/>
+    <IFACERECT name="misc_border" left="48" top="442" width="67" height="26"/>
+    <IFACERECT name="misc_border" left="48" top="472" width="67" height="26"/>
+    <IFACERECT name="misc_border" left="48" top="502" width="67" height="26"/>
+    <IFACERECT name="misc_border" left="48" top="532" width="99" height="26"/>
+    <IFACERECT name="misc_border" left="48" top="580" width="327" height="26"/>
+    <IFACEBORDER name="misc" ref="thick"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACEBORDER name="misc" ref="thin"/>
+    <IFACESPRITE name="misc" x="20" y="650">
+      <IFACETEX ref="button_socket"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="ribbon_victory" x="0" y="50">
+      <IFACETEX ref="ribbon_victory"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="ribbon_finished" x="0" y="55">
+      <IFACETEX ref="ribbon_finished"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="ribbon_defeat" x="0" y="55">
+      <IFACETEX ref="ribbon_defeat"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="icon_victory" x="110" y="60">
+      <IFACETEX ref="icon_victory"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="icon_defeat" x="105" y="25">
+      <IFACETEX ref="icon_defeat"/>
+    </IFACESPRITE>
+    <IFACESPRITE name="globe" x="51" y="244">
+      <IFACETEX ref="globe"/>
+    </IFACESPRITE>
+  </CONQUESTFINALWIN>
+  <CONQUESTGRAPHICPIECES>
+    <PIECE name="army" texture=".\art\CTW_Army_All.tga" model=".\art\CTW_Army_Stand.bh3" offset_x="8.3" offset_y="-8.7" offset_z="0.0" scale=".234" angle="60">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="30" rad="30"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="army_move" texture=".\art\CTW_Army_All.tga" model=".\art\CTW_Army_Move.bh3" offset_x="8.3" offset_y="-8.7" offset_z="0.0" scale=".234" angle="60">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="30" rad="30"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="army_attack" texture=".\art\CTW_Army_All.tga" model=".\art\CTW_Army_Attack.bh3" offset_x="8.3" offset_y="-8.7" offset_z="0.0" scale=".234" angle="60">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="30" rad="30"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city0" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_City_1.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city1" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_City_2.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city2" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_City_3.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city3" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_City_4.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city4" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_City_5.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city5" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_City_6.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city6" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_City_7.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city7" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_City_8.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="walls" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_Fort.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city_barbarian" texture=".\art\CTW_CityTexture_all.tga" model=".\art\CTW_Barbarian_1.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="315">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="city_flag" texture=".\art\CTW_Capital-Flag.tga" model=".\art\CTW_Capital-Flag.bh3" offset_x="0.0" offset_y="0" offset_z="0.0" scale=".309" angle="0">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="40" rad="60"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+    <PIECE name="enemy" texture=".\art\CTW_Enemy_All.tga" model=".\art\CTW_Enemy.bh3" offset_x="-11.25" offset_y="0" offset_z="0.0" scale=".234" angle="90">
+      <BOUNDINGVOLUMES>
+        <SPHERE x="0" y="0" z="30" rad="20"/>
+      </BOUNDINGVOLUMES>
+    </PIECE>
+  </CONQUESTGRAPHICPIECES>
+  <CONQUESTINTROWIN name="conquest_intro_win" title="Conquer the World" left="0" top="0" percent_width="1000" percent_height="1000">
+    <STYLE TOP="1"/>
+    <BUTTON name="close" title="Begin Campaign" center_off_x="0" top="699" width="215" height="32"/>
+    <BUTTON name="more" title="More Info" center_off_x="0" top="615" width="215" height="32"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_1" file=".\art\ctw_interface_pieces_01.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_2" file=".\art\ctw_interface_pieces_02.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_5" file=".\art\ctw_interface_pieces_04.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_IFACE_7" file=".\art\ctw_interface_pieces_06.tga"/>
+    <IFACETEX name="bg" texture="TEX_CONQ_INTRO_BG" left="0" top="0" width="1024" height="768"/>
+    <IFACETEX name="lg_button" texture="TEX_CONQ_IFACE_1" left="297" top="33" width="215" height="32"/>
+    <IFACETEX name="banner0" texture="TEX_CONQ_IFACE_5" left="0" top="398" width="154" height="114"/>
+    <IFACETEX name="banner1" texture="TEX_CONQ_IFACE_5" left="155" top="398" width="203" height="114"/>
+    <IFACETEX name="banner2" texture="TEX_CONQ_IFACE_5" left="359" top="398" width="153" height="114"/>
+    <IFACETEX name="piece_image" texture="TEX_CONQ_IFACE_5" left="378" top="187" width="134" height="210"/>
+    <IFACETEX name="button_back" texture="TEX_CONQ_IFACE_7" left="0" top="414" width="362" height="86"/>
+    <IFACERECT name="bg" left="0" top="0" percent_width="1000" percent_height="1000"/>
+    <IFACERECT name="ribbon_rect" center_off_x="0" top="26" width="650" height="114"/>
+    <IFACERECT name="ribbon_text_rect" center_off_x="0" top="50" width="260" height="40"/>
+    <IFACERECT name="unit_name_rect" center_off_x="423" top="0" width="140" height="40"/>
+    <IFACEBORDER name="thin">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_2" left="347" top="5" width="6" height="6"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_2" left="363" top="5" width="6" height="6"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_2" left="363" top="21" width="6" height="6"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_2" left="347" top="21" width="6" height="6"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_2" left="347" top="0" width="95" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_2" left="342" top="5" width="4" height="95"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_2" left="347" top="101" width="95" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_2" left="443" top="5" width="4" height="95"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="desc_border">
+      <IFACETEX name="corner0" texture="TEX_CONQ_IFACE_5" left="0" top="0" width="97" height="97"/>
+      <IFACETEX name="corner1" texture="TEX_CONQ_IFACE_5" left="261" top="0" width="97" height="97"/>
+      <IFACETEX name="corner2" texture="TEX_CONQ_IFACE_5" left="261" top="261" width="97" height="97"/>
+      <IFACETEX name="corner3" texture="TEX_CONQ_IFACE_5" left="0" top="261" width="97" height="97"/>
+      <IFACETEX name="edge0" texture="TEX_CONQ_IFACE_5" left="98" top="0" width="162" height="97"/>
+      <IFACETEX name="edge1" texture="TEX_CONQ_IFACE_5" left="261" top="98" width="97" height="162"/>
+      <IFACETEX name="edge2" texture="TEX_CONQ_IFACE_5" left="98" top="261" width="162" height="97"/>
+      <IFACETEX name="edge3" texture="TEX_CONQ_IFACE_5" left="0" top="98" width="97" height="162"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="misc_b" ref="thin"/>
+    <IFACEBORDER name="misc" ref="desc_border"/>
+    <IFACERECT name="misc_b_border" center_off_x="285" top="196" width="111" height="418"/>
+    <IFACERECT name="misc_border" center_off_x="0" top="136" width="426" height="547"/>
+    <IFACEPOINT name="desc_bg_inset" left="19" top="33"/>
+    <IFACEPOINT name="desc_text_inset" left="8" top="8"/>
+    <IFACEPOINT name="text_inset" left="3" top="3"/>
+    <IFACEPOINT name="army_point" left="60" top="155"/>
+    <POSITIONING center_off_x="255" y="250" inc_y="45">
+      <SPOT name="icon_rect" id="0" width="61" height="39"/>
+      <SPOT name="icon_rect" id="1" width="61" height="39"/>
+      <SPOT name="icon_rect" id="2" width="61" height="39"/>
+      <SPOT name="icon_rect" id="3" width="61" height="39"/>
+      <SPOT name="icon_rect" id="4" width="61" height="39"/>
+      <SPOT name="icon_rect" id="5" width="61" height="39"/>
+      <SPOT name="icon_rect" id="6" width="61" height="39"/>
+      <SPOT name="icon_rect" id="7" width="61" height="39"/>
+    </POSITIONING>
+    <POSITIONING center_off_x="255" y="250" inc_y="45">
+      <IFACERECT name="icon_rect" width="61" height="39"/>
+      <IFACERECT name="icon_rect" width="61" height="39"/>
+      <IFACERECT name="icon_rect" width="61" height="39"/>
+      <IFACERECT name="icon_rect" width="61" height="39"/>
+      <IFACERECT name="icon_rect" width="61" height="39"/>
+      <IFACERECT name="icon_rect" width="61" height="39"/>
+      <IFACERECT name="icon_rect" width="61" height="39"/>
+      <IFACERECT name="icon_rect" width="61" height="39"/>
+    </POSITIONING>
+    <STRINGBOX name="extra_text" center_off_x="0" top="180" width="375" stick_to_bottom="0" height="400">
+      <IFACESPRITE name="piece_image" center_off_x="-400" y="281">
+        <IFACETEX name="misc" ref="piece_image"/>
+      </IFACESPRITE>
+      <IFACESPRITE name="misc" center_off_x="-182" y="678">
+        <IFACETEX name="misc" ref="button_back"/>
+      </IFACESPRITE>
+    </STRINGBOX>
+  </CONQUESTINTROWIN>
+  <CONQUESTBONUSCARDS>
+    <IFACETEXLOAD id="TEX_CONQ_BONUS_1" file=".\art\ctw_bonus_cards_pics_01.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_BONUS_2" file=".\art\ctw_bonus_cards_pics_02.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_BONUS_3" file=".\art\ctw_bonus_cards_pics_03.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_BONUS_4" file=".\art\ctw_bonus_cards_pics_04.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_BONUS_5" file=".\art\ctw_bonus_cards_pics_05.tga"/>
+    <IFACETEXLOAD id="TEX_CONQ_BONUS_6" file=".\art\ctw_bonus_cards_pics_06.tga"/>
+    <IFACERECT name="text_rect" left="0" top="0" width="30" height="30"/>
+    <IFACERECT name="text_rect" left="0" top="0" width="30" height="30"/>
+    <IFACERECT name="text_rect" left="6" top="37" width="30" height="30"/>
+    <IFACERECT name="image_rect" left="3" top="9" width="0" height="0"/>
+    <IFACERECT name="image_rect" left="11" top="26" width="0" height="0"/>
+    <IFACERECT name="image_rect" left="14" top="42" width="0" height="0"/>
+    <IFACETEX name="oath_of_fealty_small" texture="TEX_CONQ_BONUS_1" left="320" top="236" width="36" height="44"/>
+    <IFACETEX name="oath_of_fealty_med" texture="TEX_CONQ_BONUS_3" left="405" top="382" width="80" height="95"/>
+    <IFACETEX name="oath_of_fealty_large" texture="TEX_CONQ_BONUS_3" left="320" top="191" width="159" height="190"/>
+    <IFACETEX name="wonder_small" texture="TEX_CONQ_BONUS_1" left="320" top="191" width="36" height="44"/>
+    <IFACETEX name="wonder_med" texture="TEX_CONQ_BONUS_3" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="wonder_large" texture="TEX_CONQ_BONUS_3" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="sabotate_small" texture="TEX_CONQ_BONUS_1" left="394" top="326" width="36" height="44"/>
+    <IFACETEX name="sabotage_med" texture="TEX_CONQ_BONUS_1" left="243" top="382" width="80" height="95"/>
+    <IFACETEX name="sabotage_large" texture="TEX_CONQ_BONUS_1" left="0" top="191" width="159" height="190"/>
+    <IFACETEX name="eureka_small" texture="TEX_CONQ_BONUS_1" left="468" top="236" width="36" height="44"/>
+    <IFACETEX name="eureka_med" texture="TEX_CONQ_BONUS_2" left="243" top="382" width="80" height="95"/>
+    <IFACETEX name="eureka_large" texture="TEX_CONQ_BONUS_2" left="0" top="191" width="159" height="190"/>
+    <IFACETEX name="economic_boom_small" texture="TEX_CONQ_BONUS_1" left="431" top="236" width="36" height="44"/>
+    <IFACETEX name="economic_boom_med" texture="TEX_CONQ_BONUS_2" left="162" top="382" width="80" height="95"/>
+    <IFACETEX name="economic_boom_large" texture="TEX_CONQ_BONUS_2" left="320" top="0" width="159" height="190"/>
+    <IFACETEX name="mercenaries_small" texture="TEX_CONQ_BONUS_1" left="394" top="281" width="36" height="44"/>
+    <IFACETEX name="mercenaries_med" texture="TEX_CONQ_BONUS_2" left="324" top="382" width="80" height="95"/>
+    <IFACETEX name="mercenaries_large" texture="TEX_CONQ_BONUS_2" left="160" top="191" width="159" height="190"/>
+    <IFACETEX name="treachery_small" texture="TEX_CONQ_BONUS_1" left="468" top="281" width="36" height="44"/>
+    <IFACETEX name="treachery_med" texture="TEX_CONQ_BONUS_1" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="treachery_large" texture="TEX_CONQ_BONUS_1" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="great_thinker_small" texture="TEX_CONQ_BONUS_1" left="357" top="191" width="36" height="44"/>
+    <IFACETEX name="great_thinker_med" texture="TEX_CONQ_BONUS_3" left="81" top="382" width="80" height="95"/>
+    <IFACETEX name="great_thinker_large" texture="TEX_CONQ_BONUS_3" left="160" top="0" width="159" height="190"/>
+    <IFACETEX name="merchant_guild_small" texture="TEX_CONQ_BONUS_1" left="394" top="191" width="36" height="44"/>
+    <IFACETEX name="merchant_guild_med" texture="TEX_CONQ_BONUS_3" left="162" top="382" width="80" height="95"/>
+    <IFACETEX name="merchant_guild_large" texture="TEX_CONQ_BONUS_3" left="320" top="0" width="159" height="190"/>
+    <IFACETEX name="logistics_small" texture="TEX_CONQ_BONUS_1" left="468" top="191" width="36" height="44"/>
+    <IFACETEX name="logistics_med" texture="TEX_CONQ_BONUS_3" left="324" top="382" width="80" height="95"/>
+    <IFACETEX name="logistics_large" texture="TEX_CONQ_BONUS_3" left="160" top="191" width="159" height="190"/>
+    <IFACETEX name="partisans_small" texture="TEX_CONQ_BONUS_1" left="357" top="236" width="36" height="44"/>
+    <IFACETEX name="partisans_med" texture="TEX_CONQ_BONUS_2" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="partisans_large" texture="TEX_CONQ_BONUS_2" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="cultural_dom_small" texture="TEX_CONQ_BONUS_1" left="431" top="191" width="36" height="44"/>
+    <IFACETEX name="cultural_dom_med" texture="TEX_CONQ_BONUS_3" left="243" top="382" width="80" height="95"/>
+    <IFACETEX name="cultural_dom_large" texture="TEX_CONQ_BONUS_3" left="0" top="191" width="159" height="190"/>
+    <IFACETEX name="embargo_small" texture="TEX_CONQ_BONUS_1" left="357" top="326" width="36" height="44"/>
+    <IFACETEX name="embargo_med" texture="TEX_CONQ_BONUS_1" left="162" top="382" width="80" height="95"/>
+    <IFACETEX name="embargo_large" texture="TEX_CONQ_BONUS_1" left="320" top="0" width="159" height="190"/>
+    <IFACETEX name="propoganda_small" texture="TEX_CONQ_BONUS_1" left="320" top="326" width="36" height="44"/>
+    <IFACETEX name="propoganda_med" texture="TEX_CONQ_BONUS_1" left="81" top="382" width="80" height="95"/>
+    <IFACETEX name="propoganda_large" texture="TEX_CONQ_BONUS_1" left="160" top="0" width="159" height="190"/>
+    <IFACETEX name="skill_bonus_small" texture="TEX_CONQ_BONUS_1" left="431" top="326" width="36" height="44"/>
+    <IFACETEX name="skill_bonus_med" texture="TEX_CONQ_BONUS_1" left="324" top="382" width="80" height="95"/>
+    <IFACETEX name="skill_bonus_large" texture="TEX_CONQ_BONUS_1" left="160" top="191" width="159" height="190"/>
+    <IFACETEX name="commandeer_transport_small" texture="TEX_CONQ_BONUS_4" left="468" top="191" width="36" height="44"/>
+    <IFACETEX name="commandeer_transport_med" texture="TEX_CONQ_BONUS_4" left="324" top="382" width="80" height="95"/>
+    <IFACETEX name="commandeer_transport_large" texture="TEX_CONQ_BONUS_4" left="160" top="191" width="159" height="190"/>
+    <IFACETEX name="Brigands_small" texture="TEX_CONQ_BONUS_4" left="431" top="191" width="36" height="44"/>
+    <IFACETEX name="Brigands_med" texture="TEX_CONQ_BONUS_4" left="243" top="382" width="80" height="95"/>
+    <IFACETEX name="Brigands_large" texture="TEX_CONQ_BONUS_4" left="0" top="191" width="159" height="190"/>
+    <IFACETEX name="Spy_Network_small" texture="TEX_CONQ_BONUS_4" left="394" top="191" width="36" height="44"/>
+    <IFACETEX name="Spy_Network_med" texture="TEX_CONQ_BONUS_4" left="162" top="382" width="80" height="95"/>
+    <IFACETEX name="Spy_Network_large" texture="TEX_CONQ_BONUS_4" left="320" top="0" width="159" height="190"/>
+    <IFACETEX name="Elephant_Brigade_small" texture="TEX_CONQ_BONUS_4" left="357" top="191" width="36" height="44"/>
+    <IFACETEX name="Elephant_Brigade_med" texture="TEX_CONQ_BONUS_4" left="81" top="382" width="80" height="95"/>
+    <IFACETEX name="Elephant_Brigade_large" texture="TEX_CONQ_BONUS_4" left="160" top="0" width="159" height="190"/>
+    <IFACETEX name="general_small" texture="TEX_CONQ_BONUS_4" left="320" top="191" width="36" height="44"/>
+    <IFACETEX name="general_med" texture="TEX_CONQ_BONUS_4" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="general_large" texture="TEX_CONQ_BONUS_4" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="general_small" texture="TEX_CONQ_BONUS_4" left="320" top="191" width="36" height="44"/>
+    <IFACETEX name="general_med" texture="TEX_CONQ_BONUS_4" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="general_large" texture="TEX_CONQ_BONUS_4" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="general_small" texture="TEX_CONQ_BONUS_4" left="320" top="191" width="36" height="44"/>
+    <IFACETEX name="general_med" texture="TEX_CONQ_BONUS_4" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="general_large" texture="TEX_CONQ_BONUS_4" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="general_small" texture="TEX_CONQ_BONUS_4" left="320" top="191" width="36" height="44"/>
+    <IFACETEX name="general_med" texture="TEX_CONQ_BONUS_4" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="general_large" texture="TEX_CONQ_BONUS_4" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="general_small" texture="TEX_CONQ_BONUS_4" left="320" top="191" width="36" height="44"/>
+    <IFACETEX name="general_med" texture="TEX_CONQ_BONUS_4" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="general_large" texture="TEX_CONQ_BONUS_4" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="general_small" texture="TEX_CONQ_BONUS_4" left="320" top="191" width="36" height="44"/>
+    <IFACETEX name="general_med" texture="TEX_CONQ_BONUS_4" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="general_large" texture="TEX_CONQ_BONUS_4" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="traitors_small" texture="TEX_CONQ_BONUS_5" left="468" top="191" width="36" height="44"/>
+    <IFACETEX name="traitors_med" texture="TEX_CONQ_BONUS_5" left="324" top="382" width="80" height="95"/>
+    <IFACETEX name="traitors_large" texture="TEX_CONQ_BONUS_5" left="160" top="191" width="159" height="190"/>
+    <IFACETEX name="blockade_small" texture="TEX_CONQ_BONUS_5" left="394" top="191" width="36" height="44"/>
+    <IFACETEX name="blockade_med" texture="TEX_CONQ_BONUS_5" left="162" top="382" width="80" height="95"/>
+    <IFACETEX name="blockade_large" texture="TEX_CONQ_BONUS_5" left="320" top="0" width="159" height="190"/>
+    <IFACETEX name="dissidents_small" texture="TEX_CONQ_BONUS_5" left="431" top="191" width="36" height="44"/>
+    <IFACETEX name="dissidents_med" texture="TEX_CONQ_BONUS_5" left="243" top="382" width="80" height="95"/>
+    <IFACETEX name="dissidents_large" texture="TEX_CONQ_BONUS_5" left="0" top="191" width="159" height="190"/>
+    <IFACETEX name="academy_small" texture="TEX_CONQ_BONUS_5" left="320" top="191" width="36" height="44"/>
+    <IFACETEX name="academy_med" texture="TEX_CONQ_BONUS_5" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="academy_large" texture="TEX_CONQ_BONUS_5" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="continental_small" texture="TEX_CONQ_BONUS_5" left="357" top="191" width="36" height="44"/>
+    <IFACETEX name="continental_med" texture="TEX_CONQ_BONUS_5" left="81" top="382" width="80" height="95"/>
+    <IFACETEX name="continental_large" texture="TEX_CONQ_BONUS_5" left="160" top="0" width="159" height="190"/>
+    <IFACETEX name="letter_small" texture="TEX_CONQ_BONUS_6" left="431" top="191" width="36" height="44"/>
+    <IFACETEX name="letter_med" texture="TEX_CONQ_BONUS_6" left="243" top="382" width="80" height="95"/>
+    <IFACETEX name="letter_large" texture="TEX_CONQ_BONUS_6" left="0" top="191" width="159" height="190"/>
+    <IFACETEX name="warpath_small" texture="TEX_CONQ_BONUS_6" left="320" top="191" width="36" height="44"/>
+    <IFACETEX name="warpath_med" texture="TEX_CONQ_BONUS_6" left="0" top="382" width="80" height="95"/>
+    <IFACETEX name="warpath_large" texture="TEX_CONQ_BONUS_6" left="0" top="0" width="159" height="190"/>
+    <IFACETEX name="missionaries_small" texture="TEX_CONQ_BONUS_6" left="357" top="191" width="36" height="44"/>
+    <IFACETEX name="missionaries_med" texture="TEX_CONQ_BONUS_6" left="81" top="382" width="80" height="95"/>
+    <IFACETEX name="missionaries_large" texture="TEX_CONQ_BONUS_6" left="160" top="0" width="159" height="190"/>
+    <IFACETEX name="population_small" texture="TEX_CONQ_BONUS_6" left="394" top="191" width="36" height="44"/>
+    <IFACETEX name="population_med" texture="TEX_CONQ_BONUS_6" left="162" top="382" width="80" height="95"/>
+    <IFACETEX name="population_large" texture="TEX_CONQ_BONUS_6" left="320" top="0" width="159" height="190"/>
+  </CONQUESTBONUSCARDS>
+</ROOT>

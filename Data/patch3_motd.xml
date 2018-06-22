@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION  nothing at the moment-->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<ROOT>
+
+  <FONT id="0" size="14"/>    
+  <FONT id="1" size="18"/>    
+  <FONT id="2" size="18"/>
+  <FONTCOLOR id = "0" r="255" g="255" b="255"/>
+  <FONTCOLOR id = "1" r="255" g="255" b="255"/> 
+  <FONTCOLOR id = "2" r="255" g="255" b="255"/>
+  
+  <CENTER>[Rise of Nations Patch 3 Beta]</CENTER>    
+  <CENTER>$VERSION0</CENTER>      
+  <PATCH>    
+    <SPACE></SPACE>
+    <LINE>02.03.07.2000</LINE>    
+    <BULLET>Some stuff fixed here.</BULLET>    
+    <BULLET>More stuff fixed here.</BULLET>        
+    <BULLET>Some stuff fixed here.</BULLET>    
+    <BULLET>More stuff fixed here.</BULLET>        
+    <BULLET>Some stuff fixed here.</BULLET>    
+    <BULLET>More stuff fixed here.</BULLET>        
+    <BULLET>Some stuff fixed here.</BULLET>    
+    <BULLET>More stuff fixed here.</BULLET>        
+    <BULLET>Some stuff fixed here.</BULLET>    
+    <BULLET>More stuff fixed here.</BULLET>        
+    <BULLET>Some stuff fixed here.</BULLET>    
+    <BULLET>More stuff fixed here.</BULLET>        
+    <SPACE></SPACE>
+  </PATCH>
+  <PATCH>
+    <SPACE></SPACE>
+    <LINE>02.03.07.1900</LINE>    
+    <BULLET>Some stuff fixed here.</BULLET>    
+    <BULLET>More stuff fixed here.</BULLET>        
+    <BULLET>Some stuff fixed here.</BULLET>    
+    <BULLET>More stuff fixed here.</BULLET>        
+    <BULLET>Some stuff fixed here.</BULLET>            
+    <BULLET>More stuff fixed here.</BULLET>        
+    <BULLET>Some stuff fixed here.</BULLET>            
+    <BULLET>More stuff fixed here.</BULLET>        
+    <BULLET>Some stuff fixed here.</BULLET>            
+  </PATCH>  
+</ROOT>

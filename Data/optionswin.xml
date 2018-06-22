@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROOT>
+  <OPTIONSWIN name="optionswin" left="0" top="0" width="880" height="600">
+    <STYLE TOP="1"/>
+    <IFACETEXLOAD id="TEX_WRAPPER_1" file=".\art\wrapper_pieces_02.tga"/>
+    <IFACETEXLOAD id="TEX_WRAPPER_0" file=".\art\wrapper_pieces_01.tga"/>
+    
+    <IFACETEX name="check_off" texture="TEX_WRAPPER_1" left="1" top="1" width="25" height="22"/>
+    <IFACETEX name="check_on" texture="TEX_WRAPPER_1" left="1" top="70" width="25" height="22"/>
+    <IFACETEX name="check_off_small" texture="TEX_WRAPPER_1" left="370" top="1" width="11" height="11"/>
+    <IFACETEX name="check_on_small" texture="TEX_WRAPPER_1" left="370" top="13" width="11" height="11"/>
+    <IFACETEX name="button_left" texture="TEX_WRAPPER_1" left="400" top="0" width="4" height="19"/>
+    <IFACETEX name="button_mid" texture="TEX_WRAPPER_1" left="405" top="0" width="102" height="19"/>
+    <IFACETEX name="button_right" texture="TEX_WRAPPER_1" left="508" top="0" width="4" height="19"/>
+    <IFACETEX name="area_top" texture="TEX_WRAPPER_0" left="334" top="292" width="11" height="4"/>
+    <IFACERECT name="border" left="0" top="0" width="838" height="509"/>
+    <IFACERECT name="main" left="41" top="40" right_inverse="40" bottom_inverse="132"/>
+    <IFACERECT name="first_tab" left="44" top="1" width="132" height="38"/>
+    <IFACERECT name="first_tab_text" left="44" top="1" width="132" height="28"/>
+    <IFACETEX name="tab_left_0" texture="TEX_WRAPPER_1" left="1" top="139" width="12" height="38"/>
+    <IFACETEX name="tab_mid_0" texture="TEX_WRAPPER_1" left="14" top="139" width="85" height="38"/>
+    <IFACETEX name="tab_right_0" texture="TEX_WRAPPER_1" left="100" top="139" width="12" height="38"/>
+    <IFACETEX name="tab_left_1" texture="TEX_WRAPPER_1" left="1" top="256" width="12" height="38"/>
+    <IFACETEX name="tab_mid_1" texture="TEX_WRAPPER_1" left="14" top="256" width="85" height="38"/>
+    <IFACETEX name="tab_right_1" texture="TEX_WRAPPER_1" left="100" top="256" width="12" height="38"/>
+    <POSITIONING x="25" y="497">
+      <IFACERECT name="button_border" left="0" top="0" width="833" height="75"/>
+      <BUTTON name="ok" title="OK" left="17" top="16" width="258" height="30"/>
+      <BUTTON name="reset" title="Reset Defaults" left="284" top="16" width="258" height="30"/>
+      <BUTTON name="cancel" title="Cancel" left="551" top="16" width="258" height="30"/>
+    </POSITIONING>
+    <IFACETEX name="button_border_left" texture="TEX_WRAPPER_0" left="229" top="436" width="36" height="75"/>
+    <IFACETEX name="button_border_mid" texture="TEX_WRAPPER_0" left="266" top="436" width="201" height="75"/>
+    <IFACETEX name="button_border_right" texture="TEX_WRAPPER_0" left="468" top="436" width="43" height="75"/>
+    <IFACETEX name="large_button_left" texture="TEX_WRAPPER_1" left="193" top="47" width="17" height="30"/>
+    <IFACETEX name="large_button_mid" texture="TEX_WRAPPER_1" left="211" top="47" width="142" height="30"/>
+    <IFACETEX name="large_button_right" texture="TEX_WRAPPER_1" left="354" top="47" width="17" height="30"/>
+    <IFACEBORDER name="border">
+      <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="1" top="1" width="42" height="42"/>
+      <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="252" top="1" width="42" height="42"/>
+      <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="252" top="252" width="42" height="42"/>
+      <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="1" top="252" width="42" height="42"/>
+      <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="1" top="339" width="295" height="41"/>
+      <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="295" top="1" width="41" height="262"/>
+      <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="1" top="295" width="295" height="42"/>
+      <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="338" top="1" width="42" height="262"/>
+      <IFACETEX name="extra0" texture="TEX_NONE" left="44" top="1" width="103" height="42"/>
+      <IFACETEX name="extra1" texture="TEX_NONE" left="148" top="1" width="103" height="42"/>
+      <IFACETEX name="extra2" texture="TEX_WRAPPER_0" left="252" top="44" width="42" height="103"/>
+      <IFACETEX name="extra3" texture="TEX_WRAPPER_0" left="252" top="148" width="42" height="103"/>
+      <IFACETEX name="extra4" texture="TEX_WRAPPER_0" left="148" top="252" width="103" height="42"/>
+      <IFACETEX name="extra5" texture="TEX_WRAPPER_0" left="44" top="252" width="103" height="42"/>
+      <IFACETEX name="extra6" texture="TEX_WRAPPER_0" left="1" top="148" width="42" height="103"/>
+      <IFACETEX name="extra7" texture="TEX_WRAPPER_0" left="1" top="44" width="42" height="103"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="area_partial">
+      <IFACETEX name="corner0" texture="TEX_NONE" left="329" top="292" width="12" height="12"/>
+      <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="346" top="292" width="4" height="4"/>
+      <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="346" top="297" width="4" height="4"/>
+      <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="329" top="297" width="4" height="4"/>
+      <IFACETEX name="edge0" texture="TEX_NONE" left="334" top="292" width="11" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="356" top="292" width="4" height="6"/>
+      <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="334" top="297" width="11" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="351" top="292" width="4" height="6"/>
+    </IFACEBORDER>
+    <IFACEBORDER name="area_full">
+      <IFACETEX name="corner0" texture="TEX_WRAPPER_0" left="329" top="292" width="4" height="4"/>
+      <IFACETEX name="corner1" texture="TEX_WRAPPER_0" left="346" top="292" width="4" height="4"/>
+      <IFACETEX name="corner2" texture="TEX_WRAPPER_0" left="346" top="297" width="4" height="4"/>
+      <IFACETEX name="corner3" texture="TEX_WRAPPER_0" left="329" top="297" width="4" height="4"/>
+      <IFACETEX name="edge0" texture="TEX_WRAPPER_0" left="334" top="292" width="11" height="4"/>
+      <IFACETEX name="edge1" texture="TEX_WRAPPER_0" left="356" top="292" width="4" height="6"/>
+      <IFACETEX name="edge2" texture="TEX_WRAPPER_0" left="334" top="297" width="11" height="4"/>
+      <IFACETEX name="edge3" texture="TEX_WRAPPER_0" left="351" top="292" width="4" height="6"/>
+    </IFACEBORDER>
+    <GAMEPANE name="gamepane" left="42" top="42" width="796" height="426">
+      <STYLE PASS_CONTROLS="1" CHILD="1" MOUSE_THRU="1"/>
+      <!--Game Speed Slider-->
+      <POSITIONING x="360" y="180">
+        <AREA title="Game Speed" left="0" top="0" width="300" height="44"/>
+        <SLIDER name="game_speed" left="100" top="11" width="96" height="28" min="0" max="3">
+          <IFACETEX name="caret" texture="TEX_WRAPPER_1" left="382" top="0" width="17" height="28"/>
+        </SLIDER>
+      </POSITIONING>
+      <!--Game Diff Slider-->
+      <POSITIONING x="360" y="238">
+        <AREA title="Difficulty Level" left="0" top="0" width="300" height="44"/>
+        <SLIDER name="diff_level" left="100" top="11" width="96" height="28" min="0" max="5">
+          <IFACETEX name="caret" texture="TEX_WRAPPER_1" left="382" top="0" width="17" height="28"/>
+        </SLIDER>
+      </POSITIONING>
+      <!--Help Message Detail Slider-->
+      <POSITIONING x="360" y="296">
+        <AREA title="Help Message Detail" left="0" top="0" width="300" height="44"/>
+        <SLIDER name="message_detail" left="100" top="11" width="96" height="28" min="0" max="3">
+          <IFACETEX name="caret" texture="TEX_WRAPPER_1" left="382" top="0" width="17" height="28"/>
+        </SLIDER>
+      </POSITIONING>
+      <!--Message Duration Slider-->
+      <POSITIONING x="360" y="354">
+        <AREA title="Message Duration" left="0" top="0" width="300" height="44"/>
+        <SLIDER name="message_duration" left="100" top="11" width="96" height="28" min="0" max="10">
+          <IFACETEX name="caret" texture="TEX_WRAPPER_1" left="382" top="0" width="17" height="28"/>
+        </SLIDER>
+      </POSITIONING>
+      <!--Auto Peasants Combo-->
+      <POSITIONING x="9" y="10">
+        <AREA title="Auto Citizen" left="0" top="0" width="240" height="106"/>
+        <POSITIONING x="24" y="20" inc_y="19">
+          <CHECKBOX name="auto_peasants" id="3" title="Idle" left="0" top="0" width="158" height="13"/>
+          <CHECKBOX name="auto_peasants" id="2" title="Build" left="0" top="0" width="158" height="13"/>
+          <CHECKBOX name="auto_peasants" id="0" title="Gather" left="0" top="0" width="158" height="13"/>
+          <CHECKBOX name="auto_peasants" id="1" title="Build and Gather" left="0" top="0" width="158" height="13"/>
+        </POSITIONING>
+      </POSITIONING>
+      <!--Auto Peasants Delay Slider-->
+      <POSITIONING x="9" y="128">
+        <AREA title="Auto Citizen Delay" left="0" top="0" width="240" height="44"/>
+        <SLIDER name="auto_peasants_timing" title="Timing" left="79" top="11" width="71" height="28" min="0" max="5">
+          <IFACETEX name="caret" texture="TEX_WRAPPER_1" left="382" top="0" width="17" height="28"/>
+        </SLIDER>
+      </POSITIONING>
+      <!--Building Stances Combo-->
+      <POSITIONING x="9" y="186">
+        <AREA title="Building Stances" left="0" top="0" width="240" height="140"/>
+        <POSITIONING x="24" y="20" inc_y="19">
+          <CHECKBOX name="building_stances" id="0" title="Aggressive" width="158" height="13"/>
+          <CHECKBOX name="building_stances" id="1" title="Defensive" width="158" height="13"/>
+          <CHECKBOX name="building_stances" id="2" title="Stand Ground" width="158" height="13"/>
+          <CHECKBOX name="building_stances" id="3" title="Raid" width="158" height="13"/>
+          <CHECKBOX name="building_stances" id="4" title="Raze" width="158" height="13"/>
+          <CHECKBOX name="building_stances" id="5" title="Hold Fire" width="158" height="13"/>
+        </POSITIONING>
+      </POSITIONING>
+      <!--Multiplayer-->
+      <!-- STEAM 
+      <POSITIONING x="9" y="340">
+        <AREA title="Multiplayer" left="0" top="0" width="310" height="81"/>
+        <EDITBOX name="mp_port" left="235" top="6" width="65" height="22" ime_disabled="1" text_limit="5">
+          <FONTCOLOR r="0" g="0" b="0"/>
+          <FONT size="14"/>
+        </EDITBOX>
+        <EDITBOX name="mp_port2" left="235" top="30" width="65" height="22" ime_disabled="1" text_limit="5">
+          <FONTCOLOR r="0" g="0" b="0"/>
+          <FONT size="14"/>
+        </EDITBOX>
+        <EDITBOX name="mp_ip" left="140" top="54" width="160" height="22" ime_disabled="1" text_limit="15">
+          <FONTCOLOR r="0" g="0" b="0"/>
+          <FONT size="14"/>
+        </EDITBOX>
+      </POSITIONING>
+      END STEAM -->
+      <!--Check Boxes-->
+      <POSITIONING x="260" y="17" inc_y="24">
+        <CHECKBOX name="advanced_menu" title="Show Advanced Options" width="270" height="22"/>
+        <CHECKBOX name="friend_foe_color" title="Friend/Foe Colors" width="270" height="22"/>
+        <CHECKBOX name="auto_transport" title="Scouts Auto Transport" width="270" height="22"/>
+        <CHECKBOX name="craft_as_group" title="Use Abilities as Group" width="270" height="22"/>
+        <CHECKBOX name="research_progress_bars" title="Show Research Progress Bars" width="270" height="22"/>
+        <CHECKBOX name="names_on_zoom_out" title="Show City Names" width="270" height="22"/>
+      </POSITIONING>
+      <POSITIONING x="530" y="17" inc_y="24">
+        <CHECKBOX name="start_paused" title="Start Game Paused (solo only)" width="270" height="22"/>
+        <CHECKBOX name="auto_deploy" title="Siege units deploy when idle" width="270" height="22"/>
+        <!--<CHECKBOX name="auto_cast" title="Use craft abilities when idle" width="160" height="22"/> -->
+        <CHECKBOX name="auto_all_clear" title='Auto "All-Clear"' width="270" height="22"/>
+        <CHECKBOX name="always_combine" title="Auto combine unit types" width="270" height="22"/>
+        <CHECKBOX name="record_games" title="Record games" width="270" height="22"/>
+		<CHECKBOX name="disable_cross_network_play" title="Disable Cross-Network Play" width="270" height="22"/>
+      </POSITIONING>
+    </GAMEPANE>
+    <HOTKEYSPANE name="hotkeyspane" left="41" top="42" width="796" height="426">
+      <STYLE PASS_CONTROLS="1" MOUSE_THRU="1" CHILD="1"/>
+      <IFACETEX name="combo_left" texture="TEX_WRAPPER_1" left="193" top="1" width="4" height="21"/>
+      <IFACETEX name="combo_mid" texture="TEX_WRAPPER_1" left="198" top="1" width="130" height="21"/>
+      <IFACETEX name="combo_right" texture="TEX_WRAPPER_1" left="329" top="1" width="3" height="21"/>
+      <IFACETEX name="combo_arrow" texture="TEX_WRAPPER_1" left="123" top="1" width="23" height="21"/>
+      <IFACETEX name="combo_left_d" texture="TEX_WRAPPER_1" left="193" top="24" width="4" height="21"/>
+      <IFACETEX name="combo_mid_d" texture="TEX_WRAPPER_1" left="198" top="24" width="130" height="21"/>
+      <IFACETEX name="combo_right_d" texture="TEX_WRAPPER_1" left="329" top="24" width="3" height="21"/>
+      <IFACETEX name="combo_arrow_d" texture="TEX_WRAPPER_1" left="123" top="24" width="23" height="21"/>
+      <IFACERECT name="left_title" left="0" top="0" width="368" height="40"/>
+      <IFACERECT name="right_title" left="390" top="0" width="400" height="40"/>
+      <IFACERECT name="horiz_bar" left="0" top="66" width="368" height="3"/>
+      <IFACETEX name="horiz_bar" texture="TEX_WRAPPER_0" left="334" top="292" width="11" height="3"/>
+      <IFACERECT name="vert_bar" left="368" top="-2" width="13" height="428"/>
+      <IFACETEX name="vert_bar" texture="TEX_WRAPPER_0" left="381" top="1" width="13" height="167"/>
+      <BUTTON name="assign" title="Assign" left="480" top="70" width="120" height="19"/>
+      <BUTTON name="remove" title="Remove" left="610" top="70" width="120" height="19"/>
+      <!--      <BUTTON name="import" title="Import" left="499" top="372" width="69" height="19"/>
+      <BUTTON name="export" title="Export" left="573" top="372" width="69" height="19"/>-->
+      <COMBOBOX name="groups" left="87" top="40" width="280" height="21"/>
+      <LISTBOX2 name="key" left="0" top="69" width="368" height="356">
+        <FONTCOLOR r="255" g="255" b="255"/>
+        <FONT size="12"/>
+      </LISTBOX2>
+      <LISTBOX2 name="assigned" left="390" top="100" width="400" height="315">
+        <FONTCOLOR r="255" g="255" b="255"/>
+        <FONT size="12"/>
+      </LISTBOX2>
+      <HOTKEYEDITBOX name="edit" ime_disabled="1" left="495" top="40" width="224" height="21"/>
+    </HOTKEYSPANE>
+    <CONTROLPANE name="controlpane" left="42" top="42" width="796" height="426">
+      <STYLE PASS_CONTROLS="1" MOUSE_THRU="1" CHILD="1"/>
+      <POSITIONING x="301" y="155" inc_y="24">
+        <CHECKBOX name="left_click_interface" title="Left-Click Interface" left="0" top="0" width="346" height="22"/>
+        <CHECKBOX name="one_click_garrison" title="One Click Garrison" left="0" top="0" width="346" height="22"/>
+        <CHECKBOX name="right_click_execute" title="Right-Click Execute" left="0" top="0" width="346" height="22"/>
+        <CHECKBOX name="drag_military" title="Drag-Select Prefer Military" left="0" top="0" width="346" height="22"/>
+      </POSITIONING>
+      <POSITIONING x="301" y="80">
+        <AREA title="Map Scroll Speed" left="0" top="0" width="285" height="63"/>
+        <SLIDER name="scroll_speed" left="90" top="18" width="100" height="28" min="0" max="12">
+          <IFACETEX name="caret" texture="TEX_WRAPPER_1" left="382" top="0" width="17" height="28"/>
+        </SLIDER>
+      </POSITIONING>
+    </CONTROLPANE>
+    <GRAPHICSPANE name="graphicspane" left="42" top="42" width="796" height="426">
+      <STYLE PASS_CONTROLS="1" CHILD="1" MOUSE_THRU="1"/>
+      <COMBOBOX name="resolution" left="434" top="11" width="160" height="18"/>
+      <IFACETEX name="combo_left" texture="TEX_WRAPPER_1" left="193" top="1" width="4" height="21"/>
+      <IFACETEX name="combo_mid" texture="TEX_WRAPPER_1" left="198" top="1" width="130" height="21"/>
+      <IFACETEX name="combo_right" texture="TEX_WRAPPER_1" left="329" top="1" width="3" height="21"/>
+      <IFACETEX name="combo_arrow" texture="TEX_WRAPPER_1" left="123" top="1" width="23" height="21"/>
+      <IFACETEX name="combo_left_d" texture="TEX_WRAPPER_1" left="193" top="24" width="4" height="21"/>
+      <IFACETEX name="combo_mid_d" texture="TEX_WRAPPER_1" left="198" top="24" width="130" height="21"/>
+      <IFACETEX name="combo_right_d" texture="TEX_WRAPPER_1" left="329" top="24" width="3" height="21"/>
+      <IFACETEX name="combo_arrow_d" texture="TEX_WRAPPER_1" left="123" top="24" width="23" height="21"/>
+      <IFACETEX name="check_off" texture="TEX_WRAPPER_1" left="359" top="1" width="10" height="9"/>
+      <IFACETEX name="check_on" texture="TEX_WRAPPER_1" left="359" top="11" width="10" height="9"/>
+      <IFACETEX name="plus" texture="TEX_WRAPPER_1" left="335" top="1" width="11" height="11"/>
+      <IFACETEX name="minus" texture="TEX_WRAPPER_1" left="347" top="1" width="11" height="11"/>
+      <AREA title="Render Elements" left="5" top="7" width="250" height="416"/>
+      <POSITIONING x="107" y="334" inc_x="72">
+        <BUTTON name="all_low" title="Low" width="70" height="19"/>
+        <BUTTON name="all_high" title="High" width="70" height="19"/>
+      </POSITIONING>
+			<POSITIONING x="107" y="400" inc_x="72">
+				<BUTTON name="render_off" title="Off" width="70" height="19"/>
+				<BUTTON name="render_on" title="On" width="70" height="19"/>
+			</POSITIONING>
+      <BUTTON2 name="all_on" title="All On" left="9" top="370" width="70" height="19"/>
+      <BUTTON2 name="all_off" title="All Off" left="9" top="391" width="70" height="19"/>
+      <BUTTON name="accept" title="Change to Resolution" left="600" top="12" width="175" height="19"/>
+      <POSITIONING x="-10" y="6">
+        <POSITIONING x="14" y="10" inc_y="15">
+          <CHECKBOX name="section" id="0" title="Terrain" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="1" title="Mountains" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="2" title="Fog of War" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="3" title="Surf" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="4" title="Ocean Floor" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="5" title="Water" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="6" title="Rivers" left="0" top="0" width="120" height="12"/>
+          <!--<CHECKBOX name="section" id="7" title="Coasts" left="0" top="0" width="120" height="12"/> -->
+          <CHECKBOX name="section" id="7" title="Roads" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="8" title="Borders" left="0" top="0" width="120" height="12"/>
+          <!-- <CHECKBOX name="section" id="10" title="Decorations" left="0" top="0" width="120" height="12"/> -->
+          <CHECKBOX name="section" id="9" title="Doobers" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="10" title="Trees" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="11" title="Units" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="12" title="Buildings" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="13" title="Goods" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="14" title="Dead Bodies" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="15" title="Ammo" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="16" title="Shadows" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="18" title="Particles" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="19" title="Overlays" left="0" top="0" width="120" height="12"/>
+          <CHECKBOX name="section" id="20" title="Underlays" left="0" top="0" width="120" height="12"/>
+					<CHECKBOX name="section" id="21" title="Interface" left="0" top="0" width="120" height="12"/>
+					<CHECKBOX name="section_onoff" id="22" title="Bloom" left="0" top="20" width="120" height="12"/>
+					<CHECKBOX name="section_onoff" id="23" title="Water Reflections" left="0" top="20" width="120" height="12"/>
+					<CHECKBOX name="section_onoff" id="24" title="Terrain Maps" left="0" top="20" width="120" height="12"/>
+        </POSITIONING>
+      </POSITIONING>
+      <POSITIONING x="67" y="10">
+        <POSITIONING x="70" y="10">
+          <POSITIONING x="0" y="0" inc_y="15">
+            <CHECKBOX name="low" id="0" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="1" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="2" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="3" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="4" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="5" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="6" title="" left="0" top="0" width="12" height="12"/>
+            <!-- <CHECKBOX name="low" id="7" title="" left="0" top="0" width="12" height="12"/> -->
+            <CHECKBOX name="low" id="7" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="8" title="" left="0" top="0" width="12" height="12"/>
+            <!--<CHECKBOX name="low" id="10" title="" left="0" top="0" width="12" height="12"/>-->
+            <CHECKBOX name="low" id="9" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="10" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="11" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="12" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="13" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="14" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="15" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="16" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="18" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="19" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="low" id="20" title="" left="0" top="0" width="12" height="12"/>
+						<CHECKBOX name="low" id="21" title="" left="0" top="0" width="12" height="12"/>
+						<CHECKBOX name="low_onoff" id="22" title="" left="0" top="20" width="12" height="12"/>
+						<CHECKBOX name="low_onoff" id="23" title="" left="0" top="20" width="12" height="12"/>
+						<CHECKBOX name="low_onoff" id="24" title="" left="0" top="20" width="12" height="12"/>
+          </POSITIONING>
+          <POSITIONING x="71" y="0" inc_y="15">
+            <CHECKBOX name="high" id="0" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="1" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="2" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="3" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="4" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="5" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="6" title="" left="0" top="0" width="12" height="12"/>
+            <!-- <CHECKBOX name="high" id="7" title="" left="0" top="0" width="12" height="12"/> -->
+            <CHECKBOX name="high" id="7" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="8" title="" left="0" top="0" width="12" height="12"/>
+            <!--<CHECKBOX name="high" id="10" title="" left="0" top="0" width="12" height="12"/>-->
+            <CHECKBOX name="high" id="9" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="10" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="11" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="12" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="13" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="14" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="15" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="16" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="18" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="19" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="high" id="20" title="" left="0" top="0" width="12" height="12"/>
+						<CHECKBOX name="high" id="21" title="" left="0" top="0" width="12" height="12"/>
+						<CHECKBOX name="high_onoff" id="22" title="" left="0" top="20" width="12" height="12"/>
+						<CHECKBOX name="high_onoff" id="23" title="" left="0" top="20" width="12" height="12"/>
+						<CHECKBOX name="high_onoff" id="24" title="" left="0" top="20" width="12" height="12"/>
+          </POSITIONING>
+          <POSITIONING2 x="60" y="0" inc_y="14">
+            <CHECKBOX name="auto" id="0" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="1" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="2" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="3" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="4" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="5" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="6" title="" left="0" top="0" width="12" height="12"/>
+            <!--<CHECKBOX name="auto" id="7" title="" left="0" top="0" width="12" height="12"/>-->
+            <CHECKBOX name="auto" id="7" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="8" title="" left="0" top="0" width="12" height="12"/>
+            <!--<CHECKBOX name="auto" id="10" title="" left="0" top="0" width="12" height="12"/>-->
+            <CHECKBOX name="auto" id="9" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="10" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="11" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="12" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="13" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="14" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="15" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="16" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="18" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="19" title="" left="0" top="0" width="12" height="12"/>
+            <CHECKBOX name="auto" id="20" title="" left="0" top="0" width="12" height="12"/>
+						<CHECKBOX name="auto" id="21" title="" left="0" top="0" width="12" height="12"/>
+						<CHECKBOX name="auto" id="22" title="" left="0" top="20" width="12" height="12"/>
+						<CHECKBOX name="auto" id="23" title="" left="0" top="20" width="12" height="12"/>
+						<CHECKBOX name="auto" id="24" title="" left="0" top="20" width="12" height="12"/>
+          </POSITIONING2>
+        </POSITIONING>
+      </POSITIONING>
+      <POSITIONING2 x="200" y="13">
+        <POSITIONING x="30" y="10">
+          <POSITIONING x="0" y="0" inc_y="14">
+            <BUTTON name="minus" id="0" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="1" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="2" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="3" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="4" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="5" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="6" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="7" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="8" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="9" title="" left="0" top="0" width="11" height="11"/>
+            <!--<BUTTON name="minus" id="10" title="" left="0" top="0" width="11" height="11"/>-->
+            <BUTTON name="minus" id="10" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="11" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="12" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="13" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="14" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="15" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="16" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="18" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="19" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="minus" id="20" title="" left="0" top="0" width="11" height="11"/>
+						<BUTTON name="minus" id="21" title="" left="0" top="0" width="11" height="11"/>
+						<BUTTON name="minus" id="22" title="" left="0" top="20" width="11" height="11"/>
+						<BUTTON name="minus" id="23" title="" left="0" top="20" width="11" height="11"/>
+						<BUTTON name="minus" id="24" title="" left="0" top="20" width="11" height="11"/>
+            <!--<BUTTON name="minus" id="22" title="" left="0" top="0" width="11" height="11"/>-->
+          </POSITIONING>
+          <POSITIONING x="15" y="0" inc_y="14">
+            <BUTTON name="plus" id="0" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="1" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="2" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="3" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="4" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="5" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="6" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="7" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="8" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="9" title="" left="0" top="0" width="11" height="11"/>
+            <!--<BUTTON name="plus" id="10" title="" left="0" top="0" width="11" height="11"/>-->
+            <BUTTON name="plus" id="10" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="11" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="12" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="13" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="14" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="15" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="16" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="18" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="19" title="" left="0" top="0" width="11" height="11"/>
+            <BUTTON name="plus" id="20" title="" left="0" top="0" width="11" height="11"/>
+						<BUTTON name="plus" id="21" title="" left="0" top="0" width="11" height="11"/>
+						<BUTTON name="plus" id="22" title="" left="0" top="20" width="11" height="11"/>
+						<BUTTON name="plus" id="23" title="" left="0" top="20" width="11" height="11"/>
+						<BUTTON name="plus" id="24" title="" left="0" top="20" width="11" height="11"/>
+            <!--<BUTTON name="plus" id="22" title="" left="0" top="0" width="11" height="11"/>-->
+          </POSITIONING>
+        </POSITIONING>
+      </POSITIONING2>
+      <POSITIONING x="300" y="40" inc_y="24">
+				<COMBOBOX name="fullscreen" id="1000" title="Fullscreen" width="220" height="22"/>
+				<CHECKBOX name="Vsync" id="1000" title="VSync" width="220" height="22"/>
+				<CHECKBOX name="Anti-Aliasing" id="1000" title="Anti-Aliasing" width="220" height="22"/>
+			</POSITIONING>
+			<POSITIONING x="530" y="40" inc_y="24">
+				<CHECKBOX name="show_framerate" id="1000" title="Show Frame Rate" width="220" height="22"/>
+				<CHECKBOX name="show_units_behind" id="1000" title="Highlight units behind structures." width="220" height="22"/>
+			</POSITIONING>
+	  
+      <POSITIONING x="263" y="140">
+        <AREA title="Notifications" left="0" top="0" width="530" height="280"/>
+        <POSITIONING x="10" y="14" inc_y="24">
+          <CHECKBOX name="notice_victory_timer" id="1000" title="Victory timer starts or stops." width="263" height="22"/>
+          <CHECKBOX name="notice_enemy_new_age" id="1000" title="Enemy reaches a new age." width="263" height="22"/>
+          <CHECKBOX name="notice_ally_new_age" id="1000" title="Ally reaches a new age." width="263" height="22"/>
+          <CHECKBOX name="notice_i_new_age" id="1000" title="You reach a new age." width="263" height="22"/>
+          <CHECKBOX name="notice_city_under_attack" id="1000" title="Your city under attack." width="263" height="22"/>
+          <CHECKBOX name="notice_ally_city_under_attack" id="1000" title="Allied city under attack." width="263" height="22"/>
+          <CHECKBOX name="notice_capital_under_attack" id="1000" title="Your capital under attack." width="263" height="22"/>
+          <CHECKBOX name="notice_ally_capital_under_attack" id="1000" title="Allied capital under attack." width="263" height="22"/>
+          <CHECKBOX name="notice_capital_moved" id="1000" title="Player moves their capital." width="263" height="22"/>
+          <CHECKBOX name="notice_cannon_time_begin" id="1000" title="Cannon time has begun." width="263" height="22"/>
+          <CHECKBOX name="notice_cannon_time_end" id="1000" title="Cannon time ends." width="263" height="22"/>
+        </POSITIONING>
+        <POSITIONING x="280" y="14" inc_y="24">
+          <CHECKBOX name="notice_we_capture_city" id="1000" title="You capture a city." width="263" height="22"/>
+          <CHECKBOX name="notice_we_lose_city" id="1000" title="You lose a city." width="263" height="22"/>
+          <CHECKBOX name="notice_future_tech_researched" id="1000" title="Future tech research." width="263" height="22"/>
+          <CHECKBOX name="notice_player_starts_wonder" id="1000" title="Player starts a wonder." width="263" height="22"/>
+          <CHECKBOX name="notice_player_finishes_wonder" id="1000" title="Player finishes a wonder." width="263" height="22"/>
+          <CHECKBOX name="notice_nukes_researched" id="1000" title="Nuclear weapons research." width="263" height="22"/>
+          <CHECKBOX name="notice_nuke_launched" id="1000" title="Nuclear missile launched." width="263" height="22"/>
+          <CHECKBOX name="notice_armageddon" id="1000" title="Armageddon count changes." width="263" height="22"/>
+          <CHECKBOX name="notice_player_leaves" id="1000" title="Player leaves the game." width="263" height="22"/>
+          <CHECKBOX name="notice_reinforcements" id="1000" title="Reinforcements arrive." width="263" height="22"/>
+        </POSITIONING>
+      </POSITIONING>
+    </GRAPHICSPANE>
+    <SOUNDPANE name="soundpane" left="42" top="42" width="796" height="426">
+      <STYLE PASS_CONTROLS="1" MOUSE_THRU="1" CHILD="1"/>
+      <POSITIONING x="257" y="20">
+        <AREA title="FX Volume" left="0" top="0" width="292" height="76"/>
+        <SLIDER name="fx_volume" left="110" top="25" width="71" height="28" min="0" max="255">
+          <IFACETEX name="caret" texture="TEX_WRAPPER_1" left="382" top="0" width="17" height="28"/>
+        </SLIDER>
+      </POSITIONING>
+      <POSITIONING x="257" y="120">
+        <AREA title="Music Volume" left="0" top="0" width="292" height="76"/>
+        <SLIDER name="music_volume" left="110" top="25" width="71" height="28" min="0" max="255">
+          <IFACETEX name="caret" texture="TEX_WRAPPER_1" left="382" top="0" width="17" height="28"/>
+        </SLIDER>
+      </POSITIONING>
+      <POSITIONING x="257" y="220">
+        <AREA title="Taunt Volume" left="0" top="0" width="292" height="76"/>
+        <SLIDER name="taunt_volume" left="110" top="25" width="71" height="28" min="0" max="255">
+          <IFACETEX name="caret" texture="TEX_WRAPPER_1" left="382" top="0" width="17" height="28"/>
+        </SLIDER>
+      </POSITIONING>
+      <POSITIONING x="257" y="317" inc_y="24">
+        <CHECKBOX name="allow_taunts" title="Allow Audio Taunts" left="0" top="0" width="346" height="22"/>
+        <CHECKBOX name="allow_in_game_music" title="Allow In-Game Music" left="0" top="0" width="346" height="22"/>
+				<CHECKBOX name="allow_main_menu_music" title="Allow Main Menu Music" left="0" top="0" width="346" height="22"/>
+				<CHECKBOX name="disable_audio_ducking" title="Disable Audio Ducking" left="0" top="0" width="346" height="22"/>
+      </POSITIONING>
+    </SOUNDPANE>
+    <PLAYERPANE name="playerpane" left="42" top="42" width="796" height="426">
+      <STYLE PASS_CONTROLS="1" MOUSE_THRU="1" CHILD="1"/>
+      <IFACERECT name="profile_title" left="11" top="0" width="277" height="40"/>
+      <IFACERECT name="player_title" left="11" top="210" width="277" height="40"/>
+      <LISTBOX2 name="profile" left="11" top="32" width="277" height="168">
+        <FONTCOLOR r="255" g="255" b="255"/>
+        <FONT size="14"/>
+      </LISTBOX2>
+      <LISTBOX2 name="name" left="11" top="244" width="277" height="168">
+        <FONTCOLOR r="255" g="255" b="255"/>
+        <FONT size="14"/>
+      </LISTBOX2>
+      <BUTTON name="new" title="New" left="301" top="31" width="180" height="19"/>
+      <BUTTON name="rename" title="Rename" left="301" top="58" width="180" height="19"/>
+      <BUTTON name="delete" title="Delete" left="301" top="85" width="180" height="19"/>
+      <BUTTON name="add_name" title="Add Name" left="301" top="240" width="180" height="19"/>
+      <BUTTON name="delete_name" title="Delete Name" left="301" top="268" width="180" height="19"/>
+	  
+	  <!-- Language Selection -->
+	  <POSITIONING x="540" y="35">
+		<AREA title="Display Language" left="0" top="0" width="240" height="70"/>
+		<COMBOBOX name="language" left="45" top="25" width="160" height="18"/>
+		<IFACETEX name="combo_left" texture="TEX_WRAPPER_1" left="193" top="1" width="4" height="21"/>
+		<IFACETEX name="combo_mid" texture="TEX_WRAPPER_1" left="198" top="1" width="130" height="21"/>
+		<IFACETEX name="combo_right" texture="TEX_WRAPPER_1" left="329" top="1" width="3" height="21"/>
+		<IFACETEX name="combo_arrow" texture="TEX_WRAPPER_1" left="123" top="1" width="23" height="21"/>
+		<IFACETEX name="combo_left_d" texture="TEX_WRAPPER_1" left="193" top="24" width="4" height="21"/>
+		<IFACETEX name="combo_mid_d" texture="TEX_WRAPPER_1" left="198" top="24" width="130" height="21"/>
+		<IFACETEX name="combo_right_d" texture="TEX_WRAPPER_1" left="329" top="24" width="3" height="21"/>
+		<IFACETEX name="combo_arrow_d" texture="TEX_WRAPPER_1" left="123" top="24" width="23" height="21"/>
+      </POSITIONING>
+	  
+	  
+      
+	  
+    </PLAYERPANE>
+  </OPTIONSWIN>
+</ROOT>

@@ -1,0 +1,59 @@
+<!-- edited with XMLSPY v5 rel. 3 U (http://www.xmlspy.com) by Ilya Kreymer (Big Huge Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Ilya Kreymer (Big Huge Games) -->
+<ROOT>
+  <!--These 6 must be first, don't change -->
+  <PARAMTYPE name="int" type="10" desc="an integer value"></PARAMTYPE>
+  <PARAMTYPE name="real" type="11" desc="a real number"></PARAMTYPE>
+  <PARAMTYPE name="string" type="12" desc="a text string"></PARAMTYPE>
+  <PARAMTYPE name="void" type="13" desc="nothing (0 if used in expression)"></PARAMTYPE>
+  <PARAMTYPE name="anytype" type="14" desc="Any Value"></PARAMTYPE>
+  <PARAMTYPE name="params" type="15" desc="0 or more comma-seperated optional params of any type"></PARAMTYPE>
+  <!--Custom param types below, can change these -->
+  <PARAMTYPE name="num" type="10" desc="an integer value"></PARAMTYPE>
+  <PARAMTYPE name="str" type="12" desc="a string value"></PARAMTYPE>
+  <PARAMTYPE name="real_num" type="11" desc="a real number"></PARAMTYPE>
+  <PARAMTYPE name="who" type="10" desc="a nation index"></PARAMTYPE>
+  <PARAMTYPE name="build_o" type="10" desc="a building id"></PARAMTYPE>
+  <PARAMTYPE name="unit_o" type="10" desc="a unit id"></PARAMTYPE>
+  <PARAMTYPE name="object_o" type="10" desc="a building or unit id"></PARAMTYPE>
+  <PARAMTYPE name="seconds" type="10" desc="time in seconds"></PARAMTYPE>
+  <PARAMTYPE name="color" type="12" desc="color name (see docs)"></PARAMTYPE>
+  <PARAMTYPE name="obj_id" type="12" desc="temporary objective id string"></PARAMTYPE>
+  <PARAMTYPE name="message" type="12" desc="text to be displayed"></PARAMTYPE>
+  <PARAMTYPE name="sound" type="12" desc="sound filename (.wav extension)"></PARAMTYPE>
+  <PARAMTYPE name="goal_id" type="12" desc="scenario objective id string"></PARAMTYPE>
+  <PARAMTYPE name="percent" type="10" desc="a percent (integer 0 - 100)"></PARAMTYPE>
+  <PARAMTYPE name="x" type="10" desc="game world X position"></PARAMTYPE>
+  <PARAMTYPE name="y" type="10" desc="game world Y position"></PARAMTYPE>
+  <PARAMTYPE name="dist_radius" type="10" desc='game world distance radius (in "tile units")'></PARAMTYPE>
+  <PARAMTYPE name="timer_id" type="12" desc="timer id string"></PARAMTYPE>
+  <PARAMTYPE name="res_type" type="12" desc="a resource name"></PARAMTYPE>
+  <PARAMTYPE name="type" type="12" desc="any game type name"></PARAMTYPE>
+  <PARAMTYPE name="build_type" type="12" desc="a building type name"></PARAMTYPE>
+  <PARAMTYPE name="unit_type" type="12" desc="a unit type name"></PARAMTYPE>
+  <PARAMTYPE name="object_type" type="12" desc="a building or unit type name"></PARAMTYPE>
+  <PARAMTYPE name="unit_cat" type="12" desc="a unit category name"></PARAMTYPE>
+  <PARAMTYPE name="tech" type="12" desc="a tech type name"></PARAMTYPE>
+  <PARAMTYPE name="age" type="10" desc="age number (1 to 8)"></PARAMTYPE>
+  <PARAMTYPE name="city_name" type="12" desc="a city name"></PARAMTYPE>
+  <PARAMTYPE name="city_num" type="10" desc="the number of the city"></PARAMTYPE>
+  <PARAMTYPE name="bool" type="10" desc="true or false (1 or 0)"></PARAMTYPE>
+  <PARAMTYPE name="key" type="12" desc='a string with one character key ex. "a"'></PARAMTYPE>
+  <PARAMTYPE name="option" type="12" desc="a UI option name"></PARAMTYPE>
+  <PARAMTYPE name="mood" type="12" desc='"winning", "losing", or "economic"'></PARAMTYPE>
+  <PARAMTYPE name="screen_x" type="10" desc="screen X position"></PARAMTYPE>
+  <PARAMTYPE name="screen_y" type="10" desc="screen Y position"></PARAMTYPE>
+  <PARAMTYPE name="anim" type="10" desc="unit animation id (1 - 4)"></PARAMTYPE>
+  <PARAMTYPE name="filename" type="12" desc="name of the file"></PARAMTYPE>
+  <PARAMTYPE name="data_element" type="12" desc="a data element (tag name) in the XML file"></PARAMTYPE>
+  <PARAMTYPE name="data_attrib" type="12" desc="an attribute name (of current element in the XML file)"></PARAMTYPE>
+  <PARAMTYPE name="any_value" type="14" desc="any int, real or string"></PARAMTYPE>
+  <PARAMTYPE name="stance" type="12" desc="a unit stance name"></PARAMTYPE>
+  <PARAMTYPE name="trigger" type="12" desc="a trigger name"></PARAMTYPE>
+  <PARAMTYPE name="script" type="12" desc="a script name"></PARAMTYPE>
+  <PARAMTYPE name="int_return" type="10" desc="1 if true or success, 0 if false, -1 if failed"></PARAMTYPE>
+  <PARAMTYPE name="degree" type="10" desc="0 - 360 degrees"></PARAMTYPE>
+  <PARAMTYPE name="nation_name" type="12" desc="the nation name"></PARAMTYPE>
+  <PARAMTYPE name="group_size" type="10" desc="number of units in group"></PARAMTYPE>
+  <PARAMTYPE name="minutes" type="10" desc="time in minutes"></PARAMTYPE>
+</ROOT>

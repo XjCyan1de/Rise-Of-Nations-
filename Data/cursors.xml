@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Joe B (Big Huge Games) -->
+<!-- gdi_id should match with the value in game_resources.h  they should only change if new resources are added or deleted, and hopefully not much -->
+<ROOT>
+  <CURSOR name="Main Cursor" bw_id="278" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_main_cursor.tga" gdi_id="214"></CURSOR>
+  <CURSOR name="Gather Point" bw_id="265" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_gather_point.tga" gdi_id="201"></CURSOR>
+  <CURSOR name="Priest Spell" bw_id="271" x="-1" y="0" xs="31" ys="31" hot_x="0" hot_y="0" file=".\art\cursors.tga" gdi_id="116"></CURSOR>
+  <CURSOR name="Spy Spell" bw_id="271" x="-2" y="0" xs="31" ys="31" hot_x="0" hot_y="0" file=".\art\cursors.tga" gdi_id="117"></CURSOR>
+  <CURSOR name="Crosshairs" bw_id="260" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_crosshairs.tga" gdi_id="196"></CURSOR>
+  <CURSOR name="Attack Ground" bw_id="254" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_attack_ground.tga" gdi_id="190"></CURSOR>
+  <CURSOR name="Ping" bw_id="302" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_ping.tga" gdi_id="238"></CURSOR>
+  <CURSOR name="Garrison" bw_id="268" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_garrison.tga" gdi_id="204"></CURSOR>
+  <CURSOR name="Patrol" bw_id="300" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_patrol.tga" gdi_id="236"></CURSOR>
+  <CURSOR name="Repair" bw_id="303" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_repair.tga" gdi_id="239"></CURSOR>
+  <CURSOR name="Airstrike" bw_id="252" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_airstrike.tga" gdi_id="188"></CURSOR>
+  <CURSOR name="Air Transfer" bw_id="250" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_air_transfer.tga" gdi_id="187"></CURSOR>
+  <CURSOR name="Demolition" bw_id="263" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_demolition.tga" gdi_id="199"></CURSOR>
+  <CURSOR name="Paradrop" bw_id="299" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_paradrop.tga" gdi_id="235"></CURSOR>
+  <CURSOR name="Attack Cursor" bw_id="253" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_attack.tga" gdi_id="189"></CURSOR>
+  <CURSOR name="Gathering" bw_id="271" x="-3" y="-3" xs="31" ys="31" hot_x="0" hot_y="0" file=".\art\cursors.tga" gdi_id="128"></CURSOR>
+  <CURSOR name="Build" bw_id="251" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_build.tga" gdi_id="186"></CURSOR>
+  <CURSOR name="Start Trade" bw_id="271" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_caravan.tga" gdi_id="194"></CURSOR>
+  <CURSOR name="Gather Food" bw_id="269" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_gather_food.tga" gdi_id="205"></CURSOR>
+  <CURSOR name="Gather Timber" bw_id="274" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_gather_timber.tga" gdi_id="210"></CURSOR>
+  <CURSOR name="Gather Wool" bw_id="271" x="-3" y="-3" xs="31" ys="31" hot_x="0" hot_y="0" file=".\art\cursors.tga" gdi_id="133"></CURSOR>
+  <CURSOR name="Gather Metal" bw_id="271" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_gather_metal.tga" gdi_id="207"></CURSOR>
+  <CURSOR name="Gather Oil" bw_id="272" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_gather_oil.tga" gdi_id="208"></CURSOR>
+  <CURSOR name="Ruins" bw_id="304" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_ruin_cursor.tga" gdi_id="240"></CURSOR>
+  <CURSOR name="Caravan" bw_id="258" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_caravan.tga" gdi_id="194"></CURSOR>
+  <CURSOR name="Scout" bw_id="297" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_scout.tga" gdi_id="233"></CURSOR>
+  <CURSOR name="Gather Knowldge" bw_id="270" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_gather_knowledge.tga" gdi_id="206"></CURSOR>
+  <CURSOR name="NoAttackCurs" bw_id="282" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_no_attack.tga" gdi_id="218"></CURSOR>
+  <CURSOR name="Jam Radar" bw_id="277" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_jam_radar.tga" gdi_id="213"></CURSOR>
+  <CURSOR name="Create Decoy" bw_id="271" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_create_decoy.tga" gdi_id="141"></CURSOR>
+  <CURSOR name="Guard" bw_id="275" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_guard.tga" gdi_id="211"></CURSOR>
+  <CURSOR name="Bribe" bw_id="256" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_bribe.tga" gdi_id="192"></CURSOR>
+  <CURSOR name="Pilfer" bw_id="301" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_pilfer.tga" gdi_id="237"></CURSOR>
+  <CURSOR name="Counter Intel" bw_id="259" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_counter_intel.tga" gdi_id="195"></CURSOR>
+  <CURSOR name="Explore To" bw_id="266" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_explore_to.tga" gdi_id="202"></CURSOR>
+  <CURSOR name="Attack To" bw_id="255" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_attack_to.tga" gdi_id="191"></CURSOR>
+  <CURSOR name="Move To" bw_id="280" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_move_to.tga" gdi_id="216"></CURSOR>
+  <CURSOR name="Flee To" bw_id="271" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_attack_to.tga" gdi_id="148"></CURSOR>
+  <CURSOR name="Embark" bw_id="257" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_embark.tga" gdi_id="193"></CURSOR>
+  <CURSOR name="Disembark" bw_id="264" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_disembark.tga" gdi_id="200"></CURSOR>
+  <CURSOR name="Follow" bw_id="267" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_follow.tga" gdi_id="203"></CURSOR>
+  <CURSOR name="Ship Attack" bw_id="271" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_attack.tga" gdi_id="189"></CURSOR>
+  <CURSOR name="Nuke Attack" bw_id="298" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_nuke_attack.tga" gdi_id="234"></CURSOR>
+  <CURSOR name="No Air Transfer" bw_id="273" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_air_transfer.tga" gdi_id="209"></CURSOR>
+  <CURSOR name="CROSSED_OUT_FOOD_CURSOR" bw_id="286" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_food.tga" gdi_id="222"></CURSOR>
+  <CURSOR name="CROSSED_OUT_WOOD_CURSOR" bw_id="289" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_wood.tga" gdi_id="225"></CURSOR>
+  <CURSOR name="CROSSED_OUT_METAL_CURSOR" bw_id="292" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_metal.tga" gdi_id="228"></CURSOR>
+  <CURSOR name="CROSSED_OUT_OIL_CURSOR" bw_id="295" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_oil.tga" gdi_id="231"></CURSOR>
+  <CURSOR name="CROSSED_OUT_KNOWLEDGE_CURSOR" bw_id="291" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_knowledge.tga" gdi_id="227"></CURSOR>
+  <CURSOR name="MERCHANT_HERE_CURSOR" bw_id="305" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_special_resource.tga" gdi_id="241"></CURSOR>
+  <CURSOR name="CROSSED_OUT_MERCHANT_HERE_CURSOR" bw_id="296" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_special_resource.tga" gdi_id="232"></CURSOR>
+  <CURSOR name="CONDUCT_DIPLOMACY_WITH_CURSOR" bw_id="271" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_main_cursor.tga" gdi_id="214"></CURSOR>
+  <CURSOR name="SELECT_CONTROL_GROUP_CURSOR" bw_id="271" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_main_cursor.tga" gdi_id="162"></CURSOR>
+  <CURSOR name="CROSSED_OUT_GOLD_COIN_CURSOR" bw_id="288" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_gold.tga" gdi_id="224"></CURSOR>
+  <CURSOR name="CROSSED_OUT_GARRISON_CURSOR" bw_id="287" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_garrison.tga" gdi_id="223"></CURSOR>
+  <CURSOR name="CROSSED_OUT_GUARD_CURSOR" bw_id="281" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_guard.tga" gdi_id="217"></CURSOR>
+  <CURSOR name="CROSSED_OUT_SNIPER_CURSOR" bw_id="284" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_crosshairs.tga" gdi_id="220"></CURSOR>
+  <CURSOR name="CROSSED_OUT_SABATAGE_CURSOR" bw_id="285" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_demolition.tga" gdi_id="221"></CURSOR>
+  <CURSOR name="CROSSED_OUT_BRIBE_CURSOR" bw_id="283" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_bribe.tga" gdi_id="219"></CURSOR>
+  <CURSOR name="INFORMER_CURSOR" bw_id="276" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_informer.tga" gdi_id="212"></CURSOR>
+  <CURSOR name="CROSSED_OUT_INFORMER_CURSOR" bw_id="290" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_informer.tga" gdi_id="226"></CURSOR>
+  <CURSOR name="MISSILE_CURSOR" bw_id="279" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_missile.tga" gdi_id="215"></CURSOR>
+  <CURSOR name="NO_MISSILE_CURSOR" bw_id="293" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_missile.tga" gdi_id="229"></CURSOR>
+  <CURSOR name="NO_NUKE_CURSOR" bw_id="294" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_NO_nuke_attack.tga" gdi_id="230"></CURSOR>
+  <CURSOR name="IKE_CURSOR" bw_id="271" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\sc_informer.tga" gdi_id="112"></CURSOR>
+  <CURSOR name="CTW_VALID_CURSOR" bw_id="262" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_CTW_up.tga" gdi_id="198"></CURSOR>
+  <CURSOR name="CTW_INVALID_CURSOR" bw_id="261" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_CTW_no.tga" gdi_id="197"></CURSOR>
+  <CURSOR name="Wait" bw_id="306" x="0" y="0" xs="32" ys="32" hot_x="0" hot_y="0" file=".\art\SC_wait_cursor.tga" gdi_id="242"></CURSOR>
+</ROOT>

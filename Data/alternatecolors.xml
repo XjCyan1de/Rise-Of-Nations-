@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Isaac Ellis (Big Huge Games) -->
+<ROOT>
+  <UNIT>
+    <TEAM0 red="255" green="0" blue="0"/>
+    <TEAM1 red="34" green="82" blue="255"/>
+    <TEAM2 red="255" green="0" blue="255"/>
+    <TEAM3 red="150" green="150" blue="150"/>
+    <TEAM4 red="255" green="255" blue="0"/>
+    <TEAM5 red="0" green="255" blue="255"/>
+    <TEAM6 red="255" green="255" blue="255"/>
+    <TEAM7 red="255" green="105" blue="0"/>
+    <TEAM8 red="255" green="255" blue="255"/>
+  </UNIT>
+  <TEXT>
+    <TEAM0 red="255" green="100" blue="100"/>
+    <TEAM1 red="70" green="100" blue="255"/>
+    <TEAM2 red="188" green="0" blue="250"/>
+    <TEAM3 red="125" green="125" blue="125"/>
+    <TEAM4 red="255" green="239" blue="55"/>
+    <TEAM5 red="0" green="255" blue="255"/>
+    <TEAM6 red="255" green="255" blue="255"/>
+    <TEAM7 red="255" green="182" blue="6"/>
+    <TEAM8 red="255" green="255" blue="255"/>
+  </TEXT>
+  <BUILD>
+    <TEAM0 red="102" green="0" blue="0"/>
+    <TEAM1 red="26" green="57" blue="172"/>
+    <TEAM2 red="128" green="0" blue="128"/>
+    <TEAM3 red="80" green="80" blue="80"/>
+    <TEAM4 red="98" green="96" blue="0"/>
+    <TEAM5 red="0" green="92" blue="108"/>
+    <TEAM6 red="255" green="255" blue="255"/>
+    <TEAM7 red="112" green="48" blue="0"/>
+    <TEAM8 red="255" green="255" blue="255"/>
+  </BUILD>
+  <NEON>
+    <TEAM0 red="255" green="0" blue="0"/>
+    <TEAM1 red="70" green="100" blue="255"/>
+    <TEAM2 red="188" green="0" blue="250"/>
+    <TEAM3 red="150" green="150" blue="150"/>
+    <TEAM4 red="255" green="255" blue="0"/>
+    <TEAM5 red="0" green="255" blue="255"/>
+    <TEAM6 red="255" green="255" blue="255"/>
+    <TEAM7 red="255" green="128" blue="0"/>
+    <TEAM8 red="255" green="255" blue="255"/>
+  </NEON>
+  <BORDER>
+    <TEAM0 red="255" green="0" blue="0"/>
+    <TEAM1 red="0" green="0" blue="255"/>
+    <TEAM2 red="188" green="0" blue="250"/>
+    <TEAM3 red="150" green="150" blue="150"/>
+    <TEAM4 red="255" green="255" blue="0"/>
+    <TEAM5 red="0" green="255" blue="255"/>
+    <TEAM6 red="255" green="255" blue="255"/>
+    <TEAM7 red="255" green="128" blue="0"/>
+    <TEAM8 red="255" green="255" blue="255"/>
+  </BORDER>
+  <IFACE>
+    <TEAM0 red="255" green="0" blue="0"/>
+    <TEAM1 red="0" green="0" blue="255"/>
+    <TEAM2 red="188" green="0" blue="250"/>
+    <TEAM3 red="90" green="90" blue="90"/>
+    <TEAM4 red="255" green="255" blue="0"/>
+    <TEAM5 red="0" green="255" blue="255"/>
+    <TEAM6 red="255" green="255" blue="255"/>
+    <TEAM7 red="255" green="128" blue="0"/>
+    <TEAM8 red="255" green="255" blue="255"/>
+  </IFACE>
+  <UNIT_TINT>
+    <TEAM0 red="127" green="47" blue="47"/>
+    <TEAM1 red="47" green="47" blue="159"/>
+    <TEAM2 red="127" green="63" blue="127"/>
+    <TEAM3 red="120" green="120" blue="120"/>
+    <TEAM4 red="127" green="127" blue="63"/>
+    <TEAM5 red="63" green="127" blue="127"/>
+    <TEAM6 red="191" green="191" blue="191"/>
+    <TEAM7 red="127" green="95" blue="47"/>
+    <TEAM8 red="255" green="255" blue="255"/>
+  </UNIT_TINT>
+  <BUILD_TINT>
+    <TEAM0 red="127" green="95" blue="95"/>
+    <TEAM1 red="95" green="95" blue="127"/>
+    <TEAM2 red="127" green="95" blue="127"/>
+    <TEAM3 red="120" green="120" blue="120"/>
+    <TEAM4 red="127" green="127" blue="95"/>
+    <TEAM5 red="95" green="127" blue="127"/>
+    <TEAM6 red="159" green="159" blue="159"/>
+    <TEAM7 red="127" green="111" blue="95"/>
+    <TEAM8 red="255" green="255" blue="255"/>
+  </BUILD_TINT>
+</ROOT>

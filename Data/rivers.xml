@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Bryant Freitag (Big Huge Games) -->
+<!-- edited with XMLSPY v5 U (http://www.xmlspy.com) by jonathan jacobson (Big Huge Games) -->
+<RIVERS>
+  <DOOBERS>
+    <TEXTURE name="cat_01" file="./terrain art/rivers/riverdoober_cat_texture_01.tga"/>
+    <TEXTURE name="rock_01" file="./terrain art/rivers/riverdoober_rock_texture_01.tga"/>
+    <TEXTURE name="lilly_01" file="./terrain art/rivers/riverdoober_lilly_texture_01.tga"/>
+    <DOOBER name="cat1" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_01.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat2" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_02.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat3" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_03.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat4" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_04.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat5" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_05.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat6" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_06.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat7" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_07.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat8" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_08.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat9" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_09.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat10" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_10.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat11" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_11.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat12" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_12.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat13" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_13.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat14" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_14.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat15" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_15.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="cat16" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_cat_16.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock1" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_01.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock2" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_02.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock3" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_03.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock4" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_04.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock5" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_05.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock6" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_06.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock7" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_07.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock8" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_08.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock9" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_09.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock10" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_10.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock11" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_11.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock12" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_12.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock13" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_13.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock14" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_14.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock15" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_15.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="rock16" flat="0" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="0">
+      <BH3 name="./terrain art/rivers/riverdoober_rock_16.BH3"/>
+      <TEXTUREREF name="rock_01"/>
+      <WAKE width="30" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="thistle1" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_thisle_01.BH3"/>
+      <TEXTUREREF name="cat_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="thistle2" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_thisle_02.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="thistle3" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_thisle_03.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="thistle4" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_thisle_03.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="thistle5" flat="0" wake="0" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_thisle_04.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="lilly1" flat="1" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_lilly_01.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="lilly2" flat="1" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_lilly_02.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="lilly3" flat="1" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_lilly_03.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="lilly4" flat="1" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_lilly_04.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="lilly5" flat="1" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_lilly_05.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="lilly6" flat="1" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_lilly_06.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="lilly7" flat="1" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_lilly_07.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+    <DOOBER name="lilly8" flat="1" wake="1" floats="1" deltaz="-128" sidesonly="1" clumps="1" scale="1" hyperclump="1">
+      <BH3 name="./terrain art/rivers/riverdoober_lilly_08.BH3"/>
+      <TEXTUREREF name="lilly_01"/>
+      <WAKE width="25" rate="slow" lifetime="2000"/>
+    </DOOBER>
+  </DOOBERS>
+</RIVERS>

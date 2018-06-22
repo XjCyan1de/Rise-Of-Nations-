@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by XMLSPY 5 Professional Ed. Release 2 (Big Huge Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<!--LOCALIZATION All DESCRIPTION elements-->
+<!--LOCALIZATION All INTRO elements-->
+<!--LOCALIZATION All SCORE_NAME elements-->
+<!--LOCALIZATION All SCORE_DATA elements-->
+<!--LOCALIZATION -->
+<!--LOCALIZATION -->
+<ROOT>
+  <SCENARIO title="Безумие взросления - Эпоха 2" id="test6" year=" " index="0" file=".\scenario\Chess Exercise\ceaging1.scx" image=".\art\wrapper_pieces_04.tga" score_type="0">
+    <DESCRIPTION>Сколько времени у вас уйдет на то, чтобы достичь эпохи античности? Проверьте свои навыки управления ресурсами.</DESCRIPTION>
+    <INTRO>Уровень сложности: легкий. Ваша цель - перейти в эпоху античности максимум за 3 минуты.</INTRO>
+    <SCORE_NAME>%d:%02d мин.</SCORE_NAME>
+    <SCORE_DATA name="Фараон Рамзес II" score="135"/>
+    <SCORE_DATA name="Александр Македонский" score="141"/>
+    <SCORE_DATA name="Царица Клеопатра" score="159"/>
+    <SCORE_DATA name="Императрица Ливия" score="161"/>
+    <SCORE_DATA name="Юлий Цезарь" score="170"/>
+  </SCENARIO>
+  <SCENARIO title="Безумие взросления - Эпоха 4" id="test7" year=" " index="1" file=".\scenario\Chess Exercise\ceaging2.scx" image=".\art\wrapper_pieces_04.tga" score_type="0">
+    <DESCRIPTION>Сколько времени у вас уйдет на то, чтобы достичь эпохи пороха? Проверьте свои навыки управления ресурсами.</DESCRIPTION>
+    <INTRO>Уровень сложности: средний. Ваша цель - перейти в эпоху пороха максимум за 14 минут.</INTRO>
+    <SCORE_NAME>%d:%02d мин.</SCORE_NAME>
+    <SCORE_DATA name="Король Филипп II" score="718"/>
+    <SCORE_DATA name="Император У-Ди" score="734"/>
+    <SCORE_DATA name="Император Ши-Хуанди" score="765"/>
+    <SCORE_DATA name="Королева Изабелла" score="777"/>
+    <SCORE_DATA name="Хан гази Мехмед II" score="810"/>
+  </SCENARIO>
+  <SCENARIO title="Безумие взросления - Эпоха 8" id="test8" year=" " index="2" file=".\scenario\Chess Exercise\ceaging3.scx" image=".\art\wrapper_pieces_04.tga" score_type="0">
+    <DESCRIPTION>Сколько времени у вас уйдет на то, чтобы достичь информационного века? Проверьте свои навыки управления ресурсами.</DESCRIPTION>
+    <INTRO>Уровень сложности: высокий. Ваша цель - перейти в информационный век максимум за 30 минут.</INTRO>
+    <SCORE_NAME>%d:%02d мин.</SCORE_NAME>
+    <SCORE_DATA name="Владимир Ленин" score="1500"/>
+    <SCORE_DATA name="Император Монтесума" score="1588"/>
+    <SCORE_DATA name="Король Чака" score="1677"/>
+    <SCORE_DATA name="Чак Балам" score="1744"/>
+    <SCORE_DATA name="Королева Аманишахете" score="1788"/>
+  </SCENARIO>
+  <SCENARIO title="Банда налетчиков" id="test2" year=" " index="3" file=".\scenario\Chess Exercise\ceraiding1.scx" image=".\art\wrapper_pieces_04.tga" score_type="1">
+    <DESCRIPTION>Нанесите визит в один из вражеских городов вместе со своей кровожадной монгольской ордой. Подобные дела всегда требуют личного вмешательства, поэтому вам придется испытать свои навыки нападения.</DESCRIPTION>
+    <INTRO>Вы играете роль Чингисхана. Вы поведете свою кровожадную орду в соседние земли. Вокруг вас четыре провинции, каждая из которых хорошо защищена. Не забывайте, что вражеские войска слишком сильно боятся монгольскую орду, чтобы нарушить границы вашей территории. Кроме того, каждые две минуты к вашей орде будут присоединяться кочевники. Уничтожьте 100 гражданских лиц (мирные жители, торговцы и караваны) за 10 минут. Каждый караван приравнивается к 3 жителям.</INTRO>
+    <SCORE_NAME>Убито: $NUM0</SCORE_NAME>
+    <SCORE_DATA name="Чингисхан" score="115"/>
+    <SCORE_DATA name="Хубилай" score="110"/>
+    <SCORE_DATA name="Царица Чаби" score="108"/>
+    <SCORE_DATA name="Царица Мандухай" score="104"/>
+    <SCORE_DATA name="Хан Угедей" score="100"/>
+  </SCENARIO>
+  <SCENARIO title="Управление клавишами" id="test4" year=" " index="4" file=".\scenario\Chess Exercise\cehotkey1.scx" image=".\art\wrapper_pieces_04.tga" score_type="1">
+    <DESCRIPTION>Вы разобрались с управлением? Это испытание на знание клавиатурных сочетаний клавиш..</DESCRIPTION>
+    <INTRO>Вы разобрались с управлением? Ваша задача - нажать правильную клавишу или комбинация клавиш и пройти 25 из 30 раундов.</INTRO>
+    <SCORE_NAME>Щелчков: $NUM0</SCORE_NAME>
+    <SCORE_DATA name="Ода Нобунага" score="29"/>
+    <SCORE_DATA name="Император Ицкоатль" score="28"/>
+    <SCORE_DATA name="Царь Тангун" score="27"/>
+    <SCORE_DATA name="Королева Чинсон" score="26"/>
+    <SCORE_DATA name="Король Чинхун" score="25"/>
+  </SCENARIO>
+  <SCENARIO title="Защитить чудо света" id="test1" year=" " index="5" file=".\scenario\Chess Exercise\cewonder.scx" image=".\art\wrapper_pieces_04.tga" score_type="1">
+    <DESCRIPTION>Защитите свое чудо света о завистливых врагов. Испытайте свои навыки обороны.</DESCRIPTION>
+    <INTRO>Ваш народ построил величественное чудо света. Ваши соседи из зависти замышляют разрушить его. В этом сценарии вам необходимо отразить пять эшелонов вражеских войск. Все сооружения и войска создаются мгновенно. Перед наступлением каждого эшелона ваши жители будут приносить вам дань в виде различных ресурсов. У вас будет тридцать секунд на подготовку к вражеской атаке. Ваша задача - сохранить свое чудо света и отразить пять эшелонов войск противника.</INTRO>
+    <SCORE_NAME>Процент: $NUM0</SCORE_NAME>
+    <SCORE_DATA name="Император Траян" score="75"/>
+    <SCORE_DATA name="Император Адриан" score="59"/>
+    <SCORE_DATA name="Император Юстиниан" score="46"/>
+    <SCORE_DATA name="Императрица Теодора" score="33"/>
+    <SCORE_DATA name="Император Август" score="14"/>
+  </SCENARIO>
+  <SCENARIO title="Тактика" id="test5" year=" " index="6" file=".\scenario\Chess Exercise\cemicrowars.scx" image=".\art\wrapper_pieces_04.tga" score_type="1">
+    <DESCRIPTION>Разгромите вражескую армию и захватите ценные ресурсы. При этом вы не должны потерять больше половины своих войск. Испытайте свои навыки полководческого искусства.</DESCRIPTION>
+    <INTRO>Вражеская цивилизация владеет месторождением очень ценных ресурсов. Вы должны направить к ним свою армию и захватить эти ресурсы. Вы должны сохранить в живых более половины своих войск, в противном случае ваши жители потеряют веру в вас, и вы проиграете.</INTRO>
+    <SCORE_NAME>Войск: $NUM0</SCORE_NAME>
+    <SCORE_DATA name="Император Петр I" score="22"/>
+    <SCORE_DATA name="Царь Иван Грозный" score="20"/>
+    <SCORE_DATA name="Король Генрих VIII" score="17"/>
+    <SCORE_DATA name="Султан Сонни Али" score="16"/>
+    <SCORE_DATA name="Ричард Львиное Сердце" score="16"/>
+  </SCENARIO>
+  <SCENARIO title="Убить генерала" id="test3" year=" " index="7" file=".\scenario\Chess Exercise\cegeneral3.scx" image=".\art\wrapper_pieces_04.tga" score_type="1">
+    <DESCRIPTION>Насколько быстро вы сможете щелкать мышкой? Это испытание на скорость щелчков.</DESCRIPTION>
+    <INTRO>Выберите выделенного генерала. Вас ждут три раунда различного уровня сложности по 10 щелчков. Для победы необходимо 25 из 30 щелчков.</INTRO>
+    <SCORE_NAME>Щелчков: $NUM0</SCORE_NAME>
+    <SCORE_DATA name="Император Наполеон" score="29"/>
+    <SCORE_DATA name="Король Людовик XIV" score="28"/>
+    <SCORE_DATA name="Отто фон Бисмарк" score="27"/>
+    <SCORE_DATA name="Фредерик Великий" score="26"/>
+    <SCORE_DATA name="Аларих Вестготский" score="25"/>
+  </SCENARIO>
+</ROOT>

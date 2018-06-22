@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by XMLSPY 5 Professional Ed. Release 2 (Big Huge Games) -->
+<!-- edited with XML Spy v4.4 U (http://www.xmlspy.com) by Scott Lewis (Big Huge Games) -->
+<!-- LOCALIZATION: ROOT.name attribute-->
+<!-- LOCALIZATION: SCENARIO.title attributes -->
+<!-- LOCALIZATION: SCENARIO.subtitle attributes -->
+<!-- LOCALIZATION: SCENARIO.year attributes -->
+<!-- LOCALIZATION: INTRO elements -->
+<!-- LOCALIZATION: CONTEXT elements -->
+<!-- LOCALIZATION: CONCEPT elements -->
+<ROOT name="Обучение" id="tutorial">
+  <!-- title, subtitle, and year attributes need to be localized -->
+  <SCENARIO title="Быстрое обучение" id="tut4" subtitle="Введение по ходу игры" index="0" age="0" difficulty="-1" file=".\scenario\Tutorial5\tut5.scx" image=".\art\wrapper_pieces_04.tga" sound=".\scenario\Tutorial5\tut5_intro.wav">
+    <CONTEXT/>
+    <CONCEPT>Бой один на один</CONCEPT>
+    <CONCEPT>Подсказки и объяснения по ходу игры</CONCEPT>
+    <INTRO>Это свободный сценарий, в котором вы можете выбрать собственную тактику игры. Чтобы выиграть, захватите столицу варваров или 70% всей территории на карте. В ходе игры вы будете получать напоминания и подсказки.</INTRO>
+  </SCENARIO>
+  <SCENARIO title="Боудикка" id="tut0" subtitle="Обучение 2" index="1" age="1" difficulty="0" file=".\scenario\Tutorial1\tut1.scx" image=".\art\wrapper_pieces_04.tga" sound=".\scenario\Tutorial1\tut1_intro.wav" year="60">
+    <CONTEXT>Королева должна отбить атаку и освободить родину.</CONTEXT>
+    <CONCEPT>Выбор войск</CONCEPT>
+    <CONCEPT>Передвижение</CONCEPT>
+    <CONCEPT>Прокрутка карты</CONCEPT>
+    <CONCEPT>Справка</CONCEPT>
+    <CONCEPT>Основы боя</CONCEPT>
+    <INTRO>60 год н. э. Римляне завоевали Британию и требуют с ее жителей огромные налоги. Когда правление Брайтоном переходит к Боудикке, римлян задевает тот факт, что им осмелилась противостоять женщина. Они врываются в город, хватают Боудикку, и после публичной порки провозглашают эти земли своими. В попытке отомстить завоевателям Боудикка возглавляет восстание, и ее подвиги входят в историю.</INTRO>
+  </SCENARIO>
+  <SCENARIO title="Альфред Великий" id="tut1" subtitle="Обучение 3" index="2" age="2" difficulty="0" file=".\scenario\Tutorial2\tut2.scx" image=".\art\wrapper_pieces_04.tga" sound=".\scenario\Tutorial2\loading_intro.wav" year="878">
+    <CONTEXT>Отразите атаку орды викингов.</CONTEXT>
+    <CONCEPT>Строительство и использование сооружений</CONCEPT>
+    <CONCEPT>Формирование новых войск</CONCEPT>
+    <CONCEPT>Миникарта</CONCEPT>
+    <INTRO>Спустя 800 лет после антиримского восстания Боудикки Британия страдает от постоянных набегов викингов. На протяжении некоторого времени король Уэссекса Альфред выплачивал викингам дань, чтобы избежать вторжения. Однако в 878 году викинги начинают готовиться к завоеванию. Альфред терпит поражение и вынужден отступить, чтобы собрать войска и нанести решающий удар по завоевателям.</INTRO>
+  </SCENARIO>
+  <SCENARIO title="Столетняя война" id="tut2" subtitle="Обучение 4" index="3" age="3" difficulty="1" file=".\scenario\Tutorial3\tut3.scx" image=".\art\wrapper_pieces_04.tga" sound=".\scenario\Tutorial3\tut3_intro.wav" year="1337">
+    <CONTEXT>Начните вторжение во Францию.</CONTEXT>
+    <CONCEPT>Исследования в библиотеке</CONCEPT>
+    <CONCEPT>Добыча пищи, древесины и железа</CONCEPT>
+    <CONCEPT>Захват городов</CONCEPT>
+    <CONCEPT>Восстановление сооружений</CONCEPT>
+    <CONCEPT>Преимущества и недостатки различных войск</CONCEPT>
+    <CONCEPT>Пересечение водоемов</CONCEPT>
+    <INTRO>Спустя почти 500 лет после победы Альфреда Британия является объединенным королевством. После смерти короля Франции Карла французский престол должен перейти к королю Англии. Самих французов такой поворот событий не устраивает. Поэтому они находят некий туманный закон, который лишает короля Англии права претендовать на французский престол. Англия принимает решение захватить власть во Франции силой и встречает сопротивление французов.</INTRO>
+  </SCENARIO>
+  <SCENARIO title="Генрих VIII" id="tut3" subtitle="Обучение 5" index="4" age="4" difficulty="1" file=".\scenario\Tutorial4\tut4.scx" image=".\art\wrapper_pieces_04.tga" sound=".\scenario\Tutorial4\tut4_intro.wav" year="1513">
+    <CONTEXT>Отразите набеги шотландцев.</CONTEXT>
+    <CONCEPT>Строительство городов</CONCEPT>
+    <CONCEPT>Размеры территории</CONCEPT>
+    <CONCEPT>Повышение знания и доходов</CONCEPT>
+    <CONCEPT>Торговцы и ценные ресурсы</CONCEPT>
+    <INTRO>В 1509 году после столетия постоянных волнений и беспорядков власть в Англии переходит к королю Генриху VIII. За 38 лет своего правления он шесть раз женится, разорвет отношения с Римской католической церковью и примет участие в нескольких войнах. Король Шотландии вводит свои войска на территорию Англии. Чтобы укрепить свою власть, Генрих должен овладеть военными приемами и технологиями, не забывая при этом о благе своего народа.</INTRO>
+  </SCENARIO>
+  <SCENARIO title="Битва за Британию" id="tut5" subtitle="Обучение 6" index="5" age="5" difficulty="2" file=".\scenario\Tutorial6\tut6.scx" image=".\art\wrapper_pieces_04.tga" sound=".\scenario\Tutorial6\tut6_intro.wav" year="1940">
+    <CONTEXT>Звездный час Британии. Победите немецкие войска.</CONTEXT>
+    <CONCEPT>Дипломатия</CONCEPT>
+    <CONCEPT>Воздушный бой</CONCEPT>
+    <CONCEPT>Генералы</CONCEPT>
+    <CONCEPT>Нефть</CONCEPT>
+    <CONCEPT>Улучшение сооружений</CONCEPT>
+    <CONCEPT>Боевой строй</CONCEPT>
+    <INTRO>Первая мировая война опустошила Европу. Беспорядки в Германии приводят к всплеску национализма, а в результате и к восстановлению боевой машины Германии. Когда становится очевидно, что дипломатическими средствами на Германию воздействовать невозможно, Великобритания заключает союз с Францией и объявляет войну Германии. Вспыхивает мировая война, и на этот раз она будет намного ужаснее первой.</INTRO>
+  </SCENARIO>
+</ROOT>
