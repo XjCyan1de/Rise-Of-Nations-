@@ -1,0 +1,45 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by user (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Египтяне">
+  <LEADERS>
+    <LEADER>Гамилькар</LEADER>
+    <LEADER>Бомилькар</LEADER>
+    <LEADER>Фиброн</LEADER>
+    <LEADER>Офелл</LEADER>
+    <LEADER>Масинисса</LEADER>
+    <LEADER>Ханно</LEADER>
+    <LEADER>Гиско</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Пи-Рамзес</CITY>
+    <CITY>Эль-Лишт</CITY>
+    <CITY>Эль-Амарна</CITY>
+    <CITY>Эдфу</CITY>
+    <CITY>Слоновий остров</CITY>
+    <CITY>Асьют</CITY>
+    <CITY>Саккара</CITY>
+    <CITY>Сайс</CITY>
+    <CITY>Буто</CITY>
+    <CITY>Ракотис</CITY>
+    <CITY>Бубаст</CITY>
+    <CITY>Танис</CITY>
+    <CITY>Карнак</CITY>
+    <CITY>Луксор</CITY>
+    <CITY>Спермеру</CITY>
+    <CITY>Атфих</CITY>
+    <CITY>Кахун</CITY>
+    <CITY>Ше</CITY>
+    <CITY>Гавара</CITY>
+    <CITY>Эцбет Рушди</CITY>
+    <CITY>Меир</CITY>
+    <CITY>Ахмим</CITY>
+    <CITY>Абидос</CITY>
+    <CITY>Сесеби</CITY>
+    <CITY>Амара</CITY>
+    <CITY>Эль-Себуа</CITY>
+    <CITY>Гераклеополь</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 Europe    </UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>

@@ -1,0 +1,44 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Robert Nicaise (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Викинги">
+  <LEADERS>
+    <LEADER>Король Канут Великий</LEADER>
+    <LEADER>Король Олаф Белый</LEADER>
+    <LEADER>Король Эрик Кровавая Секира</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Йеллинг</CITY>
+    <CITY>Роскилле</CITY>
+    <CITY>Скирингссал</CITY>
+    <CITY>Оденсе</CITY>
+    <CITY>Рибе</CITY>
+    <CITY>Тронхейм</CITY>
+    <CITY>Хедебю</CITY>
+    <CITY>Ноннебаккен</CITY>
+    <CITY>Лоддекопинге</CITY>
+    <CITY>Лунд</CITY>
+    <CITY>Упсала</CITY>
+    <CITY>Вестнесс</CITY>
+    <CITY>Йорвик</CITY>
+    <CITY>Уитби</CITY>
+    <CITY>Туркелби</CITY>
+    <CITY>Кетлторп</CITY>
+    <CITY>Гримиста</CITY>
+    <CITY>Исбистер</CITY>
+    <CITY>Каупанг</CITY>
+    <CITY>Нуармутье</CITY>
+    <CITY>Браттахлид</CITY>
+    <CITY>Бирка</CITY>
+    <CITY>Старая Ладога</CITY>
+    <CITY>Хольмгард</CITY>
+    <CITY>Себберсунд</CITY>
+    <CITY>Уппакра</CITY>
+    <CITY>Новгород</CITY>
+    <CITY>Хайтхабу</CITY>
+    <CITY>Городище</CITY>
+    <CITY>Дерби</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>1 NEuro</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>

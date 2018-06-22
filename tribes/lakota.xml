@@ -1,0 +1,43 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Дакота">
+  <LEADERS>
+    <LEADER>Крейзи-Хорс</LEADER>
+    <LEADER>Сидящий Бык</LEADER>
+    <LEADER>Красная Туча</LEADER>
+    <LEADER>Два удара</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Мака Сика</CITY>
+    <CITY>Минисота</CITY>
+    <CITY>Вакпала Сапа</CITY>
+    <CITY>Шакопи</CITY>
+    <CITY>Тетонван</CITY>
+    <CITY>Сиситонван</CITY>
+    <CITY>Паябья</CITY>
+    <CITY>Пежута Зи</CITY>
+    <CITY>Оглала</CITY>
+    <CITY>Тапислека</CITY>
+    <CITY>Киякса</CITY>
+    <CITY>Уаджадже</CITY>
+    <CITY>Итесика</CITY>
+    <CITY>Ойюпе</CITY>
+    <CITY>Ваглухе</CITY>
+    <CITY>Сихасапа</CITY>
+    <CITY>Нижний Сичангу</CITY>
+    <CITY>Верхний Сичангу</CITY>
+    <CITY>Миниконджу</CITY>
+    <CITY>Ухенонпа</CITY>
+    <CITY>Вагхаоджу</CITY>
+    <CITY>Манкато</CITY>
+    <CITY>Магатанка</CITY>
+    <CITY>Паха Сапа</CITY>
+    <CITY>Онйювега</CITY>
+    <CITY>Мандан</CITY>
+    <CITY>Хидаца</CITY>
+    <CITY>Манхато</CITY>
+    <CITY>Миннеопа</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>4 Iroquois</UNIT_CONTINENT>
+  <BUILD_CONTINENT>6 Iroquois</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>6 Iroquois</BACKUP_BUILD_CONTINENT>
+</TRIBE>

@@ -1,0 +1,47 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by XMLSPY 5 Professional Ed. Release 2, Installed Multi for 15 users (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Индийцы">
+  <LEADERS>
+    <LEADER>Царь Викрамадитья VI</LEADER>
+    <LEADER>Царица Ченнамма</LEADER>
+    <LEADER>Баба Ала Сингх</LEADER>
+    <LEADER>Типу Султан</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Дели</CITY>
+    <CITY>Мумбай</CITY>
+    <CITY>Калькутта</CITY>
+    <CITY>Ченнай</CITY>
+    <CITY>Бангалор</CITY>
+    <CITY>Хайдерабад</CITY>
+    <CITY>Ахмедабад</CITY>
+    <CITY>Пун</CITY>
+    <CITY>Сурат</CITY>
+    <CITY>Канпур</CITY>
+    <CITY>Джайпур</CITY>
+    <CITY>Лахнау</CITY>
+    <CITY>Нагпур</CITY>
+    <CITY>Паталипутра</CITY>
+    <CITY>Индор</CITY>
+    <CITY>Вадодара</CITY>
+    <CITY>Бхопал</CITY>
+    <CITY>Коимбатор</CITY>
+    <CITY>Лудхиана</CITY>
+    <CITY>Кочи</CITY>
+    <CITY>Агра</CITY>
+    <CITY>Варанаси</CITY>
+    <CITY>Мадурай</CITY>
+    <CITY>Мейрут</CITY>
+    <CITY>Нашик</CITY>
+    <CITY>Джабалпур</CITY>
+    <CITY>Джамшедпур</CITY>
+    <CITY>Асансол</CITY>
+    <CITY>Дханбад</CITY>
+    <CITY>Фаридабад</CITY>
+    <CITY>Амрицар</CITY>
+    <CITY>Раджкот</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>8 EIndian</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

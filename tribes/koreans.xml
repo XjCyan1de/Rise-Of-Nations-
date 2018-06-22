@@ -1,0 +1,56 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Корейцы">
+  <LEADERS>
+    <LEADER>Царь Тангун</LEADER>
+    <LEADER>Король Хвангэто</LEADER>
+    <LEADER>Король Тхэджо</LEADER>
+    <LEADER>Король Чинхун</LEADER>
+    <LEADER>Королева Синдок</LEADER>
+    <LEADER>Королева Чинсон</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Сеул</CITY>
+    <CITY>Инчхон</CITY>
+    <CITY>Йонджу </CITY>
+    <CITY>Хванджу</CITY>
+    <CITY>Ульсан</CITY>
+    <CITY>Буйо</CITY>
+    <CITY>Гонджу</CITY>
+    <CITY>Бусан</CITY>
+    <CITY>Гунсан</CITY>
+    <CITY>Пхеньян</CITY>
+    <CITY>Вонсан</CITY>
+    <CITY>Нампо</CITY>
+    <CITY>Гэсьон</CITY>
+    <CITY>Хьюннам</CITY>
+    <CITY>Чунчеон</CITY>
+    <CITY>Самчок</CITY>
+    <CITY>Сувон</CITY>
+    <CITY>Андон</CITY>
+    <CITY>Вонджу</CITY>
+    <CITY>Нонсан</CITY>
+    <CITY>Масан</CITY>
+    <CITY>Йосу</CITY>
+    <CITY>Намвон</CITY>
+    <CITY>Дэйджон</CITY>
+    <CITY>Пхохан</CITY>
+    <CITY>Дэйгу</CITY>
+    <CITY>Миръян</CITY>
+    <CITY>Ганйюн</CITY>
+    <CITY>Мокпхо</CITY>
+    <CITY>Нацзюй</CITY>
+    <CITY>Джонъю</CITY>
+    <CITY>Цзиньцзю</CITY>
+    <CITY>Санджу</CITY>
+    <CITY>Чхеджу</CITY>
+    <CITY>Сунчьон</CITY>
+    <CITY>Чанвон</CITY>
+    <CITY>Чьонан</CITY>
+    <CITY>Чьонджу</CITY>
+    <CITY>Джечьон</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>3 Asian   </UNIT_CONTINENT>
+  <BUILD_CONTINENT>3 Korean</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>2 Asian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

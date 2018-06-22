@@ -1,0 +1,48 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Andy Clark (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Чиму">
+	<LEADERS>
+		<LEADER>Минчанкамон</LEADER>
+		<LEADER>Тайканамо</LEADER>
+		<LEADER>Наймлап</LEADER>
+		<LEADER>Нама-тиги</LEADER>
+		<LEADER>Куну-тиги</LEADER>
+		<LEADER>Косийеза</LEADER>
+		<LEADER>Косийопии</LEADER>
+	</LEADERS>
+	<CITIES>
+		<CITY>Чан-Чан</CITY>
+		<CITY>Тавантинсуйю</CITY>
+		<CITY>Чикама</CITY>
+		<CITY>Чанкай</CITY>
+		<CITY>Гуаякиль</CITY>
+		<CITY>Чао</CITY>
+		<CITY>Чимботе</CITY>
+		<CITY>Чепен</CITY>
+		<CITY>Чиклайо</CITY>
+		<CITY>Чота</CITY>
+		<CITY>Чачапойяс</CITY>
+		<CITY>Чулуканас</CITY>
+		<CITY>Моче</CITY>
+		<CITY>Лима</CITY>
+		<CITY>Сечин Альто</CITY>
+		<CITY>Пальпа</CITY>
+		<CITY>Асперо</CITY>
+		<CITY>Гуармфи</CITY>
+		<CITY>Гуари</CITY>
+		<CITY>Паракас</CITY>
+		<CITY>Тупиза</CITY>
+		<CITY>Пария</CITY>
+		<CITY>Сантьяго</CITY>
+		<CITY>Катарпе</CITY>
+		<CITY>Копиапо</CITY>
+		<CITY>Пачакамак</CITY>
+		<CITY>Дауджа</CITY>
+		<CITY>Томебамба</CITY>
+		<CITY>Тапараку</CITY>
+		<CITY>Уака царей</CITY>
+	</CITIES>
+	<UNIT_CONTINENT>2 American</UNIT_CONTINENT>
+	<BUILD_CONTINENT>4 American</BUILD_CONTINENT>
+	<BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>

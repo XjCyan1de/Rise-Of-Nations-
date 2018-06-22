@@ -1,0 +1,49 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by user (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Иранцы">
+  <LEADERS>
+    <LEADER>Сатибарзан</LEADER>
+    <LEADER>Хориен</LEADER>
+    <LEADER>Абулит</LEADER>
+    <LEADER>Певкест</LEADER>
+    <LEADER>Бхадрабаху</LEADER>
+    <LEADER>Паропамисий</LEADER>
+    <LEADER>Чанакья</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Сузы</CITY>
+    <CITY>Гекатомпил</CITY>
+    <CITY>Рага</CITY>
+    <CITY>Экбатана</CITY>
+    <CITY>Исфахан</CITY>
+    <CITY>Опис</CITY>
+    <CITY>Фарра</CITY>
+    <CITY>Профтазия</CITY>
+    <CITY>Пура</CITY>
+    <CITY>Гармозий</CITY>
+    <CITY>Артакоана</CITY>
+    <CITY>Сальм</CITY>
+    <CITY>Рамбация</CITY>
+    <CITY>Карачи</CITY>
+    <CITY>Паттала</CITY>
+    <CITY>Кветта</CITY>
+    <CITY>Шикапур</CITY>
+    <CITY>Газни</CITY>
+    <CITY>Драпсака</CITY>
+    <CITY>Навтака</CITY>
+    <CITY>Мараканда</CITY>
+    <CITY>Кириполис</CITY>
+    <CITY>Бухара</CITY>
+    <CITY>Сарай</CITY>
+    <CITY>Гвадар</CITY>
+    <CITY>Аорн</CITY>
+    <CITY>Массага</CITY>
+    <CITY>Хавак</CITY>
+    <CITY>Хушан</CITY>
+    <CITY>Хибер</CITY>
+    <CITY>Мулла</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>8 EIndian</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

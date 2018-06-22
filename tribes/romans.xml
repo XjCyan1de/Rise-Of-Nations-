@@ -1,0 +1,61 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Римляне">
+  <LEADERS>
+    <LEADER>Юлий Цезарь</LEADER>
+    <LEADER>Император Август </LEADER>
+    <LEADER>Император Траян</LEADER>
+    <LEADER>Император Марк Аврелий</LEADER>
+    <LEADER>Император Адриан</LEADER>
+    <LEADER>Император Клавдий</LEADER>
+    <LEADER>Император Константин</LEADER>
+    <LEADER>Император Юстиниан</LEADER>
+    <LEADER>Императрица Теодора</LEADER>
+    <LEADER>Императрица Ливия</LEADER>
+    <LEADER>Императрица Вибия Сабина</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Рим</CITY>
+    <CITY>Константинополь</CITY>
+    <CITY>Кумы</CITY>
+    <CITY>Антиум</CITY>
+    <CITY>Сарагоса</CITY>
+    <CITY>Вейи</CITY>
+    <CITY>Брундизий</CITY>
+    <CITY>Анкона</CITY>
+    <CITY>Арреций</CITY>
+    <CITY>Регий</CITY>
+    <CITY>Неаполь</CITY>
+    <CITY>Корфиний</CITY>
+    <CITY>Лука</CITY>
+    <CITY>Генуя</CITY>
+    <CITY>Косса</CITY>
+    <CITY>Пиза</CITY>
+    <CITY>Парма</CITY>
+    <CITY>Буксентум</CITY>
+    <CITY>Сатурния</CITY>
+    <CITY>Сполето</CITY>
+    <CITY>Кротон</CITY>
+    <CITY>Аквы Секстиевы	</CITY>
+    <CITY>Лугдун</CITY>
+    <CITY>Аварик</CITY>
+    <CITY>Аквилея</CITY>
+    <CITY>Медиолан</CITY>
+    <CITY>Кремона</CITY>
+    <CITY>Мутина</CITY>
+    <CITY>Драч</CITY>
+    <CITY>Перузия</CITY>
+    <CITY>Беневент</CITY>
+    <CITY>Августа Эмерита</CITY>
+    <CITY>Виндобона</CITY>
+    <CITY>Дурокорторум</CITY>
+    <CITY>Колония Агриппина</CITY>
+    <CITY>Центумцеллы</CITY>
+    <CITY>Бонония</CITY>
+    <CITY>Аримин</CITY>
+    <CITY>Цеменелум</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>0 Med</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>

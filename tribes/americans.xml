@@ -1,0 +1,51 @@
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Американцы">
+  <LEADERS>
+    <LEADER>Джордж Вашингтон</LEADER>
+    <LEADER>Абрахам Линкольн</LEADER>
+    <LEADER>Теодор Рузвельт</LEADER>
+    <LEADER>Томас Джефферсон</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Вашингтон</CITY>
+    <CITY>Нью-Йорк</CITY>
+    <CITY>Балтимор</CITY>
+    <CITY>Лос-Анджелес</CITY>
+    <CITY>Сиэттл</CITY>
+    <CITY>Майами</CITY>
+    <CITY>Хартфорд</CITY>
+    <CITY>Филадельфия</CITY>
+    <CITY>Чикаго</CITY>
+    <CITY>Остин</CITY>
+    <CITY>Спрингфилд</CITY>
+    <CITY>Канзас-сити</CITY>
+    <CITY>Орландо</CITY>
+    <CITY>Атланта</CITY>
+    <CITY>Ньюарк</CITY>
+    <CITY>Сан Диего</CITY>
+    <CITY>Портленд</CITY>
+    <CITY>Сан-Франциско</CITY>
+    <CITY>Провиденс</CITY>
+    <CITY>Кливленд</CITY>
+    <CITY>Цинциннати</CITY>
+    <CITY>Бойсе</CITY>
+    <CITY>Новый Орлеан</CITY>
+    <CITY>Детройт</CITY>
+    <CITY>Бостон</CITY>
+    <CITY>Хьюстон</CITY>
+    <CITY>Августа</CITY>
+    <CITY>Конкорд</CITY>
+    <CITY>Монтгомери</CITY>
+    <CITY>Франкфурт</CITY>
+    <CITY>Аннаполис</CITY>
+    <CITY>Даллас</CITY>
+    <CITY>Джефферсон-сити</CITY>
+    <CITY>Солт-Лейк-сити</CITY>
+    <CITY>Монпелье</CITY>
+
+  </CITIES>
+  <UNIT_CONTINENT>0 Europe</UNIT_CONTINENT>
+  <BUILD_CONTINENT>7 Colonial</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>7 Colonial</BACKUP_BUILD_CONTINENT>
+</TRIBE>

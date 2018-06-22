@@ -1,0 +1,46 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Майя">
+  <LEADERS>
+    <LEADER>Пакаль</LEADER>
+    <LEADER>Чак Балам</LEADER>
+    <LEADER>Чиам</LEADER>
+    <LEADER>Ахмок</LEADER>
+    <LEADER>Вакаки</LEADER>
+    <LEADER>Начанкан</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Майяпан</CITY>
+    <CITY>Тикаль</CITY>
+    <CITY>Чичен-Ица</CITY>
+    <CITY>Цибильчальтун</CITY>
+    <CITY>Яшха</CITY>
+    <CITY>Аканкех</CITY>
+    <CITY>Чампотон</CITY>
+    <CITY>Альтун Ха</CITY>
+    <CITY>Ичпаатун</CITY>
+    <CITY>Ишкун</CITY>
+    <CITY>Ламанай</CITY>
+    <CITY>Копан</CITY>
+    <CITY>Цимин Каш</CITY>
+    <CITY>Шпухиль</CITY>
+    <CITY>Яшуна</CITY>
+    <CITY>Ушмаль</CITY>
+    <CITY>Типу</CITY>
+    <CITY>Уканаль</CITY>
+    <CITY>Бекан</CITY>
+    <CITY>Каминальгую </CITY>
+    <CITY>Шикаланго</CITY>
+    <CITY>Шкоча</CITY>
+    <CITY>Цибильнокак</CITY>
+    <CITY>Чутикстиокс</CITY>
+    <CITY>Вашактун</CITY>
+    <CITY>Таясал</CITY>
+    <CITY>Сакулеу</CITY>
+    <CITY>Ишимче</CITY>
+    <CITY>Акалан</CITY>
+    <CITY>Тулум</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>2 American</UNIT_CONTINENT>
+  <BUILD_CONTINENT>4 American</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>

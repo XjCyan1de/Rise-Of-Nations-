@@ -1,0 +1,45 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Robert Nicaise (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Кхмеры">
+  <LEADERS>
+    <LEADER>Король Джаяварман</LEADER>
+    <LEADER>Король Индраварман </LEADER>
+    <LEADER>Король Ясоварман</LEADER>
+    <LEADER>Король Харшаварман</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Ангкор</CITY>
+    <CITY>Ват Пу</CITY>
+    <CITY>Самбор Прей Кок</CITY>
+    <CITY>Ангкор-Борей</CITY>
+    <CITY>Прасат Андет</CITY>
+    <CITY>Пном Да</CITY>
+    <CITY>У-Тонг</CITY>
+    <CITY>Виджайя</CITY>
+    <CITY>Сукхотай</CITY>
+    <CITY>Након Патом</CITY>
+    <CITY>Луанг Прабанг</CITY>
+    <CITY>Аюттайя</CITY>
+    <CITY>Ясодарапура</CITY>
+    <CITY>Анкор Том</CITY>
+    <CITY>Бангкок</CITY>
+    <CITY>Нонтабури</CITY>
+    <CITY>Патум Тани</CITY>
+    <CITY>Амнат Чароен</CITY>
+    <CITY>Джитра</CITY>
+    <CITY>Транг</CITY>
+    <CITY>Чачоенгсао</CITY>
+    <CITY>Патталунг</CITY>
+    <CITY>Палембанг</CITY>
+    <CITY>Тон Бури</CITY>
+    <CITY>Удон</CITY>
+    <CITY>Убон</CITY>
+    <CITY>Корат</CITY>
+    <CITY>Сурин</CITY>
+    <CITY>Бури Рам</CITY>
+    <CITY>Чао Прайя</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>3 Asian   </UNIT_CONTINENT>
+  <BUILD_CONTINENT>2 Asian</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>2 Asian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

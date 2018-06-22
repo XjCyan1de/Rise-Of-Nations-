@@ -1,0 +1,44 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute-->
+<TRIBE name="Немцы">
+  <LEADERS>
+    <LEADER>Аларих Вестготский</LEADER>
+    <LEADER>Фредерик Великий</LEADER>
+    <LEADER>Отто фон Бисмарк</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Берлин</CITY>
+    <CITY>Вена</CITY>
+    <CITY>Бонн</CITY>
+    <CITY>Мюнхен</CITY>
+    <CITY>Гамбург</CITY>
+    <CITY>Кельн</CITY>
+    <CITY>Лейпциг</CITY>
+    <CITY>Дрезден</CITY>
+    <CITY>Любек</CITY>
+    <CITY>Росток</CITY>
+    <CITY>Магдебург</CITY>
+    <CITY>Брауншвейг</CITY>
+    <CITY>Эрфурт</CITY>
+    <CITY>Виттенберг </CITY>
+    <CITY>Регенсбург</CITY>
+    <CITY>Линц</CITY>
+    <CITY>Констанц</CITY>
+    <CITY>Аугсбург</CITY>
+    <CITY>Нюрнберг</CITY>
+    <CITY>Вюрцбург</CITY>
+    <CITY>Трир</CITY>
+    <CITY>Майнц</CITY>
+    <CITY>Страсбург</CITY>
+    <CITY>Льеж</CITY>
+    <CITY>Бранденбург</CITY>
+    <CITY>Кобленц</CITY>
+    <CITY>Гейдельберг</CITY>
+    <CITY>Дюссельдорф</CITY>
+    <CITY>Киль</CITY>
+    <CITY>Франкфурт</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>1 NEuro</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>

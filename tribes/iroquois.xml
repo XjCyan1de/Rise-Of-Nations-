@@ -1,0 +1,50 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by XMLSPY 5 Professional Ed. Release 2, Installed Multi for 15 users (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Ирокезы">
+	<LEADERS>
+		<LEADER>Тадодахо</LEADER>
+		<LEADER>Сенека</LEADER>
+	</LEADERS>
+	<CITIES>
+		<CITY>Онондага</CITY>
+		<CITY>Саратога</CITY>
+		<CITY>Кайюга</CITY>
+		<CITY>Сенека</CITY>
+		<CITY>Могавки</CITY>
+		<CITY>Онеида</CITY>
+		<CITY>Торонто</CITY>
+		<CITY>Тиохеро</CITY>
+		<CITY>Оннонтаре</CITY>
+		<CITY>Хонейю</CITY>
+		<CITY>Овего</CITY>
+		<CITY>Тиога</CITY>
+		<CITY>Ганоге</CITY>
+		<CITY>Каваука</CITY>
+		<CITY>Канажохари</CITY>
+		<CITY>Каниенга</CITY>
+		<CITY>Нондас</CITY>
+		<CITY>Новадага</CITY>
+		<CITY>Оскуаки</CITY>
+		<CITY>Теванондадон</CITY>
+		<CITY>Унадилла</CITY>
+		<CITY>Авеген</CITY>
+		<CITY>Читтенанго</CITY>
+		<CITY>Ковассалон</CITY>
+		<CITY>Ганадога</CITY>
+		<CITY>Ориска</CITY>
+		<CITY>Оссевинго</CITY>
+		<CITY>Гадокат</CITY>
+		<CITY>Каттарогес</CITY>
+		<CITY>Чемунг</CITY>
+		<CITY>Ганос</CITY>
+		<CITY>Гистакат</CITY>
+		<CITY>Кашонг</CITY>
+		<CITY>Кайген</CITY>
+		<CITY>Оатка</CITY>
+		<CITY>Онойют</CITY>
+		<CITY>Канагиро</CITY>
+	</CITIES>
+	<UNIT_CONTINENT>4 Iroquois</UNIT_CONTINENT>
+	<BUILD_CONTINENT>6 Iroquois</BUILD_CONTINENT>
+	<BACKUP_BUILD_CONTINENT>6 Iroquois</BACKUP_BUILD_CONTINENT>
+</TRIBE>

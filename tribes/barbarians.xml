@@ -1,0 +1,17 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Варвары">
+	<LEADERS>
+		<LEADER>Предводитель варваров</LEADER>
+	</LEADERS>
+	<CITIES>
+		<CITY>Город варваров</CITY>
+		<CITY>Город варваров</CITY>
+		<CITY>Город варваров</CITY>
+		<CITY>Город варваров</CITY>
+		<CITY>Город варваров</CITY>
+		<CITY>Город варваров</CITY>
+		<CITY>Город варваров</CITY>
+    <CITY>Город варваров</CITY>
+    <CITY>Город варваров</CITY>
+	</CITIES>
+</TRIBE>

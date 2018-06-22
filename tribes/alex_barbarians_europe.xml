@@ -1,0 +1,60 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by user (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Греки">
+  <LEADERS>
+    <LEADER>Александр из Линкеста</LEADER>
+    <LEADER>Аттал</LEADER>
+    <LEADER>Пердиккас</LEADER>
+    <LEADER>Бардил</LEADER>
+    <LEADER>Агатокл</LEADER>
+    <LEADER>Тимофей</LEADER>
+    <LEADER>Аминт</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Коринф</CITY>
+    <CITY>Кнос</CITY>
+    <CITY>Аргос</CITY>
+    <CITY>Халкида</CITY>
+    <CITY>Ираклион</CITY>
+    <CITY>Линдос</CITY>
+    <CITY>Ялисос</CITY>
+    <CITY>Самос</CITY>
+    <CITY>Фокея</CITY>
+    <CITY>Хиос</CITY>
+    <CITY>Тира</CITY>
+    <CITY>Милос</CITY>
+    <CITY>Фарсал</CITY>
+    <CITY>Парос</CITY>
+    <CITY>Салоники</CITY>
+    <CITY>Деметриада</CITY>
+    <CITY>Делос</CITY>
+    <CITY>Закинф</CITY>
+    <CITY>Элатея</CITY>
+    <CITY>Эритраи</CITY>
+    <CITY>Мантинея</CITY>
+    <CITY>Сиракузы</CITY>
+    <CITY>Корфу</CITY>
+    <CITY>Потидея</CITY>
+    <CITY>Гераклея</CITY>
+    <CITY>Аполлония</CITY>
+    <CITY>Эпидамн</CITY>
+    <CITY>Патры</CITY>
+    <CITY>Халкидон</CITY>
+    <CITY>Кос</CITY>
+    <CITY>Книд</CITY>
+    <CITY>Приена</CITY>
+    <CITY>Колофон</CITY>
+    <CITY>Клазомены</CITY>
+    <CITY>Теос</CITY>
+    <CITY>Самос</CITY>
+    <CITY>Митилини</CITY>
+    <CITY>Мирина</CITY>
+    <CITY>Фас</CITY>
+    <CITY>Самотраки</CITY>
+    <CITY>Пирей</CITY>
+    <CITY>Заракс</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>0 Med</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>

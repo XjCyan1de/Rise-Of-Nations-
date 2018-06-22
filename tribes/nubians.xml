@@ -1,0 +1,44 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Нубийцы">
+  <LEADERS>
+    <LEADER>Король Пианкхи</LEADER>
+    <LEADER>Король Шабака</LEADER>
+    <LEADER>Королева Аманишахете</LEADER>
+    <LEADER>Король Тахарка</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Напата</CITY>
+    <CITY>Аксум</CITY>
+    <CITY>Мероэ</CITY>
+    <CITY>Гебель-Баркал</CITY>
+    <CITY>Адулис</CITY>
+    <CITY>Донгола</CITY>
+    <CITY>Колоэ</CITY>
+    <CITY>Беренис</CITY>
+    <CITY>Сенна</CITY>
+    <CITY>Соба</CITY>
+    <CITY>Йеха</CITY>
+    <CITY>Малао</CITY>
+    <CITY>Матара</CITY>
+    <CITY>Лалибела</CITY>
+    <CITY>Харар</CITY>
+    <CITY>Зейла</CITY>
+    <CITY>Нури</CITY>
+    <CITY>Кава</CITY>
+    <CITY>Авалитес</CITY>
+    <CITY>Малаб</CITY>
+    <CITY>Мундус</CITY>
+    <CITY>Ароматон Эмпорион	</CITY>
+    <CITY>Никон</CITY>
+    <CITY>Опонэ</CITY>
+    <CITY>Мосиллон</CITY>
+    <CITY>Сарапион</CITY>
+    <CITY>Кадеро</CITY>
+    <CITY>Джебел Мойя</CITY>
+    <CITY>Айдаб</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>1 Arab    </UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>

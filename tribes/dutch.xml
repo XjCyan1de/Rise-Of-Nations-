@@ -1,0 +1,49 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by XMLSPY 5 Professional Ed. Release 2 (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute-->
+<TRIBE name="Голландцы">
+  <LEADERS>
+    <LEADER>Беатрикс Вильгельмина Армгард</LEADER>
+    <LEADER>Вильгельм Оранский</LEADER>
+    <LEADER>Луи Бонапарт</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Гаага</CITY>
+    <CITY>Амстердам</CITY>
+    <CITY>Гарлем</CITY>
+    <CITY>Дельфт</CITY>
+    <CITY>Лейден</CITY>
+    <CITY>Гауда</CITY>
+    <CITY>Роттердам</CITY>
+    <CITY>Горкум</CITY>
+    <CITY>Шидам</CITY>
+    <CITY>Шонгаген</CITY>
+    <CITY>Бриль</CITY>
+    <CITY>Алькмар</CITY>
+    <CITY>Горн</CITY>
+    <CITY>Эдам</CITY>
+    <CITY>Верден</CITY>
+    <CITY>Удвотер</CITY>
+    <CITY>Хойсден</CITY>
+    <CITY>Воркум</CITY>
+    <CITY>Наарден</CITY>
+    <CITY>Муйден</CITY>
+    <CITY>Вест</CITY>
+    <CITY>Вианен</CITY>
+    <CITY>Леердам</CITY>
+    <CITY>Асперн</CITY>
+    <CITY>Влаардинген</CITY>
+    <CITY>Шаген</CITY>
+    <CITY>Клундерт</CITY>
+    <CITY>Утрехт</CITY>
+    <CITY>Амерсфорт</CITY>
+    <CITY>Арнхем</CITY>
+    <CITY>Бреда</CITY>
+    <CITY>Девентер</CITY>
+    <CITY>Гронинген</CITY>
+    <CITY>Кампен</CITY>
+    <CITY>Миддельбург</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>1 NEuro</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>

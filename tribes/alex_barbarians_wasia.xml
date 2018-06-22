@@ -1,0 +1,53 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by user (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Персы">
+  <LEADERS>
+    <LEADER>Арсит</LEADER>
+    <LEADER>Арсамен</LEADER>
+    <LEADER>Оронтобат</LEADER>
+    <LEADER>Менандр</LEADER>
+    <LEADER>Царица Ада</LEADER>
+    <LEADER>Митан</LEADER>
+    <LEADER>Спитридат</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Халкидон</CITY>
+    <CITY>Геркулесовы столбы</CITY>
+    <CITY>Синоп</CITY>
+    <CITY>Амис</CITY>
+    <CITY>Зела</CITY>
+    <CITY>Нисса</CITY>
+    <CITY>Тианна</CITY>
+    <CITY>Соли</CITY>
+    <CITY>Тарсус</CITY>
+    <CITY>Перга</CITY>
+    <CITY>Аспенд</CITY>
+    <CITY>Миласса</CITY>
+    <CITY>Алабанда</CITY>
+    <CITY>Каун</CITY>
+    <CITY>Телмес</CITY>
+    <CITY>Ксант</CITY>
+    <CITY>Измир</CITY>
+    <CITY>Магнезия</CITY>
+    <CITY>Кумы</CITY>
+    <CITY>Лебед</CITY>
+    <CITY>Марат</CITY>
+    <CITY>Арад</CITY>
+    <CITY>Нисиб</CITY>
+    <CITY>Карры</CITY>
+    <CITY>Алеппо</CITY>
+    <CITY>Эмесса</CITY>
+    <CITY>Дамаск</CITY>
+    <CITY>Самария</CITY>
+    <CITY>Абу-Ваджнам</CITY>
+    <CITY>Эритраи</CITY>
+    <CITY>Даскилий</CITY>
+    <CITY>Илион</CITY>
+    <CITY>Антандр</CITY>
+    <CITY>Анкира</CITY>
+    <CITY>Синнада</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>8 EIndian</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

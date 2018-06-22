@@ -1,0 +1,50 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Англичане">
+  <LEADERS>
+    <LEADER>Король Генрих VIII</LEADER>
+    <LEADER>Ричард Львиное Сердце</LEADER>
+    <LEADER>Король Ричард III</LEADER>
+    <LEADER>Король Генрих V</LEADER>
+    <LEADER>Вильгельм Завоеватель</LEADER>
+    <LEADER>Королева Елизавета I</LEADER>
+    <LEADER>Королева Мария</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Лондон</CITY>
+    <CITY>Эдинбург</CITY>
+    <CITY>Йорк</CITY>
+    <CITY>Солсбери</CITY>
+    <CITY>Ньюкасл</CITY>
+    <CITY>Кентербери</CITY>
+    <CITY>Ноттингем</CITY>
+    <CITY>Лестер</CITY>
+    <CITY>Норидж</CITY>
+    <CITY>Линкольн</CITY>
+    <CITY>Честер</CITY>
+    <CITY>Дарем</CITY>
+    <CITY>Бат</CITY>
+    <CITY>Оксфорд</CITY>
+    <CITY>Саутгемптон</CITY>
+    <CITY>Кембридж</CITY>
+    <CITY>Уитби</CITY>
+    <CITY>Хексем</CITY>
+    <CITY>Раннимид</CITY>
+    <CITY>Виндзор</CITY>
+    <CITY>Эксетер</CITY>
+    <CITY>Ланкастер</CITY>
+    <CITY>Карлайл</CITY>
+    <CITY>Абердин</CITY>
+    <CITY>Глазго</CITY>
+    <CITY>Бристоль</CITY>
+    <CITY>Ричмонд</CITY>
+    <CITY>Бирмингем</CITY>
+    <CITY>Манчестер</CITY>
+    <CITY>Портсмут</CITY>
+    <CITY>Ливерпуль</CITY>
+    <CITY>Уинчестер</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>1 NEuro</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>

@@ -1,0 +1,37 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Турки">
+  <LEADERS>
+    <LEADER>Сулейман Великолепный</LEADER>
+    <LEADER>Хан гази Мехмед II</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Стамбул</CITY>
+    <CITY>Анкара</CITY>
+    <CITY>Алеппо</CITY>
+    <CITY>Корум</CITY>
+    <CITY>Измир</CITY>
+    <CITY>Антиохия</CITY>
+    <CITY>Изник</CITY>
+    <CITY>Болу</CITY>
+    <CITY>Эрегли</CITY>
+    <CITY>Карс</CITY>
+    <CITY>Бабаески</CITY>
+    <CITY>Эрзурум</CITY>
+    <CITY>Трабзон</CITY>
+    <CITY>Измит</CITY>
+    <CITY>Конья</CITY>
+    <CITY>Испарта</CITY>
+    <CITY>Галлиполи</CITY>
+    <CITY>Диярбакыр</CITY>
+    <CITY>Маниса</CITY>
+    <CITY>Джедда</CITY>
+    <CITY>Киркук</CITY>
+    <CITY>Хавса</CITY>
+    <CITY>Канка</CITY>
+    <CITY>Кайсери</CITY>
+    <CITY>Карапинар</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 Europe</UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>

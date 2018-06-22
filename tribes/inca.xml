@@ -1,0 +1,51 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Инки">
+  <LEADERS>
+    <LEADER>Император Манко Капак</LEADER>
+    <LEADER>Император Виракоча Инка</LEADER>
+    <LEADER>Император Пачакути</LEADER>
+    <LEADER>Император Топа Инка</LEADER>
+    <LEADER>Император Уайна Капак</LEADER>
+    <LEADER>Император Гуаскар</LEADER>
+    <LEADER>Император Атауальпа</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Куско</CITY>
+    <CITY>Чан-Чан</CITY>
+    <CITY>Кито</CITY>
+    <CITY>Вилкашуаман</CITY>
+    <CITY>Аявири</CITY>
+    <CITY>Чукито</CITY>
+    <CITY>Уануко Пампа</CITY>
+    <CITY>Кахамарка</CITY>
+    <CITY>Кусибамба</CITY>
+    <CITY>Тумбес</CITY>
+    <CITY>Томебамба</CITY>
+    <CITY>Мачу-Пикчу</CITY>
+    <CITY>Пукара</CITY>
+    <CITY>Ольянтайтамбо</CITY>
+    <CITY>Тиауанако</CITY>
+    <CITY>Лиматамбо</CITY>
+    <CITY>Инкауаси</CITY>
+    <CITY>Пачакамак</CITY>
+    <CITY>Бомбон</CITY>
+    <CITY>Уануко</CITY>
+    <CITY>Куенка</CITY>
+    <CITY>Пикилькта</CITY>
+    <CITY>Назка</CITY>
+    <CITY>Азанкаро</CITY>
+    <CITY>Уамачуко</CITY>
+    <CITY>Кочабамба</CITY>
+    <CITY>Атунколла</CITY>
+    <CITY>Котопачи</CITY>
+    <CITY>Ракчи</CITY>
+    <CITY>Уараз</CITY>
+    <CITY>Вилкаконга</CITY>
+    <CITY>Аякучо</CITY>
+    <CITY>Дауджа</CITY>
+    <CITY>Уайлас</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>2 American</UNIT_CONTINENT>
+  <BUILD_CONTINENT>4 American</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>

@@ -1,0 +1,47 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Испанцы">
+  <LEADERS>
+    <LEADER>Король Филипп II</LEADER>
+    <LEADER>Королева Изабелла</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Мадрид</CITY>
+    <CITY>Толедо</CITY>
+    <CITY>Севилья</CITY>
+    <CITY>Кордова</CITY>
+    <CITY>Кадис</CITY>
+    <CITY>Кастилия</CITY>
+    <CITY>Сарагоса</CITY>
+    <CITY>Барселона</CITY>
+    <CITY>Валенсия</CITY>
+    <CITY>Малага</CITY>
+    <CITY>Саламанка</CITY>
+    <CITY>Вальядолид</CITY>
+    <CITY>Бургос</CITY>
+    <CITY>Леон</CITY>
+    <CITY>Сьюдад-Реаль</CITY>
+    <CITY>Виго</CITY>
+    <CITY>Корунья</CITY>
+    <CITY>Овьедо</CITY>
+    <CITY>Бильбао</CITY>
+    <CITY>Памплона</CITY>
+    <CITY>Мурсия</CITY>
+    <CITY>Гранада</CITY>
+    <CITY>Сантандер</CITY>
+    <CITY>Аранхуэс</CITY>
+    <CITY>Альманца</CITY>
+    <CITY>Аликанте</CITY>
+    <CITY>Осуна</CITY>
+    <CITY>Альхесирас</CITY>
+    <CITY>Альмерия</CITY>
+    <CITY>Сеговия</CITY>
+    <CITY>Бадахос</CITY>
+    <CITY>Талавера</CITY>
+    <CITY>Витория</CITY>
+    <CITY>Херес</CITY>
+    <CITY>Хихон</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>0 Med</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>

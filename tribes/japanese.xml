@@ -1,0 +1,54 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Японцы">
+  <LEADERS>
+    <LEADER>Царица Химико</LEADER>
+    <LEADER>Тайра Масакадо</LEADER>
+    <LEADER>Сегун Еритомо Минамото</LEADER>
+    <LEADER>Сегун Такаудзи Асикага</LEADER>
+    <LEADER>Ода Нобунага</LEADER>
+    <LEADER>Сегун Иэясу Токугава</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Киото</CITY>
+    <CITY>Нара</CITY>
+    <CITY>Нагоя</CITY>
+    <CITY>Осака</CITY>
+    <CITY>Фусими</CITY>
+    <CITY>Химедзи</CITY>
+    <CITY>Хирадо</CITY>
+    <CITY>Хираидзуми</CITY>
+    <CITY>Хиросаки</CITY>
+    <CITY>Исе</CITY>
+    <CITY>Идзумо</CITY>
+    <CITY>Канандзава</CITY>
+    <CITY>Кокура</CITY>
+    <CITY>Кобе</CITY>
+    <CITY>Кумамото</CITY>
+    <CITY>Мацуэ</CITY>
+    <CITY>Мацумото</CITY>
+    <CITY>Мацуяма</CITY>
+    <CITY>Мито</CITY>
+    <CITY>Мияконодзо</CITY>
+    <CITY>Ниигата</CITY>
+    <CITY>Ноширо</CITY>
+    <CITY>Одавара</CITY>
+    <CITY>Огаки</CITY>
+    <CITY>Оцу</CITY>
+    <CITY>Сакаи</CITY>
+    <CITY>Сендай</CITY>
+    <CITY>Симода</CITY>
+    <CITY>Симоносеки</CITY>
+    <CITY>Такамацу</CITY>
+    <CITY>Токусима</CITY>
+    <CITY>Урага</CITY>
+    <CITY>Уводзима</CITY>
+    <CITY>Ямагучи</CITY>
+    <CITY>Йокохама</CITY>
+    <CITY>Йонаго</CITY>
+    <CITY>Йонезава</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>3 Asian   </UNIT_CONTINENT>
+  <BUILD_CONTINENT>2 Asian</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>2 Asian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

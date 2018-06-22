@@ -1,0 +1,54 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Персы">
+  <LEADERS>
+    <LEADER>Дарий </LEADER>
+    <LEADER>Кир Великий</LEADER>
+    <LEADER>Ксеркс</LEADER>
+    <LEADER>Заратустра</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Персеполь</CITY>
+    <CITY>Шираз</CITY>
+    <CITY>Персеполь</CITY>
+    <CITY>Пасаргады</CITY>
+    <CITY>Исфаган</CITY>
+    <CITY>Хомейн</CITY>
+    <CITY>Кон</CITY>
+    <CITY>Тегеран</CITY>
+    <CITY>Сузы</CITY>
+    <CITY>Бушар</CITY>
+    <CITY>Тебриз</CITY>
+    <CITY>Баку</CITY>
+    <CITY>Дамаск</CITY>
+    <CITY>Тир</CITY>
+    <CITY>Гогемела</CITY>
+    <CITY>Вавилон</CITY>
+    <CITY>Хамедан</CITY>
+    <CITY>Керман</CITY>
+    <CITY>Машхад</CITY>
+    <CITY>Язд</CITY>
+    <CITY>Арак</CITY>
+    <CITY>Санандай</CITY>
+    <CITY>Бам</CITY>
+    <CITY>Экбатана</CITY>
+    <CITY>Мейманд</CITY>
+    <CITY>Нейшабур</CITY>
+    <CITY>Турки</CITY>
+    <CITY>Рашт</CITY>
+    <CITY>Эстабанат</CITY>
+    <CITY>Ясуй</CITY>
+    <CITY>Риган</CITY>
+    <CITY>Хур</CITY>
+    <CITY>Туруд</CITY>
+    <CITY>Самнан</CITY>
+    <CITY>Мешед</CITY>
+    <CITY>Кимиша</CITY>
+    <CITY>Абадан</CITY>
+    <CITY>Марвас</CITY>
+    <CITY>Арг-Э-Бам</CITY>
+
+  </CITIES>
+  <UNIT_CONTINENT>5 EIndian</UNIT_CONTINENT>
+  <BUILD_CONTINENT>8 EIndian</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>8 EIndian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

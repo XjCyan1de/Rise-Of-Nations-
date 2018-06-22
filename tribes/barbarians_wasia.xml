@@ -1,0 +1,51 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Andy Clark (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Шумеры">
+	<LEADERS>
+		<LEADER>Царь Алулим</LEADER>
+		<LEADER>Царь Алальяр</LEADER>
+		<LEADER>Царь Эн-менлуана</LEADER>
+		<LEADER>Царь Думузи</LEADER>
+		<LEADER>Царь Убара-Туту</LEADER>
+		<LEADER>Царь Нанжикликма	</LEADER>
+		<LEADER>Царь Мамакал</LEADER>
+		<LEADER>Царь Мек-Ане-ада</LEADER>
+		<LEADER>Царь Пуаннум</LEADER>
+		<LEADER>Царь Эн-менбарагси</LEADER>
+	</LEADERS>
+	<CITIES>
+		<CITY>Бабил</CITY>
+		<CITY>Адаб</CITY>
+		<CITY>Дабрум</CITY>
+		<CITY>Урук</CITY>
+		<CITY>Эриду</CITY>
+		<CITY>Сузы</CITY>
+		<CITY>Лагсаш</CITY>
+		<CITY>Ур</CITY>
+		<CITY>Дер</CITY>
+		<CITY>Аншан</CITY>
+		<CITY>Киш</CITY>
+		<CITY>Сиппар</CITY>
+		<CITY>Аписала</CITY>
+		<CITY>Кута</CITY>
+		<CITY>Эшнунна</CITY>
+		<CITY>KI.AN</CITY>
+		<CITY>Шуруппак</CITY>
+		<CITY>Аратта</CITY>
+		<CITY>Ларса</CITY>
+		<CITY>Куталла</CITY>
+		<CITY>Дилбат</CITY>
+		<CITY>Бад-тибира</CITY>
+		<CITY>Марад</CITY>
+		<CITY>Умма</CITY>
+		<CITY>Кеш</CITY>
+		<CITY>Гирсу</CITY>
+		<CITY>Нагсу</CITY>
+		<CITY>Энеги</CITY>
+		<CITY>Ларак</CITY>
+		<CITY>Исин</CITY>
+	</CITIES>
+	<UNIT_CONTINENT>3 Asian   </UNIT_CONTINENT>
+	<BUILD_CONTINENT>2 Asian</BUILD_CONTINENT>
+	<BACKUP_BUILD_CONTINENT>2 Asian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

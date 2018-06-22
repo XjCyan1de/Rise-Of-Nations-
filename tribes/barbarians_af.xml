@@ -1,0 +1,44 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Robert Nicaise (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Сонгай">
+  <LEADERS>
+    <LEADER>Султан Сонни Али</LEADER>
+    <LEADER>Король Аския Великий</LEADER>
+    <LEADER>Король Мухаммед Туре</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Тимбукту</CITY>
+    <CITY>Гао</CITY>
+    <CITY>Дженне</CITY>
+    <CITY>Карабара</CITY>
+    <CITY>Кумби Салех</CITY>
+    <CITY>Текедда</CITY>
+    <CITY>Тадмекка</CITY>
+    <CITY>Ниамей</CITY>
+    <CITY>Гагхаза</CITY>
+    <CITY>Таманрассет</CITY>
+    <CITY>Такедда</CITY>
+    <CITY>Таодени</CITY>
+    <CITY>Вадан</CITY>
+    <CITY>Ниани</CITY>
+    <CITY>Кукийя</CITY>
+    <CITY>Гао-Сан</CITY>
+    <CITY>Кориум</CITY>
+    <CITY>Беракуси</CITY>
+    <CITY>Нини</CITY>
+    <CITY>Коа</CITY>
+    <CITY>Сиранинкоро</CITY>
+    <CITY>Бамако</CITY>
+    <CITY>Сегу</CITY>
+    <CITY>Старый Сегу</CITY>
+    <CITY>Сорко</CITY>
+    <CITY>Кебби</CITY>
+    <CITY>Сунни</CITY>
+    <CITY>Ши</CITY>
+    <CITY>Туре</CITY>
+    <CITY>Аския</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>1 Arab    </UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>

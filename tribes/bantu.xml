@@ -1,0 +1,50 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Банту">
+  <LEADERS>
+    <LEADER>Король Чака</LEADER>
+    <LEADER>Король Кецвайо</LEADER>
+    <LEADER>Король Дингаан</LEADER>
+    <LEADER>Королева Нанди</LEADER>
+    <LEADER>Королева Мкаби</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Большой Зимбабве</CITY>
+    <CITY>Кильва</CITY>
+    <CITY>Гокомере</CITY>
+    <CITY>Мабвени</CITY>
+    <CITY>Малапати</CITY>
+    <CITY>Фалаборва</CITY>
+    <CITY>Зака</CITY>
+    <CITY>Софала</CITY>
+    <CITY>Матола</CITY>
+    <CITY>Кхами</CITY>
+    <CITY>Дамбва</CITY>
+    <CITY>Гунду</CITY>
+    <CITY>Лубуси</CITY>
+    <CITY>Бамбараре</CITY>
+    <CITY>Калунду</CITY>
+    <CITY>Ингомбе</CITY>
+    <CITY>Капвиримбве</CITY>
+    <CITY>Чондве</CITY>
+    <CITY>Кипуши</CITY>
+    <CITY>Тандве</CITY>
+    <CITY>Кансанше</CITY>
+    <CITY>Луанзаф</CITY>
+    <CITY>Бвана-Мкубва</CITY>
+    <CITY>Маудзу</CITY>
+    <CITY>Капени</CITY>
+    <CITY>Санга</CITY>
+    <CITY>Камнама</CITY>
+    <CITY>Нкопе</CITY>
+    <CITY>Каламбо</CITY>
+    <CITY>Увенза</CITY>
+    <CITY>Квале</CITY>
+    <CITY>Мапунгубве	</CITY>
+    <CITY>Ивуна</CITY>
+    <CITY>Манеквени</CITY>
+    <CITY>Налатале</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>1 Arab    </UNIT_CONTINENT>
+  <BUILD_CONTINENT>5 Turk</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>

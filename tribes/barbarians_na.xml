@@ -1,0 +1,48 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by XMLSPY 5 Professional Ed. Release 2 (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Команчи">
+  <LEADERS>
+    <LEADER>Эсахаббе</LEADER>
+    <LEADER>Кумаквай</LEADER>
+    <LEADER>Паках</LEADER>
+    <LEADER>Чомопаруа</LEADER>
+    <LEADER>Канаретах</LEADER>
+    <LEADER>Тосаковади</LEADER>
+    <LEADER>Шаббакаша</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Квахару</CITY>
+    <CITY>Хойс</CITY>
+    <CITY>Видьюнуу</CITY>
+    <CITY>Нокони</CITY>
+    <CITY>Пенатеркух</CITY>
+    <CITY>Ямпарика</CITY>
+    <CITY>Паркеенаум</CITY>
+    <CITY>Тенеемух</CITY>
+    <CITY>Тенава</CITY>
+    <CITY>Пенатека</CITY>
+    <CITY>Косотека</CITY>
+    <CITY>Киова</CITY>
+    <CITY>Ката</CITY>
+    <CITY>Даце-ан</CITY>
+    <CITY>Гьяико</CITY>
+    <CITY>Идахи</CITY>
+    <CITY>Инда</CITY>
+    <CITY>Ларита</CITY>
+    <CITY>Махан</CITY>
+    <CITY>Махана</CITY>
+    <CITY>Налани</CITY>
+    <CITY>Нанита</CITY>
+    <CITY>Нарата</CITY>
+    <CITY>Натаа</CITY>
+    <CITY>Партооку</CITY>
+    <CITY>Санко</CITY>
+    <CITY>Сауто</CITY>
+    <CITY>Селакампом</CITY>
+    <CITY>Теаккаро</CITY>
+    <CITY>Ямпа</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>2 American</UNIT_CONTINENT>
+  <BUILD_CONTINENT>4 American</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>

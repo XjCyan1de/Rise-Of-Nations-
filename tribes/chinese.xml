@@ -1,0 +1,51 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Китайцы">
+  <LEADERS>
+    <LEADER>Император Ши-Хуанди</LEADER>
+    <LEADER>Император У-ди</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Пекин</CITY>
+    <CITY>Шанхай</CITY>
+    <CITY>Чэнду</CITY>
+    <CITY>Хайнань</CITY>
+    <CITY>Чанчунь</CITY>
+    <CITY>Гуанчжоу</CITY>
+    <CITY>Цзинань</CITY>
+    <CITY>Сиань</CITY>
+    <CITY>Харбин</CITY>
+    <CITY>Лоян</CITY>
+    <CITY>Ланьчжоу</CITY>
+    <CITY>Тайюань</CITY>
+    <CITY>Сянчжоу</CITY>
+    <CITY>Тончуаньфу</CITY>
+    <CITY>Таньчжоу</CITY>
+    <CITY>Лунсинфу</CITY>
+    <CITY>Фучжоу</CITY>
+    <CITY>Наньнин</CITY>
+    <CITY>Ухань</CITY>
+    <CITY>Урумчи</CITY>
+    <CITY>Нанкин</CITY>
+    <CITY>Цзянинь</CITY>
+    <CITY>Куньмин</CITY>
+    <CITY>Ханчжоу</CITY>
+    <CITY>Синьсян</CITY>
+    <CITY>Тяньцзинь</CITY>
+    <CITY>Гонконг</CITY>
+    <CITY>Чунцин</CITY>
+    <CITY>Шэньян</CITY>
+    <CITY>У-су</CITY>
+    <CITY>Лу-та</CITY>
+    <CITY>Чи-хсы</CITY>
+    <CITY>Наньчан</CITY>
+    <CITY>Чанша</CITY>
+    <CITY>Хэфэй</CITY>
+    <CITY>Гуйян</CITY>
+    <CITY>Циньян</CITY>
+    <CITY>Циндао</CITY>
+    <CITY>Хэнъян</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>3 Asian   </UNIT_CONTINENT>
+  <BUILD_CONTINENT>2 Asian</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>2 Asian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

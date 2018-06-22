@@ -1,0 +1,51 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute-->
+<TRIBE name="Французы">
+  <LEADERS>
+    <LEADER>Король Людовик XIV</LEADER>
+    <LEADER>Император Наполеон</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Париж</CITY>
+    <CITY>Орлеан</CITY>
+    <CITY>Реймс</CITY>
+    <CITY>Тур</CITY>
+    <CITY>Лион</CITY>
+    <CITY>Руан</CITY>
+    <CITY>Марсель</CITY>
+    <CITY>Бордо</CITY>
+    <CITY>Нант</CITY>
+    <CITY>Лилль</CITY>
+    <CITY>Тулуза</CITY>
+    <CITY>Блуа</CITY>
+    <CITY>Пуатье</CITY>
+    <CITY>Дижон</CITY>
+    <CITY>Авиньон</CITY>
+    <CITY>Труа</CITY>
+    <CITY>Брест</CITY>
+    <CITY>Гавр</CITY>
+    <CITY>Нарбонна</CITY>
+    <CITY>Экс-ан-Прованс</CITY>
+    <CITY>Бурж</CITY>
+    <CITY>Версаль</CITY>
+    <CITY>Суассон</CITY>
+    <CITY>Амьен</CITY>
+    <CITY>Шербур</CITY>
+    <CITY>Кан</CITY>
+    <CITY>Лорьян</CITY>
+    <CITY>Ангулем</CITY>
+    <CITY>Байонна</CITY>
+    <CITY>Ним</CITY>
+    <CITY>Тулон</CITY>
+    <CITY>Безансон</CITY>
+    <CITY>Страсбург</CITY>
+    <CITY>Кале</CITY>
+    <CITY>Булонь</CITY>
+    <CITY>Вандом</CITY>
+    <CITY>Мулен</CITY>
+    <CITY>Риом</CITY>
+    <CITY>Обюссон</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>1 NEuro</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>

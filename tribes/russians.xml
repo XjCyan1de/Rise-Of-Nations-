@@ -1,0 +1,53 @@
+<!-- edited with XMLSPY v5 rel. 2 U (http://www.xmlspy.com) by Brian Reynolds (Big Huge Games) -->
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Русские">
+  <LEADERS>
+    <LEADER>Император Петр I</LEADER>
+    <LEADER>Царь Иван Грозный</LEADER>
+    <LEADER>Императрица Екатерина Великая</LEADER>
+    <LEADER>Владимир Ленин</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Москва</CITY>
+    <CITY>Санкт-Петербург</CITY>
+    <CITY>Киев</CITY>
+    <CITY>Минск</CITY>
+    <CITY>Севастополь</CITY>
+    <CITY>Смоленск</CITY>
+    <CITY>Новгород</CITY>
+    <CITY>Владивосток</CITY>
+    <CITY>Полоцк</CITY>
+    <CITY>Иркутск</CITY>
+    <CITY>Ростов</CITY>
+    <CITY>Львов</CITY>
+    <CITY>Вильнюс</CITY>
+    <CITY>Курск</CITY>
+    <CITY>Брянск</CITY>
+    <CITY>Витебск</CITY>
+    <CITY>Псков</CITY>
+    <CITY>Одесса</CITY>
+    <CITY>Астрахань</CITY>
+    <CITY>Екатеринбург</CITY>
+    <CITY>Ярославль</CITY>
+    <CITY>Нижний Новгород</CITY>
+    <CITY>Гродно</CITY>
+    <CITY>Кишинев</CITY>
+    <CITY>Харьков</CITY>
+    <CITY>Оренбург</CITY>
+    <CITY>Омск</CITY>
+    <CITY>Саратов</CITY>
+    <CITY>Красноярск</CITY>
+    <CITY>Якутск</CITY>
+    <CITY>Петропавловск</CITY>
+    <CITY>Семипалатинск</CITY>
+    <CITY>Архангельск</CITY>
+    <CITY>Мурманск</CITY>
+    <CITY>Вологда</CITY>
+    <CITY>Челябинск</CITY>
+    <CITY>Улан-Удэ</CITY>
+    <CITY>Новосибирск</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>0 European</UNIT_CONTINENT>
+  <BUILD_CONTINENT>1 NEuro</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>0 Med</BACKUP_BUILD_CONTINENT>
+</TRIBE>

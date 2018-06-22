@@ -1,0 +1,49 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Монголы">
+  <LEADERS>
+    <LEADER>Чингисхан</LEADER>
+    <LEADER>Хан Угедей</LEADER>
+    <LEADER>Хубилай</LEADER>
+    <LEADER>Хан Батый</LEADER>
+    <LEADER>Царица Мандухай</LEADER>
+    <LEADER>Царица Чаби</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Каракорум</CITY>
+    <CITY>Ханбалит</CITY>
+    <CITY>Ташкент</CITY>
+    <CITY>Самарканд</CITY>
+    <CITY>Шанду</CITY>
+    <CITY>Силян</CITY>
+    <CITY>Кашгар</CITY>
+    <CITY>Карахот</CITY>
+    <CITY>Хотан</CITY>
+    <CITY>Старый Сарай</CITY>
+    <CITY>Ургенч</CITY>
+    <CITY>Тана</CITY>
+    <CITY>Тифлис</CITY>
+    <CITY>Мера</CITY>
+    <CITY>Новый Сарай</CITY>
+    <CITY>Болгар</CITY>
+    <CITY>Худжанд</CITY>
+    <CITY>Балх</CITY>
+    <CITY>Кайфенг</CITY>
+    <CITY>Нинся</CITY>
+    <CITY>Кульджа</CITY>
+    <CITY>Пешавар</CITY>
+    <CITY>Отрар</CITY>
+    <CITY>Шаш</CITY>
+    <CITY>Турфан</CITY>
+    <CITY>Бешбалык</CITY>
+    <CITY>Баласагун</CITY>
+    <CITY>Газни</CITY>
+    <CITY>Кабул</CITY>
+    <CITY>Кандагар</CITY>
+    <CITY>Рай</CITY>
+    <CITY>Аламут</CITY>
+    <CITY>Азак</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>3 Asian   </UNIT_CONTINENT>
+  <BUILD_CONTINENT>2 Asian</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>2 Asian</BACKUP_BUILD_CONTINENT>
+</TRIBE>

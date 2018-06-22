@@ -1,0 +1,59 @@
+<!-- LOCALIZATION: LEADER and CITY elements; also, name attribute -->
+<TRIBE name="Ацтеки">
+  <LEADERS>
+    <LEADER>Император Акамапичтли</LEADER>
+    <LEADER>Император Уицлиуитль</LEADER>
+    <LEADER>Император Чимальпопока</LEADER>
+    <LEADER>Император Ицкоатль</LEADER>
+    <LEADER>Император Ильуикамина</LEADER>
+    <LEADER>Император Ацайякатль</LEADER>
+    <LEADER>Император Тицок</LEADER>
+    <LEADER>Император Ауицотль</LEADER>
+    <LEADER>Император Ауицотль</LEADER>
+    <LEADER>Император Монтесума</LEADER>
+    <LEADER>Император Куитлауак</LEADER>
+    <LEADER>Император Куаутемок</LEADER>
+  </LEADERS>
+  <CITIES>
+    <CITY>Теночтитлан</CITY>
+    <CITY>Теотиуакан</CITY>
+    <CITY>Тласкала</CITY>
+    <CITY>Аскапоцалько</CITY>
+    <CITY>Тлакопан</CITY>
+    <CITY>Тецкоко</CITY>
+    <CITY>Тлателолько</CITY>
+    <CITY>Калицтлауака</CITY>
+    <CITY>Тула</CITY>
+    <CITY>Цинцунцан</CITY>
+    <CITY>Тамуин</CITY>
+    <CITY>Теайо</CITY>
+    <CITY>Сочикалько</CITY>
+    <CITY>Койоакан</CITY>
+    <CITY>Уицилопочко</CITY>
+    <CITY>Истапалапа</CITY>
+    <CITY>Сочимилько</CITY>
+    <CITY>Мискуик</CITY>
+    <CITY>Коатепек</CITY>
+    <CITY>Чиконаутла</CITY>
+    <CITY>Тепеспан</CITY>
+    <CITY>Тепетлаосток</CITY>
+    <CITY>Цитальтепек</CITY>
+    <CITY>Уеуетока</CITY>
+    <CITY>Теквисквиак</CITY>
+    <CITY>Хилоцинго</CITY>
+    <CITY>Тецоюкаф</CITY>
+    <CITY>Амекамека </CITY>
+    <CITY>Митла</CITY>
+    <CITY>Йагуль</CITY>
+    <CITY>Соконочо</CITY>
+    <CITY>Кемпоала</CITY>
+    <CITY>Какастла</CITY>
+    <CITY>Чочула</CITY>
+    <CITY>Теотилан</CITY>
+    <CITY>Малиналько</CITY>
+    <CITY>Апацинган</CITY>
+  </CITIES>
+  <UNIT_CONTINENT>2 American</UNIT_CONTINENT>
+  <BUILD_CONTINENT>4 American</BUILD_CONTINENT>
+  <BACKUP_BUILD_CONTINENT>4 American</BACKUP_BUILD_CONTINENT>
+</TRIBE>
