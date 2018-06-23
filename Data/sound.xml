@@ -190,7 +190,7 @@
       <STRING>Может быть.</STRING>
     </TAUNT>
     <TAUNT index="4" file=".\sounds\taunts\need_food-2.wav" id="NEED_FOOD" volume="255">
-      <STRING>Мне нужна еда.</STRING>
+      <STRING>Мне нужна пища.</STRING>
     </TAUNT>
     <TAUNT index="5" file=".\sounds\taunts\needtimber-2.wav" id="NEED_TIMBER" volume="255">
       <STRING>Мне нужна древесина.</STRING>
@@ -220,22 +220,22 @@
       <STRING>Создать войска.</STRING>
     </TAUNT>
     <TAUNT index="14" file=".\sounds\taunts\build_wonder-3.wav" id="BUILD_WONDER" volume="255">
-      <STRING>Построить чудо света.</STRING>
+      <STRING>Надо построить чудо света.</STRING>
     </TAUNT>
     <TAUNT index="15" file=".\sounds\taunts\work_econ-1.wav" id="BUILD_ECON" volume="255">
-      <STRING>Работаем над экономикой.</STRING>
+      <STRING>Поработай над экономикой.</STRING>
     </TAUNT>
     <TAUNT index="16" file=".\sounds\taunts\work_airforce-2.wav" id="BUILD_AIR" volume="255">
-      <STRING>Работаем над воздушными войсками.</STRING>
+      <STRING>Поработай над воздушными войсками.</STRING>
     </TAUNT>
     <TAUNT index="17" file=".\sounds\taunts\work_navy-3.wav" id="BUILD_NAVY" volume="255">
-      <STRING>Работаем над флотом.</STRING>
+      <STRING>Поработай над флотом.</STRING>
     </TAUNT>
     <TAUNT index="18" file=".\sounds\taunts\signal_attack-3.wav" id="BUILD_ECON" volume="255">
       <STRING>Ждите моего сигнала к атаке.</STRING>
     </TAUNT>
     <TAUNT index="19" file=".\sounds\taunts\attack-3.wav" id="ATTACK" volume="255">
-      <STRING>Атака!</STRING>
+      <STRING>Атакуем!</STRING>
     </TAUNT>
     <TAUNT index="20" file=".\sounds\taunts\get_em-2.wav" id="ATTACK" volume="255">
       <STRING>Давайте разберемся с ними.</STRING>
