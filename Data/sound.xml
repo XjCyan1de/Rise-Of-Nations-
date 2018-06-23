@@ -364,7 +364,7 @@
       <STRING>От балды! От балды!</STRING>
     </TAUNT>
     <TAUNT index="62" file=".\sounds\taunts\game_begin-3.wav" id="" volume="255">
-      <STRING>Начнем игру.</STRING>
+      <STRING>Да начнётся игра!</STRING>
     </TAUNT>
     <TAUNT index="63" file=".\sounds\taunts\dude_pickem-1.wav" id="" volume="255">
       <STRING>Чувак, мы знаем, кого ты собираешься взять. Так что бери, и давай уже покончим с этим.</STRING>
